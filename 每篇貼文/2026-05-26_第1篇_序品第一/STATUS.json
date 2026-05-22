@@ -1,0 +1,21 @@
+{
+  "folder": "2026-05-25_第1篇_序品第一",
+  "page_key": "dizang",
+  "page_name": "地藏菩薩本行經",
+  "scheduled_at": "2026-05-25 08:00",
+  "posted_at": "2026-05-20T17:20:00.322512+08:00",
+  "result": {
+    "error": "image_upload_failed",
+    "detail": {
+      "error": {
+        "message": "Error validating access token: Session has expired on Saturday, 16-May-26 00:00:00 PDT. The current time is Wednesday, 20-May-26 02:19:59 PDT.",
+        "type": "OAuthException",
+        "code": 190,
+        "error_subcode": 463,
+        "fbtrace_id": "ATh5eylNZpbwHAgUd1pirk_"
+      }
+    },
+    "image": "C:\\Users\\chenj\\Documents\\Claude\\Projects\\自動化每天更新FB 地藏 10輪經\\每篇貼文\\2026-05-25_第1篇_序品第一\\01_佉羅帝耶山遠景.png"
+  },
+  "image_count": 12
+}
