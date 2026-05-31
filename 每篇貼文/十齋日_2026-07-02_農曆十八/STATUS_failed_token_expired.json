@@ -1,0 +1,17 @@
+{
+  "folder": "十齋日_2026-07-02_農曆十八",
+  "page_key": "dizang",
+  "page_name": "地藏菩薩本行經",
+  "scheduled_at": "2026-07-02 06:00",
+  "posted_at": "2026-05-23T00:09:17.077652+08:00",
+  "result": {
+    "error": {
+      "message": "Error validating access token: Session has expired on Saturday, 16-May-26 00:00:00 PDT. The current time is Friday, 22-May-26 09:09:09 PDT.",
+      "type": "OAuthException",
+      "code": 190,
+      "error_subcode": 463,
+      "fbtrace_id": "A_vYFfEj67_DmuSerPBDaDx"
+    }
+  },
+  "image": "C:\\Users\\chenj\\Documents\\Claude\\Projects\\自動化每天更新FB 地藏 10輪經\\十齋日\\05_十八\\十八_02_爸爸與兒子共修.png"
+}

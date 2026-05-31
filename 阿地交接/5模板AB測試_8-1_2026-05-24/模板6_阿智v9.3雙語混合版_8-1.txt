@@ -1,0 +1,143 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  8-1 模板 6 (阿智 v9.3 雙語混合版) 測試 — 南方光雲漸近           ║
+║  英文負責技術 / 中文負責角色+旁白 / 畫面繁體鐵則                 ║
+╚═══════════════════════════════════════════════════════════════╝
+
+1.【Amei Execution】
+Generate Chapter 8, Image 1/12.
+Generate only one image.
+Stop after completion and return the URL.
+Do not generate variations.
+Do not ask follow-up options.
+
+2.【reference_image_urls】
+【Ksitigarbha Bodhisattva｜地藏王菩薩】
+（1）Original main reference: https://a.lovart.ai/artifacts/agent/v9EbpNs744Gc6utX.png
+（2）Official 12-panel character sheet: https://a.lovart.ai/artifacts/agent/iLHkntfcWEIfm7hZ.png
+
+【Shakyamuni Buddha｜釋迦牟尼佛】
+（3）Original main reference: https://a.lovart.ai/artifacts/agent/ZWbRatFIZy2C59Wd.png
+（4）Official 12-panel character sheet: https://a.lovart.ai/artifacts/agent/2bbBXwlmNJFPRqSy.png
+
+3.【Main Characters】
+This image contains two major characters:
+（1）Ksitigarbha Bodhisattva（地藏王菩薩）— main protagonist (本張在淡金光柱中即將顯現, 剪影/光影狀態)
+（2）Shakyamuni Buddha（釋迦牟尼佛）— main speaker (巨石蓮花座上慈祥微笑望南方)
+
+4.【Character Lock】
+（1）Ksitigarbha Bodhisattva（地藏王菩薩） must follow reference images（1）（2）exactly.
+Fixed features:
+① round compassionate face / 圓臉慈眉
+② pale golden skin / 淡金皮膚
+③ white urna（白毫）
+④ Chinese-style Five-Buddha crown（五佛冠實冠）
+⑤ white head cloth covering both shoulders（白色頭巾覆兩肩）
+⑥ yellow-brown kasaya robe（黃褐色袈裟）
+⑦ jeweled ornaments and heavenly scarf（瑤珞天衣）
+⑧ nine-ring khakkhara staff（九環錫杖）in right hand, three-pronged top, three rings on each prong, total nine rings
+
+This image special: descending from southern cloud light pillar, full body wrapped in pale golden glow, robes flowing.
+
+Do not:
+turn him into a bald śrāvaka monk / 不可光頭聲聞像
+change robe color to orange / 不可改橙袈裟
+remove the Five-Buddha crown / 不可省五佛冠
+remove the white shoulder cloth / 不可省白頭巾
+replace the nine-ring khakkhara with another object
+
+（2）Shakyamuni Buddha（釋迦牟尼佛） must follow reference images（3）（4）exactly.
+Fixed features:
+① round gentle face / 圓潤臉
+② warm peaceful smile / 溫和微笑
+③ pale golden skin / 淡金皮膚
+④ raised ushnisha（肉髻）
+⑤ white urna（白毫）
+⑥ long earlobes / 長耳垂
+⑦ orange kasaya robe（橙色袈裟）
+⑧ right shoulder exposed（右肩袒露）
+
+This image: seated on large stone lotus throne, gently smiling, looking up at the southern cloud.
+
+Do not:
+change his face or gentle expression
+remove ushnisha, urna, or long earlobes
+change robe color or shoulder-exposed setting
+make him photorealistic
+
+（3）Ksitigarbha Bodhisattva（地藏王菩薩） and Shakyamuni Buddha（釋迦牟尼佛） are two different characters.
+Do not mix their faces, robes, poses, or sacred objects.
+
+5.【B-level Crowd Setting】(本張人多!)
+12-15 mixed crowd + 15-20 silhouette bodhisattvas in clouds.
+Applicable crowd types:
+（1）苾芻 monks: 古印度棕色皮膚、橙色袈裟、剃髮、赤足, 5 位
+（2）菩薩配角 bodhisattva extras: same style as main but face blurred, 3 位
+（3）印度俗人男 male laypeople: 棕色皮膚、纏腰布 dhoti、頭巾、赤足, 3 位
+（4）印度俗人女 female laypeople: 棕色皮膚、紗麗 sari、長辮、額頭點紅, 2 位
+（5）雲中漢傳菩薩剪影 cloud silhouettes: 15-20 個淡金光暈剪影, 跟在地藏後方
+
+Crowd mood:
+all looking up at the sky, eyes wide with reverent excitement, hands pressed together in añjali mudra, mouths open in awe.
+Do not let the crowd overpower the two main characters.
+
+6.【Style and Composition】
+
+Overall style:
+hand-painted watercolor animation style, consistent with the official character sheets, like Studio Ghibli《Castle in the Sky》
+
+Character feeling:
+rounded, warm, gentle, friendly / not chibi / not photorealistic
+頭身比 1:4-1:5
+
+Environment:
+ancient Indian Khalatiya mountain top dharma assembly, mountain valley, open sky, forest, layered clouds, sacred golden light pillar from south, airy atmosphere
+
+Color palette:
+bright, soft, clean, slightly saturated, like morning sunlight shining into a sea of clouds
+
+Visual feeling:
+like an animated movie still, cinematic composition, epic spatial depth, sacred and majestic atmosphere
+
+Composition:
+three-layer depth — foreground (crowd looking up backs) / midground (Buddha on stone lotus throne) / background (southern sky with massive descending cloud and golden light pillar with bodhisattva silhouettes)
+lighting direction: golden pillar descending from southern clouds
+
+Camera language:
+wide shot + low-angle shot, view from below the mountain looking up, enhancing sacred grandeur
+
+7.【Scene Description】
+古印度佉羅帝耶山頂法會現場. 南方天空一團巨大淡金祥雲緩緩降下到山頂上空, 雲中浩大菩薩隊伍 (約 15-20 個漢傳菩薩剪影) 領頭那一位地藏仍在淡金光柱中即將顯現. 法會大眾 (約 12-15 位混合配角) 全部仰望天空驚喜激動. 釋迦牟尼佛在巨石蓮花座上慈祥微笑望南方光雲.
+
+8.【Cinematic Shot】
+Wide shot + low-angle from below the mountain. Foreground: 12-15 crowd members looking up (backs visible). Midground: Buddha on large stone lotus throne, full body, gently smiling. Background: massive descending cloud from southern sky with pale golden light pillar, leading Ksitigarbha silhouette with 15-20 bodhisattva entourage silhouettes. Sacred golden light beams.
+
+9.【Narration and Speech】
+
+【Visible Text Rule】
+All visible text in the image must be Traditional Chinese only.
+No Simplified Chinese. No English visible text. No garbled text.
+
+【旁白方框】 (上中, 灰邊白底黑色繁體 28-36px)
+「南方天空的光雲, 終於到達山頂 —— 大眾屏息凝神 ……」
+
+【對話氣泡】 (圓潤白泡, 尾巴指激動苾芻, 黑色繁體)
+苾芻 (激動):「地藏菩薩來了!」
+
+10.【Page Number】
+Bottom-right corner: white circle with black text「1/12」.
+Clear, consistent in size.
+
+11.【High-Priority Generation Rules】
+
+（1）Generate only one image and stop. Do not auto-redraw / multiple versions / ask options.
+（2）Canvas must be 1:1 square, 2K resolution, pure comic panel, no decorative frame.
+（3）All visible text must be Traditional Chinese only.
+（4）Narration box clear and readable, black Traditional Chinese, must not block main characters.
+（5）Speech bubbles white rounded with tails pointing to speaker, black Traditional Chinese.
+（6）Bottom-right page number: white circle with black text「1/12」.
+（7）S-level characters must strictly follow official references. No face drift / costume drift / mixed faces / swapped sacred objects.
+（8）World setting must be ancient India. Do not include modern objects / Chinese temple architecture / Japanese shrine.
+Bodhisattvas must look sacred and elegant. Ordinary people must look simple, warm, and human.
+
+✅ 只生 1 張. 回報 URL + 11 項驗證表.
+— 阿地 🌸 (模板 6 v9.3 雙語混合版 測試 8-1)
