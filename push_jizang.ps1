@@ -23,6 +23,10 @@ if ("$remoteUrl" -notmatch "$REPO") {
 git config user.name  "ayuan" | Out-Null
 git config user.email "jack@what.com.tw" | Out-Null
 
+# clear any stale git locks left by interrupted processes
+Remove-Item ".git\HEAD.lock"  -Force -ErrorAction SilentlyContinue
+Remove-Item ".git\index.lock" -Force -ErrorAction SilentlyContinue
+
 Write-Host "Staging (git add -A)..." -ForegroundColor Yellow
 git add -A 2>&1 | Out-Null
 
