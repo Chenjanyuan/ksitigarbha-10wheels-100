@@ -27,7 +27,8 @@
 | `CLAUDE.md` | 🔴 專案最高優先級規則（死命令）。所有 AI 開工前必讀 |
 | `100篇上刊日_v2_2026-05-30.csv` | 上刊日曆（篇1=6/8 起算，跳週末＋國定假日） |
 | `十齋日配對表.csv` | 農曆十齋日對應表 |
-| `push_jizang.bat`／`push_jizang.ps1` | 一鍵 push（token 直連，雙擊執行） |
+| `push_jizang.bat`／`push_jizang.ps1` | 手動一鍵 push（token 直連，雙擊執行） |
+| `設定自動推送_地藏.bat`／`push_jizang_auto.ps1` | 設定一次→每 12 小時(03:00/15:00)自動 push（有變動才推，記 `auto_push.log`） |
 | `start_daemon.bat` | 啟動 API 生圖 daemon |
 | `review.py`／`fb_auto.py` | FB 排程工具（Flask UI＋Graph API） |
 
