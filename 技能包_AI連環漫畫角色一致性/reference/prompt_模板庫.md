@@ -73,13 +73,14 @@ Light: soft, warm.
 Camera: medium close-up.
 ```
 
-## Sequential Art 滾動（Panel 2 起每個模板都加）
+## ★母版鎖定（2026-06-01 修正，取代舊「滾動參考」）
 ```
-ref = 角色卡 + 服裝特寫 + 場景 + 前 1-2 張完成的 panel
-STORY STATE:
-- This is panel [X] of 12 in the same story.
-- Previous panel showed: [一句話]
-- This panel continues: [一句話]
+ref = 同一張 8K 母版卡 (+服裝特寫)   ← 每格都回母版, ❌絕不拿上一張畫下一張(會雪崩漂移)
+身分鎖定咒語(逐字不變):
+  Keep the character's facial features exactly the same as the reference image.
+  Maintain identical attire and hairstyle throughout. consistent character design.
+一格只改一個變數(場景 or 動作); 角色描述逐字不變; 禁用 different/new; 參考圖6張封頂。
+故事連續性用文字(This is panel X of 12; 場景:…; 動作:…), 不靠鏈接上一張圖。
 ```
 
 ## 通用提醒

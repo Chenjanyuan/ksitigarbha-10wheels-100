@@ -23,7 +23,7 @@ description: >-
 2. **鎖角色＝丟一張好參考圖當錨點**（官方：一張 ≥1024、光線清楚、正面/3-4側、背景單純就夠，多張只多 5-10%）。
 3. **prompt 用結構化 brief，不要堆關鍵字**：`[主角+特徵][動作][場景][構圖][光線][風格][文字]`。
 4. **要顯示的文字用雙引號**鎖定：`對話氣泡寫 "南無地藏王菩薩"`。
-5. **同篇多格用 Sequential Art**：第 2 格起，把前 1-2 張完成圖也當參考。
+5. **★母版鎖定**（2026-06-01 修正）：每格都參考**同一張 8K 母版卡**，**絕不拿上一張畫下一張**（會雪崩漂移）。參考圖 6 張封頂。一格只改一個變數、角色描述逐字不變。
 6. **改圖用 Edit 局部改，不要整張 re-roll**（re-roll 會變）。
 7. **85% 是天花板**：每篇預留 15% 修圖，1-2 張需修是正常，別追 100%。
 8. **服裝比臉難固定** → 服裝單獨給一張特寫當 ref，且 prompt 明寫 `exact same outfit`。
@@ -59,34 +59,43 @@ Nano Banana Pro 是 **Thinking model**：它會先「理解」prompt，並對參
 6. **Character Bible**（見第 5 章）— prompt 細節從固定文件複製，不靠記憶。
 
 ### 第三層 — 專家（長期收益最大）
-7. **Custom Character Trainer**（Lovart）：10-20 張訓練 → @角色名 >90% 一致。
-8. **Edit 不 Re-roll**：80% 對的圖用對話局部改。
+7. **身分鎖定 + 高清角色卡**：LoveArt **沒有** Custom Character 訓練功能(2026-06-01 五來源查證, 見記憶 reference_lovart_no_custom_character_trainer)。官方唯一法 = Nano Banana「身分鎖定」(上傳參考圖)。實作 = 餵 ①原始 + ②**8K 高清角色卡**(比低清穩)。
+8. **★ Edit 不 Re-roll（用 LoveArt 局部編輯, 解 85% 法則那 15%）**：對的 80-85% 留著, 只修錯的, **絕不整張 re-roll(必漂移)**。
+   - **Edit Text**：改氣泡/旁白文字, 保留字體版面 → 繁體錯字、亂碼、簡體 直接改字。
+   - **Edit Element**：只改選取元素(手/法器/局部), 保留構圖光影。
+   - **元素自由移動**：氣泡/角色位置不對 → 圈選移動。
+   - 見記憶 reference_lovart_editing_features_2026_06_01。
 9. **背景/角色分開生再合成**（Composite）：一致性 95%+。
+10. **加速**：「從一張圖創建多角度變體」補角色姿勢；「Create Your Own Skills」把生成流程存成可複用 Skill；要精修文字/頁碼可「匯出 PSD」進 Photoshop。
 
 ---
 
-## 3. Sequential Art 滾動參考（解「12 張不像同一個故事」）
+## 3. ★母版鎖定法（2026-06-01 修正！取代舊「滾動參考」）
 
-每張新 panel 的參考圖 = **角色卡 + 服裝 + 場景 + 最近 1-2 張完成的 panel**。
+> 🔴 **重大修正**（阿研 8 分身全球社群調查, 見 reference/阿研原始教學/2026-06-01-Nano-Banana-Pro-…報告.md）：
+> 舊版教「每格參考前 1-2 張完成 panel（滾動/鏈式）」——**這是錯的，會誤差雪崩**（拿第5格畫第6、第6畫第7…約第15格角色就認不出來）。
+> **正解：每一格都回去參考「同一張母版」，絕不拿上一張畫下一張。**
 
 ```
-Panel 1: ref = 角色卡 + 服裝 + 場景            ← 做到完美！這是「種子」
-Panel 2: ref = 角色卡 + 服裝 + 場景 + Panel1
-Panel 3: ref = 角色卡 + 服裝 + 場景 + Panel1 + Panel2
+母版 = 8K 高清角色卡（中性站姿正面 + 三視圖；我們9尊8K卡即母版）
+Panel 1: ref = 母版(+服裝特寫)        ← 主錨
+Panel 2: ref = 母版(+服裝特寫)        ← 一樣回母版, 不是Panel1
+Panel 3: ref = 母版(+服裝特寫)        ← 一樣回母版
 ...
-Panel N: ref = 角色卡 + 服裝 + 場景 + Panel(N-2) + Panel(N-1)
+Panel N: ref = 母版(+服裝特寫)        ← 永遠母版
 ```
-（Nano Banana Pro 單一 prompt 最多吃 14 張參考圖，足夠）
+- **參考圖 6 張封頂**（不是 14；超過 10 張反而更糟，質>量）。
+- **場景/故事連續性靠 prompt 文字描述**，不靠「鏈接上一張圖」。
+- NB Pro **沒有 seed 鎖**，一致性只能靠 參考圖+固定講法。
+- 全程**同一對話視窗**（開新對話＝失憶重來）。
+- 連續很多格後若仍漂移 → **每「一章」重拉一次母版**。
 
-**每張 prompt 加 4 行 Story State：**
+**每格 prompt 的固定講法（英文身分鎖定咒語，逐字不變）：**
 ```
-This is panel [X] of 12 in the same story.
-Previous panel showed: [一句話描述上一張]
-This panel continues: [這張要演什麼]
-KEEP EXACT: same character, same outfit, consistent style.
+Keep the character's facial features exactly the same as the reference image.
+Maintain identical attire and hairstyle throughout. consistent character design.
 ```
-
-**超快「一張延伸法」**（趕進度）：做出完美 Panel 1 → 上傳 Panel 1 + prompt「Continue this story. Same character, same outfit. Next moment: [動作]」→ Panel 2 連貫性 95%+ → Panel 3 用 Panel 2 延伸。
+**一格只改「一個變數」**（場景 or 動作 擇一）；角色描述**逐字不變**（emerald eyes 不可改成 green eyes）；❌ 禁用 "different"/"new"（等於叫它亂變）。
 
 ---
 
@@ -136,6 +145,11 @@ KEEP EXACT: same character, same outfit, consistent style.
 - **上傳本機圖技巧**（LoveArt 無現成 file input，點「+→上傳文件」會跳原生視窗）：見 `reference/loveart_自動上傳技巧.md`。
 - 卡 5 分鐘無回應 → `window.location.reload()` 一次（不可連續 reload）。
 - 一張一張送，等「✅完成」再送下一張（queue limit=1，連送會 silent block）。
+- **★ @image 參考圖用法**（阿美官方教學, 2026-06-01）：上傳圖（左下 📎/🖼，或打 `@` 選圖）→ 圖變編號 `[@image:#1]`、`[@image:#2]`。下指令時**明確說明每張用途 + 指定保留/改變**：
+  - 例：`[@image:#1] 第一張是地藏菩薩角色參考，保持臉/五瓣寶冠/九環錫杖/土黃袈裟完全不變。場景:佛前。動作:合掌。…`
+  - 多圖：`[@image:#1][@image:#2] 第一張角色、第二張場景，把人物放進場景`
+  - 母版鎖定實作：**每格都 @ 同一張 8K 母版卡當 #1**，只改場景/動作兩行（見第 3 章）。
+- **8K 高清放大**：丟卡 URL/圖 + 「放大為 8K(8192)，最低創意度，完全保留原圖只提升清晰度」→ 付費模式真出 8192²（免費版只 1K）。9 尊 8K 卡已存 `人物角色卡/Custom角色訓練/0N_角色/`。
 
 ---
 
