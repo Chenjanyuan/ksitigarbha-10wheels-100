@@ -177,6 +177,8 @@ Read 2: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 
 Read 3: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\技能包_AI連環漫畫角色一致性\SKILL.md  ← 製作技能 SOP
 (深度歷史選讀: 阿地交接\歷史封存\舊進度與接班\★抗壓縮快照_2026-05-24_5AI智囊團大會.md)
 並讀記憶 MEMORY.md (尤其標★的記憶檔)
+
+💡 一鍵貼: 開新對話阿元可先貼 `阿地交接\交接SOP\一鍵貼_給下一棒阿地_2026-06-01.md` 的 ═══ 區段, 會自動觸發本恢復流程 + 給死命令濃縮 + 現況。
 ```
 
 **Step 2: 報告阿元 (固定格式)**
