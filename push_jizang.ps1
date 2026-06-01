@@ -31,7 +31,7 @@ Write-Host "Staging (git add -A)..." -ForegroundColor Yellow
 git add -A 2>&1 | Out-Null
 
 Write-Host "Committing..." -ForegroundColor Yellow
-git commit -m "feat: comic-character-consistency skill v1.1 + research verification + API/LoveArt experiment" 2>&1 | Write-Host
+git commit -m "refactor: repo分類整理 + 阿研LoveArt教學3份 + Lovart官方指南摘要 歸技能包reference + README索引 + CLAUDE.md路徑/教學指引更新" 2>&1 | Write-Host
 
 Write-Host "Pushing to GitHub..." -ForegroundColor Yellow
 $auth = "https://$tok@github.com/$OWNER/$REPO.git"

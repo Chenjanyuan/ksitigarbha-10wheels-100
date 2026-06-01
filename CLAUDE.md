@@ -172,28 +172,30 @@ window.location.reload()
 
 **Step 1: 立刻讀 3 個核心檔案**
 ```
-Read 1: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\★抗壓縮快照_2026-05-24_5AI智囊團大會.md
-Read 2: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\★標準SOP交接_給阿地4號_2026-05-24.md
-Read 3: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\一鍵貼模板\v9-v11_2026-05-24\★5模板總覽_使用指南.md
+Read 1: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-01_阿地7號必讀.md  ← 最新主檔(最重要)
+Read 2: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\技術報告\阿研報告_來源驗證_2026-05-31.md  ← 阿研材料驗證
+Read 3: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\技能包_AI連環漫畫角色一致性\SKILL.md  ← 製作技能 SOP
+(深度歷史選讀: 阿地交接\歷史封存\舊進度與接班\★抗壓縮快照_2026-05-24_5AI智囊團大會.md)
+並讀記憶 MEMORY.md (尤其標★的記憶檔)
 ```
 
 **Step 2: 報告阿元 (固定格式)**
 ```
-🪷 阿地 已恢復記憶, 接上 5/24 進度!
+🪷 阿地 已恢復記憶, 接上最新進度!
 
-📊 當前進度:
-- 第 10 篇 10-01 寶冠版完成 ✅
-- 10-02 v9 Lite 完成 ✅
-- 待做: 10-03 (建議 A/B 測試模板 5 vs 6)
+📊 當前進度 (2026-06-01):
+- 篇7 (六個比喻・序品) 12 張完成 ✅ 已下載 地藏十輪經連載\20260616\
+- 篇8 (地藏出場・序品) 12 張完成 ✅ (LoveArt 待下載)
+- 待做: 篇9~20
 
-📦 6 模板已存於: 阿地交接\一鍵貼模板\v9-v11_2026-05-24\
-👥 5 AI 團隊: 阿元+阿地+阿智(ChatGPT)+Genspark+Gemini+阿美(LoveArt)
-⛔ 不可忘: 寶冠漢傳版 / 9 環錫杖 / 1:4-1:5 比例 / 必繁體 / 不光頭聲聞像
+📦 命令模板/歷史資料 已分類存於: 阿地交接\歷史封存\ (命令模板/AB測試圖/舊進度與接班)
+👥 團隊: 阿元 + 阿地(Claude) + 阿美(LoveArt) + 阿研(研究)
+⛔ 不可忘: 寶冠漢傳版 / 9 環錫杖 / 1:5-1:7 正常比例(不巨人) / 必繁體 / 同篇定裝種子鎖臉(不漂移)
 
 下一步 4 選 1 (你要哪個?):
-A. A/B 測試 10-03 (模板 5 vs 6)
-B. 直接拿模板 5 衝 10-03~10-12
-C. 請阿智 補三主角雙語版 (模板 7)
+A. 確認篇8 已下載 → 開始篇9 (地藏禮讚佛偈上・序品, 地藏正常寶冠九環畫)
+B. 用 API daemon 衝量篇9~20 (需阿元開 start_daemon.bat)
+C. 補寫篇7/篇8 的 docx (內文+啟發反思+圖片計畫)
 D. 其他指示
 ```
 
@@ -367,6 +369,16 @@ D. 其他指示
 - FB 主目標粉專: 地藏菩薩本行經 (ID: 1093357677358320)
 - 其他粉專: 毛孩重逢照相館、Alumi 餐車、WhatDog、Prapti 展覽車
 - Meta App: 地藏經弘法 (App ID: 1713894570052979)
+
+### 📚 製作技能與阿研教學 (角色一致性)
+- 製作 SOP: `技能包_AI連環漫畫角色一致性/SKILL.md` (新合併技能, canonical)
+- 阿研 LoveArt 原始教學 3 份: `技能包_.../reference/阿研原始教學_2026-05-31/`
+  - 精華: @提及鎖定(非貼對話框)/Influence 60%/服裝獨立 ref/Sequential 滾動參考/Story State
+  - ⚠️ 阿研範例寫「光頭橙袍」是通用範例, **地藏一律用官方寶冠九環版** (見死命令)
+- 阿研技術驗證: `阿地交接/技術報告/`；舊資料: `阿地交接/歷史封存/`
+- Lovart 官方指南摘要: `技能包_.../reference/官方指南摘要_Lovart角色一致性_2026.md`
+  - 重點: 角色鎖定85%/換臉後製90%/一張ref夠/Custom Character訓練10-20張>90%(地藏可做)/失敗率10-20%批次5-10張/85%法則
+- 記憶檔: `reference_ayan_loveart_teaching_2026_05_31` / `reference_lovart_official_consistency_guide_2026` / `reference_comic_consistency_skill_2026_05_31`
 
 ### Token 安全
 - `.env` 檔含敏感 Page Access Token
