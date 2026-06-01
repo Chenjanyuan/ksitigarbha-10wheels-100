@@ -371,6 +371,10 @@ D. 其他指示
 - Meta App: 地藏經弘法 (App ID: 1713894570052979)
 
 ### 📚 製作技能與阿研教學 (角色一致性)
+- ★ **9 菩薩角色卡總表(雙圖參考)**: `人物角色卡/9菩薩雙圖參考_URL速查表.md` + `9個菩薩角色卡_完整整理版.docx`
+  - 雙圖鐵則: 每角色餵 ① 原始參考圖 + ② 12格角色卡 兩張 URL(比單張穩); 多角色同框各貼自己①②
+  - 地藏=① v9EbpNs744Gc6utX ② iLHkntfcWEIfm7hZ (與官方鎖定一致, 漢式五佛冠/九環錫杖/土黃袈裟/無光頭)
+  - ⚠️ 此 docx 在沙箱 cp 會變0byte; 救法: `git cat-file -p HEAD:路徑 > /tmp/x` 再 cp 回
 - 製作 SOP: `技能包_AI連環漫畫角色一致性/SKILL.md` (新合併技能, canonical)
 - 阿研 LoveArt 原始教學 3 份: `技能包_.../reference/阿研原始教學_2026-05-31/`
   - 精華: @提及鎖定(非貼對話框)/Influence 60%/服裝獨立 ref/Sequential 滾動參考/Story State
