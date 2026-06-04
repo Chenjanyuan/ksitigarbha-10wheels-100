@@ -61,8 +61,13 @@
 - 沒 LEVEL 不准進下一階段
 - 沒阿元 拍板不准說正式完成
 
-完整規則: `docs/AI_TEAM_4D_WORK_STANDARD.md` (待建)
+完整規則: `docs/AI_TEAM_4D_WORK_STANDARD.md` ✅ 已建 (2026-06-04 阿地8號, 全文標準：含 10 個 AI 角色定位/專用4維度/紅線/交接格式/LEVEL/處置分類/GitHub交接SOP)
 記憶檔: `feedback_ai_team_4d_work_standard_2026_05_29.md`
+
+### ★★★ 2026-06-04 阿元 拍板補充：每棒交接「原文交接下去」
+- 這套「AI 協作共同工作規則(4 維度工作標準)」適用所有 AI(阿智/阿海/阿山/阿合/阿狗/阿咪/阿聰/阿地/阿研/阿米/Cowork/Claude Code/未來所有新 AI)。
+- **交接每一棒阿地時, 4 維度規則「原文」要往下傳**(不可只寫摘要), 並確保寫入 CLAUDE.md。全文見 `docs/AI_TEAM_4D_WORK_STANDARD.md`。
+- 每棒結束前須建 GitHub 交接 MD(`handoff/jizang/` 或 `阿地交接/交接SOP/`), 含 /goal 五要素 + 4 維度自評 + 最低分項 + LEVEL + 處置分類 + 驗證紀錄 + 紅線檢查 + 下一棒必做 + 本棒結論(四選一不得模糊)。
 
 ---
 
