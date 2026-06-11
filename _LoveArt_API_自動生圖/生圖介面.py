@@ -137,10 +137,18 @@ def gen_panel(pian, p, img_dir, cache, model):
     args=["--timeout","1800","chat","--prompt",p["prompt"],"--prefer-models",json.dumps({"IMAGE":[model]}),
           "--json","--download","--output-dir",str(img_dir)]
     if urls: args+=["--attachments"]+urls
-    log(f"   🎨 生成 張{n:02d}（參考圖 {len(urls)}）…")
-    c,o,e=run_skill(args); j=last_json(o)
-    if not j:
-        err=(e or o or "").strip()
+    log(f"   🎨 生成 張{n:02d}（{len(urls)}張參考卡：{'＋'.join(p['cards']) or '無'}）…")
+    j=None
+    for attempt in range(4):
+        c,o,e=run_skill(args); j=last_json(o)
+        if j: break
+        err=(e or o or "").strip(); low=err.lower()
+        if ("rate limit" in low or "429" in low or "slow down" in low or "too many" in low
+                or "concurrent" in low) and attempt<5:
+            wait=90*(attempt+1)
+            why="同時只能一個任務" if "concurrent" in low else "被限速"
+            log(f"   ⏳ 張{n:02d} {why}，等 {wait} 秒再自動重試（第 {attempt+1} 次）…")
+            time.sleep(wait); continue
         try: (SELF_DIR/"last_error.txt").write_text(err, encoding="utf-8")
         except Exception: pass
         tail=err.splitlines()[-1] if err else "(無輸出)"
@@ -181,7 +189,7 @@ def generate(posts, model, mode):
             log(f"📖 {folder.name}（共 {len(panels)} 格）")
             for p in panels:
                 r=gen_panel(pian,p,img,cache,model); STATE[{"ok":"done","skip":"skip","fail":"fail"}[r]]+=1
-                if r=="ok": time.sleep(SLEEP_SEC)
+                if r in ("ok","fail"): time.sleep(SLEEP_SEC)
         log(f"🎉 完成！新生 {STATE['done']}、已存 {STATE['skip']}、失敗 {STATE['fail']}")
     except Exception as ex:
         log(f"❌ 發生錯誤：{ex}")
