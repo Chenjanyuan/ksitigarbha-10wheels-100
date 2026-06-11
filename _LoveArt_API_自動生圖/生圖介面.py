@@ -133,11 +133,14 @@ def gen_panel(pian, p, img_dir, cache, model):
     if (list(img_dir.glob(f"*張{n:02d}_*.png")) or list(img_dir.glob(f"*張{n:02d}.png"))
             or list(img_dir.glob(f"*12之{n}_*.png"))):
         log(f"   ⏭ 張{n:02d} 已有，跳過"); return "skip"
-    urls=[u for u in (card_url(k,cache) for k in p["cards"]) if u]
-    args=["--timeout","1800","chat","--prompt",p["prompt"],"--prefer-models",json.dumps({"IMAGE":[model]}),
+    _res=[(k,card_url(k,cache)) for k in p["cards"]]
+    attached=[k for k,u in _res if u]; urls=[u for k,u in _res if u]; missing=[k for k,u in _res if not u]
+    args=["--timeout","3600","chat","--prompt",p["prompt"],"--prefer-models",json.dumps({"IMAGE":[model]}),
           "--json","--download","--output-dir",str(img_dir)]
     if urls: args+=["--attachments"]+urls
-    log(f"   🎨 生成 張{n:02d}（{len(urls)}張參考卡：{'＋'.join(p['cards']) or '無'}）…")
+    _m=f"   🎨 生成 張{n:02d}｜參考圖 {len(urls)} 張：{'＋'.join(attached) or '無'}"
+    if missing: _m+=f"　⚠缺卡：{'＋'.join(missing)}"
+    log(_m+" …")
     j=None
     for attempt in range(4):
         c,o,e=run_skill(args); j=last_json(o)
@@ -158,7 +161,13 @@ def gen_panel(pian, p, img_dir, cache, model):
         log(f"   ⏸ 張{n:02d} 需付費確認，略過"); return "fail"
     dl=j.get("downloaded") or []
     if not dl:
-        log(f"   ⚠ 張{n:02d} 沒出圖：{j.get('warning') or j.get('agent_message') or '可能被審查'}"); return "fail"
+        fs=j.get("final_status","?")
+        try: (SELF_DIR/"last_error.txt").write_text(json.dumps(j,ensure_ascii=False,indent=2), encoding="utf-8")
+        except Exception: pass
+        if fs=="timeout": reason="排隊逾時(免費佇列太久，等到上限)"
+        elif j.get("items"): reason="生成完成但沒接到圖檔(可能被審查或下載失敗)"
+        else: reason=(j.get('warning') or j.get('agent_message') or "原因不明，已記到 last_error.txt")
+        log(f"   ⚠ 張{n:02d} 沒出圖（狀態:{fs}）：{reason}"); return "fail"
     base = p.get("fname") or f"第{pian}篇_張{n:02d}_{clean_title(p['title'])}"
     base = re.sub(r'[\\/:*?"<>|]+', "", base)
     src=Path(dl[0]["local_path"]); dst=img_dir/f"{base}.png"
@@ -181,16 +190,33 @@ def generate(posts, model, mode):
         run_skill(["set-mode","--unlimited" if mode=="unlimited" else "--fast"])
         cache=load_cache()
         if not posts: log("⚠ 這個範圍內沒有可生的篇（要有 生成命令_LoveArt.md）。")
-        for folder in posts:
-            md=folder/"生成命令_LoveArt.md"
-            if not md.exists(): continue
-            pian=pian_no(folder.name); img=folder/"圖片"; img.mkdir(exist_ok=True)
-            panels=parse_md(md); STATE["current"]=folder.name
-            log(f"📖 {folder.name}（共 {len(panels)} 格）")
-            for p in panels:
-                r=gen_panel(pian,p,img,cache,model); STATE[{"ok":"done","skip":"skip","fail":"fail"}[r]]+=1
-                if r in ("ok","fail"): time.sleep(SLEEP_SEC)
-        log(f"🎉 完成！新生 {STATE['done']}、已存 {STATE['skip']}、失敗 {STATE['fail']}")
+        MAX_PASS=8; total_new=0
+        for _pass in range(1, MAX_PASS+1):
+            STATE["done"]=STATE["fail"]=STATE["skip"]=0
+            log(f"━━━━━ 第 {_pass} 輪開始（自動補缺）━━━━━")
+            pass_new=0; pass_fail=0
+            for folder in posts:
+                md=folder/"生成命令_LoveArt.md"
+                if not md.exists(): continue
+                pian=pian_no(folder.name); img=folder/"圖片"; img.mkdir(exist_ok=True)
+                panels=parse_md(md); STATE["current"]=folder.name
+                _allc=[]
+                for _p in panels:
+                    for _k in _p["cards"]:
+                        if _k not in _allc: _allc.append(_k)
+                log(f"📖 {folder.name}（共 {len(panels)} 格）｜本篇用到的參考卡：{'、'.join(_allc) or '無'}")
+                for p in panels:
+                    r=gen_panel(pian,p,img,cache,model); STATE[{"ok":"done","skip":"skip","fail":"fail"}[r]]+=1
+                    if r=="ok": pass_new+=1; total_new+=1
+                    if r=="fail": pass_fail+=1
+                    if r in ("ok","fail"): time.sleep(SLEEP_SEC)
+            log(f"━━━━━ 第 {_pass} 輪結束：本輪新生 {pass_new} 張、仍缺 {pass_fail} 張（累計補了 {total_new} 張）━━━━━")
+            if pass_fail==0:
+                log("🎉 全部補齊，收工！"); break
+            if pass_new==0:
+                log("⚠ 這一輪一張都生不出來（可能被限速或沒額度了），停止重試；缺的下次再補就好。"); break
+            log(f"😴 休息 120 秒，再回頭把剩下 {pass_fail} 張補一輪…"); time.sleep(120)
+        log(f"🎉 完成！本次總共新生 {total_new} 張。")
     except Exception as ex:
         log(f"❌ 發生錯誤：{ex}")
     finally:

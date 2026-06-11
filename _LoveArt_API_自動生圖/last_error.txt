@@ -1,1 +1,8 @@
-Error: Concurrent task limit reached. Wait for a running task to finish before starting a new one.
+{
+  "thread_id": "fdf1ebbf-48da-405b-a53c-0037d43ddd69",
+  "status": "running",
+  "items": [],
+  "final_status": "timeout",
+  "project_id": "d93dc68f846b47fbb30d5137b86f8722",
+  "downloaded": []
+}
