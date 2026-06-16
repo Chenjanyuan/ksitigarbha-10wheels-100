@@ -1,0 +1,72 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e15]:
+      - img "Meta 符號" [ref=e20]
+      - generic [ref=e30]:
+        - generic [ref=e35]:
+          - text: 開始使用
+          - generic [ref=e36]: 廣告管理員
+        - generic [ref=e40]: 透過廣告管理員，你將可：
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - generic [ref=e48]: •
+            - generic [ref=e49]: 在 Facebook、Instagram、Messenger 和 WhatsApp 刊登廣告
+          - listitem [ref=e50]:
+            - generic [ref=e51]: •
+            - generic [ref=e52]: 設定廣告受眾，聰明進行廣告目標設定
+          - listitem [ref=e53]:
+            - generic [ref=e54]: •
+            - generic [ref=e55]: 設定和管理廣告預算
+          - listitem [ref=e56]:
+            - generic [ref=e57]: •
+            - generic [ref=e58]: 取得即時洞察報告
+        - generic [ref=e62]: 在廣告管理員，你能前往使用Meta Business Suite和商務管理工具等所有商業工具，協助你與顧客建立聯繫並提升業務成果。
+    - generic [ref=e68]:
+      - generic [ref=e71]: 登入廣告管理員
+      - button "使用 Facebook 帳號繼續" [ref=e74] [cursor=pointer]:
+        - generic [ref=e75]:
+          - img [ref=e77]
+          - generic [ref=e80]: 使用 Facebook 帳號繼續
+      - button "使用 Instagram 帳號繼續" [ref=e83] [cursor=pointer]:
+        - generic [ref=e84]:
+          - img [ref=e86]
+          - generic [ref=e89]: 使用 Instagram 帳號繼續
+      - button "建立新帳號" [ref=e92] [cursor=pointer]:
+        - generic [ref=e95]: 建立新帳號
+      - separator [ref=e97]
+      - button "使用受管理的 Meta 帳號登入" [ref=e100] [cursor=pointer]:
+        - generic [ref=e103]: 使用受管理的 Meta 帳號登入
+      - img "Meta 標誌" [ref=e105]
+  - generic [ref=e116]:
+    - link "© 2026 Meta" [ref=e118] [cursor=pointer]:
+      - /url: https://www.facebook.com/
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - link "關於" [ref=e126] [cursor=pointer]:
+          - /url: https://www.meta.com/about/
+        - link "開發人員" [ref=e127] [cursor=pointer]:
+          - /url: https://developers.meta.com/
+        - link "工作機會" [ref=e128] [cursor=pointer]:
+          - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.metacareers.com%2F&h=AUDZMp9EZlDGmHioZ2P5F5U27WkWhJUBIsPsqL5ThqOPHSG6YfXV_r2Xz-UY2Sldia7bpygEyH8eHok4j_yVbk26rmYKEundyDgFhDG3C1_m2n2MgTzaP0moQgbg4rVKrk1QhSj-dN9dfKw1dX_yeMEqPX9Abe_fwYcN8w
+        - link "隱私政策" [ref=e129] [cursor=pointer]:
+          - /url: https://www.facebook.com/privacy/explanation
+        - link "Cookie" [ref=e130] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/cookies
+        - link "使用條款" [ref=e131] [cursor=pointer]:
+          - /url: https://www.facebook.com/policies/
+        - link "使用說明" [ref=e132] [cursor=pointer]:
+          - /url: https://www.facebook.com/business/help/
+      - generic [ref=e133]:
+        - link "中文(台灣)" [ref=e134] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - link "English (US)" [ref=e135] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - link "English (UK)" [ref=e136] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - link "Español" [ref=e137] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - link "Português (Brasil)" [ref=e138] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - link "Français (France)" [ref=e139] [cursor=pointer]:
+          - /url: https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fadsmanager.facebook.com%2Fadsmanager%2Fmanage%2Fadsets%3Fact%3D128230264034499%26business_id%3D710326389072373&login_options%5B0%5D=FB&login_options%5B1%5D=SSO&login_options%5B2%5D=IG&config_ref=biz_login_tool_flavor_adsmanager
+        - button "更多語言" [ref=e140] [cursor=pointer]: 更多語言
