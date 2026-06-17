@@ -1,0 +1,370 @@
+- generic [ref=e11]:
+  - generic [ref=e14]:
+    - img [ref=e15]
+    - generic [ref=e19]:
+      - generic [ref=e20]: 新增 WhatsApp 電話號碼以接收商家資產管理組合的最新消息
+      - generic [ref=e21]: 在 WhatsApp 接收有關重要最新消息的通知，例如帳號限制或可疑活動。
+    - link "新增 WhatsApp 電話號碼" [ref=e22] [cursor=pointer]:
+      - /url: https://business.facebook.com/latest/settings/business_info/?business_id=710326389072373&nav_ref=mbs_contact_info_banner_cta&edit_contact=wm&landing_location=my_info
+      - generic [ref=e26]: 新增 WhatsApp 電話號碼
+    - button "關閉" [ref=e27] [cursor=pointer]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: 關閉
+        - img [ref=e32]
+  - generic [ref=e35]:
+    - generic [ref=e516]:
+      - generic [ref=e519]:
+        - heading "建立貼文" [level=1] [ref=e520]
+        - generic:
+          - toolbar
+      - generic [ref=e523]:
+        - generic [ref=e525]:
+          - generic [ref=e526]:
+            - generic [ref=e528]:
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - img [ref=e536]
+                  - heading "想要建立廣告貼文嗎？" [level=4] [ref=e541]
+                  - button "關閉" [ref=e542] [cursor=pointer]:
+                    - generic [ref=e544]:
+                      - generic [ref=e545]: 關閉
+                      - img [ref=e547]
+                - generic [ref=e554]: 廣告貼文只能在 Facebook 上建立。一旦你在「發佈到」區段中選擇你的 Facebook 粉絲專頁，「貼文詳細資料」中就會出現一個切換開關，可讓你將此設定為廣告貼文。
+              - button "查看更多" [ref=e556] [cursor=pointer]:
+                - generic [ref=e557]: 查看更多
+            - generic "發佈到" [ref=e558]:
+              - generic [ref=e559]:
+                - heading "發佈到" [level=3] [ref=e563]
+                - generic [ref=e567]:
+                  - generic [ref=e573]: 發佈到
+                  - combobox "發佈到 地藏菩薩本行經" [ref=e578] [cursor=pointer]:
+                    - generic [ref=e581]:
+                      - generic [ref=e583]:
+                        - img "Facebook" [ref=e591]
+                        - generic [ref=e593]: 地藏菩薩本行經
+                      - img [ref=e595]
+            - generic "影音素材" [ref=e598]:
+              - generic [ref=e599]:
+                - generic [ref=e602]:
+                  - heading "影音素材" [level=3] [ref=e603]
+                  - generic [ref=e604]: 分享相片和影片。
+                - listitem [ref=e1011]:
+                  - generic [ref=e1012]:
+                    - generic [ref=e1018]: 752 x 316
+                    - generic [ref=e1020]:
+                      - generic [ref=e1022]:
+                        - button "編輯相片" [ref=e1024] [cursor=pointer]:
+                          - generic [ref=e1026]:
+                            - generic [ref=e1027]: 編輯相片
+                            - img [ref=e1029]
+                        - button "更換圖像" [ref=e1032] [cursor=pointer]:
+                          - generic [ref=e1035]:
+                            - img [ref=e1036]
+                            - generic [ref=e1040]: 更換圖像
+                      - button "移除相片" [disabled] [ref=e1041]:
+                        - generic [ref=e1043]:
+                          - generic [ref=e1044]: 移除相片
+                          - img [ref=e1046]
+            - generic "貼文詳細資料" [ref=e621]:
+              - generic [ref=e622]:
+                - heading "貼文詳細資料" [level=3] [ref=e626]
+                - generic [ref=e629]:
+                  - generic [ref=e630]:
+                    - switch "將此建立為廣告貼文" [ref=e632] [cursor=pointer]
+                    - generic [ref=e638] [cursor=pointer]: 將此建立為廣告貼文
+                  - generic [ref=e641]:
+                    - heading "文字" [level=4] [ref=e644]
+                    - generic [ref=e653]:
+                      - combobox "在對話方塊中寫點內容，即可為貼文加上文字。" [active] [ref=e657]
+                      - generic [ref=e674]:
+                        - button "點擊即可開啟主題標籤功能表。" [ref=e675] [cursor=pointer]:
+                          - generic [ref=e677]:
+                            - generic [ref=e678]: 點擊即可開啟主題標籤功能表。
+                            - img [ref=e680]
+                        - button "選擇表情符號" [ref=e683] [cursor=pointer]:
+                          - generic [ref=e685]:
+                            - generic [ref=e686]: 選擇表情符號
+                            - img [ref=e688]
+                  - generic [ref=e693]:
+                    - generic [ref=e694]:
+                      - button "感受／活動" [disabled] [ref=e697]:
+                        - img [ref=e699]
+                      - button "地點" [ref=e706]:
+                        - img [ref=e708]
+                      - button "接收訊息" [ref=e713]:
+                        - img [ref=e1051]
+                      - button "接收 WhatsApp 訊息" [disabled] [ref=e722]:
+                        - img [ref=e724]
+                      - button "吸引用戶來電" [disabled] [ref=e731]:
+                        - img [ref=e733]
+                      - button "更多功能" [ref=e739]:
+                        - img [ref=e741]
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]: 接收訊息
+                      - button "點擊可從你的貼文移除此功能。" [ref=e1058] [cursor=pointer]:
+                        - img [ref=e1062]
+            - generic [ref=e778]:
+              - heading "排程" [level=3] [ref=e779]
+              - generic [ref=e781]:
+                - generic [ref=e784] [cursor=pointer]: 設定日期和時間
+                - switch "設定日期和時間" [ref=e786] [cursor=pointer]
+            - generic [ref=e792]:
+              - generic [ref=e796]:
+                - generic [ref=e797]:
+                  - heading "協作者" [level=3] [ref=e798]
+                  - img [ref=e800]
+                - generic [ref=e803]: 你最多可邀請 5 位協作者共享這則貼文的創作署名。對方會收到通知，並可接受或拒絕邀請。
+              - generic [ref=e808]:
+                - generic [ref=e814]: NOT_IN_USE
+                - combobox "NOT_IN_USE" [ref=e824]
+            - generic [ref=e830]:
+              - heading "分享到" [level=3] [ref=e833]
+              - generic [ref=e838]:
+                - switch "分享到 Facebook 限時動態" [ref=e842] [cursor=pointer]
+                - img "Facebook" [ref=e849]
+                - generic [ref=e850]:
+                  - generic [ref=e851]: 地藏菩薩本行經
+                  - generic [ref=e852]: Facebook 限時動態 ・ 公開
+            - generic "隱私設定" [ref=e854]:
+              - generic [ref=e855]:
+                - generic [ref=e858]:
+                  - heading "隱私設定" [level=3] [ref=e859]
+                  - generic [ref=e860]: 調整隱私設定，以控制能在動態消息、Watch、搜尋結果和你的個人檔案上看到你貼文的對象。
+                - grid [ref=e866]:
+                  - row "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e867]:
+                    - gridcell "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e868] [cursor=pointer]:
+                      - generic [ref=e872]:
+                        - radio "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [checked] [ref=e876]
+                        - generic [ref=e881]:
+                          - generic [ref=e882]: 所有人
+                          - generic [ref=e883]: Facebook 的用戶或非用戶都可以看到你的貼文。
+                  - row "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e884]:
+                    - gridcell "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e885] [cursor=pointer]:
+                      - generic [ref=e889]:
+                        - radio "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e893]
+                        - generic [ref=e896]:
+                          - generic [ref=e897]: 特定對象
+                          - generic [ref=e898]: 選擇可看到你貼文的特定 Facebook 用戶。
+          - generic [ref=e907]:
+            - generic [ref=e911]:
+              - switch "加強推廣" [ref=e913] [cursor=pointer]
+              - generic [ref=e919] [cursor=pointer]: 加強推廣
+            - generic [ref=e921]:
+              - generic [ref=e922]:
+                - button "取消" [ref=e923] [cursor=pointer]:
+                  - generic [ref=e927]: 取消
+                - button "稍後再完成" [ref=e928] [cursor=pointer]:
+                  - generic [ref=e932]: 稍後再完成
+              - button "發佈" [ref=e933] [cursor=pointer]:
+                - generic [ref=e937]: 發佈
+        - generic [ref=e942]:
+          - generic [ref=e943]:
+            - heading "Facebook 動態消息預覽" [level=3] [ref=e946]
+            - group [ref=e948]:
+              - button [pressed] [ref=e949] [cursor=pointer]:
+                - img [ref=e954]
+              - button [ref=e957] [cursor=pointer]:
+                - img [ref=e962]
+          - generic [ref=e1071]:
+            - article [ref=e1072]:
+              - article [ref=e1125]:
+                - generic [ref=e1133]:
+                  - generic [ref=e1135]:
+                    - link "地藏菩薩本行經" [ref=e1139] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Ksitigarbhabodishava?__cft__[0]=AZZOeEDWaMEu7PEdSh-ry2qZJlNN3sD4Ihc76LfEeN4jgWSCioLnqhhvlOnT9RbQH96oM_lI3EkRcxiqy4EeLz98WiHz4kGKLW61jY_fEA8ZLl1JrkK244z0sH3Dw8ZbPDi_M9etovl_7QhJZkcvKlvs&__tn__=%3C%3C%2CP-R
+                      - img "地藏菩薩本行經" [ref=e1141]
+                    - generic [ref=e1146]:
+                      - heading "地藏菩薩本行經" [level=2] [ref=e1150]:
+                        - link "地藏菩薩本行經" [ref=e1155] [cursor=pointer]:
+                          - /url: https://www.facebook.com/Ksitigarbhabodishava?__cft__[0]=AZZOeEDWaMEu7PEdSh-ry2qZJlNN3sD4Ihc76LfEeN4jgWSCioLnqhhvlOnT9RbQH96oM_lI3EkRcxiqy4EeLz98WiHz4kGKLW61jY_fEA8ZLl1JrkK244z0sH3Dw8ZbPDi_M9etovl_7QhJZkcvKlvs&__tn__=-UC%2CP-R
+                          - generic [ref=e1156]: 地藏菩薩本行經
+                      - generic [ref=e1159]:
+                        - text: 由
+                        - link "Veragrul Saiken" [ref=e1164] [cursor=pointer]:
+                          - /url: https://www.facebook.com/veragrul.saiken?__cft__[0]=AZZOeEDWaMEu7PEdSh-ry2qZJlNN3sD4Ihc76LfEeN4jgWSCioLnqhhvlOnT9RbQH96oM_lI3EkRcxiqy4EeLz98WiHz4kGKLW61jY_fEA8ZLl1JrkK244z0sH3Dw8ZbPDi_M9etovl_7QhJZkcvKlvs&__tn__=-]%2CP-R
+                        - text: 發佈
+                        - img "(tooltip)只有此粉絲專頁的管理人員可以看到是誰發佈了內容" [ref=e1166]
+                        - generic [ref=e1168]: ·
+                        - link "1 分鐘" [ref=e1173] [cursor=pointer]:
+                          - /url: https://www.facebook.com/Ksitigarbhabodishava/posts/pfbid0Vs6xvghGYUqRq1d8tX1ntsm816tMcyd13SSgJ1edsib2L7mfDukagcjxF3kUwQPgl?__cft__[0]=AZZOeEDWaMEu7PEdSh-ry2qZJlNN3sD4Ihc76LfEeN4jgWSCioLnqhhvlOnT9RbQH96oM_lI3EkRcxiqy4EeLz98WiHz4kGKLW61jY_fEA8ZLl1JrkK244z0sH3Dw8ZbPDi_M9etovl_7QhJZkcvKlvs&__tn__=%2CO%2CP-R
+                        - generic [ref=e1175]: ·
+                        - img "分享對象：分享對象：所有人" [ref=e1180]
+                    - button "對地藏菩薩本行經的這則貼文採取的動作" [ref=e1187] [cursor=pointer]:
+                      - img [ref=e1188]
+                  - generic [ref=e1192]:
+                    - link "未提供相片說明。" [ref=e1194] [cursor=pointer]:
+                      - /url: https://business.facebook.com/photo.php?fbid=1439531491542195&set=p.1439531491542195&type=3&__cft__[0]=AZZOeEDWaMEu7PEdSh-ry2qZJlNN3sD4Ihc76LfEeN4jgWSCioLnqhhvlOnT9RbQH96oM_lI3EkRcxiqy4EeLz98WiHz4kGKLW61jY_fEA8ZLl1JrkK244z0sH3Dw8ZbPDi_M9etovl_7QhJZkcvKlvs&__tn__=EH-R
+                      - img "未提供相片說明。" [ref=e1199]
+                    - generic [ref=e1201]:
+                      - generic [ref=e1203]:
+                        - generic [ref=e1206]: 地藏菩薩本行經
+                        - generic [ref=e1209]: 非營利組織
+                      - button "發送訊息" [ref=e1215] [cursor=pointer]:
+                        - generic [ref=e1216]:
+                          - img [ref=e1217]
+                          - generic [ref=e1220]: 發送訊息
+                  - generic [ref=e1225]:
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]:
+                        - button "讚" [ref=e1231] [cursor=pointer]
+                        - button "傳達心情" [ref=e1236] [cursor=pointer]:
+                          - img [ref=e1237]
+                      - button "留言" [ref=e1240] [cursor=pointer]
+                      - button "傳送給朋友或在個人檔案上發佈。" [ref=e1245] [cursor=pointer]
+                    - generic [ref=e1258]:
+                      - button "可用的聲音，切換個人檔案" [ref=e1260] [cursor=pointer]:
+                        - generic [ref=e1261]:
+                          - img [ref=e1262]
+                          - img [ref=e1269]
+                      - generic [ref=e1274]:
+                        - generic [ref=e1278]:
+                          - textbox "以地藏菩薩本行經的身分留言" [ref=e1279]:
+                            - paragraph [ref=e1280]
+                          - generic: 以地藏菩薩本行經的身分留言
+                        - list [ref=e1282]:
+                          - listitem [ref=e1283]:
+                            - button "以虛擬替身貼圖回應" [ref=e1285] [cursor=pointer]
+                          - listitem [ref=e1287]:
+                            - button "插入表情符號" [ref=e1289] [cursor=pointer]:
+                              - img [ref=e1290]
+                          - listitem [ref=e1293]:
+                            - button "附加相片或影片" [ref=e1295] [cursor=pointer]
+                          - listitem [ref=e1297]:
+                            - button "以 GIF 回應" [ref=e1299] [cursor=pointer]
+                          - listitem [ref=e1301]:
+                            - button "以貼圖回應" [ref=e1303] [cursor=pointer]
+            - article [ref=e1097]
+    - generic [ref=e352]:
+      - generic [ref=e354]:
+        - button "Meta Business Suite" [ref=e355] [cursor=pointer]:
+          - generic [ref=e357]: Meta Business Suite
+        - button "Pressable" [ref=e366] [cursor=pointer]:
+          - img "Facebook" [ref=e371]
+      - navigation "連結" [ref=e376]:
+        - generic [ref=e377]: 連結
+        - list [ref=e378]:
+          - generic [ref=e379]:
+            - listitem [ref=e383]:
+              - generic [ref=e385]:
+                - link "首頁" [ref=e386] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e387]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e391]:
+              - generic [ref=e393]:
+                - link "通知" [ref=e394] [cursor=pointer]:
+                  - generic [ref=e395]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e400]:
+              - generic [ref=e402]:
+                - link "廣告管理員" [ref=e403] [cursor=pointer]:
+                  - generic [ref=e404]: 廣告管理員
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告管理員
+            - listitem [ref=e408]:
+              - generic [ref=e410]:
+                - link "收件匣" [ref=e411] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e412]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e417]:
+              - generic [ref=e419]:
+                - link "內容" [ref=e420] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e421]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e425]:
+              - generic [ref=e427]:
+                - link "創作者人才庫" [ref=e428] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e429]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e433]:
+              - generic [ref=e435]:
+                - link "規劃工具" [ref=e436] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e437]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e442]:
+              - generic [ref=e444]:
+                - link "廣告" [ref=e445] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e446]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e451]:
+              - generic [ref=e453]:
+                - link "洞察報告" [ref=e454] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e455]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e459]:
+              - generic [ref=e461]:
+                - link "所有工具" [ref=e462] [cursor=pointer]:
+                  - generic [ref=e463]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e466] [cursor=pointer]:
+              - generic [ref=e470]: 編輯
+      - generic [ref=e473]:
+        - listitem [ref=e476]:
+          - generic [ref=e478]:
+            - link "搜尋" [ref=e479] [cursor=pointer]:
+              - generic [ref=e480]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e481]:
+          - generic [ref=e482]: 連結
+          - list [ref=e483]:
+            - listitem [ref=e487]:
+              - generic [ref=e489]:
+                - link "設定" [ref=e490] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e491]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e498]:
+          - generic [ref=e500]:
+            - link "使用說明" [ref=e501] [cursor=pointer]:
+              - generic [ref=e502]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img

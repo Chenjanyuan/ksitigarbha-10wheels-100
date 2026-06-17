@@ -1,0 +1,724 @@
+- generic [ref=e11]:
+  - generic [ref=e14]:
+    - img [ref=e15]
+    - generic [ref=e19]:
+      - generic [ref=e20]: 新增 WhatsApp 電話號碼以接收商家資產管理組合的最新消息
+      - generic [ref=e21]: 在 WhatsApp 接收有關重要最新消息的通知，例如帳號限制或可疑活動。
+    - link "新增 WhatsApp 電話號碼" [ref=e22] [cursor=pointer]:
+      - /url: https://business.facebook.com/latest/settings/business_info/?business_id=710326389072373&nav_ref=mbs_contact_info_banner_cta&edit_contact=wm&landing_location=my_info
+      - generic [ref=e26]: 新增 WhatsApp 電話號碼
+    - button "關閉" [ref=e27] [cursor=pointer]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: 關閉
+        - img [ref=e32]
+  - generic [ref=e35]:
+    - generic [ref=e2368]:
+      - generic [ref=e2371]:
+        - heading "建立貼文" [level=1] [ref=e2372]
+        - generic:
+          - toolbar
+      - generic [ref=e2375]:
+        - generic [ref=e2377]:
+          - generic [ref=e2378]:
+            - generic [ref=e2380]:
+              - generic [ref=e2382]:
+                - generic [ref=e2383]:
+                  - img [ref=e2388]
+                  - heading "想要建立廣告貼文嗎？" [level=4] [ref=e2393]
+                  - button "關閉" [ref=e2394] [cursor=pointer]:
+                    - generic [ref=e2396]:
+                      - generic [ref=e2397]: 關閉
+                      - img [ref=e2399]
+                - generic [ref=e2406]: 廣告貼文只能在 Facebook 上建立。一旦你在「發佈到」區段中選擇你的 Facebook 粉絲專頁，「貼文詳細資料」中就會出現一個切換開關，可讓你將此設定為廣告貼文。
+              - button "查看更多" [ref=e2408] [cursor=pointer]:
+                - generic [ref=e2409]: 查看更多
+            - generic "發佈到" [ref=e2410]:
+              - generic [ref=e2411]:
+                - heading "發佈到" [level=3] [ref=e2415]
+                - generic [ref=e2419]:
+                  - generic [ref=e2425]: 發佈到
+                  - combobox "發佈到 地藏菩薩本行經" [ref=e2430] [cursor=pointer]:
+                    - generic [ref=e2433]:
+                      - generic [ref=e2435]:
+                        - img "Facebook" [ref=e2443]
+                        - generic [ref=e2445]: 地藏菩薩本行經
+                      - img [ref=e2447]
+            - generic "影音素材" [ref=e2450]:
+              - generic [ref=e2451]:
+                - generic [ref=e2454]:
+                  - heading "影音素材" [level=3] [ref=e2455]
+                  - generic [ref=e2456]: 分享相片和影片。
+                - generic [ref=e2459]:
+                  - list [ref=e3413]:
+                    - list [ref=e3415]:
+                      - listitem [ref=e3418] [cursor=pointer]:
+                        - generic [ref=e3420]:
+                          - img [ref=e3422]
+                          - listitem [ref=e3425]:
+                            - listitem [ref=e3427]:
+                              - generic [ref=e3428]:
+                                - generic [ref=e3434]: 1024 x 1024
+                                - generic [ref=e3436]:
+                                  - generic [ref=e3438]:
+                                    - button "編輯相片" [ref=e3440]:
+                                      - generic [ref=e3442]:
+                                        - generic [ref=e3443]: 編輯相片
+                                        - img [ref=e3445]
+                                    - button "編輯" [ref=e3449]:
+                                      - generic [ref=e3451]:
+                                        - generic [ref=e3452]: 編輯
+                                        - img [ref=e3454]
+                                  - button "移除相片" [ref=e3458]:
+                                    - generic [ref=e3460]:
+                                      - generic [ref=e3461]: 移除相片
+                                      - img [ref=e3463]
+                      - listitem [ref=e3468] [cursor=pointer]:
+                        - generic [ref=e3470]:
+                          - img [ref=e3472]
+                          - listitem [ref=e3475]:
+                            - listitem [ref=e3477]:
+                              - generic [ref=e3478]:
+                                - generic [ref=e3484]: 1024 x 1024
+                                - generic [ref=e3486]:
+                                  - generic [ref=e3488]:
+                                    - button "編輯相片" [ref=e3490]:
+                                      - generic [ref=e3492]:
+                                        - generic [ref=e3493]: 編輯相片
+                                        - img [ref=e3495]
+                                    - button "編輯" [ref=e3499]:
+                                      - generic [ref=e3501]:
+                                        - generic [ref=e3502]: 編輯
+                                        - img [ref=e3504]
+                                  - button "移除相片" [ref=e3508]:
+                                    - generic [ref=e3510]:
+                                      - generic [ref=e3511]: 移除相片
+                                      - img [ref=e3513]
+                      - listitem [ref=e3518] [cursor=pointer]:
+                        - generic [ref=e3520]:
+                          - img [ref=e3522]
+                          - listitem [ref=e3525]:
+                            - listitem [ref=e3527]:
+                              - generic [ref=e3528]:
+                                - generic [ref=e3534]: 1024 x 1024
+                                - generic [ref=e3536]:
+                                  - generic [ref=e3538]:
+                                    - button "編輯相片" [ref=e3540]:
+                                      - generic [ref=e3542]:
+                                        - generic [ref=e3543]: 編輯相片
+                                        - img [ref=e3545]
+                                    - button "編輯" [ref=e3549]:
+                                      - generic [ref=e3551]:
+                                        - generic [ref=e3552]: 編輯
+                                        - img [ref=e3554]
+                                  - button "移除相片" [ref=e3558]:
+                                    - generic [ref=e3560]:
+                                      - generic [ref=e3561]: 移除相片
+                                      - img [ref=e3563]
+                      - listitem [ref=e3568] [cursor=pointer]:
+                        - generic [ref=e3570]:
+                          - img [ref=e3572]
+                          - listitem [ref=e3575]:
+                            - listitem [ref=e3577]:
+                              - generic [ref=e3578]:
+                                - generic [ref=e3584]: 1024 x 1024
+                                - generic [ref=e3586]:
+                                  - generic [ref=e3588]:
+                                    - button "編輯相片" [ref=e3590]:
+                                      - generic [ref=e3592]:
+                                        - generic [ref=e3593]: 編輯相片
+                                        - img [ref=e3595]
+                                    - button "編輯" [ref=e3599]:
+                                      - generic [ref=e3601]:
+                                        - generic [ref=e3602]: 編輯
+                                        - img [ref=e3604]
+                                  - button "移除相片" [ref=e3608]:
+                                    - generic [ref=e3610]:
+                                      - generic [ref=e3611]: 移除相片
+                                      - img [ref=e3613]
+                      - listitem [ref=e3618] [cursor=pointer]:
+                        - generic [ref=e3620]:
+                          - img [ref=e3622]
+                          - listitem [ref=e3625]:
+                            - listitem [ref=e3627]:
+                              - generic [ref=e3628]:
+                                - generic [ref=e3634]: 1024 x 1024
+                                - generic [ref=e3636]:
+                                  - generic [ref=e3638]:
+                                    - button "編輯相片" [ref=e3640]:
+                                      - generic [ref=e3642]:
+                                        - generic [ref=e3643]: 編輯相片
+                                        - img [ref=e3645]
+                                    - button "編輯" [ref=e3649]:
+                                      - generic [ref=e3651]:
+                                        - generic [ref=e3652]: 編輯
+                                        - img [ref=e3654]
+                                  - button "移除相片" [ref=e3658]:
+                                    - generic [ref=e3660]:
+                                      - generic [ref=e3661]: 移除相片
+                                      - img [ref=e3663]
+                      - listitem [ref=e3668] [cursor=pointer]:
+                        - generic [ref=e3670]:
+                          - img [ref=e3672]
+                          - listitem [ref=e3675]:
+                            - listitem [ref=e3677]:
+                              - generic [ref=e3678]:
+                                - generic [ref=e3685]: 1024 x 1024
+                                - generic [ref=e3687]:
+                                  - generic [ref=e3689]:
+                                    - button "編輯相片" [ref=e3691]:
+                                      - generic [ref=e3693]:
+                                        - generic [ref=e3694]: 編輯相片
+                                        - img [ref=e3696]
+                                    - button "編輯" [ref=e3700]:
+                                      - generic [ref=e3702]:
+                                        - generic [ref=e3703]: 編輯
+                                        - img [ref=e3705]
+                                  - button "移除相片" [ref=e3709]:
+                                    - generic [ref=e3711]:
+                                      - generic [ref=e3712]: 移除相片
+                                      - img [ref=e3714]
+                      - listitem [ref=e3719] [cursor=pointer]:
+                        - generic [ref=e3721]:
+                          - img [ref=e3723]
+                          - listitem [ref=e3726]:
+                            - listitem [ref=e3728]:
+                              - generic [ref=e3729]:
+                                - generic [ref=e3735]: 1024 x 1024
+                                - generic [ref=e3737]:
+                                  - generic [ref=e3739]:
+                                    - button "編輯相片" [ref=e3741]:
+                                      - generic [ref=e3743]:
+                                        - generic [ref=e3744]: 編輯相片
+                                        - img [ref=e3746]
+                                    - button "編輯" [ref=e3750]:
+                                      - generic [ref=e3752]:
+                                        - generic [ref=e3753]: 編輯
+                                        - img [ref=e3755]
+                                  - button "移除相片" [ref=e3759]:
+                                    - generic [ref=e3761]:
+                                      - generic [ref=e3762]: 移除相片
+                                      - img [ref=e3764]
+                      - listitem [ref=e3769] [cursor=pointer]:
+                        - generic [ref=e3771]:
+                          - img [ref=e3773]
+                          - listitem [ref=e3776]:
+                            - listitem [ref=e3778]:
+                              - generic [ref=e3779]:
+                                - generic [ref=e3785]: 1024 x 1024
+                                - generic [ref=e3787]:
+                                  - generic [ref=e3789]:
+                                    - button "編輯相片" [ref=e3791]:
+                                      - generic [ref=e3793]:
+                                        - generic [ref=e3794]: 編輯相片
+                                        - img [ref=e3796]
+                                    - button "編輯" [ref=e3800]:
+                                      - generic [ref=e3802]:
+                                        - generic [ref=e3803]: 編輯
+                                        - img [ref=e3805]
+                                  - button "移除相片" [ref=e3809]:
+                                    - generic [ref=e3811]:
+                                      - generic [ref=e3812]: 移除相片
+                                      - img [ref=e3814]
+                      - listitem [ref=e3819] [cursor=pointer]:
+                        - generic [ref=e3821]:
+                          - img [ref=e3823]
+                          - listitem [ref=e3826]:
+                            - listitem [ref=e3828]:
+                              - generic [ref=e3829]:
+                                - generic [ref=e3835]: 1024 x 1024
+                                - generic [ref=e3837]:
+                                  - generic [ref=e3839]:
+                                    - button "編輯相片" [ref=e3841]:
+                                      - generic [ref=e3843]:
+                                        - generic [ref=e3844]: 編輯相片
+                                        - img [ref=e3846]
+                                    - button "編輯" [ref=e3850]:
+                                      - generic [ref=e3852]:
+                                        - generic [ref=e3853]: 編輯
+                                        - img [ref=e3855]
+                                  - button "移除相片" [ref=e3859]:
+                                    - generic [ref=e3861]:
+                                      - generic [ref=e3862]: 移除相片
+                                      - img [ref=e3864]
+                      - listitem [ref=e3869] [cursor=pointer]:
+                        - generic [ref=e3871]:
+                          - img [ref=e3873]
+                          - listitem [ref=e3876]:
+                            - listitem [ref=e3878]:
+                              - generic [ref=e3879]:
+                                - generic [ref=e3885]: 1024 x 1024
+                                - generic [ref=e3887]:
+                                  - generic [ref=e3889]:
+                                    - button "編輯相片" [ref=e3891]:
+                                      - generic [ref=e3893]:
+                                        - generic [ref=e3894]: 編輯相片
+                                        - img [ref=e3896]
+                                    - button "編輯" [ref=e3900]:
+                                      - generic [ref=e3902]:
+                                        - generic [ref=e3903]: 編輯
+                                        - img [ref=e3905]
+                                  - button "移除相片" [ref=e3909]:
+                                    - generic [ref=e3911]:
+                                      - generic [ref=e3912]: 移除相片
+                                      - img [ref=e3914]
+                      - listitem [ref=e3919] [cursor=pointer]:
+                        - generic [ref=e3921]:
+                          - img [ref=e3923]
+                          - listitem [ref=e3926]:
+                            - listitem [ref=e3928]:
+                              - generic [ref=e3929]:
+                                - generic [ref=e3935]: 1024 x 1024
+                                - generic [ref=e3937]:
+                                  - generic [ref=e3939]:
+                                    - button "編輯相片" [ref=e3941]:
+                                      - generic [ref=e3943]:
+                                        - generic [ref=e3944]: 編輯相片
+                                        - img [ref=e3946]
+                                    - button "編輯" [ref=e3950]:
+                                      - generic [ref=e3952]:
+                                        - generic [ref=e3953]: 編輯
+                                        - img [ref=e3955]
+                                  - button "移除相片" [ref=e3959]:
+                                    - generic [ref=e3961]:
+                                      - generic [ref=e3962]: 移除相片
+                                      - img [ref=e3964]
+                      - listitem [ref=e3969] [cursor=pointer]:
+                        - generic [ref=e3971]:
+                          - img [ref=e3973]
+                          - listitem [ref=e3976]:
+                            - listitem [ref=e3978]:
+                              - generic [ref=e3979]:
+                                - generic [ref=e3985]: 1024 x 1024
+                                - generic [ref=e3987]:
+                                  - generic [ref=e3989]:
+                                    - button "編輯相片" [ref=e3991]:
+                                      - generic [ref=e3993]:
+                                        - generic [ref=e3994]: 編輯相片
+                                        - img [ref=e3996]
+                                    - button "編輯" [ref=e4000]:
+                                      - generic [ref=e4002]:
+                                        - generic [ref=e4003]: 編輯
+                                        - img [ref=e4005]
+                                  - button "移除相片" [ref=e4009]:
+                                    - generic [ref=e4011]:
+                                      - generic [ref=e4012]: 移除相片
+                                      - img [ref=e4014]
+                  - button "新增相片 / 影片" [active] [ref=e2463] [cursor=pointer]:
+                    - generic [ref=e2466]:
+                      - img [ref=e2467]
+                      - generic [ref=e2471]: 新增相片 / 影片
+            - generic "貼文詳細資料" [ref=e2473]:
+              - generic [ref=e2474]:
+                - heading "貼文詳細資料" [level=3] [ref=e2478]
+                - generic [ref=e2481]:
+                  - generic [ref=e2482]:
+                    - switch "將此建立為廣告貼文" [ref=e2484] [cursor=pointer]
+                    - generic [ref=e2490] [cursor=pointer]: 將此建立為廣告貼文
+                  - generic [ref=e2493]:
+                    - heading "文字" [level=4] [ref=e2496]
+                    - generic [ref=e2505]:
+                      - combobox "在對話方塊中寫點內容，即可為貼文加上文字。" [ref=e2509]:
+                        - generic [ref=e2510]:
+                          - generic [ref=e2883]: 我們驗過技能兵團，也驗過很多城門，但還沒把「總司令從收到情報到下命令」整條路畫成一張完整稽核圖。這個值得補。不然來了一個沒有用的總司令全軍就陣亡了
+                          - generic [ref=e2888]: 那這要不要先做完再驗技能總司令的功能:commander 進場訊號真資料回測 —— 攻「真瓶頸是進場訊號」
+                          - generic [ref=e2893]: 這個比喻很到位 —— 技能兵團驗了、城門(風控閘)驗了,但「總司令從收到情報到下命令」整條決策鏈,從來沒當成一條完整的路去畫、去逐段驗。一個沒用的總司令,全軍陪葬。 這值得補,我來做。
+                          - generic [ref=e2898]: "先看主迴圈真實的決策鏈長怎樣(才能照真的畫,不是憑空畫),順便看現成怎麼跑 run_cycle:"
+                          - generic [ref=e2903]: Ran
+                          - generic [ref=e2906]: Inspect run_cycle reuse + decision-chain write points
+                          - generic [ref=e2909]: 確認你的判斷:對,先做完這條「總司令決策鏈稽核圖」(結構/接線/行為,read-only、現在就能做),再做「commander 進場訊號真資料回測」(準度,要你定義「怎樣算喊對」+ 要真資料)。 理由——
+                          - generic [ref=e2914]: 這張圖先把「腦的線路有沒有接對、各關卡會不會動」釘死(基礎);
+                          - generic [ref=e2917]: 回測再驗「腦判斷準不準」(上層)。先驗線路再驗準度,順序對;而且這張圖會標出回測該打哪幾個關卡。
+                          - generic [ref=e2920]: "我現在就建這張完整稽核圖。先看主迴圈真實的 ledger 關卡欄位,確認怎麼探測每一關:"
+                          - generic [ref=e2925]: Ran
+                          - generic [ref=e2928]: Inspect ledger_rule_decision + commander_log columns
+                          - generic [ref=e2931]: "ledger_rule_decision only stores the final decision — the per-stage events (commander/intent/order/trade) must go elsewhere. Let me check RuleLedger.write:"
+                          - generic [ref=e2936]: 深挖
+                          - generic [ref=e2941]: Ran
+                          - generic [ref=e2944]: Inspect RuleLedger.write stage/source handling
+                          - generic [ref=e2947]: "The events JSONL records every hop (stage, source) — that's my probe. Now I have everything to trace the real chain. Let me set a task + build the decision-path audit checker (runs the REAL run_cycle over regime scenarios, verifies each hop's artifact lands):"
+                          - generic [ref=e2954]: Created a file, used a tool
+                          - generic [ref=e2957]: "Let me fix the H8-H10 probes (intent/order/trade only fire on non-HOLD; mostly HOLD is correct) and add build/render + the commander behavior table + diagram:"
+                          - generic [ref=e2964]: Edited a file, ran a command
+                          - generic [ref=e2967]: "All 11 hops LIVE (the full intel→command→trade chain produces real artifacts), commander regime judgment 5/5 correct, 0 gaps. Let me verify the behavior table is real + serve the visual map:"
+                          - generic [ref=e2972]: Ran
+                          - generic [ref=e2975]: View commander behavior table
+                          - generic [ref=e2978]: "Behavior table is real and correct — crash→risk_off, bear→bear, volatile→volatile, sideways→sideways all ✅, and bull+2nods→sideways (升檔慢 by design) ✅. The brain's regime logic is sound; the honest gap (accuracy/thresholds) is flagged for the backtest. Let me add a test + serve the visual map:"
+                          - generic [ref=e2985]: Created a file, ran a command
+                          - generic [ref=e2988]: "SVG copy needs the setup_*.sh sudo pattern (arbitrary cp isn't whitelisted). Let me write a setup script + run it:"
+                          - generic [ref=e2993]: Ran
+                          - generic [ref=e2996]: Serve commander map SVG via setup script
+                          - generic [ref=e2999]: "SVG map live (HTTP 200). Full CI + commit:"
+                          - generic [ref=e3006]: Ran 2 commands
+                          - generic [ref=e3009]: "While that pushes + polls, mark done + log:"
+                          - generic [ref=e3016]: Ran a command, used a tool
+                          - generic [ref=e3019]: 總司令決策鏈稽核圖做好了(Actions 驗證中,綠了補一句)。先看結果 + 你的下一個決定點。
+                          - generic [ref=e3024]: 完整稽核圖:情報 → 命令(11 關全驗)
+                          - generic [ref=e3027]: "你可以打開這張圖看(綠=接通驗過):"
+                          - generic [ref=e3030]: https://ayuan-sim.alumi-taiwan.com.tw/phoenix-mockup/commander_path_map.svg
+                          - generic [ref=e3035]: "整條鏈我跑真 run_cycle 過 5 種風向情境,逐關卡驗:"
+                          - generic [ref=e3040]: 關 角色 結果
+                          - generic [ref=e3043]: H1 情報進(context_builder) ✅ LIVE
+                          - generic [ref=e3046]: H2 總司令判風向(regime + 3點頭) ✅ LIVE
+                          - generic [ref=e3049]: H3 寫決策日誌 ✅
+                          - generic [ref=e3052]: H4 風向閘(放行/壓制逆勢技能) ✅
+                          - generic [ref=e3055]: H5 技能兵團表態 ✅
+                          - generic [ref=e3058]: H6 主腦死規則閘下令(唯一命令) ✅
+                          - generic [ref=e3061]: H7 影子(不進主路) ✅
+                          - generic [ref=e3064]: H8-10 命令→意圖→下單→成交 ✅
+                          - generic [ref=e3067]: H11 回寫戰情 ✅
+                          - generic [ref=e3070]: 11 關全接通、無斷點。 而且總司令的風向判斷邏輯 5/5 對:急跌→紅燈(降檔快)、緩跌→熊、高波動→黃燈、盤整→黃燈、漲但只 2 點頭→降黃燈(升檔慢,不亂給綠燈進攻)。
+                          - generic [ref=e3075]: 但這張圖也誠實照出那個缺口
+                          - generic [ref=e3078]: 線路對、邏輯對 ≠ 判斷準。那 3 個閾值(急跌 3% / 趨勢 0.5% / 高波動 2%)是占位值、沒用真實市場校過 —— 它在「真 6 月崩盤」有沒有及時喊紅燈,這張圖驗不到。這正是你要的下一步。
+                          - generic [ref=e3083]: 下一步要你拍一個定義:「總司令喊對」算什麼?
+                          - generic [ref=e3086]: "要做 commander 真資料回測,得先講清楚怎麼算「喊對」。我提一個具體版本給你拍(可改):"
+                          - generic [ref=e3091]: 方向命中率 —— 它喊牛,接下來真的漲;喊熊/紅燈,接下來真的跌。算命中%
+                          - generic [ref=e3094]: 崩盤防守(最重要) —— 真崩盤那幾段,它有沒有在下跌時處於防守檔位(熊/紅燈)?慢幾天才翻?(翻太慢=全軍陪葬那條)
+                          - generic [ref=e3097]: 不要亂切 —— 風向翻來翻去的次數(切太頻繁=被洗+成本)
+                          - generic [ref=e3100]: → 我建議以第 2 點(崩盤防守 + 反應延遲)為主判準,因為總司令最該做對的就是「崩盤時把全軍撤到安全檔」。
+                          - generic [ref=e3105]: 你拍一句(例如「崩盤段必須在跌 5% 內翻成防守檔,且方向命中率 > 50%」之類),我就拿幣安真實歷史(含 6 月崩盤)去回測它準不準、順便校那 3 個占位閾值。
+                          - generic [ref=e3110]: Actions 綠了我回報。你定義一下「喊對」,或先休息我待命。
+                          - generic [ref=e3115]: Background shell completed
+                          - generic [ref=e3118]: Mirror + push + poll Actions for commander path audit
+                          - generic [ref=e3121]: Read
+                          - generic [ref=e3124]: bg9c1m2jw.output
+                          - generic [ref=e3127]: ✅ Actions success(0b7c2759 / run 27690185487)—— 決策鏈稽核圖閉合。
+                          - generic [ref=e3132]: 「深挖」收到 —— 你前面確認的順序就是「先稽核圖、再回測準度」,稽核圖剛閉合,我直接深挖那個缺口:用幣安真實歷史(含崩盤段)回測總司令到底喊得準不準、那 3 個占位閾值對不對。崩盤防守(全軍陪葬那條)當主判準。
+                          - generic [ref=e3137]: "先建回測核心(重用 binance_history + 真 regime_detector):"
+                          - generic [ref=e3144]: Created a file, used a tool
+                          - generic [ref=e3147]: "Let me run the core against real BTC history right now to see what it actually finds (the deep-dig moment) — default placeholder thresholds vs the real crash:"
+                          - generic [ref=e3152]: Ran
+                          - generic [ref=e3155]: "Deep-dig: commander regime accuracy on real BTC data"
+                          - generic [ref=e3158]: "Bug: k is already the string value. Fix:"
+                          - generic [ref=e3165]: Edited a file, ran a command
+                          - generic [ref=e3168]: "這是個重要發現 —— 而且是壞消息,但正是該挖出來的。 真實 BTC 最深崩盤 −51%,用現在的占位閾值,總司令:"
+                          - generic [ref=e3173]: 崩盤時只有 22% 時間在防守檔(78% 的跌它沒在守)
+                          - generic [ref=e3176]: 反應延遲 16 天 / 已經跌了 −13.7% 才第一次翻防守
+                          - generic [ref=e3179]: 「紅燈 risk_off」根本沒觸發過(3% 閾值對「日均報酬」根本不可能達到)
+                          - generic [ref=e3182]: 方向命中率 47.6%(比丟銅板還差)
+                          - generic [ref=e3185]: "白話:這個總司令以目前的設定,真的會「全軍陪葬」 —— 你的擔心被真資料證實了。讓我跑多幣確認不是 BTC 個案 + 做成完整報告:"
+                          - generic [ref=e3192]: Created a file, ran a command
+                          - generic [ref=e3195]: "Confirmed across BTC/ETH/SOL — not a fluke. All 3 major crashes (−51%/−68%/−75%): defense only 22–32%, reacted after −14% to −24%, risk_off red-light NEVER fired, direction ~coin-flip. Let me add a test (no network) + run CI:"
+                          - generic [ref=e3202]: Created a file, ran a command
+                          - generic [ref=e3205]: "Test caught a false-positive in itself — \"可真錢\" appears legitimately inside \"NOT 可真錢\". My overclaim check was too crude. Fix the test (those appear in negations):"
+                          - generic [ref=e3212]: Edited a file, ran a command
+                          - generic [ref=e3215]: "47/47 PASS. Commit + mirror:"
+                          - generic [ref=e3222]: Ran 2 commands
+                          - generic [ref=e3225]: "While that pushes + polls, mark done + log this important finding:"
+                          - generic [ref=e3232]: Ran a command, used a tool
+                          - generic [ref=e3235]: 深挖完成,報告給你 —— 這是壞消息,但是非常值得知道的壞消息。(Actions 驗證中,綠了補一句)
+                          - generic [ref=e3240]: 總司令在真崩盤裡的表現:不及格
+                          - generic [ref=e3243]: "我拿幣安真實歷史(BTC/ETH/SOL,含各自最深的崩盤)逐日讓總司令判風向,結果三幣一致:"
+                          - generic [ref=e3248]: 幣 最深崩盤 崩盤時在防守的比例 跌多少才反應 方向命中率 紅燈觸發?
+                          - generic [ref=e3251]: BTC −51% 22% 已跌 −13.7% 47.6% 從不
+                          - generic [ref=e3254]: ETH −68% 27% 已跌 −20.7% 51% 從不
+                          - generic [ref=e3257]: SOL −75% 32% 已跌 −23.9% 45.5% 從不
+                          - generic [ref=e3260]: "白話翻譯:"
+                          - generic [ref=e3265]: 真崩盤時,總司令七八成時間還站在非防守檔 —— 等它反應過來,已經跌了 14%～24%
+                          - generic [ref=e3268]: 「紅燈 risk_off」這輩子沒亮過 —— 那個 3% 閾值是套在「20 天日均報酬」上,等於要 20 天平均每天跌 3%(≈整段跌 60%)才亮,根本到不了。閾值是壞掉的尺度
+                          - generic [ref=e3271]: 方向命中率 45～51%,比丟銅板還差 —— 它說漲說跌,跟真實後續沒什麼關係
+                          - generic [ref=e3274]: 你的擔心「來個沒用的總司令全軍陣亡」—— 真資料證實了,以目前的設定就是這樣。
+                          - generic [ref=e3279]: 但要分清楚:這不是「線路壞」,是「判斷不準」
+                          - generic [ref=e3282]: 線路(上一張稽核圖):全好 —— 11 關接通、邏輯對(該降檔會降)
+                          - generic [ref=e3285]: 判斷(這次回測):不準 —— 閾值尺度錯 + 方法太陽春(只看平均漲跌+波動)
+                          - generic [ref=e3288]: 而且挖出一個更深的架構真相:這陣子真正在「保命」的,其實是風控城門(停損/兩段回撤/熔斷),不是總司令的風向喊話。 總司令現在比較像個會喊但喊不準的參謀。這跟我們大修的老結論完全對上:真瓶頸在「判斷/進場訊號」,V257 的「守」靠的是死規則城門。
+                          - generic [ref=e3293]: 我的建議(等你拍,不自己動)
+                          - generic [ref=e3296]: 閾值要重校 + 換尺度 —— 別用「20 天日均」當崩盤訊號;改看「單日急殺」或「一段累積跌幅」才抓得到崩盤
+                          - generic [ref=e3299]: 崩盤保命主力交給城門(硬停損/熔斷),總司令只管檔位 —— 真資料顯示城門才是實際在守的
+                          - generic [ref=e3302]: 方法可能要升級 —— 不只調數字;簡單 drift/vol 對方向預測力太弱
+                          - generic [ref=e3305]: 你定義一句「喊對」(例:崩盤跌 X% 內必須翻防守)→ 我才好正式校 + 進 30 天 shadow 驗
+                          - generic [ref=e3308]: ★ 在校好 + shadow 驗過前,閾值維持占位、不寫 config、不准說「腦準」 —— 我報告裡釘死了
+                          - generic [ref=e3311]: 紅線照守:read-only、0 改 trading、0 真錢、閾值沒寫進 config。
+                          - generic [ref=e3316]: 這就是你要的「深挖」—— 把那顆腦真正的毛病挖出來了。接下來你想往哪走?(校閾值方向 / 換 regime 判斷方法 / 先定義「喊對」/ 還是先停一下消化)Actions 綠了我回報。
+                          - generic [ref=e3321]: Background shell completed
+                          - generic [ref=e3324]: Mirror + push + poll Actions for commander regime backtest
+                          - generic [ref=e3327]: Read
+                          - generic [ref=e3330]: b31ezs5n3.output
+                          - generic [ref=e3333]: ✅ Actions success(f437e4a6 / run 27690603516)—— 深挖報告已上 GitHub。
+                          - generic [ref=e3338]: 今天這條線挖到底了
+                          - generic [ref=e3341]: "你問「總司令這顆腦驗過嗎」→ 一路挖到真相:"
+                          - generic [ref=e3346]: 決策鏈稽核圖 → 線路 11 關全通 ✅(腦的接線沒問題)
+                          - generic [ref=e3349]: 真資料準度回測 → 判斷不準 ✗(占位閾值下崩盤只守 22-32%、紅燈從不亮、方向≈丟銅板)
+                          - generic [ref=e3352]: 架構真相 → 真正在保命的是風控城門,不是總司令的喊話
+                          - generic [ref=e3355]: 結論一句話:總司令「會動但判不準」,在校準 + shadow 驗證前,不能信任它當腦。 這正是你直覺擔心的,現在有真資料釘死了,不是猜的。
+                          - generic [ref=e3360]: 全部都誠實守住
+                          - generic [ref=e3363]: 0 改 trading、0 真錢、閾值沒寫 config、報告禁止說「腦準」
+                          - generic [ref=e3366]: 本機 47/47、GitHub Actions 綠、雙地存
+                          - generic [ref=e3369]: 球在你這 —— 這是策略決定,我不自己跑
+                          - generic [ref=e3372]: "總司令要怎麼修,是方向性的決定,得你拍:"
+                          - generic [ref=e3377]: 選項 做什麼
+                          - generic [ref=e3380]: A 校閾值 + 換尺度 崩盤改看「單日急殺/累積跌幅」不看 20 日日均;我回測找好的尺度
+                          - generic [ref=e3383]: B 崩盤保命交給城門 總司令只管檔位,硬停靠 stop_loss/熔斷(真資料說城門才實際在守)
+                          - generic [ref=e3386]: C 換 regime 判斷法 drift/vol 太弱,換更好的判斷方法(較大工程)
+                          - generic [ref=e3389]: D 你定義「喊對」 給一句判準,我正式校 + 進 shadow 驗
+                          - generic [ref=e3392]: E 先停 今天挖很多了,先消化,改天再決定
+                          - generic [ref=e3395]: 我建議 B + A(先讓城門確實扛崩盤、總司令閾值換對尺度),但這是你的盤,你說了算。辛苦了 👍
+                      - generic [ref=e2526]:
+                        - button "點擊即可開啟主題標籤功能表。" [ref=e2527] [cursor=pointer]:
+                          - generic [ref=e2529]:
+                            - generic [ref=e2530]: 點擊即可開啟主題標籤功能表。
+                            - img [ref=e2532]
+                        - button "選擇表情符號" [ref=e2535] [cursor=pointer]:
+                          - generic [ref=e2537]:
+                            - generic [ref=e2538]: 選擇表情符號
+                            - img [ref=e2540]
+                  - generic [ref=e2546]:
+                    - button "感受／活動" [ref=e2549]:
+                      - img [ref=e2551]
+                    - button "地點" [ref=e2558]:
+                      - img [ref=e2560]
+                    - button "接收訊息" [disabled] [ref=e2565]:
+                      - img [ref=e2878]
+                    - button "接收 WhatsApp 訊息" [disabled] [ref=e2574]:
+                      - img [ref=e2576]
+                    - button "吸引用戶來電" [disabled] [ref=e2583]:
+                      - img [ref=e2585]
+                    - button "更多功能" [ref=e2591]:
+                      - img [ref=e2593]
+            - generic [ref=e2630]:
+              - heading "排程" [level=3] [ref=e2631]
+              - generic [ref=e2633]:
+                - generic [ref=e2636] [cursor=pointer]: 設定日期和時間
+                - switch "設定日期和時間" [ref=e2638] [cursor=pointer]
+            - generic [ref=e2644]:
+              - generic [ref=e2648]:
+                - generic [ref=e2649]:
+                  - heading "協作者" [level=3] [ref=e2650]
+                  - img [ref=e2652]
+                - generic [ref=e2655]: 你最多可邀請 5 位協作者共享這則貼文的創作署名。對方會收到通知，並可接受或拒絕邀請。
+              - generic [ref=e2660]:
+                - generic [ref=e2666]: NOT_IN_USE
+                - combobox "NOT_IN_USE" [ref=e2676]
+            - generic [ref=e2682]:
+              - heading "分享到" [level=3] [ref=e2685]
+              - generic [ref=e2690]:
+                - switch "分享到 Facebook 限時動態" [ref=e2694] [cursor=pointer]
+                - img "Facebook" [ref=e2701]
+                - generic [ref=e2702]:
+                  - generic [ref=e2703]: 地藏菩薩本行經
+                  - generic [ref=e2704]: Facebook 限時動態 ・ 公開
+            - generic "隱私設定" [ref=e2706]:
+              - generic [ref=e2707]:
+                - generic [ref=e2710]:
+                  - heading "隱私設定" [level=3] [ref=e2711]
+                  - generic [ref=e2712]: 調整隱私設定，以控制能在動態消息、Watch、搜尋結果和你的個人檔案上看到你貼文的對象。
+                - grid [ref=e2718]:
+                  - row "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e2719]:
+                    - gridcell "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e2720] [cursor=pointer]:
+                      - generic [ref=e2724]:
+                        - radio "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [checked] [ref=e2728]
+                        - generic [ref=e2733]:
+                          - generic [ref=e2734]: 所有人
+                          - generic [ref=e2735]: Facebook 的用戶或非用戶都可以看到你的貼文。
+                  - row "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2736]:
+                    - gridcell "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2737] [cursor=pointer]:
+                      - generic [ref=e2741]:
+                        - radio "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2745]
+                        - generic [ref=e2748]:
+                          - generic [ref=e2749]: 特定對象
+                          - generic [ref=e2750]: 選擇可看到你貼文的特定 Facebook 用戶。
+          - generic [ref=e2759]:
+            - generic [ref=e2763]:
+              - switch "加強推廣" [ref=e2765] [cursor=pointer]
+              - generic [ref=e2771] [cursor=pointer]: 加強推廣
+            - generic [ref=e2773]:
+              - generic [ref=e2774]:
+                - button "取消" [ref=e2775] [cursor=pointer]:
+                  - generic [ref=e2779]: 取消
+                - button "稍後再完成" [ref=e2780] [cursor=pointer]:
+                  - generic [ref=e2784]: 稍後再完成
+              - button "發佈" [ref=e2785] [cursor=pointer]:
+                - generic [ref=e2789]: 發佈
+        - generic [ref=e2794]:
+          - generic [ref=e2795]:
+            - heading "Facebook 動態消息預覽" [level=3] [ref=e2798]
+            - group [ref=e2800]:
+              - button [pressed] [ref=e2801] [cursor=pointer]:
+                - img [ref=e2806]
+              - button [ref=e2809] [cursor=pointer]:
+                - img [ref=e2814]
+          - generic [ref=e4023]:
+            - article [ref=e4024]:
+              - generic [ref=e4025]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "地藏菩薩本行經" [level=2]
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: 剛剛
+                                      - generic: ·
+                                      - generic:
+                                        - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                                - generic:
+                                  - img
+                                - generic:
+                                  - img
+                                - generic:
+                                  - img
+                                  - generic:
+                                    - generic: "+9"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 讚
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 留言
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 分享
+            - article [ref=e4026]
+    - generic [ref=e2209]:
+      - generic [ref=e2211]:
+        - button "Meta Business Suite" [ref=e2212] [cursor=pointer]:
+          - generic [ref=e2214]: Meta Business Suite
+        - button "Pressable" [ref=e2223] [cursor=pointer]:
+          - img "Facebook" [ref=e2228]
+      - navigation "連結" [ref=e2233]:
+        - generic [ref=e2234]: 連結
+        - list [ref=e2235]:
+          - generic [ref=e2236]:
+            - listitem [ref=e2240]:
+              - generic [ref=e2242]:
+                - link "首頁" [ref=e2243] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2244]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e2248]:
+              - generic [ref=e2250]:
+                - link "通知" [ref=e2251] [cursor=pointer]:
+                  - generic [ref=e2252]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e2257]:
+              - generic [ref=e2259]:
+                - link "廣告管理員" [ref=e2260] [cursor=pointer]:
+                  - generic [ref=e2261]: 廣告管理員
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告管理員
+            - listitem [ref=e2265]:
+              - generic [ref=e2267]:
+                - link "收件匣" [ref=e2268] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2269]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e2274]:
+              - generic [ref=e2276]:
+                - link "內容" [ref=e2277] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2278]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e2282]:
+              - generic [ref=e2284]:
+                - link "創作者人才庫" [ref=e2285] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e2286]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e2290]:
+              - generic [ref=e2292]:
+                - link "規劃工具" [ref=e2293] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2294]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e2299]:
+              - generic [ref=e2301]:
+                - link "廣告" [ref=e2302] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2303]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e2308]:
+              - generic [ref=e2310]:
+                - link "洞察報告" [ref=e2311] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2312]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e2316]:
+              - generic [ref=e2318]:
+                - link "所有工具" [ref=e2319] [cursor=pointer]:
+                  - generic [ref=e2320]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e2323] [cursor=pointer]:
+              - generic [ref=e2327]: 編輯
+      - generic [ref=e2330]:
+        - listitem [ref=e2333]:
+          - generic [ref=e2335]:
+            - link "搜尋" [ref=e2336] [cursor=pointer]:
+              - generic [ref=e2337]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e2338]:
+          - generic [ref=e2339]: 連結
+          - list [ref=e2340]:
+            - listitem [ref=e2344]:
+              - generic [ref=e2346]:
+                - link "設定" [ref=e2347] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2348]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e2355]:
+          - generic [ref=e2357]:
+            - link "使用說明" [ref=e2358] [cursor=pointer]:
+              - generic [ref=e2359]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img

@@ -1,0 +1,27 @@
+- main [ref=e3]:
+  - iframe [active] [ref=e5]:
+    - generic [ref=f5e1]:
+      - region "Notifications alt+T"
+      - dialog [ref=f5e3]:
+        - generic [ref=f5e6]:
+          - img [ref=f5e8]
+          - heading "歡迎來到 Lovart" [level=2] [ref=f5e10]
+          - paragraph [ref=f5e11]: 登錄或註冊以繼續
+          - button "使用 Google" [ref=f5e12] [cursor=pointer]:
+            - img [ref=f5e14]
+            - generic [ref=f5e21]: 使用 Google
+          - button "使用 Apple" [ref=f5e22] [cursor=pointer]:
+            - img [ref=f5e24]
+            - generic [ref=f5e26]: 使用 Apple
+          - generic [ref=f5e29]:
+            - textbox "電子郵箱" [active] [ref=f5e32]
+            - button "使用郵箱繼續" [disabled] [ref=f5e36]:
+              - generic [ref=f5e38]: 使用郵箱繼續
+            - generic [ref=f5e40]:
+              - text: 繼續即表示您同意
+              - link "使用條款" [ref=f5e41] [cursor=pointer]:
+                - /url: /statement/terms-of-use
+              - text: 和
+              - link "隱私政策" [ref=f5e42] [cursor=pointer]:
+                - /url: /statement/privacy-policy
+      - alert [ref=f5e43]

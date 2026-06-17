@@ -1,0 +1,377 @@
+- generic [ref=e11]:
+  - generic [ref=e14]:
+    - img [ref=e15]
+    - generic [ref=e19]:
+      - generic [ref=e20]: 新增 WhatsApp 電話號碼以接收商家資產管理組合的最新消息
+      - generic [ref=e21]: 在 WhatsApp 接收有關重要最新消息的通知，例如帳號限制或可疑活動。
+    - link "新增 WhatsApp 電話號碼" [active] [ref=e22] [cursor=pointer]:
+      - /url: https://business.facebook.com/latest/settings/business_info/?business_id=710326389072373&nav_ref=mbs_contact_info_banner_cta&edit_contact=wm&landing_location=my_info
+      - generic [ref=e26]: 新增 WhatsApp 電話號碼
+    - button "關閉" [ref=e27] [cursor=pointer]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: 關閉
+        - img [ref=e32]
+  - generic [ref=e35]:
+    - generic [ref=e2368]:
+      - generic [ref=e2371]:
+        - heading "建立貼文" [level=1] [ref=e2372]
+        - generic:
+          - toolbar
+      - generic [ref=e2375]:
+        - generic [ref=e2377]:
+          - generic [ref=e2378]:
+            - generic [ref=e2380]:
+              - generic [ref=e2382]:
+                - generic [ref=e2383]:
+                  - img [ref=e2388]
+                  - heading "想要建立廣告貼文嗎？" [level=4] [ref=e2393]
+                  - button "關閉" [ref=e2394] [cursor=pointer]:
+                    - generic [ref=e2396]:
+                      - generic [ref=e2397]: 關閉
+                      - img [ref=e2399]
+                - generic [ref=e2406]: 廣告貼文只能在 Facebook 上建立。一旦你在「發佈到」區段中選擇你的 Facebook 粉絲專頁，「貼文詳細資料」中就會出現一個切換開關，可讓你將此設定為廣告貼文。
+              - button "查看更多" [ref=e2408] [cursor=pointer]:
+                - generic [ref=e2409]: 查看更多
+            - generic "發佈到" [ref=e2410]:
+              - generic [ref=e2411]:
+                - heading "發佈到" [level=3] [ref=e2415]
+                - generic [ref=e2419]:
+                  - generic [ref=e2425]: 發佈到
+                  - combobox "發佈到 地藏菩薩本行經" [ref=e2430] [cursor=pointer]:
+                    - generic [ref=e2433]:
+                      - generic [ref=e2435]:
+                        - img "Facebook" [ref=e2443]
+                        - generic [ref=e2445]: 地藏菩薩本行經
+                      - img [ref=e2447]
+            - generic "影音素材" [ref=e2450]:
+              - generic [ref=e2451]:
+                - generic [ref=e2454]:
+                  - heading "影音素材" [level=3] [ref=e2455]
+                  - generic [ref=e2456]: 分享相片和影片。
+                - button "新增相片 / 影片" [ref=e2463] [cursor=pointer]:
+                  - generic [ref=e2466]:
+                    - img [ref=e2467]
+                    - generic [ref=e2471]: 新增相片 / 影片
+            - generic "貼文詳細資料" [ref=e2473]:
+              - generic [ref=e2474]:
+                - heading "貼文詳細資料" [level=3] [ref=e2478]
+                - generic [ref=e2481]:
+                  - generic [ref=e2482]:
+                    - switch "將此建立為廣告貼文" [ref=e2484] [cursor=pointer]
+                    - generic [ref=e2490] [cursor=pointer]: 將此建立為廣告貼文
+                  - generic [ref=e2493]:
+                    - heading "文字" [level=4] [ref=e2496]
+                    - generic [ref=e2505]:
+                      - combobox "在對話方塊中寫點內容，即可為貼文加上文字。" [ref=e2509]
+                      - generic [ref=e2513]:
+                        - table [ref=e2519]:
+                          - rowgroup [ref=e2520]:
+                            - row "顯示背景選項 無背景 Solid purple, background Solid red, background Solid black, background Gradient, red blue, background Gradient, purple magenta, background Yellow and orange and pink gradient, background image Gradient, dark grey black, background Dark blue illustration, background image Pink illustration, background image Blue illustration, background image Gradient, red, background Solid magenta, background Solid dark red, background Solid blue, background" [ref=e2521]:
+                              - cell "顯示背景選項" [ref=e2522]:
+                                - button "顯示背景選項" [ref=e2523] [cursor=pointer]
+                              - cell "無背景":
+                                - generic:
+                                  - link "無背景":
+                                    - /url: "#"
+                              - cell "Solid purple, background":
+                                - generic:
+                                  - link "Solid purple, background":
+                                    - /url: "#"
+                              - cell "Solid red, background":
+                                - generic:
+                                  - link "Solid red, background":
+                                    - /url: "#"
+                              - cell "Solid black, background":
+                                - generic:
+                                  - link "Solid black, background":
+                                    - /url: "#"
+                              - cell "Gradient, red blue, background":
+                                - generic:
+                                  - link "Gradient, red blue, background":
+                                    - /url: "#"
+                              - cell "Gradient, purple magenta, background":
+                                - generic:
+                                  - link "Gradient, purple magenta, background":
+                                    - /url: "#"
+                              - cell "Yellow and orange and pink gradient, background image":
+                                - generic:
+                                  - link "Yellow and orange and pink gradient, background image":
+                                    - /url: "#"
+                              - cell "Gradient, dark grey black, background":
+                                - generic:
+                                  - link "Gradient, dark grey black, background":
+                                    - /url: "#"
+                              - cell "Dark blue illustration, background image":
+                                - generic:
+                                  - link "Dark blue illustration, background image":
+                                    - /url: "#"
+                              - cell "Pink illustration, background image":
+                                - generic:
+                                  - link "Pink illustration, background image":
+                                    - /url: "#"
+                              - cell "Blue illustration, background image":
+                                - generic:
+                                  - link "Blue illustration, background image":
+                                    - /url: "#"
+                              - cell "Gradient, red, background":
+                                - generic:
+                                  - link "Gradient, red, background":
+                                    - /url: "#"
+                              - cell "Solid magenta, background":
+                                - generic:
+                                  - link "Solid magenta, background":
+                                    - /url: "#"
+                              - cell "Solid dark red, background":
+                                - generic:
+                                  - link "Solid dark red, background":
+                                    - /url: "#"
+                              - cell "Solid blue, background":
+                                - generic:
+                                  - link "Solid blue, background":
+                                    - /url: "#"
+                              - cell
+                        - generic [ref=e2526]:
+                          - button "點擊即可開啟主題標籤功能表。" [ref=e2527] [cursor=pointer]:
+                            - generic [ref=e2529]:
+                              - generic [ref=e2530]: 點擊即可開啟主題標籤功能表。
+                              - img [ref=e2532]
+                          - button "選擇表情符號" [ref=e2535] [cursor=pointer]:
+                            - generic [ref=e2537]:
+                              - generic [ref=e2538]: 選擇表情符號
+                              - img [ref=e2540]
+                  - generic [ref=e2546]:
+                    - button "感受／活動" [ref=e2549]:
+                      - img [ref=e2551]
+                    - button "地點" [ref=e2558]:
+                      - img [ref=e2560]
+                    - button "接收訊息" [ref=e2565]:
+                      - img [ref=e2567]
+                    - button "接收 WhatsApp 訊息" [ref=e2574]:
+                      - img [ref=e2576]
+                    - button "吸引用戶來電" [ref=e2583]:
+                      - img [ref=e2585]
+                    - button "更多功能" [ref=e2591]:
+                      - img [ref=e2593]
+                  - generic [ref=e2600]:
+                    - img [ref=e2604]
+                    - generic [ref=e2609]:
+                      - generic [ref=e2611]:
+                        - generic [ref=e2613]: 連結 WhatsApp Business 電話號碼，以開始在 Facebook 貼文中新增 WhatsApp 按鈕，並接收受眾傳送的訊息。
+                        - link "連結 WhatsApp" [ref=e2614] [cursor=pointer]:
+                          - /url: "#"
+                      - button "關閉" [ref=e2616] [cursor=pointer]:
+                        - generic [ref=e2618]:
+                          - generic [ref=e2619]: 關閉
+                          - img [ref=e2621]
+            - generic [ref=e2630]:
+              - heading "排程" [level=3] [ref=e2631]
+              - generic [ref=e2633]:
+                - generic [ref=e2636] [cursor=pointer]: 設定日期和時間
+                - switch "設定日期和時間" [ref=e2638] [cursor=pointer]
+            - generic [ref=e2644]:
+              - generic [ref=e2648]:
+                - generic [ref=e2649]:
+                  - heading "協作者" [level=3] [ref=e2650]
+                  - img [ref=e2652]
+                - generic [ref=e2655]: 你最多可邀請 5 位協作者共享這則貼文的創作署名。對方會收到通知，並可接受或拒絕邀請。
+              - generic [ref=e2660]:
+                - generic [ref=e2666]: NOT_IN_USE
+                - combobox "NOT_IN_USE" [ref=e2676]
+            - generic [ref=e2682]:
+              - heading "分享到" [level=3] [ref=e2685]
+              - generic [ref=e2690]:
+                - switch "分享到 Facebook 限時動態" [ref=e2694] [cursor=pointer]
+                - img "Facebook" [ref=e2701]
+                - generic [ref=e2702]:
+                  - generic [ref=e2703]: 地藏菩薩本行經
+                  - generic [ref=e2704]: Facebook 限時動態 ・ 公開
+            - generic "隱私設定" [ref=e2706]:
+              - generic [ref=e2707]:
+                - generic [ref=e2710]:
+                  - heading "隱私設定" [level=3] [ref=e2711]
+                  - generic [ref=e2712]: 調整隱私設定，以控制能在動態消息、Watch、搜尋結果和你的個人檔案上看到你貼文的對象。
+                - grid [ref=e2718]:
+                  - row "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e2719]:
+                    - gridcell "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e2720] [cursor=pointer]:
+                      - generic [ref=e2724]:
+                        - radio "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [checked] [ref=e2728]
+                        - generic [ref=e2733]:
+                          - generic [ref=e2734]: 所有人
+                          - generic [ref=e2735]: Facebook 的用戶或非用戶都可以看到你的貼文。
+                  - row "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2736]:
+                    - gridcell "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2737] [cursor=pointer]:
+                      - generic [ref=e2741]:
+                        - radio "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e2745]
+                        - generic [ref=e2748]:
+                          - generic [ref=e2749]: 特定對象
+                          - generic [ref=e2750]: 選擇可看到你貼文的特定 Facebook 用戶。
+          - generic [ref=e2759]:
+            - generic [ref=e2763]:
+              - switch "加強推廣" [ref=e2765] [cursor=pointer]
+              - generic [ref=e2771] [cursor=pointer]: 加強推廣
+            - generic [ref=e2773]:
+              - generic [ref=e2774]:
+                - button "取消" [ref=e2775] [cursor=pointer]:
+                  - generic [ref=e2779]: 取消
+                - button "稍後再完成" [disabled] [ref=e2780]:
+                  - generic [ref=e2784]: 稍後再完成
+              - button "發佈" [disabled] [ref=e2785]:
+                - generic [ref=e2789]: 發佈
+        - generic [ref=e2794]:
+          - generic [ref=e2795]:
+            - heading "Facebook 動態消息預覽" [level=3] [ref=e2798]
+            - group [ref=e2800]:
+              - button [disabled] [ref=e2801]:
+                - img [ref=e2806]
+              - button [disabled] [ref=e2809]:
+                - img [ref=e2814]
+          - generic [ref=e2818]:
+            - generic [ref=e2822]:
+              - img [ref=e2824]
+              - generic [ref=e2828]:
+                - generic [ref=e2830]: 地藏菩薩本行經
+                - generic [ref=e2832]: 剛剛
+            - generic [ref=e2842]:
+              - generic [ref=e2843]:
+                - img [ref=e2844]
+                - strong [ref=e2849]: 讚
+              - generic [ref=e2850]:
+                - img [ref=e2851]
+                - strong [ref=e2855]: 留言
+              - generic [ref=e2856]:
+                - img [ref=e2857]
+                - strong [ref=e2861]: 分享
+    - generic [ref=e2209]:
+      - generic [ref=e2211]:
+        - button "Meta Business Suite" [ref=e2212] [cursor=pointer]:
+          - generic [ref=e2214]: Meta Business Suite
+        - button "Pressable" [ref=e2223] [cursor=pointer]:
+          - img "Facebook" [ref=e2228]
+      - navigation "連結" [ref=e2233]:
+        - generic [ref=e2234]: 連結
+        - list [ref=e2235]:
+          - generic [ref=e2236]:
+            - listitem [ref=e2240]:
+              - generic [ref=e2242]:
+                - link "首頁" [ref=e2243] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2244]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e2248]:
+              - generic [ref=e2250]:
+                - link "通知" [ref=e2251] [cursor=pointer]:
+                  - generic [ref=e2252]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e2257]:
+              - generic [ref=e2259]:
+                - link "廣告管理員" [ref=e2260] [cursor=pointer]:
+                  - generic [ref=e2261]: 廣告管理員
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告管理員
+            - listitem [ref=e2265]:
+              - generic [ref=e2267]:
+                - link "收件匣" [ref=e2268] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2269]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e2274]:
+              - generic [ref=e2276]:
+                - link "內容" [ref=e2277] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2278]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e2282]:
+              - generic [ref=e2284]:
+                - link "創作者人才庫" [ref=e2285] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e2286]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e2290]:
+              - generic [ref=e2292]:
+                - link "規劃工具" [ref=e2293] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2294]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e2299]:
+              - generic [ref=e2301]:
+                - link "廣告" [ref=e2302] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2303]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e2308]:
+              - generic [ref=e2310]:
+                - link "洞察報告" [ref=e2311] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2312]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e2316]:
+              - generic [ref=e2318]:
+                - link "所有工具" [ref=e2319] [cursor=pointer]:
+                  - generic [ref=e2320]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e2323] [cursor=pointer]:
+              - generic [ref=e2327]: 編輯
+      - generic [ref=e2330]:
+        - listitem [ref=e2333]:
+          - generic [ref=e2335]:
+            - link "搜尋" [ref=e2336] [cursor=pointer]:
+              - generic [ref=e2337]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e2338]:
+          - generic [ref=e2339]: 連結
+          - list [ref=e2340]:
+            - listitem [ref=e2344]:
+              - generic [ref=e2346]:
+                - link "設定" [ref=e2347] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2348]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e2355]:
+          - generic [ref=e2357]:
+            - link "使用說明" [ref=e2358] [cursor=pointer]:
+              - generic [ref=e2359]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img

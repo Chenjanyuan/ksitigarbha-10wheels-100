@@ -1,0 +1,402 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - generic [ref=e14]:
+      - img [ref=e15]
+      - generic [ref=e19]:
+        - generic [ref=e20]: 新增 WhatsApp 電話號碼以接收商家資產管理組合的最新消息
+        - generic [ref=e21]: 在 WhatsApp 接收有關重要最新消息的通知，例如帳號限制或可疑活動。
+      - link "新增 WhatsApp 電話號碼" [ref=e22] [cursor=pointer]:
+        - /url: https://business.facebook.com/latest/settings/business_info/?business_id=710326389072373&nav_ref=mbs_contact_info_banner_cta&edit_contact=wm&landing_location=my_info
+        - generic [ref=e26]: 新增 WhatsApp 電話號碼
+      - button "關閉" [ref=e27] [cursor=pointer]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: 關閉
+          - img [ref=e32]
+    - generic [ref=e35]:
+      - generic [ref=e173]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - heading "內容" [level=1] [ref=e177]
+            - generic [ref=e178]: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+          - toolbar [ref=e180]:
+            - generic [ref=e182]:
+              - generic [ref=e184]:
+                - group [ref=e185]:
+                  - button "匯出資料" [ref=e186] [cursor=pointer]:
+                    - generic [ref=e189]:
+                      - img [ref=e190]
+                      - generic [ref=e194]: 匯出資料
+                  - button "開啟匯出選項" [ref=e196] [cursor=pointer]:
+                    - generic [ref=e198]:
+                      - generic [ref=e199]: 開啟匯出選項
+                      - img [ref=e201]
+                - generic [ref=e206]:
+                  - button "移除" [ref=e207] [cursor=pointer]
+                  - generic [ref=e208]:
+                    - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+                    - generic [ref=e209]: 瞭解這項新功能
+              - button "建立 Reel" [ref=e212] [cursor=pointer]:
+                - generic [ref=e215]:
+                  - img [ref=e216]
+                  - generic [ref=e219]: 建立 Reel
+              - group [ref=e220]:
+                - button "建立貼文" [ref=e221] [cursor=pointer]:
+                  - generic [ref=e224]:
+                    - img [ref=e225]
+                    - generic [ref=e227]: 建立貼文
+                - button "建立貼文" [ref=e229] [cursor=pointer]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: 建立貼文
+                    - img [ref=e234]
+            - button "Facebook" [ref=e237] [cursor=pointer]:
+              - generic [ref=e243]:
+                - generic:
+                  - img
+                - img "Facebook" [ref=e245]
+        - generic [ref=e246]:
+          - generic [ref=e253]:
+            - generic [ref=e256]:
+              - navigation "內容" [ref=e257]:
+                - generic [ref=e260]:
+                  - img [ref=e262]
+                  - generic [ref=e265]: 內容
+                - list [ref=e266]:
+                  - listitem [ref=e269]:
+                    - link "貼文和 Reel" [ref=e271] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/published_posts?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 貼文和 Reel
+                  - listitem [ref=e279]:
+                    - link "限時動態" [ref=e281] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/active_stories?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 限時動態
+                  - listitem [ref=e289]:
+                    - link "A／B 測試" [ref=e291] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/ab_testing?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: A／B 測試
+                  - listitem [ref=e299]:
+                    - link "動態消息和網格" [ref=e301] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/feed_and_grid?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 動態消息和網格
+                  - listitem [ref=e309]:
+                    - link "提及和標籤" [ref=e311] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/tagged_content?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 提及和標籤
+                  - listitem [ref=e319]:
+                    - link "片段" [ref=e321] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/all_clips?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 片段
+              - navigation "精選集" [ref=e327]:
+                - generic [ref=e330]:
+                  - img [ref=e332]
+                  - generic [ref=e335]: 精選集
+                - list [ref=e336]:
+                  - listitem [ref=e339]:
+                    - link "播放清單" [ref=e341] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/all_playlists?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 播放清單
+                  - listitem [ref=e349]:
+                    - link "影集" [ref=e351] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/series?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 影集
+              - navigation "廣告創意素材" [ref=e357]:
+                - generic [ref=e360]:
+                  - img [ref=e362]
+                  - generic [ref=e365]: 廣告創意素材
+                - list [ref=e366]:
+                  - listitem [ref=e369]:
+                    - link "你可以多文發佈的影片" [ref=e371] [cursor=pointer]:
+                      - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost?business_id=710326389072373&asset_id=1093357677358320
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 你可以多文發佈的影片
+            - button "收合" [ref=e381] [cursor=pointer]:
+              - generic [ref=e383]:
+                - generic [ref=e384]: 收合
+                - img [ref=e386]
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - img [ref=e401]
+                  - heading "適用於 2025 年 7 月 31 日後所發佈內容的全新觀眾衡量指標" [level=4] [ref=e405]
+                  - button "關閉" [ref=e406] [cursor=pointer]:
+                    - generic [ref=e408]:
+                      - generic [ref=e409]: 關閉
+                      - img [ref=e411]
+                - generic [ref=e419]: 運用這項全新衡量指標，更清楚瞭解誰在各項 Meta 技術上看到你的內容。觸及人數衡量指標將不再顯示於 Meta Business Suite，但仍可在廣告管理員中查看。
+              - button "查看更多" [ref=e421] [cursor=pointer]:
+                - generic [ref=e422]: 查看更多
+            - generic [ref=e428]:
+              - tablist [ref=e431]:
+                - tab "已發佈" [ref=e434] [cursor=pointer]:
+                  - generic [ref=e437]: 已發佈
+                - tab "已排定發佈" [selected] [ref=e440] [cursor=pointer]:
+                  - generic [ref=e443]: 已排定發佈
+                - tab "草稿" [ref=e446] [cursor=pointer]:
+                  - generic [ref=e449]: 草稿
+                - tab "即將過期" [ref=e452] [cursor=pointer]:
+                  - generic [ref=e455]: 即將過期
+                - tab "已過期" [ref=e458] [cursor=pointer]:
+                  - generic [ref=e461]: 已過期
+                - tab "廣告貼文" [ref=e464] [cursor=pointer]:
+                  - generic [ref=e467]: 廣告貼文
+              - generic [ref=e470]:
+                - generic [ref=e471]:
+                  - generic [ref=e473]:
+                    - generic [ref=e475]:
+                      - generic [ref=e481]: 貼文類型
+                      - combobox "貼文類型 貼文類型" [ref=e486] [cursor=pointer]:
+                        - generic [ref=e489]:
+                          - generic [ref=e493]: 貼文類型
+                          - img [ref=e495]
+                    - generic [ref=e497]:
+                      - generic [ref=e503]: 篩選
+                      - combobox "篩選 篩選" [ref=e508] [cursor=pointer]:
+                        - generic [ref=e511]:
+                          - generic [ref=e515]: 篩選
+                          - img [ref=e517]
+                  - link "清除" [ref=e520] [cursor=pointer]:
+                    - /url: "#"
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - generic [ref=e528]:
+                        - text: 依編號或文字搜尋
+                        - img [ref=e530]
+                      - generic [ref=e540]:
+                        - img [ref=e542]
+                        - textbox "依編號或文字搜尋" [ref=e545]
+                    - img [ref=e550]
+                - grid "此表格針對為所選 Facebook 粉絲專頁或個人檔案和／或 Instagram 個人檔案建立的內容（包括廣告、貼文及限時動態），顯示相關洞察報告。" [ref=e558]:
+                  - rowgroup [ref=e559]:
+                    - row "標題 排定發佈日期 隱私設定 狀態" [ref=e560]:
+                      - columnheader [ref=e561]
+                      - columnheader "標題" [ref=e562]:
+                        - generic [ref=e563]:
+                          - heading "標題" [level=4] [ref=e568]
+                          - separator:
+                            - separator [ref=e569]
+                      - columnheader "排定發佈日期" [ref=e571]:
+                        - generic [ref=e572]:
+                          - heading "排定發佈日期" [level=4] [ref=e577]
+                          - separator:
+                            - separator [ref=e578]
+                      - columnheader "隱私設定" [ref=e580]:
+                        - generic [ref=e581]:
+                          - heading "隱私設定" [level=4] [ref=e586]
+                          - separator:
+                            - separator [ref=e587]
+                      - columnheader "狀態" [ref=e589]:
+                        - generic [ref=e590]:
+                          - heading "狀態" [level=4] [ref=e595]
+                          - separator:
+                            - separator [ref=e596]
+                  - rowgroup [ref=e598]:
+                    - row [ref=e599] [cursor=pointer]:
+                      - gridcell [ref=e600]:
+                        - button [ref=e602]:
+                          - generic [ref=e606]:
+                            - checkbox [ref=e607]
+                            - generic:
+                              - img
+                      - gridcell [ref=e608]:
+                        - generic [ref=e611]:
+                          - img "Facebook" [ref=e617]
+                          - generic [ref=e618]:
+                            - generic [ref=e619]: "我們驗過技能兵團，也驗過很多城門，但還沒把「總司令從收到情報到下命令」整條路畫成一張完整稽核圖。這個值得補。不然來了一個沒有用的總司令全軍就陣亡了 那這要不要先做完再驗技能總司令的功能:commander 進場訊號真資料回測 —— 攻「真瓶頸是進場訊號」 這個比喻很到位 —— 技能兵團驗了、城門(風控閘)驗了,但「總司令從收到情報到下命令」整條決策鏈,從來沒當成一條完整的路去畫、去逐段驗。一個沒用的總司令,全軍陪葬。 這值得補,我來做。 先看主迴圈真實的決策鏈長怎樣(才能照真的畫,不是憑空畫),順便看現成怎麼跑 run_cycle: Ran Inspect run_cycle reuse + decision-chain write points 確認你的判斷:對,先做完這條「總司令決策鏈稽核圖」(結構/接線/行為,read-only、現在就能做),再做「commander 進場訊號真資料回測」(準度,要你定義「怎樣算喊對」+ 要真資料)。 理由—— 這張圖先把「腦的線路有沒有接對、各關卡會不會動」釘死(基礎); 回測再驗「腦判斷準不準」(上層)。先驗線路再驗準度,順序對;而且這張圖會標出回測該打哪幾個關卡。 我現在就建這張完整稽核圖。先看主迴圈真實的 ledger 關卡欄位,確認怎麼探測每一關: Ran Inspect ledger_rule_decision + commander_log columns ledger_rule_decision only stores the final decision — the per-stage events (commander/intent/order/trade) must go elsewhere. Let me check RuleLedger.write: 深挖 Ran Inspect RuleLedger.write stage/source handling The events JSONL records every hop (stage, source) — that's my probe. Now I have everything to trace the real chain. Let me set a task + build the decision-path audit checker (runs the REAL run_cycle over regime scenarios, verifies each hop's artifact lands): Created a file, used a tool Let me fix the H8-H10 probes (intent/order/trade only fire on non-HOLD; mostly HOLD is correct) and add build/render + the commander behavior table + diagram: Edited a file, ran a command All 11 hops LIVE (the full intel→command→trade chain produces real artifacts), commander regime judgment 5/5 correct, 0 gaps. Let me verify the behavior table is real + serve the visual map: Ran View commander behavior table Behavior table is real and correct — crash→risk_off, bear→bear, volatile→volatile, sideways→sideways all ✅, and bull+2nods→sideways (升檔慢 by design) ✅. The brain's regime logic is sound; the honest gap (accuracy/thresholds) is flagged for the backtest. Let me add a test + serve the visual map: Created a file, ran a command SVG copy needs the setup_*.sh sudo pattern (arbitrary cp isn't whitelisted). Let me write a setup script + run it: Ran Serve commander map SVG via setup script SVG map live (HTTP 200). Full CI + commit: Ran 2 commands While that pushes + polls, mark done + log: Ran a command, used a tool 總司令決策鏈稽核圖做好了(Actions 驗證中,綠了補一句)。先看結果 + 你的下一個決定點。 完整稽核圖:情報 → 命令(11 關全驗) 你可以打開這張圖看(綠=接通驗過): https://ayuan-sim.alumi-taiwan.com.tw/phoenix-mockup/commander_path_map.svg 整條鏈我跑真 run_cycle 過 5 種風向情境,逐關卡驗: 關 角色 結果 H1 情報進(context_builder) ✅ LIVE H2 總司令判風向(regime + 3點頭) ✅ LIVE H3 寫決策日誌 ✅ H4 風向閘(放行/壓制逆勢技能) ✅ H5 技能兵團表態 ✅ H6 主腦死規則閘下令(唯一命令) ✅ H7 影子(不進主路) ✅ H8-10 命令→意圖→下單→成交 ✅ H11 回寫戰情 ✅ 11 關全接通、無斷點。 而且總司令的風向判斷邏輯 5/5 對:急跌→紅燈(降檔快)、緩跌→熊、高波動→黃燈、盤整→黃燈、漲但只 2 點頭→降黃燈(升檔慢,不亂給綠燈進攻)。 但這張圖也誠實照出那個缺口 線路對、邏輯對 ≠ 判斷準。那 3 個閾值(急跌 3% / 趨勢 0.5% / 高波動 2%)是占位值、沒用真實市場校過 —— 它在「真 6 月崩盤」有沒有及時喊紅燈,這張圖驗不到。這正是你要的下一步。 下一步要你拍一個定義:「總司令喊對」算什麼? 要做 commander 真資料回測,得先講清楚怎麼算「喊對」。我提一個具體版本給你拍(可改): 方向命中率 —— 它喊牛,接下來真的漲;喊熊/紅燈,接下來真的跌。算命中% 崩盤防守(最重要) —— 真崩盤那幾段,它有沒有在下跌時處於防守檔位(熊/紅燈)?慢幾天才翻?(翻太慢=全軍陪葬那條) 不要亂切 —— 風向翻來翻去的次數(切太頻繁=被洗+成本) → 我建議以第 2 點(崩盤防守 + 反應延遲)為主判準,因為總司令最該做對的就是「崩盤時把全軍撤到安全檔」。 你拍一句(例如「崩盤段必須在跌 5% 內翻成防守檔,且方向命中率 > 50%」之類),我就拿幣安真實歷史(含 6 月崩盤)去回測它準不準、順便校那 3 個占位閾值。 Actions 綠了我回報。你定義一下「喊對」,或先休息我待命。 Background shell completed Mirror + push + poll Actions for commander path audit Read bg9c1m2jw.output ✅ Actions success(0b7c2759 / run 27690185487)—— 決策鏈稽核圖閉合。 「深挖」收到 —— 你前面確認的順序就是「先稽核圖、再回測準度」,稽核圖剛閉合,我直接深挖那個缺口:用幣安真實歷史(含崩盤段)回測總司令到底喊得準不準、那 3 個占位閾值對不對。崩盤防守(全軍陪葬那條)當主判準。 先建回測核心(重用 binance_history + 真 regime_detector): Created a file, used a tool Let me run the core against real BTC history right now to see what it actually finds (the deep-dig moment) — default placeholder thresholds vs the real crash: Ran Deep-dig: commander regime accuracy on real BTC data Bug: k is already the string value. Fix: Edited a file, ran a command 這是個重要發現 —— 而且是壞消息,但正是該挖出來的。 真實 BTC 最深崩盤 −51%,用現在的占位閾值,總司令: 崩盤時只有 22% 時間在防守檔(78% 的跌它沒在守) 反應延遲 16 天 / 已經跌了 −13.7% 才第一次翻防守 「紅燈 risk_off」根本沒觸發過(3% 閾值對「日均報酬」根本不可能達到) 方向命中率 47.6%(比丟銅板還差) 白話:這個總司令以目前的設定,真的會「全軍陪葬」 —— 你的擔心被真資料證實了。讓我跑多幣確認不是 BTC 個案 + 做成完整報告: Created a file, ran a command Confirmed across BTC/ETH/SOL — not a fluke. All 3 major crashes (−51%/−68%/−75%): defense only 22–32%, reacted after −14% to −24%, risk_off red-light NEVER fired, direction ~coin-flip. Let me add a test (no network) + run CI: Created a file, ran a command Test caught a false-positive in itself — \"可真錢\" appears legitimately inside \"NOT 可真錢\". My overclaim check was too crude. Fix the test (those appear in negations): Edited a file, ran a command 47/47 PASS. Commit + mirror: Ran 2 commands While that pushes + polls, mark done + log this important finding: Ran a command, used a tool 深挖完成,報告給你 —— 這是壞消息,但是非常值得知道的壞消息。(Actions 驗證中,綠了補一句) 總司令在真崩盤裡的表現:不及格 我拿幣安真實歷史(BTC/ETH/SOL,含各自最深的崩盤)逐日讓總司令判風向,結果三幣一致: 幣 最深崩盤 崩盤時在防守的比例 跌多少才反應 方向命中率 紅燈觸發? BTC −51% 22% 已跌 −13.7% 47.6% 從不 ETH −68% 27% 已跌 −20.7% 51% 從不 SOL −75% 32% 已跌 −23.9% 45.5% 從不 白話翻譯: 真崩盤時,總司令七八成時間還站在非防守檔 —— 等它反應過來,已經跌了 14%～24% 「紅燈 risk_off」這輩子沒亮過 —— 那個 3% 閾值是套在「20 天日均報酬」上,等於要 20 天平均每天跌 3%(≈整段跌 60%)才亮,根本到不了。閾值是壞掉的尺度 方向命中率 45～51%,比丟銅板還差 —— 它說漲說跌,跟真實後續沒什麼關係 你的擔心「來個沒用的總司令全軍陣亡」—— 真資料證實了,以目前的設定就是這樣。 但要分清楚:這不是「線路壞」,是「判斷不準」 線路(上一張稽核圖):全好 —— 11 關接通、邏輯對(該降檔會降) 判斷(這次回測):不準 —— 閾值尺度錯 + 方法太陽春(只看平均漲跌+波動) 而且挖出一個更深的架構真相:這陣子真正在「保命」的,其實是風控城門(停損/兩段回撤/熔斷),不是總司令的風向喊話。 總司令現在比較像個會喊但喊不準的參謀。這跟我們大修的老結論完全對上:真瓶頸在「判斷/進場訊號」,V257 的「守」靠的是死規則城門。 我的建議(等你拍,不自己動) 閾值要重校 + 換尺度 —— 別用「20 天日均」當崩盤訊號;改看「單日急殺」或「一段累積跌幅」才抓得到崩盤 崩盤保命主力交給城門(硬停損/熔斷),總司令只管檔位 —— 真資料顯示城門才是實際在守的 方法可能要升級 —— 不只調數字;簡單 drift/vol 對方向預測力太弱 你定義一句「喊對」(例:崩盤跌 X% 內必須翻防守)→ 我才好正式校 + 進 30 天 shadow 驗 ★ 在校好 + shadow 驗過前,閾值維持占位、不寫 config、不准說「腦準」 —— 我報告裡釘死了 紅線照守:read-only、0 改 trading、0 真錢、閾值沒寫進 config。 這就是你要的「深挖」—— 把那顆腦真正的毛病挖出來了。接下來你想往哪走?(校閾值方向 / 換 regime 判斷方法 / 先定義「喊對」/ 還是先停一下消化)Actions 綠了我回報。 Background shell completed Mirror + push + poll Actions for commander regime backtest Read b31ezs5n3.output ✅ Actions success(f437e4a6 / run 27690603516)—— 深挖報告已上 GitHub。 今天這條線挖到底了 你問「總司令這顆腦驗過嗎」→ 一路挖到真相: 決策鏈稽核圖 → 線路 11 關全通 ✅(腦的接線沒問題) 真資料準度回測 → 判斷不準 ✗(占位閾值下崩盤只守 22-32%、紅燈從不亮、方向≈丟銅板) 架構真相 → 真正在保命的是風控城門,不是總司令的喊話 結論一句話:總司令「會動但判不準」,在校準 + shadow 驗證前,不能信任它當腦。 這正是你直覺擔心的,現在有真資料釘死了,不是猜的。 全部都誠實守住 0 改 trading、0 真錢、閾值沒寫 config、報告禁止說「腦準」 本機 47/47、GitHub Actions 綠、雙地存 球在你這 —— 這是策略決定,我不自己跑 總司令要怎麼修,是方向性的決定,得你拍: 選項 做什麼 A 校閾值 + 換尺度 崩盤改看「單日急殺/累積跌幅」不看 20 日日均;我回測找好的尺度 B 崩盤保命交給城門 總司令只管檔位,硬停靠 stop_loss/熔斷(真資料說城門才實際在守) C 換 regime 判斷法 drift/vol 太弱,換更好的判斷方法(較大工程) D 你定義「喊對」 給一句判準,我正式校 + 進 shadow 驗 E 先停 今天挖很多了,先消化,改天再決定 我建議 B + A(先讓城門確實扛崩盤、總司令閾值換對尺度),但這是你的盤,你說了算。辛苦了 👍"
+                            - generic [ref=e620]:
+                              - generic [ref=e621]:
+                                - img [ref=e622]
+                                - generic [ref=e625]: 相片 ·
+                              - generic [ref=e629]: 地藏菩薩本行經
+                          - generic [ref=e632]:
+                            - button "加強推廣" [ref=e634]:
+                              - generic [ref=e638]: 加強推廣
+                            - button "開啟下拉式功能表" [ref=e639]:
+                              - generic [ref=e641]:
+                                - generic [ref=e642]: 開啟下拉式功能表
+                                - img [ref=e644]
+                      - gridcell "6月23日 8:00" [ref=e646]:
+                        - generic [ref=e648]: 6月23日 8:00
+                      - gridcell "公開" [ref=e649]:
+                        - generic [ref=e650]: 公開
+                      - gridcell "目前未加強推廣" [ref=e651]:
+                        - generic "目前未加強推廣" [ref=e653]:
+                          - img [ref=e655]
+      - generic [ref=e663]:
+        - generic [ref=e665]:
+          - button "Meta Business Suite" [ref=e666] [cursor=pointer]:
+            - generic [ref=e668]: Meta Business Suite
+          - button "Pressable" [ref=e677] [cursor=pointer]:
+            - img "Facebook" [ref=e682]
+        - navigation "連結" [ref=e687]:
+          - generic [ref=e688]: 連結
+          - list [ref=e689]:
+            - generic [ref=e690]:
+              - listitem [ref=e694]:
+                - generic [ref=e696]:
+                  - link "首頁" [ref=e697] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e698]: 首頁
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 首頁
+              - listitem [ref=e702]:
+                - generic [ref=e704]:
+                  - link "通知" [ref=e705] [cursor=pointer]:
+                    - generic [ref=e706]: 通知
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 通知
+              - listitem [ref=e711]:
+                - generic [ref=e713]:
+                  - link "廣告管理員" [ref=e714] [cursor=pointer]:
+                    - generic [ref=e715]: 廣告管理員
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 廣告管理員
+              - listitem [ref=e719]:
+                - generic [ref=e721]:
+                  - link "收件匣" [ref=e722] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e723]: 收件匣
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 收件匣
+              - listitem [ref=e728]:
+                - generic [ref=e730]:
+                  - link "內容" [ref=e731] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e732]: 內容
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 內容
+              - listitem [ref=e736]:
+                - generic [ref=e738]:
+                  - link "創作者人才庫" [ref=e739] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                    - generic [ref=e740]: 創作者人才庫
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 創作者人才庫
+              - listitem [ref=e744]:
+                - generic [ref=e746]:
+                  - link "規劃工具" [ref=e747] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e748]: 規劃工具
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 規劃工具
+              - listitem [ref=e753]:
+                - generic [ref=e755]:
+                  - link "廣告" [ref=e756] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e757]: 廣告
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 廣告
+              - listitem [ref=e762]:
+                - generic [ref=e764]:
+                  - link "洞察報告" [ref=e765] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e766]: 洞察報告
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 洞察報告
+              - listitem [ref=e770]:
+                - generic [ref=e772]:
+                  - link "所有工具" [ref=e773] [cursor=pointer]:
+                    - generic [ref=e774]: 所有工具
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 所有工具
+              - button "編輯邊欄導覽" [ref=e777] [cursor=pointer]:
+                - generic [ref=e781]: 編輯
+        - generic [ref=e784]:
+          - listitem [ref=e787]:
+            - generic [ref=e789]:
+              - link "搜尋" [ref=e790] [cursor=pointer]:
+                - generic [ref=e791]: 搜尋
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 搜尋
+              - generic:
+                - generic:
+                  - img
+          - navigation "連結" [ref=e792]:
+            - generic [ref=e793]: 連結
+            - list [ref=e794]:
+              - listitem [ref=e798]:
+                - generic [ref=e800]:
+                  - link "設定" [ref=e801] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                    - generic [ref=e802]: 設定
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: 設定
+          - listitem [ref=e809]:
+            - generic [ref=e811]:
+              - link "使用說明" [ref=e812] [cursor=pointer]:
+                - generic [ref=e813]: 使用說明
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 使用說明
+              - generic:
+                - generic:
+                  - img
+  - region "瞭解這項新功能" [ref=e814]

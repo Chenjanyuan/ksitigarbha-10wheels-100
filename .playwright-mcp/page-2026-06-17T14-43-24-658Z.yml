@@ -1,0 +1,150 @@
+- generic [ref=e11]:
+  - generic [ref=e14]:
+    - img [ref=e15]
+    - generic [ref=e19]:
+      - generic [ref=e20]: 新增 WhatsApp 電話號碼以接收商家資產管理組合的最新消息
+      - generic [ref=e21]: 在 WhatsApp 接收有關重要最新消息的通知，例如帳號限制或可疑活動。
+    - link "新增 WhatsApp 電話號碼" [ref=e22] [cursor=pointer]:
+      - /url: https://business.facebook.com/latest/settings/business_info/?business_id=710326389072373&nav_ref=mbs_contact_info_banner_cta&edit_contact=wm&landing_location=my_info
+      - generic [ref=e26]: 新增 WhatsApp 電話號碼
+    - button "關閉" [ref=e27] [cursor=pointer]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: 關閉
+        - img [ref=e32]
+  - generic [ref=e35]:
+    - progressbar [ref=e487]:
+      - img [ref=e488]
+    - generic [ref=e342]:
+      - generic [ref=e344]:
+        - button "Meta Business Suite" [ref=e345] [cursor=pointer]:
+          - generic [ref=e347]: Meta Business Suite
+        - button "Pressable" [ref=e356] [cursor=pointer]:
+          - img "Facebook" [ref=e361]
+      - navigation "連結" [ref=e366]:
+        - generic [ref=e367]: 連結
+        - list [ref=e368]:
+          - generic [ref=e369]:
+            - listitem [ref=e373]:
+              - generic [ref=e375]:
+                - link "首頁" [ref=e376] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e377]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e381]:
+              - generic [ref=e383]:
+                - link "通知" [ref=e384] [cursor=pointer]:
+                  - generic [ref=e385]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e495]:
+              - generic [ref=e497]:
+                - link "廣告管理員" [ref=e498] [cursor=pointer]:
+                  - generic [ref=e499]: 廣告管理員
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告管理員
+            - listitem [ref=e389]:
+              - generic [ref=e391]:
+                - link "收件匣" [ref=e392] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e393]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e398]:
+              - generic [ref=e400]:
+                - link "內容" [ref=e401] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e402]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e406]:
+              - generic [ref=e408]:
+                - link "創作者人才庫" [ref=e409] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e410]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e414]:
+              - generic [ref=e416]:
+                - link "規劃工具" [ref=e417] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e418]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e423]:
+              - generic [ref=e425]:
+                - link "廣告" [ref=e426] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e427]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e432]:
+              - generic [ref=e434]:
+                - link "洞察報告" [ref=e435] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e436]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e440]:
+              - generic [ref=e442]:
+                - link "所有工具" [ref=e443] [cursor=pointer]:
+                  - generic [ref=e444]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e447] [cursor=pointer]:
+              - generic [ref=e451]: 編輯
+      - generic [ref=e454]:
+        - listitem [ref=e457]:
+          - generic [ref=e459]:
+            - link "搜尋" [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e462]:
+          - generic [ref=e463]: 連結
+          - list [ref=e464]:
+            - listitem [ref=e468]:
+              - generic [ref=e470]:
+                - link "設定" [ref=e471] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e472]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e479]:
+          - generic [ref=e481]:
+            - link "使用說明" [ref=e482] [cursor=pointer]:
+              - generic [ref=e483]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img
