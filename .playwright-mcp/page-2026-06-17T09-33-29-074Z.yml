@@ -1,0 +1,87 @@
+- generic [ref=e18]:
+  - generic [ref=e20]:
+    - link "廣告管理員 Meta" [ref=e22] [cursor=pointer]:
+      - /url: /adsmanager/?act=128230264034499
+      - generic [ref=e24]:
+        - generic [ref=e25]: 廣告管理員
+        - img "Meta" [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - button "Pressable" [ref=e33] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - button "4":
+                - generic:
+                  - generic: "4"
+      - separator [ref=e38]
+  - navigation "工具" [ref=e42]:
+    - list [ref=e43]:
+      - listitem [ref=e45]:
+        - button "帳號總覽" [ref=e47] [cursor=pointer]
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 帳號總覽
+      - listitem [ref=e54]:
+        - button "行銷活動" [ref=e56] [cursor=pointer]
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 行銷活動
+      - listitem [ref=e62]:
+        - link "廣告分析報告" [ref=e64] [cursor=pointer]:
+          - /url: /adsreporting/?act=128230264034499&business_id=710326389072373&nav_entry_point=ads_ecosystem_navigation_menu
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 廣告分析報告
+      - listitem [ref=e70]:
+        - link "廣告受眾" [ref=e72] [cursor=pointer]:
+          - /url: /adsmanager/?act=128230264034499&business_id=710326389072373&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 廣告受眾
+      - listitem [ref=e78]:
+        - button "廣告設定" [ref=e80] [cursor=pointer]
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 廣告設定
+      - listitem [ref=e86]:
+        - link "帳單和付款" [ref=e88] [cursor=pointer]:
+          - /url: https://business.facebook.com/billing_hub/accounts/details/?placement=ads_manager&asset_id=128230264034499&business_id=710326389072373&payment_account_id_from_jsmodule=128230264034499&payment_account_id=128230264034499&session_id=upl_1781688808907_c778a5d6-da1d-4509-b634-66bb9e327566&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 帳單和付款
+      - listitem [ref=e94]:
+        - link "事件管理工具" [ref=e96] [cursor=pointer]:
+          - /url: /events_manager2/?business_id=710326389072373&act=128230264034499&nav_source=ads_ecosystem_nav
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 事件管理工具
+      - listitem [ref=e101]:
+        - button "所有工具" [ref=e103] [cursor=pointer]
+        - generic:
+          - listitem:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 所有工具

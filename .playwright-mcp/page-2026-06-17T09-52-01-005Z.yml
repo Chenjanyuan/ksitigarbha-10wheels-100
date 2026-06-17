@@ -1,0 +1,697 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e12]:
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - link "廣告管理員 Meta" [ref=e38] [cursor=pointer]:
+          - /url: /adsmanager/?act=128230264034499
+          - generic [ref=e40]:
+            - generic [ref=e41]: 廣告管理員
+            - img "Meta" [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - button "Pressable" [ref=e49] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - button "4":
+                    - generic:
+                      - generic: "4"
+          - separator [ref=e54]
+      - navigation "工具" [ref=e58]:
+        - list [ref=e59]:
+          - listitem [ref=e61]:
+            - button "帳號總覽" [ref=e63] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 帳號總覽
+          - listitem [ref=e70]:
+            - button "行銷活動" [ref=e72] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 行銷活動
+          - listitem [ref=e78]:
+            - link "廣告分析報告" [ref=e80] [cursor=pointer]:
+              - /url: /adsreporting/?act=128230264034499&business_id=710326389072373&nav_entry_point=ads_ecosystem_navigation_menu
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告分析報告
+          - listitem [ref=e86]:
+            - link "廣告受眾" [ref=e88] [cursor=pointer]:
+              - /url: /adsmanager/?act=128230264034499&business_id=710326389072373&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告受眾
+          - listitem [ref=e94]:
+            - button "廣告設定" [ref=e96] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告設定
+          - listitem [ref=e102]:
+            - link "帳單和付款" [ref=e104] [cursor=pointer]:
+              - /url: https://business.facebook.com/billing_hub/accounts/details/?placement=ads_manager&asset_id=128230264034499&business_id=710326389072373&payment_account_id_from_jsmodule=128230264034499&payment_account_id=128230264034499&session_id=upl_1781689099155_bf0409e4-5f44-4cb6-8b9d-7ca173c460b9&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 帳單和付款
+          - listitem [ref=e110]:
+            - link "事件管理工具" [ref=e112] [cursor=pointer]:
+              - /url: /events_manager2/?business_id=710326389072373&act=128230264034499&nav_source=ads_ecosystem_nav
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 事件管理工具
+          - listitem [ref=e117]:
+            - button "所有工具" [ref=e119] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+      - generic [ref=e128]:
+        - separator [ref=e129]
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - button "Meta AI 商家助理" [ref=e135] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Meta AI 商家助理
+        - generic [ref=e142]:
+          - listitem [ref=e146]:
+            - button "使用說明" [ref=e148] [cursor=pointer]
+            - generic:
+              - listitem:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 使用說明
+          - generic [ref=e155]:
+            - button "廣告帳號更新" [ref=e156] [cursor=pointer]:
+              - generic [ref=e159]: 廣告帳號更新
+            - generic [ref=e163]:
+              - generic [ref=e165]: "1"
+              - status [ref=e166]: 你有 1 則通知
+          - button "企業管理平台設定" [ref=e168] [cursor=pointer]:
+            - generic [ref=e171]: 企業管理平台設定
+          - button "搜尋" [ref=e175] [cursor=pointer]:
+            - generic [ref=e178]: 搜尋
+          - button "回報問題" [ref=e181] [cursor=pointer]:
+            - generic [ref=e184]: 回報問題
+    - generic [ref=e9461]:
+      - generic [ref=e9463]:
+        - generic [ref=e9467]:
+          - generic [ref=e9469]:
+            - generic [ref=e9471]: 我們持續改善成果衡量方式
+            - generic [ref=e9472]: 2026 年 3 月 17 日起，點擊成果只會在連結點擊後報告網站和實體店面轉換次數（如購買次數）。互動成果將會在所有其他廣告動作後報告這些轉換次數。
+          - button "關於本次更新" [ref=e9473] [cursor=pointer]:
+            - generic [ref=e9477]: 關於本次更新
+          - button "關閉" [ref=e9478] [cursor=pointer]:
+            - generic [ref=e9481]: 關閉
+        - generic [ref=e9486]:
+          - generic [ref=e9489]:
+            - heading "廣告" [level=2] [ref=e9491]
+            - combobox "128230264034499 (128230264034499)" [ref=e9504] [cursor=pointer]:
+              - generic [ref=e9519]: 128230264034499 (128230264034499)
+          - button "機會分數" [ref=e9533] [cursor=pointer]:
+            - generic [ref=e9535]:
+              - img "Opportunity Score Progress Ring" [ref=e9537]:
+                - generic [ref=e9541]: "99"
+              - generic [ref=e9543]: 機會分數
+          - generic [ref=e9546]:
+            - generic [ref=e9549]:
+              - toolbar [ref=e11399]:
+                - button "重新整理表格資料" [disabled] [ref=e11402]:
+                  - generic [ref=e11405]: 重新整理表格資料
+              - toolbar [ref=e9551]:
+                - generic [ref=e9562]:
+                  - button "捨棄草稿" [ref=e11409] [cursor=pointer]:
+                    - generic [ref=e11414]: 捨棄草稿
+                  - button "檢查並發佈 (3)" [ref=e9564] [cursor=pointer]:
+                    - generic [ref=e9568]: 檢查並發佈 (3)
+              - button "功能表" [ref=e9570] [cursor=pointer]:
+                - generic [ref=e9573]: 功能表
+            - button "Facebook" [ref=e9579] [cursor=pointer]:
+              - generic [ref=e9585]:
+                - generic:
+                  - img
+                - img "Facebook" [ref=e9587]
+      - generic [ref=e9588]:
+        - generic [ref=e9589]:
+          - button "查看圖表（Ctrl+Y）" [ref=e9594] [cursor=pointer]
+          - button "編輯（Ctrl+U）" [ref=e9600] [cursor=pointer]
+          - button "查看紀錄（Ctrl+I）" [ref=e9606] [cursor=pointer]
+        - generic [ref=e9611]:
+          - generic [ref=e9614]:
+            - generic [ref=e9615]:
+              - toolbar [ref=e9618]:
+                - generic [ref=e9620]:
+                  - link "所有廣告 status_before_click:selected" [ref=e9625] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e9632]: 所有廣告
+                  - link "動作 status_before_click:unselected" [ref=e9637] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e9642]:
+                      - img [ref=e9643]
+                      - generic [ref=e9646]: 動作
+                  - link "已投遞 status_before_click:unselected" [ref=e9651] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e9658]: 已投遞
+                  - link "刊登中的廣告 status_before_click:unselected" [ref=e9663] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e9670]: 刊登中的廣告
+                - button "查看更多" [ref=e9672] [cursor=pointer]:
+                  - generic [ref=e9677]: 查看更多
+              - generic [ref=e9678]:
+                - button "建立瀏覽畫面" [ref=e9679] [cursor=pointer]:
+                  - generic [ref=e9683]: 建立瀏覽畫面
+                - button "設定" [ref=e9684] [cursor=pointer]:
+                  - generic [ref=e9687]: 設定
+            - generic [ref=e9703]: 搜尋以篩選：名稱、編號或衡量指標
+          - generic [ref=e9705]:
+            - tablist [ref=e9707]:
+              - tab "行銷活動" [ref=e9709] [cursor=pointer]:
+                - generic [ref=e9715]:
+                  - img [ref=e9716]
+                  - heading "行銷活動" [level=3] [ref=e9720]
+              - tab "廣告組合" [ref=e9722] [cursor=pointer]:
+                - generic [ref=e9728]:
+                  - img [ref=e9729]
+                  - heading "廣告組合" [level=3] [ref=e9739]
+              - tab "廣告 已選擇 1 個 從廣告移除1個所選項目" [selected] [ref=e9741] [cursor=pointer]:
+                - generic [ref=e9744]:
+                  - generic [ref=e9747]:
+                    - img [ref=e9748]
+                    - heading "廣告" [level=3] [ref=e9752]
+                  - generic [ref=e9754]:
+                    - generic [ref=e9755]: 已選擇 1 個
+                    - button "從廣告移除1個所選項目" [ref=e9756]
+            - button "過去 30 天：2026年5月18日 – 2026年6月16日" [ref=e9762] [cursor=pointer]:
+              - generic [ref=e9767]: 過去 30 天：2026年5月18日 – 2026年6月16日
+          - generic [ref=e9773]:
+            - toolbar [ref=e9780]:
+              - generic [ref=e9782]:
+                - button "建立" [ref=e9785] [cursor=pointer]:
+                  - generic [ref=e9791]: 建立
+                - group [ref=e9800]:
+                  - button "建立複本" [ref=e9801] [cursor=pointer]:
+                    - generic [ref=e11415]: 建立複本
+                  - button "開啟下拉式功能表" [ref=e9808] [cursor=pointer]:
+                    - generic [ref=e9811]: 開啟下拉式功能表
+                - group [ref=e9816]:
+                  - button "編輯" [ref=e9817] [cursor=pointer]:
+                    - generic [ref=e9822]: 編輯
+                  - button "編輯" [ref=e9824] [cursor=pointer]:
+                    - generic [ref=e9827]: 編輯
+                - button "刪除（Ctrl + 退格鍵）" [ref=e9830] [cursor=pointer]:
+                  - generic [ref=e9833]: 刪除（Ctrl + 退格鍵）
+                - button "A／B 測試" [ref=e11416] [cursor=pointer]:
+                  - generic [ref=e11421]: A／B 測試
+                - button "預覽" [ref=e9837] [cursor=pointer]:
+                  - generic [ref=e9842]: 預覽
+                - button "更多" [ref=e9843] [cursor=pointer]:
+                  - generic [ref=e9847]: 更多
+              - generic [ref=e9850]:
+                - button "直欄：成效" [ref=e9855] [cursor=pointer]:
+                  - generic [ref=e9860]: 直欄：成效
+                - button "分析項目" [ref=e9866] [cursor=pointer]:
+                  - generic [ref=e9871]: 分析項目
+                - button "分析報告" [ref=e9874] [cursor=pointer]:
+                  - generic [ref=e9877]: 分析報告
+                - group [ref=e9881]:
+                  - button "匯出" [ref=e9883] [cursor=pointer]:
+                    - generic [ref=e9886]: 匯出
+                  - button "開啟下拉式功能表" [ref=e9889] [cursor=pointer]:
+                    - generic [ref=e9892]: 開啟下拉式功能表
+                - button "比較" [ref=e9896] [cursor=pointer]:
+                  - generic [ref=e9899]: 比較
+            - table [ref=e9910]:
+              - generic [ref=e9911]:
+                - row "用於選擇所有廣告的核取方塊 關／開 廣告 開啟排序選項下拉式功能表 投遞狀態 開啟排序選項下拉式功能表 操作 開啟排序選項下拉式功能表 成果 開啟排序選項下拉式功能表 每次成果成本 開啟排序選項下拉式功能表 預算 廣告組合 開啟排序選項下拉式功能表 花費金額 開啟排序選項下拉式功能表 曝光次數 開啟排序選項下拉式功能表 觸及人數 開啟排序選項下拉式功能表 總訊息聯繫對象人數 開啟排序選項下拉式功能表 新的訊息聯絡人數 開啟排序選項下拉式功能表 購買次數 開啟排序選項下拉式功能表 結束時間 開啟排序選項下拉式功能表 歸因設定 開啟排序選項下拉式功能表 出價策略 廣告組合 開啟排序選項下拉式功能表 上次重大編輯 開啟排序選項下拉式功能表 品質排名 開啟排序選項下拉式功能表 參與互動率排名 開啟排序選項下拉式功能表 轉換率排名 開啟排序選項下拉式功能表 廣告組合名稱 開啟排序選項下拉式功能表 每次購買成本 開啟排序選項下拉式功能表 購買轉換值 開啟排序選項下拉式功能表 購買 ROAS（廣告投資報酬率） 開啟排序選項下拉式功能表 每位新訊息聯繫對象成本 開啟排序選項下拉式功能表 訊息對話開始次數 開啟排序選項下拉式功能表 每次展開訊息對話成本 開啟排序選項下拉式功能表 已建立訂單 開啟排序選項下拉式功能表 已出貨訂單 開啟排序選項下拉式功能表 自訂直欄……" [ref=e9912]:
+                  - generic [ref=e9914]:
+                    - generic [ref=e9926]:
+                      - checkbox "用於選擇所有廣告的核取方塊" [ref=e9927] [cursor=pointer]
+                      - generic:
+                        - img
+                    - generic [ref=e9932]:
+                      - separator [ref=e9933]
+                      - columnheader "關／開" [ref=e9938] [cursor=pointer]:
+                        - heading "關／開" [level=4] [ref=e9942]:
+                          - generic [ref=e9944]: 關／開
+                    - generic [ref=e9951]:
+                      - separator [ref=e9952]
+                      - columnheader "廣告 開啟排序選項下拉式功能表" [ref=e9957] [cursor=pointer]:
+                        - heading "廣告" [level=4] [ref=e9961]:
+                          - generic [ref=e9963]: 廣告
+                        - button "開啟排序選項下拉式功能表" [ref=e9967]
+                  - generic [ref=e9971]:
+                    - generic [ref=e9976]:
+                      - separator [ref=e9977]
+                      - columnheader "投遞狀態 開啟排序選項下拉式功能表" [ref=e9982] [cursor=pointer]:
+                        - heading "投遞狀態" [level=4] [ref=e9986]:
+                          - generic [ref=e9988]: 投遞狀態
+                        - button "開啟排序選項下拉式功能表" [ref=e9992]
+                    - generic [ref=e9999]:
+                      - separator [ref=e10000]
+                      - columnheader "操作 開啟排序選項下拉式功能表" [ref=e10005] [cursor=pointer]:
+                        - heading "操作" [level=4] [ref=e10009]:
+                          - generic [ref=e10011]: 操作
+                        - button "開啟排序選項下拉式功能表" [ref=e10013]
+                    - generic [ref=e10020]:
+                      - separator [ref=e10021]
+                      - columnheader "成果 開啟排序選項下拉式功能表" [ref=e10026] [cursor=pointer]:
+                        - heading "成果" [level=4] [ref=e10030]:
+                          - generic [ref=e10032]: 成果
+                        - button "開啟排序選項下拉式功能表" [ref=e10036]
+                    - generic [ref=e10043]:
+                      - separator [ref=e10044]
+                      - columnheader "每次成果成本 開啟排序選項下拉式功能表" [ref=e10049] [cursor=pointer]:
+                        - heading "每次成果成本" [level=4] [ref=e10053]:
+                          - generic [ref=e10055]: 每次成果成本
+                        - button "開啟排序選項下拉式功能表" [ref=e10059]
+                    - generic [ref=e10066]:
+                      - separator [ref=e10067]
+                      - columnheader "預算 廣告組合 開啟排序選項下拉式功能表" [ref=e10072] [cursor=pointer]:
+                        - generic [ref=e10074]:
+                          - heading "預算" [level=4] [ref=e10076]:
+                            - generic [ref=e10078]: 預算
+                          - generic [ref=e10080]: 廣告組合
+                        - button "開啟排序選項下拉式功能表" [ref=e10082]
+                    - generic [ref=e10089]:
+                      - separator [ref=e10090]
+                      - columnheader "花費金額 開啟排序選項下拉式功能表" [ref=e10095] [cursor=pointer]:
+                        - heading "花費金額" [level=4] [ref=e10099]:
+                          - generic [ref=e10101]: 花費金額
+                        - button "開啟排序選項下拉式功能表" [ref=e10105]
+                    - generic [ref=e10112]:
+                      - separator [ref=e10113]
+                      - columnheader "曝光次數 開啟排序選項下拉式功能表" [ref=e10118] [cursor=pointer]:
+                        - heading "曝光次數" [level=4] [ref=e10122]:
+                          - generic [ref=e10124]: 曝光次數
+                        - button "開啟排序選項下拉式功能表" [ref=e10128]
+                    - generic [ref=e10135]:
+                      - separator [ref=e10136]
+                      - columnheader "觸及人數 開啟排序選項下拉式功能表" [ref=e10141] [cursor=pointer]:
+                        - heading "觸及人數" [level=4] [ref=e10145]:
+                          - generic [ref=e10147]: 觸及人數
+                        - button "開啟排序選項下拉式功能表" [ref=e10151]
+                    - generic [ref=e10158]:
+                      - separator [ref=e10159]
+                      - columnheader "總訊息聯繫對象人數 開啟排序選項下拉式功能表" [ref=e10164] [cursor=pointer]:
+                        - heading "總訊息聯繫對象人數" [level=4] [ref=e10168]:
+                          - generic [ref=e10170]: 總訊息聯繫對象人數
+                        - button "開啟排序選項下拉式功能表" [ref=e10174]
+                    - generic [ref=e10181]:
+                      - separator [ref=e10182]
+                      - columnheader "新的訊息聯絡人數 開啟排序選項下拉式功能表" [ref=e10187] [cursor=pointer]:
+                        - heading "新的訊息聯絡人數" [level=4] [ref=e10191]:
+                          - generic [ref=e10193]: 新的訊息聯絡人數
+                        - button "開啟排序選項下拉式功能表" [ref=e10197]
+                    - generic [ref=e10204]:
+                      - separator [ref=e10205]
+                      - columnheader "購買次數 開啟排序選項下拉式功能表" [ref=e10210] [cursor=pointer]:
+                        - heading "購買次數" [level=4] [ref=e10214]:
+                          - generic [ref=e10216]: 購買次數
+                        - button "開啟排序選項下拉式功能表" [ref=e10220]
+                    - generic [ref=e10227]:
+                      - separator [ref=e10228]
+                      - columnheader "結束時間 開啟排序選項下拉式功能表" [ref=e10233] [cursor=pointer]:
+                        - heading "結束時間" [level=4] [ref=e10237]:
+                          - generic [ref=e10239]: 結束時間
+                        - button "開啟排序選項下拉式功能表" [ref=e10243]
+                    - generic [ref=e10250]:
+                      - separator [ref=e10251]
+                      - columnheader "歸因設定 開啟排序選項下拉式功能表" [ref=e10256] [cursor=pointer]:
+                        - heading "歸因設定" [level=4] [ref=e10260]:
+                          - generic [ref=e10262]: 歸因設定
+                        - button "開啟排序選項下拉式功能表" [ref=e10264]
+                    - generic [ref=e10271]:
+                      - separator [ref=e10272]
+                      - columnheader "出價策略 廣告組合 開啟排序選項下拉式功能表" [ref=e10277] [cursor=pointer]:
+                        - generic [ref=e10279]:
+                          - heading "出價策略" [level=4] [ref=e10281]:
+                            - generic [ref=e10283]: 出價策略
+                          - generic [ref=e10285]: 廣告組合
+                        - button "開啟排序選項下拉式功能表" [ref=e10287]
+                    - generic [ref=e10294]:
+                      - separator [ref=e10295]
+                      - columnheader "上次重大編輯 開啟排序選項下拉式功能表" [ref=e10300] [cursor=pointer]:
+                        - heading "上次重大編輯" [level=4] [ref=e10304]:
+                          - generic [ref=e10306]: 上次重大編輯
+                        - button "開啟排序選項下拉式功能表" [ref=e10308]
+                    - generic [ref=e10315]:
+                      - separator [ref=e10316]
+                      - columnheader "品質排名 開啟排序選項下拉式功能表" [ref=e10321] [cursor=pointer]:
+                        - heading "品質排名" [level=4] [ref=e10325]:
+                          - generic [ref=e10327]: 品質排名
+                        - button "開啟排序選項下拉式功能表" [ref=e10331]
+                    - generic [ref=e10338]:
+                      - separator [ref=e10339]
+                      - columnheader "參與互動率排名 開啟排序選項下拉式功能表" [ref=e10344] [cursor=pointer]:
+                        - heading "參與互動率排名" [level=4] [ref=e10348]:
+                          - generic [ref=e10350]: 參與互動率排名
+                        - button "開啟排序選項下拉式功能表" [ref=e10354]
+                    - generic [ref=e10361]:
+                      - separator [ref=e10362]
+                      - columnheader "轉換率排名 開啟排序選項下拉式功能表" [ref=e10367] [cursor=pointer]:
+                        - heading "轉換率排名" [level=4] [ref=e10371]:
+                          - generic [ref=e10373]: 轉換率排名
+                        - button "開啟排序選項下拉式功能表" [ref=e10377]
+                    - generic [ref=e10384]:
+                      - separator [ref=e10385]
+                      - columnheader "廣告組合名稱 開啟排序選項下拉式功能表" [ref=e10390] [cursor=pointer]:
+                        - heading "廣告組合名稱" [level=4] [ref=e10394]:
+                          - generic [ref=e10396]: 廣告組合名稱
+                        - button "開啟排序選項下拉式功能表" [ref=e10400]
+                    - generic [ref=e10407]:
+                      - separator [ref=e10408]
+                      - columnheader "每次購買成本 開啟排序選項下拉式功能表" [ref=e10413] [cursor=pointer]:
+                        - heading "每次購買成本" [level=4] [ref=e10417]:
+                          - generic [ref=e10419]: 每次購買成本
+                        - button "開啟排序選項下拉式功能表" [ref=e10423]
+                    - generic [ref=e10430]:
+                      - separator [ref=e10431]
+                      - columnheader "購買轉換值 開啟排序選項下拉式功能表" [ref=e10436] [cursor=pointer]:
+                        - heading "購買轉換值" [level=4] [ref=e10440]:
+                          - generic [ref=e10442]: 購買轉換值
+                        - button "開啟排序選項下拉式功能表" [ref=e10446]
+                    - generic [ref=e10453]:
+                      - separator [ref=e10454]
+                      - columnheader "購買 ROAS（廣告投資報酬率） 開啟排序選項下拉式功能表" [ref=e10459] [cursor=pointer]:
+                        - heading "購買 ROAS（廣告投資報酬率）" [level=4] [ref=e10463]:
+                          - generic [ref=e10465]: 購買 ROAS（廣告投資報酬率）
+                        - button "開啟排序選項下拉式功能表" [ref=e10469]
+                    - generic [ref=e10476]:
+                      - separator [ref=e10477]
+                      - columnheader "每位新訊息聯繫對象成本 開啟排序選項下拉式功能表" [ref=e10482] [cursor=pointer]:
+                        - heading "每位新訊息聯繫對象成本" [level=4] [ref=e10486]:
+                          - generic [ref=e10488]: 每位新訊息聯繫對象成本
+                        - button "開啟排序選項下拉式功能表" [ref=e10492]
+                    - generic [ref=e10499]:
+                      - separator [ref=e10500]
+                      - columnheader "訊息對話開始次數 開啟排序選項下拉式功能表" [ref=e10505] [cursor=pointer]:
+                        - heading "訊息對話開始次數" [level=4] [ref=e10509]:
+                          - generic [ref=e10511]: 訊息對話開始次數
+                        - button "開啟排序選項下拉式功能表" [ref=e10515]
+                    - generic [ref=e10522]:
+                      - separator [ref=e10523]
+                      - columnheader "每次展開訊息對話成本 開啟排序選項下拉式功能表" [ref=e10528] [cursor=pointer]:
+                        - heading "每次展開訊息對話成本" [level=4] [ref=e10532]:
+                          - generic [ref=e10534]: 每次展開訊息對話成本
+                        - button "開啟排序選項下拉式功能表" [ref=e10538]
+                    - generic [ref=e10545]:
+                      - separator [ref=e10546]
+                      - columnheader "已建立訂單 開啟排序選項下拉式功能表" [ref=e10551] [cursor=pointer]:
+                        - heading "已建立訂單" [level=4] [ref=e10555]:
+                          - generic [ref=e10557]: 已建立訂單
+                        - button "開啟排序選項下拉式功能表" [ref=e10561]
+                    - generic [ref=e10568]:
+                      - separator [ref=e10569]
+                      - columnheader "已出貨訂單 開啟排序選項下拉式功能表" [ref=e10574] [cursor=pointer]:
+                        - heading "已出貨訂單" [level=4] [ref=e10578]:
+                          - generic [ref=e10580]: 已出貨訂單
+                        - button "開啟排序選項下拉式功能表" [ref=e10584]
+                    - button "自訂直欄……" [ref=e10597] [cursor=pointer]:
+                      - generic "自訂直欄……" [ref=e10603]:
+                        - generic [ref=e10604]: 自訂直欄……
+                - generic:
+                  - generic [ref=e10607]:
+                    - generic:
+                      - generic [ref=e10608]:
+                        - generic [ref=e10617]:
+                          - checkbox [ref=e10618] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11428] [cursor=pointer]
+                        - generic [ref=e11436]:
+                          - generic [ref=e11438]: alumi S50｜Messenger私訊｜高階餐飲決策者
+                          - generic:
+                            - link "編輯直欄":
+                              - /url: "#"
+                          - generic [ref=e11442]:
+                            - generic [ref=e11444]: 未發佈的編輯內容
+                            - status [ref=e11445]: 未發佈的編輯內容
+                      - generic [ref=e10636]:
+                        - generic [ref=e11451]: 行銷活動已關閉
+                        - generic [ref=e11453]:
+                          - generic [ref=e11454]: "1"
+                          - generic [ref=e11456]: Meta 潛在顧客
+                        - generic [ref=e11457]:
+                          - generic [ref=e11459]: NT$916
+                          - generic [ref=e11460]: 每位 Meta 潛在顧客
+                        - generic [ref=e11463]: 使用行銷活動預算
+                        - generic [ref=e11467]: NT$916
+                  - generic [ref=e10652]:
+                    - generic:
+                      - generic [ref=e10653]:
+                        - generic [ref=e10662]:
+                          - checkbox [ref=e10663] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e10672] [cursor=pointer]
+                        - generic [ref=e10678]:
+                          - img [ref=e11469]
+                          - generic [ref=e10682]:
+                            - generic [ref=e10684]: alumi S35 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e10692]:
+                        - generic [ref=e10700]: 已排定時間
+                        - generic [ref=e10706]:
+                          - generic [ref=e11471]: —
+                          - generic [ref=e10709]: Meta 潛在顧客
+                        - generic [ref=e10712]:
+                          - generic [ref=e11472]: —
+                          - generic [ref=e10715]: 每位 Meta 潛在顧客
+                        - generic [ref=e10720]: 使用行銷活動預算
+                        - generic [ref=e10726]: NT$0
+                  - generic [ref=e10729]:
+                    - generic:
+                      - generic [ref=e10730]:
+                        - generic [ref=e10739]:
+                          - checkbox [ref=e10740] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11479] [cursor=pointer]
+                        - generic [ref=e11483]:
+                          - img [ref=e11485]
+                          - generic [ref=e11488]:
+                            - generic [ref=e11490]: alumi F35R 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e10763]:
+                        - generic [ref=e11496]: 已排定時間
+                        - generic [ref=e10779]:
+                          - generic [ref=e10782]: —
+                          - generic [ref=e10784]: Meta 潛在顧客
+                        - generic [ref=e10787]:
+                          - generic [ref=e10790]: —
+                          - generic [ref=e10791]: 每位 Meta 潛在顧客
+                        - generic [ref=e11500]: 使用行銷活動預算
+                        - generic [ref=e10802]: NT$0
+                  - generic [ref=e10805]:
+                    - generic:
+                      - generic [ref=e10806]:
+                        - generic [ref=e10815]:
+                          - checkbox [ref=e10816] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11507] [cursor=pointer]
+                        - generic [ref=e10831]:
+                          - img [ref=e11511]
+                          - generic [ref=e10836]:
+                            - generic [ref=e10838]: alumi C40 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e10839]:
+                        - generic [ref=e10847]: 已排定時間
+                        - generic [ref=e10853]:
+                          - generic [ref=e10856]: —
+                          - generic [ref=e10858]: Meta 潛在顧客
+                        - generic [ref=e10861]:
+                          - generic [ref=e10864]: —
+                          - generic [ref=e10865]: 每位 Meta 潛在顧客
+                        - generic [ref=e11514]: 使用行銷活動預算
+                        - generic [ref=e10876]: NT$0
+                  - generic [ref=e10879]:
+                    - generic:
+                      - generic [ref=e10880]:
+                        - generic [ref=e10889]:
+                          - checkbox [ref=e10890] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11521] [cursor=pointer]
+                        - generic [ref=e10905]:
+                          - img [ref=e11525]
+                          - generic [ref=e10910]:
+                            - generic [ref=e10912]: alumi R50 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e10913]:
+                        - generic [ref=e10921]: 已排定時間
+                        - generic [ref=e10927]:
+                          - generic [ref=e10930]: —
+                          - generic [ref=e10932]: Meta 潛在顧客
+                        - generic [ref=e10935]:
+                          - generic [ref=e10938]: —
+                          - generic [ref=e10939]: 每位 Meta 潛在顧客
+                        - generic [ref=e11528]: 使用行銷活動預算
+                        - generic [ref=e10950]: NT$0
+                  - generic [ref=e10953]:
+                    - generic:
+                      - generic [ref=e10954]:
+                        - generic [ref=e10963]:
+                          - checkbox [ref=e10964] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11535] [cursor=pointer]
+                        - generic [ref=e10979]:
+                          - img [ref=e11539]
+                          - generic [ref=e10984]:
+                            - generic [ref=e10986]: alumi S50 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e10987]:
+                        - generic [ref=e11544]: 已排定時間
+                        - generic [ref=e11001]:
+                          - generic [ref=e11004]: —
+                          - generic [ref=e11006]: Meta 潛在顧客
+                        - generic [ref=e11009]:
+                          - generic [ref=e11012]: —
+                          - generic [ref=e11013]: 每位 Meta 潛在顧客
+                        - generic [ref=e11547]: 使用行銷活動預算
+                        - generic [ref=e11024]: NT$0
+                  - generic [ref=e11027]:
+                    - generic:
+                      - generic [ref=e11028]:
+                        - generic [ref=e11037]:
+                          - checkbox [ref=e11038] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [checked] [ref=e11554] [cursor=pointer]
+                        - generic [ref=e11053]:
+                          - img [ref=e11558]
+                          - generic [ref=e11058]:
+                            - generic [ref=e11060]: alumi B30R 16:9
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e11061]:
+                        - generic [ref=e11069]: 已排定時間
+                        - generic [ref=e11075]:
+                          - generic [ref=e11078]: —
+                          - generic [ref=e11080]: Meta 潛在顧客
+                        - generic [ref=e11083]:
+                          - generic [ref=e11086]: —
+                          - generic [ref=e11087]: 每位 Meta 潛在顧客
+                        - generic [ref=e11561]: 使用行銷活動預算
+                        - generic [ref=e11098]: NT$0
+                  - generic [ref=e11101]:
+                    - generic:
+                      - generic [ref=e11102]:
+                        - generic [ref=e11111]:
+                          - checkbox [ref=e11112] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [ref=e11568] [cursor=pointer]
+                        - generic [ref=e11127]:
+                          - img [ref=e11572]
+                          - generic [ref=e11132]:
+                            - generic [ref=e11134]: Instagram 貼文：大直的入夜儀式：在星光與燈火間，邂逅主廚的「alumi 餐車」✨...
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e11135]:
+                        - generic [ref=e11143]: 未投遞
+                        - generic [ref=e11582] [cursor=pointer]:
+                          - generic [ref=e11586]: 投遞錯誤
+                          - status [ref=e11587]
+                        - generic [ref=e11589]:
+                          - generic [ref=e11591]: —
+                          - generic [ref=e11592]: 訊息對話開始
+                        - generic [ref=e11157]:
+                          - generic [ref=e11160]: —
+                          - generic [ref=e11161]: 每次訊息對話開始
+                        - generic [ref=e11595]: 使用行銷活動預算
+                        - generic [ref=e11172]: NT$0
+                  - generic [ref=e11175]:
+                    - generic:
+                      - generic [ref=e11176]:
+                        - generic [ref=e11185]:
+                          - checkbox [ref=e11186] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [ref=e11195] [cursor=pointer]
+                        - generic [ref=e11201]:
+                          - img [ref=e11596]
+                          - generic [ref=e11206]:
+                            - generic [ref=e11208]: Instagram 貼文：「我總是在想像，天堂應該是圖書館的模樣。」—— 荷西·路易斯·波赫士...
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e11209]:
+                        - generic [ref=e11217]: 已關閉
+                        - generic [ref=e11239]:
+                          - generic [ref=e11241]: —
+                          - generic [ref=e11242]: 訊息對話開始
+                        - generic [ref=e11245]:
+                          - generic [ref=e11248]: —
+                          - generic [ref=e11249]: 每次訊息對話開始
+                        - generic [ref=e11254]: 使用行銷活動預算
+                        - generic [ref=e11260]: NT$0
+                  - generic [ref=e11263]:
+                    - generic:
+                      - generic [ref=e11264]:
+                        - generic [ref=e11273]:
+                          - checkbox [ref=e11274] [cursor=pointer]
+                          - generic:
+                            - img
+                        - switch "開啟／關閉" [ref=e11283] [cursor=pointer]
+                        - generic [ref=e11289]:
+                          - img [ref=e11597]
+                          - generic [ref=e11294]:
+                            - generic [ref=e11296]: 貼文：「 alumi F35R｜紐約篇 散步在城市的光影裡」
+                            - generic:
+                              - link "編輯直欄":
+                                - /url: "#"
+                      - generic [ref=e11297]:
+                        - generic [ref=e11305]: 已關閉
+                        - generic [ref=e11312]:
+                          - generic [ref=e11314]: —
+                          - generic [ref=e11315]: 訊息對話開始
+                        - generic [ref=e11318]:
+                          - generic [ref=e11321]: —
+                          - generic [ref=e11322]: 每次訊息對話開始
+                        - generic [ref=e11327]: 使用行銷活動預算
+                        - generic [ref=e11333]: NT$0
+                - generic [ref=e11354]:
+                  - text: 54則廣告的成果
+                  - button "information symbol, button, tap for more information" [ref=e11355]
+  - tooltip "預覽廣告創意" [ref=e11600]:
+    - generic [ref=e11604]: 預覽廣告創意

@@ -1,0 +1,916 @@
+- generic [active] [ref=e1]:
+  - img [ref=e2]
+  - img [ref=e3]
+  - generic [ref=e37]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - toolbar [ref=e44]:
+          - link "所有廣告 status_before_click:selected" [ref=e51] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e58]: 所有廣告
+          - button "查看更多" [ref=e60] [cursor=pointer]:
+            - generic [ref=e65]: 查看更多
+        - generic [ref=e66]:
+          - button "建立瀏覽畫面" [ref=e67] [cursor=pointer]:
+            - generic [ref=e71]: 建立瀏覽畫面
+          - button "設定" [ref=e72] [cursor=pointer]:
+            - generic [ref=e75]: 設定
+      - generic [ref=e91]: 搜尋以篩選：名稱、編號或衡量指標
+    - tablist [ref=e95]:
+      - tab "行銷活動" [ref=e97] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e104]
+          - heading "行銷活動" [level=3] [ref=e108]
+      - tab "廣告組合" [ref=e110] [cursor=pointer]:
+        - generic [ref=e116]:
+          - img [ref=e117]
+          - heading "廣告組合" [level=3] [ref=e127]
+      - tab "廣告" [selected] [ref=e129] [cursor=pointer]:
+        - generic [ref=e135]:
+          - img [ref=e136]
+          - heading "廣告" [level=3] [ref=e140]
+    - generic [ref=e145]:
+      - toolbar [ref=e152]:
+        - generic [ref=e154]:
+          - button "建立" [ref=e157] [cursor=pointer]:
+            - generic [ref=e163]: 建立
+          - button "建立複本" [disabled] [ref=e164]:
+            - generic [ref=e169]: 建立複本
+          - button "編輯" [disabled] [ref=e170]:
+            - generic [ref=e175]: 編輯
+          - button "分析" [ref=e179] [cursor=pointer]:
+            - generic [ref=e185]: 分析
+          - button "A／B 測試" [ref=e186] [cursor=pointer]:
+            - generic [ref=e191]: A／B 測試
+          - button "更多" [ref=e192] [cursor=pointer]:
+            - generic [ref=e196]: 更多
+        - generic [ref=e199]:
+          - button "直欄：成效" [ref=e204] [cursor=pointer]:
+            - generic [ref=e209]: 直欄：成效
+          - button "分析項目" [ref=e215] [cursor=pointer]:
+            - generic [ref=e220]: 分析項目
+          - button "分析報告" [ref=e223] [cursor=pointer]:
+            - generic [ref=e226]: 分析報告
+          - group [ref=e230]:
+            - button "匯出" [ref=e232] [cursor=pointer]:
+              - generic [ref=e235]: 匯出
+            - button "開啟下拉式功能表" [ref=e238] [cursor=pointer]:
+              - generic [ref=e241]: 開啟下拉式功能表
+          - button "比較" [ref=e245] [cursor=pointer]:
+            - generic [ref=e248]: 比較
+      - table [ref=e259]:
+        - generic [ref=e260]:
+          - row "用於選擇所有廣告的核取方塊 關／開 廣告 開啟排序選項下拉式功能表 投遞狀態 開啟排序選項下拉式功能表 操作 開啟排序選項下拉式功能表 成果 開啟排序選項下拉式功能表 每次成果成本 開啟排序選項下拉式功能表 預算 廣告組合 開啟排序選項下拉式功能表 花費金額 開啟排序選項下拉式功能表 曝光次數 開啟排序選項下拉式功能表 觸及人數 開啟排序選項下拉式功能表 結束時間 開啟排序選項下拉式功能表 歸因設定 開啟排序選項下拉式功能表 出價策略 廣告組合 開啟排序選項下拉式功能表 上次重大編輯 開啟排序選項下拉式功能表 品質排名 開啟排序選項下拉式功能表 參與互動率排名 開啟排序選項下拉式功能表 轉換率排名 開啟排序選項下拉式功能表 廣告組合名稱 開啟排序選項下拉式功能表 自訂直欄…… 轉換率排名 開啟排序選項下拉式功能表 廣告組合名稱 開啟排序選項下拉式功能表 每次購買成本 開啟排序選項下拉式功能表 購買轉換值 開啟排序選項下拉式功能表 購買 ROAS（廣告投資報酬率） 開啟排序選項下拉式功能表 每位新訊息聯繫對象成本 開啟排序選項下拉式功能表 訊息對話開始次數 開啟排序選項下拉式功能表 每次展開訊息對話成本 開啟排序選項下拉式功能表 已建立訂單 開啟排序選項下拉式功能表 已出貨訂單 開啟排序選項下拉式功能表 自訂直欄……" [ref=e261]:
+            - generic [ref=e263]:
+              - generic [ref=e275]:
+                - checkbox "用於選擇所有廣告的核取方塊" [ref=e276] [cursor=pointer]
+                - generic:
+                  - img
+              - generic [ref=e281]:
+                - separator [ref=e282]
+                - columnheader "關／開" [ref=e287] [cursor=pointer]:
+                  - heading "關／開" [level=4] [ref=e291]:
+                    - generic [ref=e293]: 關／開
+              - generic [ref=e300]:
+                - separator [ref=e301]
+                - columnheader "廣告 開啟排序選項下拉式功能表" [ref=e306] [cursor=pointer]:
+                  - heading "廣告" [level=4] [ref=e310]:
+                    - generic [ref=e312]: 廣告
+                  - button "開啟排序選項下拉式功能表" [ref=e316]
+            - generic [ref=e320]:
+              - generic [ref=e325]:
+                - separator [ref=e326]
+                - columnheader "投遞狀態 開啟排序選項下拉式功能表" [ref=e331] [cursor=pointer]:
+                  - heading "投遞狀態" [level=4] [ref=e335]:
+                    - generic [ref=e337]: 投遞狀態
+                  - button "開啟排序選項下拉式功能表" [ref=e341]
+              - generic [ref=e348]:
+                - separator [ref=e349]
+                - columnheader "操作 開啟排序選項下拉式功能表" [ref=e354] [cursor=pointer]:
+                  - heading "操作" [level=4] [ref=e358]:
+                    - generic [ref=e360]: 操作
+                  - button "開啟排序選項下拉式功能表" [ref=e362]
+              - generic [ref=e369]:
+                - separator [ref=e370]
+                - columnheader "成果 開啟排序選項下拉式功能表" [ref=e375] [cursor=pointer]:
+                  - heading "成果" [level=4] [ref=e379]:
+                    - generic [ref=e381]: 成果
+                  - button "開啟排序選項下拉式功能表" [ref=e385]
+              - generic [ref=e392]:
+                - separator [ref=e393]
+                - columnheader "每次成果成本 開啟排序選項下拉式功能表" [ref=e398] [cursor=pointer]:
+                  - heading "每次成果成本" [level=4] [ref=e402]:
+                    - generic [ref=e404]: 每次成果成本
+                  - button "開啟排序選項下拉式功能表" [ref=e408]
+              - generic [ref=e415]:
+                - separator [ref=e416]
+                - columnheader "預算 廣告組合 開啟排序選項下拉式功能表" [ref=e421] [cursor=pointer]:
+                  - generic [ref=e423]:
+                    - heading "預算" [level=4] [ref=e425]:
+                      - generic [ref=e427]: 預算
+                    - generic [ref=e429]: 廣告組合
+                  - button "開啟排序選項下拉式功能表" [ref=e431]
+              - generic [ref=e438]:
+                - separator [ref=e439]
+                - columnheader "花費金額 開啟排序選項下拉式功能表" [ref=e444] [cursor=pointer]:
+                  - heading "花費金額" [level=4] [ref=e448]:
+                    - generic [ref=e450]: 花費金額
+                  - button "開啟排序選項下拉式功能表" [ref=e454]
+              - generic [ref=e461]:
+                - separator [ref=e462]
+                - columnheader "曝光次數 開啟排序選項下拉式功能表" [ref=e467] [cursor=pointer]:
+                  - heading "曝光次數" [level=4] [ref=e471]:
+                    - generic [ref=e473]: 曝光次數
+                  - button "開啟排序選項下拉式功能表" [ref=e477]
+              - generic [ref=e484]:
+                - separator [ref=e485]
+                - columnheader "觸及人數 開啟排序選項下拉式功能表" [ref=e490] [cursor=pointer]:
+                  - heading "觸及人數" [level=4] [ref=e494]:
+                    - generic [ref=e496]: 觸及人數
+                  - button "開啟排序選項下拉式功能表" [ref=e500]
+              - generic [ref=e507]:
+                - separator [ref=e508]
+                - columnheader "結束時間 開啟排序選項下拉式功能表" [ref=e513] [cursor=pointer]:
+                  - heading "結束時間" [level=4] [ref=e517]:
+                    - generic [ref=e519]: 結束時間
+                  - button "開啟排序選項下拉式功能表" [ref=e523]
+              - generic [ref=e530]:
+                - separator [ref=e531]
+                - columnheader "歸因設定 開啟排序選項下拉式功能表" [ref=e536] [cursor=pointer]:
+                  - heading "歸因設定" [level=4] [ref=e540]:
+                    - generic [ref=e542]: 歸因設定
+                  - button "開啟排序選項下拉式功能表" [ref=e544]
+              - generic [ref=e551]:
+                - separator [ref=e552]
+                - columnheader "出價策略 廣告組合 開啟排序選項下拉式功能表" [ref=e557] [cursor=pointer]:
+                  - generic [ref=e559]:
+                    - heading "出價策略" [level=4] [ref=e561]:
+                      - generic [ref=e563]: 出價策略
+                    - generic [ref=e565]: 廣告組合
+                  - button "開啟排序選項下拉式功能表" [ref=e567]
+              - generic [ref=e574]:
+                - separator [ref=e575]
+                - columnheader "上次重大編輯 開啟排序選項下拉式功能表" [ref=e580] [cursor=pointer]:
+                  - heading "上次重大編輯" [level=4] [ref=e584]:
+                    - generic [ref=e586]: 上次重大編輯
+                  - button "開啟排序選項下拉式功能表" [ref=e588]
+              - generic [ref=e595]:
+                - separator [ref=e596]
+                - columnheader "品質排名 開啟排序選項下拉式功能表" [ref=e601] [cursor=pointer]:
+                  - heading "品質排名" [level=4] [ref=e605]:
+                    - generic [ref=e607]: 品質排名
+                  - button "開啟排序選項下拉式功能表" [ref=e611]
+              - generic [ref=e618]:
+                - separator [ref=e619]
+                - columnheader "參與互動率排名 開啟排序選項下拉式功能表" [ref=e624] [cursor=pointer]:
+                  - heading "參與互動率排名" [level=4] [ref=e628]:
+                    - generic [ref=e630]: 參與互動率排名
+                  - button "開啟排序選項下拉式功能表" [ref=e634]
+              - generic [ref=e641]:
+                - separator [ref=e642]
+                - columnheader "轉換率排名 開啟排序選項下拉式功能表" [ref=e647] [cursor=pointer]:
+                  - heading "轉換率排名" [level=4] [ref=e651]:
+                    - generic [ref=e653]: 轉換率排名
+                  - button "開啟排序選項下拉式功能表" [ref=e657]
+              - generic [ref=e664]:
+                - separator [ref=e665]
+                - columnheader "廣告組合名稱 開啟排序選項下拉式功能表" [ref=e670] [cursor=pointer]:
+                  - heading "廣告組合名稱" [level=4] [ref=e674]:
+                    - generic [ref=e676]: 廣告組合名稱
+                  - button "開啟排序選項下拉式功能表" [ref=e680]
+              - button "自訂直欄……" [ref=e693] [cursor=pointer]:
+                - generic "自訂直欄……" [ref=e699]:
+                  - generic [ref=e700]: 自訂直欄……
+              - generic [ref=e705]:
+                - separator [ref=e706]
+                - columnheader "轉換率排名 開啟排序選項下拉式功能表" [ref=e711] [cursor=pointer]:
+                  - heading "轉換率排名" [level=4] [ref=e715]:
+                    - generic [ref=e717]: 轉換率排名
+                  - button "開啟排序選項下拉式功能表" [ref=e721]
+              - generic [ref=e728]:
+                - separator [ref=e729]
+                - columnheader "廣告組合名稱 開啟排序選項下拉式功能表" [ref=e734] [cursor=pointer]:
+                  - heading "廣告組合名稱" [level=4] [ref=e738]:
+                    - generic [ref=e740]: 廣告組合名稱
+                  - button "開啟排序選項下拉式功能表" [ref=e744]
+              - generic [ref=e751]:
+                - separator [ref=e752]
+                - columnheader "每次購買成本 開啟排序選項下拉式功能表" [ref=e757] [cursor=pointer]:
+                  - heading "每次購買成本" [level=4] [ref=e761]:
+                    - generic [ref=e763]: 每次購買成本
+                  - button "開啟排序選項下拉式功能表" [ref=e767]
+              - generic [ref=e774]:
+                - separator [ref=e775]
+                - columnheader "購買轉換值 開啟排序選項下拉式功能表" [ref=e780] [cursor=pointer]:
+                  - heading "購買轉換值" [level=4] [ref=e784]:
+                    - generic [ref=e786]: 購買轉換值
+                  - button "開啟排序選項下拉式功能表" [ref=e790]
+              - generic [ref=e797]:
+                - separator [ref=e798]
+                - columnheader "購買 ROAS（廣告投資報酬率） 開啟排序選項下拉式功能表" [ref=e803] [cursor=pointer]:
+                  - heading "購買 ROAS（廣告投資報酬率）" [level=4] [ref=e807]:
+                    - generic [ref=e809]: 購買 ROAS（廣告投資報酬率）
+                  - button "開啟排序選項下拉式功能表" [ref=e813]
+              - generic [ref=e820]:
+                - separator [ref=e821]
+                - columnheader "每位新訊息聯繫對象成本 開啟排序選項下拉式功能表" [ref=e826] [cursor=pointer]:
+                  - heading "每位新訊息聯繫對象成本" [level=4] [ref=e830]:
+                    - generic [ref=e832]: 每位新訊息聯繫對象成本
+                  - button "開啟排序選項下拉式功能表" [ref=e836]
+              - generic [ref=e843]:
+                - separator [ref=e844]
+                - columnheader "訊息對話開始次數 開啟排序選項下拉式功能表" [ref=e849] [cursor=pointer]:
+                  - heading "訊息對話開始次數" [level=4] [ref=e853]:
+                    - generic [ref=e855]: 訊息對話開始次數
+                  - button "開啟排序選項下拉式功能表" [ref=e859]
+              - generic [ref=e866]:
+                - separator [ref=e867]
+                - columnheader "每次展開訊息對話成本 開啟排序選項下拉式功能表" [ref=e872] [cursor=pointer]:
+                  - heading "每次展開訊息對話成本" [level=4] [ref=e876]:
+                    - generic [ref=e878]: 每次展開訊息對話成本
+                  - button "開啟排序選項下拉式功能表" [ref=e882]
+              - generic [ref=e889]:
+                - separator [ref=e890]
+                - columnheader "已建立訂單 開啟排序選項下拉式功能表" [ref=e895] [cursor=pointer]:
+                  - heading "已建立訂單" [level=4] [ref=e899]:
+                    - generic [ref=e901]: 已建立訂單
+                  - button "開啟排序選項下拉式功能表" [ref=e905]
+              - generic [ref=e912]:
+                - separator [ref=e913]
+                - columnheader "已出貨訂單 開啟排序選項下拉式功能表" [ref=e918] [cursor=pointer]:
+                  - heading "已出貨訂單" [level=4] [ref=e922]:
+                    - generic [ref=e924]: 已出貨訂單
+                  - button "開啟排序選項下拉式功能表" [ref=e928]
+              - button "自訂直欄……" [ref=e941] [cursor=pointer]:
+                - generic "自訂直欄……" [ref=e947]:
+                  - generic [ref=e948]: 自訂直欄……
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi B30R 9:16 - 複本
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 草稿
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi B30R 16:9 - 複本
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 草稿
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: —
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi S50｜Messenger私訊｜高階餐飲決策者
+                                  - generic [ref=e952]:
+                                    - generic [ref=e954]: 未發佈的編輯內容
+                                    - status [ref=e955]: 未發佈的編輯內容
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 行銷活動已關閉
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "1"
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: NT$916
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$916
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi B30R 9:16
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi S35 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi F35R 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi C40 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi R50 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi S50 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: alumi B30R 16:9
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 已排定時間
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic:
+                              - link "下載 Meta 潛在顧客":
+                                - /url: "#"
+                                - generic:
+                                  - generic "下載"
+                                - text: Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每位 Meta 潛在顧客
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - checkbox
+                                        - generic:
+                                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Instagram 貼文：大直的入夜儀式：在星光與燈火間，邂逅主廚的「alumi 餐車」✨...
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 未投遞
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic:
+                                                  - generic: 投遞錯誤
+                                                - status
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                              - generic: 訊息對話開始
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: —
+                            - generic: 每次訊息對話開始
+                      - generic:
+                        - generic:
+                          - generic:
+                            - progressbar
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: NT$0
+          - generic [ref=e973]:
+            - generic [ref=e975]:
+              - text: 57則廣告的成果
+              - button "information symbol, button, tap for more information" [ref=e976]
+            - generic [ref=e982]: 載入中⋯⋯

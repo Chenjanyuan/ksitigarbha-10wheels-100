@@ -1,0 +1,652 @@
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic [ref=e2]:
+              - generic:
+                - generic:
+                  - button [disabled]:
+                    - img
+              - link "Facebook" [ref=e3] [cursor=pointer]:
+                - /url: /
+                - img [ref=e4]
+            - generic [ref=e12]:
+              - generic [ref=e13]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button:
+                        - img
+              - generic [ref=e15]:
+                - generic:
+                  - img
+                - combobox "搜尋 Facebook" [ref=e16]
+            - navigation "Facebook" [ref=e20]:
+              - list [ref=e21]:
+                - listitem [ref=e22]:
+                  - link "首頁" [ref=e26] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e28]
+                - listitem [ref=e30]:
+                  - link "朋友" [ref=e33] [cursor=pointer]:
+                    - /url: /friends/
+                    - img [ref=e35]
+                - listitem [ref=e37]:
+                  - link "Reels" [ref=e40] [cursor=pointer]:
+                    - /url: /watch/?ref=tab
+                    - img [ref=e42]
+                - listitem [ref=e45]:
+                  - link "Marketplace" [ref=e48] [cursor=pointer]:
+                    - /url: /marketplace/?ref=app_tab
+                    - img [ref=e50]
+                - listitem [ref=e52]:
+                  - link "遊戲" [ref=e55] [cursor=pointer]:
+                    - /url: /gaming/play/?store_visit_source=gaming_tab
+                    - img [ref=e57]
+            - navigation "帳號控制項和設定" [ref=e61]:
+              - button "Facebook 功能表" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+              - button "Messenger" [ref=e72] [cursor=pointer]:
+                - img [ref=e73]
+              - generic [ref=e78]:
+                - button "通知，6則未讀" [ref=e79] [cursor=pointer]:
+                  - img [ref=e80]
+                - button [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83]:
+                    - generic [ref=e84]: 未讀通知數量
+                    - generic [ref=e85]: "6"
+              - button "你的個人檔案" [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - img "你的個人檔案" [ref=e90]
+                  - img [ref=e97]
+          - generic [ref=e105]:
+            - navigation [ref=e106]:
+              - generic [ref=e109]:
+                - heading [level=2] [ref=e110]: Facebook 功能表
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - list [ref=e115]:
+                        - listitem [ref=e116]:
+                          - link [ref=e120] [cursor=pointer]:
+                            - /url: https://www.facebook.com/veragrul.saiken
+                            - generic [ref=e122]:
+                              - img [ref=e125]
+                              - generic [ref=e134]: Veragrul Saiken
+                        - listitem [ref=e135]:
+                          - link [ref=e139] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.meta.ai%2F%3Futm_source%3Dfacebook_bookmarks%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVmp6OHVlRllSd295Z1FnRXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5brbBFFO4xX8VdloEHDFi9T74v0than6xJmANLZq9OvLzi_GrtdRNAuxsC_g_aem_YWdncwDRj32s9LIdFWWc-PEJaBGq%26brid%3DYWdncwGeFwF4xXUnf4y6b9c_rVxC&h=AUB-_F6pLmHYadnefaaG38qROGTg19E5aBbQItZ_wv2nFpUNAJzp7mmPV6K1BNNo10_EH2YIrP_EYzmHj9DMa2-6MYvjTugys66t7CJqvt_ERhbVVwvYuYbsWleUUdDcnRvKWq0t-WldvcEdegLMvg
+                            - generic [ref=e150]: Meta AI
+                        - listitem [ref=e151]:
+                          - link [ref=e155] [cursor=pointer]:
+                            - /url: "#"
+                            - generic [ref=e166]: Manus AI
+                        - listitem [ref=e167]:
+                          - link [ref=e171] [cursor=pointer]:
+                            - /url: https://www.facebook.com/friends/
+                            - generic [ref=e182]: 朋友
+                        - listitem [ref=e183]:
+                          - link [ref=e187] [cursor=pointer]:
+                            - /url: https://www.facebook.com/onthisday/?source=bookmark
+                            - generic [ref=e198]: 動態回顧
+                        - listitem [ref=e199]:
+                          - link [ref=e203] [cursor=pointer]:
+                            - /url: https://www.facebook.com/saved/?cref=28
+                            - generic [ref=e214]: 我的珍藏
+                        - listitem [ref=e215]:
+                          - link [ref=e219] [cursor=pointer]:
+                            - /url: https://www.facebook.com/groups/?ref=bookmarks
+                            - generic [ref=e230]: 社團
+                        - listitem [ref=e231]:
+                          - link [ref=e235] [cursor=pointer]:
+                            - /url: https://www.facebook.com/watch/
+                            - generic [ref=e246]: 影片
+                      - button [ref=e250] [cursor=pointer]:
+                        - generic [ref=e252]:
+                          - img [ref=e255]
+                          - generic [ref=e262]: 顯示更多
+                      - separator [ref=e263]
+                    - generic [ref=e264]:
+                      - heading [level=3] [ref=e274]:
+                        - generic [ref=e276]: 你的捷徑
+                      - list [ref=e277]:
+                        - listitem [ref=e278]:
+                          - link [ref=e282] [cursor=pointer]:
+                            - /url: https://www.facebook.com/JekeenTaiwan/
+                            - generic [ref=e284]:
+                              - img [ref=e287]
+                              - generic [ref=e296]: Jekeen Taiwan-定點式景觀餐車/營地露營房車
+                        - listitem [ref=e297]:
+                          - link [ref=e301] [cursor=pointer]:
+                            - /url: https://www.facebook.com/Ksitigarbhabodishava/
+                            - generic [ref=e303]:
+                              - img [ref=e306]
+                              - generic [ref=e315]: 地藏菩薩本行經
+                        - listitem [ref=e316]:
+                          - link [ref=e320] [cursor=pointer]:
+                            - /url: https://www.facebook.com/praptitaiwan/
+                            - generic [ref=e322]:
+                              - img [ref=e325]
+                              - generic [ref=e334]: 展覽車的專家-連動行銷 Prapti 展覽車/活動車/宣傳車/餐車/復古車/燈箱貨櫃舞台車/櫥窗車/胖卡車/選舉車/展覽巴士/貨櫃屋/特殊車輛訂製。
+                        - listitem [ref=e335]:
+                          - link [ref=e339] [cursor=pointer]:
+                            - /url: https://www.facebook.com/groups/1224997379198346/
+                            - generic [ref=e341]:
+                              - img [ref=e344]
+                              - generic [ref=e353]: Claude Taiwan
+                        - listitem [ref=e354]:
+                          - link [ref=e358] [cursor=pointer]:
+                            - /url: https://www.facebook.com/groups/677051232343959/
+                            - generic [ref=e360]:
+                              - img [ref=e363]
+                              - generic [ref=e372]: 懷舊動漫特撮主題館(10年或以上主題)
+                      - button [ref=e376] [cursor=pointer]:
+                        - generic [ref=e378]:
+                          - img [ref=e381]
+                          - generic [ref=e388]: 顯示更多
+                  - contentinfo [ref=e390]:
+                    - list [ref=e392]:
+                      - listitem [ref=e393]:
+                        - link [ref=e394] [cursor=pointer]:
+                          - /url: /privacy/policy/?entry_point=comet_dropdown
+                          - text: 隱私政策
+                        - generic [ref=e395]: ·
+                      - listitem [ref=e397]:
+                        - link [ref=e398] [cursor=pointer]:
+                          - /url: /policies?ref=pf
+                          - text: 服務條款
+                        - generic [ref=e399]: ·
+                      - listitem [ref=e401]:
+                        - link [ref=e402] [cursor=pointer]:
+                          - /url: /business/
+                          - text: 廣告
+                        - generic [ref=e403]: ·
+                      - listitem [ref=e405]:
+                        - link [ref=e406] [cursor=pointer]:
+                          - /url: /help/568137493302217
+                          - text: Ad Choices
+                          - img [ref=e408]
+                        - generic [ref=e411]: ·
+                      - listitem [ref=e413]:
+                        - link [ref=e414] [cursor=pointer]:
+                          - /url: /policies/cookies/
+                          - text: Cookie
+                        - generic [ref=e415]: ·
+                      - listitem [ref=e417]:
+                        - button [ref=e418] [cursor=pointer]: 更多
+            - heading [level=1] [ref=e420]: 首頁
+            - main [ref=e421]:
+              - generic [ref=e424]:
+                - link:
+                  - /url: /?should_open_composer=false&wp_discovery_redirect=true
+                - generic [ref=e426]:
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - img [ref=e434]
+                      - button [ref=e440] [cursor=pointer]:
+                        - img [ref=e441]
+                    - generic [ref=e444]:
+                      - heading [level=3] [ref=e446]:
+                        - generic [ref=e447]: 記住密碼
+                      - generic [ref=e449]: 下次當你從此瀏覽器登入時，只要點擊大頭貼照即可，不需要輸入密碼。
+                    - generic [ref=e451]:
+                      - button [ref=e453] [cursor=pointer]:
+                        - generic [ref=e456]: 確定
+                      - button [ref=e458] [cursor=pointer]:
+                        - generic [ref=e461]: 稍後再說
+                  - region [ref=e465]:
+                    - generic [ref=e466]:
+                      - heading [level=3] [ref=e467]: 建立貼文
+                      - link [ref=e468] [cursor=pointer]:
+                        - /url: https://www.facebook.com/veragrul.saiken
+                        - img [ref=e471]
+                      - button [ref=e475] [cursor=pointer]:
+                        - generic [ref=e477]: Veragrul Saiken，在想些什麼？
+                      - generic [ref=e478]:
+                        - button [ref=e480] [cursor=pointer]
+                        - button [ref=e484] [cursor=pointer]
+                        - button [ref=e488] [cursor=pointer]
+                  - region [ref=e496]:
+                    - heading [level=3] [ref=e497]: 限時動態
+                    - generic [ref=e498]:
+                      - generic:
+                        - button [disabled]:
+                          - img
+                      - grid [ref=e500]:
+                        - row [ref=e501]:
+                          - generic [ref=e503]:
+                            - gridcell [ref=e504]:
+                              - link [ref=e506] [cursor=pointer]:
+                                - /url: /stories/create/
+                                - generic [ref=e512]:
+                                  - img [ref=e515]
+                                  - generic:
+                                    - generic:
+                                      - generic: 建立限時動態
+                            - gridcell [ref=e520]:
+                              - link [ref=e524] [cursor=pointer]:
+                                - /url: /stories/102401468594002/UzpfSVNDOjE5NjgyNDM2OTA1NjIwMzc=/?bucket_count=9&source=story_tray
+                                - generic [ref=e529]:
+                                  - generic [ref=e530]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e534]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: Taiwan Raelian Movement 臺灣雷爾運動
+                            - gridcell [ref=e535]:
+                              - link [ref=e539] [cursor=pointer]:
+                                - /url: /stories/105843555658009/UzpfSVNDOjMyNTE4MTU0MDgzNTgzOTE=/?bucket_count=9&source=story_tray
+                                - generic [ref=e541]:
+                                  - group [ref=e550]
+                                  - generic [ref=e553]:
+                                    - generic [ref=e554]:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                    - generic [ref=e558]:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - generic: 禾望品牌股份有限公司
+                            - gridcell [ref=e559]:
+                              - link [ref=e563] [cursor=pointer]:
+                                - /url: /stories/103856778445293/UzpfSVNDOjEwMTQ1NDQwNjQ1OTAzNjk=/?bucket_count=9&source=story_tray
+                                - generic [ref=e568]:
+                                  - generic [ref=e569]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e573]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: 淡水資訊網
+                            - gridcell [ref=e574]:
+                              - link [ref=e578] [cursor=pointer]:
+                                - /url: /stories/110800114409082/UzpfSVNDOjE3OTAyMTc1NTIzODg4ODg=/?bucket_count=9&source=story_tray
+                                - generic [ref=e583]:
+                                  - generic [ref=e584]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e588]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: 導航王 NaviKing
+                            - gridcell [ref=e589]:
+                              - link [ref=e593] [cursor=pointer]:
+                                - /url: /stories/2884578741557130/UzpfSVNDOjEwMjg2MDE2NzMwODkyNDE=/?bucket_count=9&source=story_tray
+                                - generic [ref=e598]:
+                                  - generic [ref=e599]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e603]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: 鄧惟濱
+                            - gridcell [ref=e604]:
+                              - link [ref=e608] [cursor=pointer]:
+                                - /url: /stories/109584377865834/UzpfSVNDOjMyMjQyOTMzNDc5NTkxOTU=/?bucket_count=9&source=story_tray
+                                - generic [ref=e613]:
+                                  - generic [ref=e614]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e618]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: 佛光山
+                            - gridcell [ref=e619]:
+                              - link [ref=e623] [cursor=pointer]:
+                                - /url: /stories/105316794937937/UzpfSVNDOjE1NjkyODUxMzE0ODU5NDM=/?bucket_count=9&source=story_tray
+                                - generic [ref=e628]:
+                                  - generic [ref=e629]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e633]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: DOWSIL矽膠達人
+                            - gridcell [ref=e634]:
+                              - link [ref=e638] [cursor=pointer]:
+                                - /url: /stories/167111294775860/UzpfSVNDOjI2MzY3NDEwMzAyOTM0MjIz/?bucket_count=9&source=story_tray
+                                - generic [ref=e643]:
+                                  - generic [ref=e644]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e648]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: 立法委員賴惠員
+                            - gridcell [ref=e649]:
+                              - link [ref=e653] [cursor=pointer]:
+                                - /url: /stories/1703491273104894/UzpfSVNDOjk4MTM3MDA3MTE4NjExOQ==/?bucket_count=9&source=story_tray
+                                - generic [ref=e658]:
+                                  - generic [ref=e659]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e663]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: Jun Yao
+                            - gridcell [ref=e664]:
+                              - link [ref=e668] [cursor=pointer]:
+                                - /url: /stories/103848049402827/UzpfSVNDOjEwMzcyNzM5NDg3Nzg4NjM=/?bucket_count=9&source=story_tray
+                                - generic [ref=e673]:
+                                  - generic [ref=e674]:
+                                    - generic:
+                                      - generic:
+                                        - img
+                                  - generic [ref=e678]:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic: Pet Pixels Studio
+                            - gridcell [ref=e679]:
+                              - status [ref=e681]
+                      - button [ref=e691] [cursor=pointer]:
+                        - img [ref=e692]
+                  - generic [ref=e695]:
+                    - heading [level=3] [ref=e696]: 動態消息貼文
+                    - generic [ref=e697]:
+                      - generic [ref=e712]:
+                        - blockquote [ref=e714]:
+                          - generic [ref=e715]: Facebook
+                        - blockquote [ref=e717]:
+                          - generic [ref=e718]: Facebook
+                        - blockquote [ref=e720]:
+                          - generic [ref=e721]: Facebook
+                        - blockquote [ref=e723]:
+                          - generic [ref=e724]: Facebook
+                        - blockquote [ref=e726]:
+                          - generic [ref=e727]: Facebook
+                        - blockquote [ref=e729]:
+                          - generic [ref=e730]: Facebook
+                        - blockquote [ref=e732]:
+                          - generic [ref=e733]: Facebook
+                        - blockquote [ref=e735]:
+                          - generic [ref=e736]: Facebook
+                        - blockquote [ref=e738]:
+                          - generic [ref=e739]: Facebook
+                        - blockquote [ref=e741]:
+                          - generic [ref=e742]: Facebook
+                        - blockquote [ref=e744]:
+                          - generic [ref=e745]: Facebook
+                        - generic [ref=e748]:
+                          - blockquote [ref=e750]:
+                            - generic [ref=e751]: Facebook
+                          - blockquote [ref=e753]:
+                            - generic [ref=e754]: Facebook
+                          - blockquote [ref=e756]:
+                            - generic [ref=e757]: Facebook
+                          - blockquote [ref=e759]:
+                            - generic [ref=e760]: Facebook
+                          - blockquote [ref=e762]:
+                            - generic [ref=e763]: Facebook
+                          - blockquote [ref=e765]:
+                            - generic [ref=e766]: Facebook
+                          - blockquote [ref=e768]:
+                            - generic [ref=e769]: Facebook
+                          - blockquote [ref=e771]:
+                            - generic [ref=e772]: Facebook
+                          - blockquote [ref=e774]:
+                            - generic [ref=e775]: Facebook
+                          - blockquote [ref=e777]:
+                            - generic [ref=e778]: Facebook
+                          - blockquote [ref=e780]:
+                            - generic [ref=e781]: Facebook
+                          - blockquote [ref=e783]:
+                            - generic [ref=e784]: Facebook
+                          - blockquote [ref=e786]:
+                            - generic [ref=e787]: Facebook
+                          - blockquote [ref=e789]:
+                            - generic [ref=e790]: Facebook
+                          - blockquote [ref=e792]:
+                            - generic [ref=e793]: Facebook
+                          - blockquote [ref=e795]:
+                            - generic [ref=e796]: Facebook
+                          - blockquote [ref=e798]:
+                            - generic [ref=e799]: Facebook
+                          - blockquote [ref=e801]:
+                            - generic [ref=e802]: Facebook
+                          - blockquote [ref=e804]:
+                            - generic [ref=e805]: Facebook
+                          - blockquote [ref=e807]:
+                            - generic [ref=e808]: Facebook
+                          - blockquote [ref=e810]:
+                            - generic [ref=e811]: Facebook
+                          - blockquote [ref=e813]:
+                            - generic [ref=e814]: Facebook
+                          - generic [ref=e816]:
+                            - generic [ref=e817]:
+                              - link [ref=e820] [cursor=pointer]:
+                                - /url: /groups/111655007804/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=%3C%3C%2CP-R
+                                - img [ref=e822]
+                              - link [ref=e831] [cursor=pointer]:
+                                - /url: /groups/111655007804/user/100011409370591/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=%3C%2CP-R
+                                - img [ref=e835]
+                            - generic [ref=e840]:
+                              - heading [level=4] [ref=e844]:
+                                - link [ref=e848] [cursor=pointer]:
+                                  - /url: /groups/111655007804/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=-UC%2CP-R
+                                  - text: 科學小飛俠 Gatchaman
+                              - generic [ref=e851]:
+                                - link [ref=e856] [cursor=pointer]:
+                                  - /url: /groups/111655007804/user/100011409370591/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=%2CP-R
+                                  - text: 田宥成
+                                - generic [ref=e858]: ·
+                                - link [ref=e863] [cursor=pointer]:
+                                  - /url: "?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=%2CO%2CP-R#?bab"
+                                  - generic [ref=e865]:
+                                    - generic [ref=e866]: e
+                                    - generic [ref=e867]: t
+                                    - generic [ref=e868]: "n"
+                                    - generic [ref=e869]: S
+                                    - generic [ref=e870]: o
+                                    - generic [ref=e871]: o
+                                    - generic [ref=e872]: d
+                                    - generic [ref=e873]: r
+                                    - generic [ref=e874]: p
+                                    - generic [ref=e875]: s
+                                    - generic [ref=e876]: u
+                                    - generic [ref=e877]: "1"
+                                    - generic [ref=e878]: l
+                                    - generic [ref=e879]: h
+                                    - generic [ref=e880]: "0"
+                                    - generic [ref=e881]: "0"
+                                    - generic [ref=e882]: t
+                                    - generic [ref=e883]: h
+                                    - generic [ref=e884]: "4"
+                                    - generic [ref=e885]: "4"
+                                    - generic [ref=e886]: "9"
+                                    - generic [ref=e887]: 午
+                                    - generic [ref=e888]: i
+                                    - generic [ref=e889]: c
+                                    - generic [ref=e890]: i
+                                    - generic [ref=e891]: "8"
+                                    - generic [ref=e892]: "2"
+                                    - generic [ref=e893]: u
+                                    - generic [ref=e894]: a
+                                    - generic [ref=e895]: t
+                                    - generic [ref=e896]: l
+                                    - generic [ref=e897]: 天
+                                    - generic [ref=e898]: 上
+                                    - generic [ref=e899]: i
+                                    - generic [ref=e900]: 昨
+                                    - generic [ref=e901]: l
+                                    - generic [ref=e902]: "1"
+                                    - generic [ref=e903]: "0"
+                                    - generic [ref=e904]: "5"
+                                    - generic [ref=e905]: u
+                                    - generic [ref=e906]: "5"
+                                    - generic [ref=e907]: u
+                                    - generic [ref=e908]: "7"
+                                    - generic [ref=e909]: "1"
+                                    - generic [ref=e910]: m
+                                    - generic [ref=e911]: "1"
+                                    - generic [ref=e912]: i
+                                    - generic [ref=e913]: "3"
+                                    - generic [ref=e914]: "7"
+                                    - generic [ref=e915]: "2"
+                                    - generic [ref=e916]: t
+                                    - generic [ref=e917]: "5"
+                                    - generic [ref=e918]: ":"
+                                    - generic [ref=e919]: m
+                                    - generic [ref=e920]: f
+                                    - generic [ref=e921]: "4"
+                                    - generic [ref=e922]: g
+                                    - generic [ref=e923]: a
+                                    - generic [ref=e924]: "7"
+                                    - generic [ref=e925]: "2"
+                                - generic [ref=e927]: ·
+                                - img [ref=e932]
+                            - button [ref=e940] [cursor=pointer]:
+                              - img [ref=e941]
+                            - link [ref=e945] [cursor=pointer]:
+                              - /url: "#"
+                              - img [ref=e946]
+                          - generic [ref=e948]:
+                            - generic [ref=e957]: 【AI製作】水上闖關遊戲⋯
+                            - link [ref=e963] [cursor=pointer]:
+                              - /url: /reel/2067017180889295/?s=group_other&__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=H-R
+                              - generic [ref=e964]:
+                                - group [ref=e973]
+                                - generic [ref=e975]:
+                                  - generic [ref=e979]: 【AI製作】水上闖關遊戲⋯
+                                  - generic [ref=e981]:
+                                    - generic:
+                                      - button [disabled]:
+                                        - img
+                                    - generic:
+                                      - button [disabled]:
+                                        - img
+                                - generic [ref=e988]:
+                                  - generic [ref=e992]:
+                                    - link [ref=e994]:
+                                      - /url: /groups/111655007804/user/100011409370591/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__cft__[1]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=H-R
+                                      - generic [ref=e995]:
+                                        - link [ref=e997]:
+                                          - /url: /groups/111655007804/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__cft__[1]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=%3CH-R
+                                          - img [ref=e999]
+                                        - img [ref=e1005]
+                                    - generic [ref=e1010]:
+                                      - heading [level=5] [ref=e1013]:
+                                        - link [ref=e1017]:
+                                          - /url: /groups/111655007804/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__cft__[1]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=H-R
+                                          - text: 科學小飛俠 Gatchaman
+                                      - generic [ref=e1023]:
+                                        - generic [ref=e1025]: ·
+                                        - link [ref=e1032]:
+                                          - /url: /groups/111655007804/user/100011409370591/?__cft__[0]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__cft__[1]=AZbhzTjdqy_xfUbqSU3AMXurDQENHG9xCyIFVwGAs8ocV4oIUfZRqQFkZYIqR6C3MLhPe5Af6H0k6-IQ64rnGSsVwPdZmY9hbhpojffTCg1u76MAX9AjhVKtQtJBehLQxfpb6RQAqz289AcE5cvLTVjTLIuiGfRgKC74neof5pC8S25UWwJMgtMNO336VNlve9P9zdOzW8jAfp3pK-KUC593ODyym9vBUl_o16RXriIosQ&__tn__=-]H-R
+                                          - text: 田宥成
+                                        - generic [ref=e1034]: ·
+                                        - text: 6月16日
+                                        - generic [ref=e1037]: ·
+                                        - button [ref=e1042]
+                                  - generic [ref=e1044]:
+                                    - button [ref=e1049]:
+                                      - img [ref=e1051]
+                                    - button [ref=e1057]:
+                                      - img [ref=e1058]
+                          - generic [ref=e1067]:
+                            - generic [ref=e1068]:
+                              - button [ref=e1069] [cursor=pointer]:
+                                - generic [ref=e1075]: "42"
+                              - button [ref=e1076] [cursor=pointer]:
+                                - img [ref=e1077]
+                            - button [ref=e1080] [cursor=pointer]:
+                              - generic [ref=e1085]: "1"
+                            - button [ref=e1087] [cursor=pointer]:
+                              - generic [ref=e1092]: "1"
+                            - toolbar [ref=e1094]:
+                              - button [ref=e1099] [cursor=pointer]
+                        - blockquote [ref=e1101]:
+                          - generic [ref=e1102]: Facebook
+                        - blockquote [ref=e1104]:
+                          - generic [ref=e1105]: Facebook
+                        - blockquote [ref=e1107]:
+                          - generic [ref=e1108]: Facebook
+                        - blockquote [ref=e1110]:
+                          - generic [ref=e1111]: Facebook
+                        - blockquote [ref=e1113]:
+                          - generic [ref=e1114]: Facebook
+                        - blockquote [ref=e1116]:
+                          - generic [ref=e1117]: Facebook
+                        - blockquote [ref=e1119]:
+                          - generic [ref=e1120]: Facebook
+                        - blockquote [ref=e1122]:
+                          - generic [ref=e1123]: Facebook
+                        - blockquote [ref=e1125]:
+                          - generic [ref=e1126]: Facebook
+                        - blockquote [ref=e1128]:
+                          - generic [ref=e1129]: Facebook
+                        - blockquote [ref=e1131]:
+                          - generic [ref=e1132]: Facebook
+                      - generic [ref=e1134]:
+                        - article [ref=e1135]:
+                          - status [ref=e1136]
+                        - article [ref=e1149]:
+                          - status [ref=e1150]
+            - complementary [ref=e1163]:
+              - generic [ref=e1172]:
+                - heading [level=3] [ref=e1181]:
+                  - generic [ref=e1183]: 贊助
+                - generic [ref=e1184]:
+                  - generic [ref=e1189]:
+                    - link [ref=e1190] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.halfmoon.tw%2Fproducts%2F618-dr-ran-21%3Futm_source%3Dfb%26utm_medium%3D120244871912540018%26utm_campaign%3D120244871912530018%26utm_id%3D120244871912590018_v2_s01%26utm_content%3D120244871912540018%26utm_term%3D120244871912590018%26fbclid%3DIwZXh0bgNhZW0BMABhZGlkAasyFe9HnRJicmlkETFWano4dWVGWVJ3b3lnUWdFc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpMyC2dP92V1TKPE8jvcmQTxRZtj1ZY4xBV2xw4WqtDLHdPCUKKA8m9xPLfA_aem_YWdncwI4wmdlDBnQyKwAV4L4Aa0C%26brid%3DYWdncwG4-iOz23NnqlqDC4Js7gIp&h=AUB-_F6pLmHYadnefaaG38qROGTg19E5aBbQItZ_wv2nFpUNAJzp7mmPV6K1BNNo10_EH2YIrP_EYzmHj9DMa2-6MYvjTugys66t7CJqvt_ERhbVVwvYuYbsWleUUdDcnRvKWq0t-WldvcEdegLMvg&__tn__=*I&c[0]=AUBZzCbdBoJZ4S26wY7BtrIUsYm1yPuCnawja-9tDy4DVOGEfxtHZFFC_m4drwTTW7qYEMDhANHrjaxAiboUk378ISi1wSmQPjohdbQCoWSY8aPrLu5tI6Y5IJMnwWb224dQDLrcdfGL4H3x4QnpYjZU790rkc4RcrkKmoSpGF1BOx-VvLvGwmnAu-x7AS_ThHYjrq0HPXD475p6nWKnFFM
+                      - generic [ref=e1195]:
+                        - img [ref=e1197]
+                        - generic [ref=e1199]:
+                          - generic [ref=e1202]: 單瓶只要573🔥禿頭細髮直接逆轉✨
+                          - generic [ref=e1206]: halfmoon.tw
+                    - button [ref=e1209] [cursor=pointer]:
+                      - img [ref=e1210]
+                  - generic [ref=e1217]:
+                    - link [ref=e1218] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Ffast.famous.ai%2F%3Futm_medium%3Dpaid%26utm_source%3Dfb%26utm_id%3D120243390728400278%26utm_content%3D120243390728420278%26utm_term%3D120243390728460278%26utm_campaign%3D120243390728400278%26fbclid%3DIwZXh0bgNhZW0BMABhZGlkAaswuhJttdZicmlkETFWano4dWVGWVJ3b3lnUWdFc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpMyC2dP92V1TKPE8jvcmQTxRZtj1ZY4xBV2xw4WqtDLHdPCUKKA8m9xPLfA_aem_YWdncwL4a7vQDy3RKYVQwRyyyVCj%26brid%3DYWdncwHVBTgw2h3LpAuphJQxlWZr&h=AUB-_F6pLmHYadnefaaG38qROGTg19E5aBbQItZ_wv2nFpUNAJzp7mmPV6K1BNNo10_EH2YIrP_EYzmHj9DMa2-6MYvjTugys66t7CJqvt_ERhbVVwvYuYbsWleUUdDcnRvKWq0t-WldvcEdegLMvg&__tn__=*I&c[0]=AUCUCmBwiMmMq2PjkKF05FkoGNfdL6NSb6R4Q0aFDf__LSH4j8oRqjL409-gE82Ay6KlDhMlxzHF1o890GRWLenxe8N_7VPHmVO6I6-hcdTCoN1bq_g1WMOHvNkvfNlq61ohhv47opVHPCeUazCMH1K8PwML5KwQtEEAFRfyv5FkM_Iz8o5MHvvUcxQTZ8USdyFrX-0GoOn3FCNp5_ooCYE
+                      - generic [ref=e1223]:
+                        - img [ref=e1225]
+                        - generic [ref=e1227]:
+                          - generic [ref=e1230]: 了解工作原理
+                          - generic [ref=e1234]: fast.famous.ai
+                    - button [ref=e1237] [cursor=pointer]:
+                      - img [ref=e1238]
+  - alertdialog "推播通知要求" [ref=e1247]:
+    - generic [ref=e1248]: 若要允許或封鎖 Facebook 的瀏覽器通知，請前往你的瀏覽器設定。
+    - button "關閉" [active] [ref=e1249]

@@ -1,0 +1,630 @@
+- generic [ref=e12]:
+  - generic [ref=e18]:
+    - generic [ref=e20]:
+      - link "廣告管理員 Meta" [ref=e22] [cursor=pointer]:
+        - /url: /adsmanager/?act=128230264034499
+        - generic [ref=e24]:
+          - generic [ref=e25]: 廣告管理員
+          - img "Meta" [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - button "Pressable" [ref=e33] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - button "1":
+                  - generic:
+                    - generic: "1"
+        - separator [ref=e38]
+    - navigation "工具" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e45]:
+          - button "帳號總覽" [ref=e47] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 帳號總覽
+        - listitem [ref=e54]:
+          - button "行銷活動" [ref=e56] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 行銷活動
+        - listitem [ref=e62]:
+          - link "廣告分析報告" [ref=e64] [cursor=pointer]:
+            - /url: /adsreporting/?act=128230264034499&business_id=710326389072373&nav_entry_point=ads_ecosystem_navigation_menu
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告分析報告
+        - listitem [ref=e70]:
+          - link "廣告受眾" [ref=e72] [cursor=pointer]:
+            - /url: /adsmanager/?act=128230264034499&business_id=710326389072373&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告受眾
+        - listitem [ref=e78]:
+          - button "廣告設定" [ref=e80] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告設定
+        - listitem [ref=e86]:
+          - link "帳單和付款" [ref=e88] [cursor=pointer]:
+            - /url: https://business.facebook.com/billing_hub/accounts/details/?placement=ads_manager&asset_id=128230264034499&business_id=710326389072373&payment_account_id_from_jsmodule=128230264034499&payment_account_id=128230264034499&session_id=upl_1781683639458_33781369-41c2-4b0b-8a04-73688184e3b3&entrypoint=ads_ecosystem_navigation_ads_billing_tool_plugin
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 帳單和付款
+        - listitem [ref=e94]:
+          - link "事件管理工具" [ref=e96] [cursor=pointer]:
+            - /url: /events_manager2/?business_id=710326389072373&act=128230264034499&nav_source=ads_ecosystem_nav
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 事件管理工具
+        - listitem [ref=e101]:
+          - button "所有工具" [ref=e103] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 所有工具
+    - generic [ref=e1087]:
+      - separator [ref=e1088]
+      - list [ref=e1091]:
+        - listitem [ref=e1092]:
+          - button "Meta AI 商家助理" [ref=e1094] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Meta AI 商家助理
+      - generic [ref=e1101]:
+        - listitem [ref=e1105]:
+          - button "使用說明" [ref=e1107] [cursor=pointer]
+          - generic:
+            - listitem:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 使用說明
+        - generic [ref=e1114]:
+          - button "廣告帳號更新" [ref=e1115] [cursor=pointer]:
+            - generic [ref=e1118]: 廣告帳號更新
+          - generic [ref=e1122]:
+            - generic [ref=e1124]: "1"
+            - status [ref=e1125]: 你有 1 則通知
+        - button "企業管理平台設定" [ref=e1127] [cursor=pointer]:
+          - generic [ref=e1130]: 企業管理平台設定
+        - button "搜尋" [ref=e1134] [cursor=pointer]:
+          - generic [ref=e1137]: 搜尋
+        - button "回報問題" [ref=e1140] [cursor=pointer]:
+          - generic [ref=e1143]: 回報問題
+  - generic [ref=e5315]:
+    - generic [ref=e5316]:
+      - button "關閉" [ref=e5317] [cursor=pointer]
+      - button "查看圖表（Ctrl+Y）" [ref=e5325] [cursor=pointer]
+      - button "編輯（Ctrl+U）" [ref=e5331] [cursor=pointer]
+      - button "查看紀錄（Ctrl+I）" [ref=e5337] [cursor=pointer]
+      - button "收合檢視畫面" [ref=e5343] [cursor=pointer]
+    - generic [ref=e5345]:
+      - generic [ref=e5347]:
+        - generic [ref=e5350]:
+          - generic [ref=e5356]: 搜尋
+          - combobox "搜尋" [ref=e5367]
+        - grid "grid" [ref=e5373]:
+          - generic [ref=e5374]:
+            - row "行銷活動" [ref=e5375]:
+              - rowheader "行銷活動" [ref=e5378] [cursor=pointer]:
+                - generic [ref=e5379]:
+                  - img [ref=e5381]
+                  - generic [ref=e5386]: alumi 全系列廣告
+                  - button "預設" [ref=e5389]:
+                    - generic [ref=e5392]: 預設
+            - row "廣告組合" [ref=e5395]:
+              - rowheader "廣告組合" [ref=e5398] [cursor=pointer]:
+                - generic [ref=e5399]:
+                  - img [ref=e5401]
+                  - generic [ref=e5411]: alumi 全系列廣告
+                  - button "預設" [ref=e5414]:
+                    - generic [ref=e5417]: 預設
+            - row "廣告" [ref=e5420]:
+              - rowheader "廣告" [ref=e5423] [cursor=pointer]:
+                - generic [ref=e5424]:
+                  - img [ref=e5426]
+                  - generic [ref=e5431]: alumi S50 16:9 - 複本
+                  - button "預設" [ref=e5434]:
+                    - generic [ref=e5437]: 預設
+            - row "廣告" [ref=e5440]:
+              - rowheader "廣告" [ref=e5443] [cursor=pointer]:
+                - generic [ref=e5444]:
+                  - img [ref=e5446]
+                  - generic [ref=e5453]: alumi B30R 16:9
+                  - button "預設" [ref=e5456]:
+                    - generic [ref=e5459]: 預設
+      - generic [ref=e5463]:
+        - generic [ref=e5465]:
+          - generic [ref=e5466]:
+            - button "開啟" [ref=e5468] [cursor=pointer]:
+              - generic [ref=e5471]: 開啟
+            - generic [ref=e5474]:
+              - generic [ref=e5476]:
+                - link "alumi 全系列廣告" [ref=e5481] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e5482]:
+                    - img [ref=e5484]
+                    - heading "alumi 全系列廣告" [level=4] [ref=e5487]
+                - link "alumi 全系列廣告" [ref=e5494] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e5495]:
+                    - img [ref=e5497]
+                    - heading "alumi 全系列廣告" [level=4] [ref=e5505]
+                - generic [ref=e5512]:
+                  - img [ref=e5514]
+                  - heading "alumi S50 16:9 - 複本" [level=4] [ref=e5517]
+              - generic [ref=e5518]:
+                - generic [ref=e5520]:
+                  - generic [ref=e5526]: 草稿
+                  - switch "開啟／關閉" [checked] [ref=e5532] [cursor=pointer]
+                - button "動作功能表" [ref=e5538] [cursor=pointer]:
+                  - generic [ref=e5541]: 動作功能表
+          - tablist [ref=e5548]:
+            - tab "編輯" [selected] [ref=e5549] [cursor=pointer]:
+              - generic [ref=e5553]: 編輯
+            - tab "審查" [ref=e5554] [cursor=pointer]:
+              - generic [ref=e5558]: 審查
+        - generic [ref=e5565]:
+          - generic [ref=e5573]:
+            - generic [ref=e5576]:
+              - generic [ref=e5586]:
+                - heading "廣告名稱" [level=3] [ref=e5594]
+                - generic [ref=e5599]:
+                  - combobox [ref=e5611]: alumi S50 16:9 - 複本
+                  - button "建立範本" [ref=e5614] [cursor=pointer]:
+                    - generic [ref=e5618]: 建立範本
+              - generic [ref=e5629]:
+                - generic [ref=e5632]:
+                  - heading "合作廣告" [level=3] [ref=e5633]
+                  - generic [ref=e5635]:
+                    - generic [ref=e5638] [cursor=pointer]: 關閉
+                    - switch "關閉" [ref=e5640] [cursor=pointer]
+                - generic [ref=e5645]:
+                  - text: 與創作者、品牌和其他商家一同刊登廣告。這類廣告會運用兩個個人檔案的訊號來提升行銷活動成效。
+                  - link "關於合作廣告" [ref=e5647] [cursor=pointer]:
+                    - /url: https://www.facebook.com/business/help/292748974937716
+              - generic [ref=e5660]:
+                - heading "身分" [level=3] [ref=e5673]
+                - generic [ref=e5683]:
+                  - generic [ref=e5684]: 用於廣告的個人檔案。
+                  - generic [ref=e5686]:
+                    - generic [ref=e5688]:
+                      - generic [ref=e5695]:
+                        - generic [ref=e5696]: "*"
+                        - text: Facebook 粉絲專頁
+                      - generic [ref=e5704]:
+                        - generic [ref=e5710]: 選擇粉絲專頁
+                        - combobox "Alumi 鋁.不鏽鋼 餐車 營地房車生產製造" [disabled] [ref=e5719]:
+                          - generic [ref=e5730]: Alumi 鋁.不鏽鋼 餐車 營地房車生產製造
+                      - generic [ref=e5746]: 從你的廣告提交的任何表單都將交給Alumi 鋁.不鏽鋼 餐車 營地房車生產製造。
+                    - generic [ref=e5749]:
+                      - generic [ref=e5755]: Instagram 個人檔案
+                      - generic [ref=e5764]:
+                        - generic [ref=e5770]: Instagram 個人檔案
+                        - combobox "Instagram 個人檔案 alumi_taiwan" [ref=e5775] [cursor=pointer]:
+                          - generic [ref=e5784]: alumi_taiwan
+              - generic [ref=e5788]:
+                - generic [ref=e5793]:
+                  - heading "廣告設定" [level=3] [ref=e5801]
+                  - generic [ref=e5805]:
+                    - generic [ref=e5813]:
+                      - generic [ref=e5819]: 選擇現有貼文，或建立新的貼文
+                      - combobox "選擇現有貼文，或建立新的貼文 建立廣告" [ref=e5824] [cursor=pointer]:
+                        - generic [ref=e5831]: 建立廣告
+                    - generic [ref=e5840]:
+                      - generic [ref=e5843]:
+                        - generic [ref=e5848]: 格式：
+                        - text: 選擇廣告版面配置。
+                      - generic [ref=e5856]:
+                        - generic [ref=e5857]:
+                          - heading "格式選項已變更" [level=4] [ref=e5864]
+                          - button "關閉" [ref=e5865] [cursor=pointer]:
+                            - generic [ref=e5868]: 關閉
+                        - generic [ref=e5871]:
+                          - separator [ref=e5872]
+                          - generic [ref=e5875]:
+                            - text: 廣告創意中的
+                            - strong [ref=e5876]: 格式顯示選項
+                            - text: 是以精選集格式顯示廣告的新方式。你現在可彈性地以多種自選格式顯示廣告。
+                            - link "關於格式顯示選項。" [ref=e5878] [cursor=pointer]:
+                              - /url: https://www.facebook.com/business/help/709465318792642
+                      - radiogroup [ref=e5886]:
+                        - generic [ref=e5890] [cursor=pointer]:
+                          - radio "單一圖像或影片" [checked] [ref=e5895]
+                          - generic [ref=e5900]: 單一圖像或影片
+                        - generic [ref=e5904] [cursor=pointer]:
+                          - radio "輪播" [ref=e5909]
+                          - generic [ref=e5912]: 輪播
+                - generic [ref=e5919]:
+                  - generic [ref=e5921]:
+                    - heading "廣告創意" [level=3] [ref=e5927]
+                    - generic [ref=e5929]: 選擇你要的廣告文案、影音素材和強化效果，並進行最佳化設定。
+                  - generic [ref=e5932]:
+                    - generic [ref=e5941]:
+                      - generic [ref=e5949]:
+                        - generic [ref=e5950]: "*"
+                        - text: 影音素材
+                      - button "移除影音內容" [ref=e5960] [cursor=pointer]:
+                        - generic [ref=e5963]: 移除影音內容
+                    - generic [ref=e5972]:
+                      - generic [ref=e5976]:
+                        - generic [ref=e5980]:
+                          - text: 高效速成+ 廣告創意圖像生成
+                          - generic [ref=e5983]:
+                            - generic [ref=e5985]: Meta AI
+                            - status [ref=e5987]: Meta AI
+                        - generic [ref=e5988]:
+                          - text: 此廣告使用0個影音素材。
+                          - link "查看使用條款" [ref=e5989] [cursor=pointer]:
+                            - /url: https://www.facebook.com/legal/terms/ad_creative_generative_ai_terms
+                      - generic [ref=e5995]: 根據我們的實驗，行銷活動內所有廣告都使用圖像生成功能後，點閱率和轉換率分別提升 10% 和 6%。
+                      - button "立即試用" [ref=e6002] [cursor=pointer]:
+                        - generic [ref=e6006]: 立即試用
+                    - generic [ref=e6013]:
+                      - generic [ref=e6019] [cursor=pointer]:
+                        - generic [ref=e6023]:
+                          - checkbox "廣告包含透過 AI 建立或編輯的影音素材" [ref=e6024]
+                          - generic:
+                            - img
+                        - generic [ref=e6025]:
+                          - generic [ref=e6027]: 廣告包含透過 AI 建立或編輯的影音素材
+                          - generic [ref=e6028]:
+                            - text: 勾選此方塊可能會在你的廣告新增 AI 資訊標籤。
+                            - link "關於 AI 資訊透明度" [ref=e6029]:
+                              - /url: https://www.facebook.com/business/help/1009525374368348
+                      - generic [ref=e6033]:
+                        - generic [ref=e6036]:
+                          - generic [ref=e6041]: 主要文案
+                          - combobox "向用戶說明你的廣告內容" [ref=e6053]:
+                            - generic [ref=e6054]:
+                              - generic [ref=e6057]: 連鎖品牌與高端餐飲都在用的行動廚房。alumi S50 5 米全裝備空間，冰箱、排煙、空調齊備，2–4 人協作無壓力，專業主廚的首選移動主場。
+                              - generic [ref=e6061]:
+                                - generic [ref=e6063]: "#alumi"
+                                - generic [ref=e6066]: "#餐車"
+                                - generic [ref=e6069]: "#alumiS50"
+                                - generic [ref=e6072]: "#行動廚房"
+                        - button "新增文案選項" [ref=e6078] [cursor=pointer]:
+                          - generic [ref=e6083]: 新增文案選項
+                      - generic [ref=e6086]:
+                        - generic [ref=e6089]:
+                          - generic [ref=e6095]: 標題
+                          - generic [ref=e6101]:
+                            - generic [ref=e6107]: 標題
+                            - textbox "標題" [ref=e6116]:
+                              - /placeholder: 請撰寫簡短標題
+                              - text: alumi S50｜旗艦移動廚房，專業到位
+                        - button "新增標題選項" [ref=e6122] [cursor=pointer]:
+                          - generic [ref=e6127]: 新增標題選項
+                      - generic [ref=e6137]:
+                        - generic [ref=e6143]: 說明
+                        - generic [ref=e6152]:
+                          - generic [ref=e6153]: 新增更多詳細資訊
+                          - textbox [ref=e6154]
+                      - generic [ref=e6158]:
+                        - switch "將用戶導向與其他粉絲專頁的聊天室" [ref=e6161] [cursor=pointer]
+                        - generic [ref=e6165]:
+                          - generic [ref=e6166]: 將用戶導向與其他粉絲專頁的聊天室
+                          - button "瞭解詳情" [ref=e6167]
+                      - generic [ref=e6172]:
+                        - generic [ref=e6178]: 行動呼籲
+                        - generic [ref=e6189]:
+                          - generic [ref=e6190]:
+                            - generic [ref=e6196]: 選擇項目
+                            - combobox "選擇項目 發送訊息" [ref=e6201] [cursor=pointer]:
+                              - generic [ref=e6208]: 發送訊息
+                          - generic [ref=e6211]: 看到你廣告的用戶將可傳送訊息給你的粉絲專頁。
+                    - generic [ref=e6221]:
+                      - generic [ref=e6223]:
+                        - generic [ref=e6234]:
+                          - text: 我們已開啟2個強化效果。
+                          - generic [ref=e6235]: 已開啟
+                          - list [ref=e6237]:
+                            - listitem [ref=e6238]: 隨時間經過顯示詳情
+                            - listitem [ref=e6239]: 強化 CTA
+                        - generic [ref=e6245]: 高效速成+ 廣告創意強化效果(4/5)
+                      - generic [ref=e6251]:
+                        - generic [ref=e6252]:
+                          - generic [ref=e6254]:
+                            - generic [ref=e6256]: 已關閉： 顯示精選片段
+                            - generic [ref=e6258]:
+                              - text: 已開啟：
+                              - generic [ref=e6259]: 建立貼圖 CTA、影片修圖、文字改善功能和其他1項功能
+                          - generic [ref=e6260]:
+                            - generic [ref=e6263]: 基本強化效果(6/6)
+                            - generic [ref=e6271]:
+                              - text: 已開啟：
+                              - generic [ref=e6272]: 顯示摘要、相關留言、強化 CTA和其他3項功能
+                        - button "編輯" [ref=e6273] [cursor=pointer]:
+                          - generic [ref=e6277]: 編輯
+                      - generic [ref=e6280]:
+                        - generic [ref=e6281]:
+                          - heading "透過再使用1項高效速成+ 廣告創意強化效果，每次成果成本可望降低3%" [level=4] [ref=e6288]: 透過再使用1項高效速成+ 廣告創意強化效果，每次成果成本可望降低3%
+                          - button "更多" [ref=e6295] [cursor=pointer]:
+                            - generic [ref=e6298]: 更多
+                        - generic [ref=e6303]:
+                          - generic [ref=e6304]: 我們會在預測有機會提升成效時，投遞廣告的不同廣告創意版本，方法是採取：
+                          - list [ref=e6306]:
+                            - listitem [ref=e6307]: 彈性影音素材
+                          - generic [ref=e6308]:
+                            - button "立即套用" [ref=e6309] [cursor=pointer]:
+                              - generic [ref=e6313]: 立即套用
+                            - button "預覽" [ref=e6314] [cursor=pointer]:
+                              - generic [ref=e6318]: 預覽
+                    - generic [ref=e6323]:
+                      - separator [ref=e6324]
+                      - text: 高效速成+ 廣告創意翻譯
+                      - generic [ref=e6328]:
+                        - generic [ref=e6329]:
+                          - heading "系統現在會翻譯你的廣告" [level=4] [ref=e6336]:
+                            - generic [ref=e6338]: 系統現在會翻譯你的廣告
+                          - button "關閉" [ref=e6344] [cursor=pointer]:
+                            - generic [ref=e6347]: 關閉
+                        - generic [ref=e6353]: 為協助你以受眾偏好的語言與對方建立聯繫，系統可能會翻譯廣告文案、影音素材中的文字和語音。你可以檢視翻譯內容並隨時停用。
+                      - generic [ref=e6354]:
+                        - generic [ref=e6356]:
+                          - generic [ref=e6357]: 已開啟：
+                          - generic [ref=e6358]: 語音
+                        - button "編輯" [ref=e6359] [cursor=pointer]:
+                          - generic [ref=e6363]: 編輯
+              - generic [ref=e6383]:
+                - generic [ref=e6385]:
+                  - heading "對話" [level=3] [ref=e6391]
+                  - generic [ref=e6393]:
+                    - text: 選擇用戶點按你的廣告後要用來與其開始對話的範本。
+                    - link "瞭解詳情" [ref=e6395] [cursor=pointer]:
+                      - /url: https://www.facebook.com/business/help/1816962591668838
+                - generic [ref=e6402]:
+                  - tablist [ref=e6403]:
+                    - tab [ref=e6404] [cursor=pointer]:
+                      - generic [ref=e6408]:
+                        - text: 建議範本
+                        - generic [ref=e6410]: AI
+                    - tab "儲存的範本" [selected] [ref=e6411] [cursor=pointer]:
+                      - generic [ref=e6414]: 儲存的範本
+                  - generic [ref=e6416]:
+                    - generic [ref=e6419]:
+                      - generic [ref=e6425]: 選擇範本
+                      - combobox "選擇範本 使用現有的範本" [ref=e6430] [cursor=pointer]:
+                        - generic [ref=e6437]: 使用現有的範本
+                    - button "編輯" [ref=e6440] [cursor=pointer]:
+                      - generic [ref=e6445]: 編輯
+                    - button "建立範本" [ref=e6447] [cursor=pointer]:
+                      - generic [ref=e6452]: 建立範本
+              - generic [ref=e6457]:
+                - generic [ref=e6459]:
+                  - heading "廣告追蹤" [level=3] [ref=e6465]
+                  - generic [ref=e6467]: 選擇要追蹤的轉換事件。預設會追蹤這個廣告帳號選定的轉換資料集。
+                - generic [ref=e6476]:
+                  - generic [ref=e6481]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=4]
+                    - generic [ref=e6484]:
+                      - generic [ref=e6495] [cursor=pointer]:
+                        - generic [ref=e6499]:
+                          - checkbox "網站事件" [ref=e6500]
+                          - generic:
+                            - img
+                        - generic [ref=e6503]: 網站事件
+                      - generic [ref=e6512] [cursor=pointer]:
+                        - generic [ref=e6516]:
+                          - checkbox "應用程式事件" [ref=e6517]
+                          - generic:
+                            - img
+                        - generic [ref=e6520]: 應用程式事件
+                      - generic [ref=e6525]:
+                        - generic [ref=e6530] [cursor=pointer]:
+                          - generic [ref=e6534]:
+                            - checkbox "離線事件" [ref=e6535]
+                            - generic:
+                              - img
+                          - generic [ref=e6538]: 離線事件
+                        - link "編輯追蹤的離線事件組合" [ref=e6541] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e6542]:
+                    - generic [ref=e6544]:
+                      - generic [ref=e6550]: 網址參數
+                      - textbox "網址參數" [ref=e6561]:
+                        - /placeholder: key1=value1&key2=value2
+                    - link "建立網址參數" [ref=e6564] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e6566]:
+                    - generic [ref=e6572]: 第三方分析報告工具
+                    - generic [ref=e6573]:
+                      - generic [ref=e6574]:
+                        - text: Google 分析報告可能沒有納入 Meta 購買次數。你可以連結帳號，以衡量廣告中將用戶導向你網站或商店的動作次數。
+                        - link "瞭解詳情" [ref=e6576] [cursor=pointer]:
+                          - /url: https://www.facebook.com/business/help/140637645369656
+                      - link "連結" [ref=e6577] [cursor=pointer]:
+                        - /url: /adsmanager/manage/advertising_settings/third_party_marketing_tags?act=128230264034499&commerce_merchant_settings_id=1217328542129151
+                        - generic [ref=e6581]: 連結
+            - generic [ref=e6583]:
+              - button "顯示如何改善行銷活動分數" [ref=e6597] [cursor=pointer]:
+                - generic [ref=e6602]:
+                  - heading "行銷活動建議" [level=3] [ref=e6604]
+                  - generic [ref=e6605]: 你的行銷活動還有改善空間。
+              - generic [ref=e6624]:
+                - generic [ref=e6626]:
+                  - generic [ref=e6627]:
+                    - generic [ref=e6630]:
+                      - switch "廣告預覽" [checked] [ref=e6632] [cursor=pointer]
+                      - generic [ref=e6638] [cursor=pointer]: 廣告預覽
+                    - tablist [ref=e6640]:
+                      - tab "廣告" [selected] [ref=e6641] [cursor=pointer]:
+                        - generic [ref=e6644]: 廣告
+                      - tab "目的地" [ref=e6645] [cursor=pointer]:
+                        - generic [ref=e6648]: 目的地
+                  - separator [ref=e6649]
+                  - generic [ref=e6652]:
+                    - tablist [ref=e6655]:
+                      - tab "全部" [selected] [ref=e6656] [cursor=pointer]
+                      - tab "動態消息、Reel 插播廣告" [ref=e6660] [cursor=pointer]
+                      - tab "限時動態、動態、Reels、應用程式和網站" [ref=e6664] [cursor=pointer]
+                      - tab "搜尋結果" [ref=e6668] [cursor=pointer]
+                    - generic [ref=e6672]:
+                      - tablist [ref=e6673]:
+                        - tab "你的廣告會投遞到所有已選擇的版位" [ref=e6674] [cursor=pointer]
+                      - button "進階預覽" [ref=e6679] [cursor=pointer]:
+                        - generic [ref=e6682]: 進階預覽
+                      - button "分享" [ref=e6685] [cursor=pointer]:
+                        - generic [ref=e6688]: 分享
+                - generic [ref=e6692]:
+                  - generic [ref=e6700]:
+                    - generic [ref=e6703]:
+                      - heading "你現在可以預覽更多廣告版本" [level=4] [ref=e6710]
+                      - button "開啟" [ref=e6711] [cursor=pointer]:
+                        - generic [ref=e6714]: 開啟
+                    - generic [ref=e6718]:
+                      - generic [ref=e6722]:
+                        - generic [ref=e6723]:
+                          - generic [ref=e6729]: Facebook 動態消息
+                          - group [ref=e6734]:
+                            - button "更多項目" [ref=e6735] [cursor=pointer]:
+                              - generic [ref=e6738]: 更多項目
+                        - generic [ref=e6756]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: Alumi 鋁.不鏽鋼 餐車 營地房車生產製造
+                                  - generic: 廣告 ·
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: ……查看更多
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: 連鎖品牌與高端餐飲都在用的行動廚房。alumi S50 5 米全裝備空間，冰箱、排煙、空調齊備，2–4 人協作無壓力，專業主廚的首選移動主場。
+                                        - generic:
+                                          - generic: "#alumi #餐車 #alumiS50 #行動廚房"
+                                      - text: ","
+                            - generic:
+                              - generic:
+                                - group "Video player" [ref=e6763]:
+                                  - button [ref=e6764]
+                                  - button "播放" [ref=e6766] [cursor=pointer]
+                                  - generic [ref=e6768]:
+                                    - generic [ref=e6770]:
+                                      - button "播放" [ref=e6774] [cursor=pointer]
+                                      - generic [ref=e6776]: 0:00 / 0:00
+                                    - slider "Change Position" [ref=e6779] [cursor=pointer]
+                                    - generic [ref=e6782] [cursor=pointer]:
+                                      - generic [ref=e6784]:
+                                        - slider "變更音量"
+                                      - button "取消靜音" [ref=e6788]:
+                                        - img [ref=e6789]
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: MESSENGER
+                                      - generic:
+                                        - generic: alumi S50｜旗艦移動廚房，專業到位
+                                  - generic:
+                                    - generic:
+                                      - button "發送訊息":
+                                        - generic:
+                                          - generic:
+                                            - generic: 發送訊息
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: 讚
+                                  - generic:
+                                    - generic:
+                                      - generic: 留言
+                                  - generic:
+                                    - generic:
+                                      - generic: 分享
+                      - generic [ref=e6794]:
+                        - generic [ref=e6800]:
+                          - generic [ref=e6804]: 調整長寬比
+                          - status [ref=e6805]: 調整長寬比
+                        - progressbar [ref=e6809]
+                      - generic [ref=e6835]:
+                        - generic [ref=e6841]:
+                          - generic [ref=e6844]: alumi_taiwan
+                          - generic [ref=e6845]: 廣告
+                        - group "Video player" [ref=e6860]
+                        - generic [ref=e6867]: 在 Messenger 聊天
+                        - generic [ref=e6871]:
+                          - generic [ref=e6873]:
+                            - button "讚" [ref=e6875]
+                            - button "留言" [ref=e6877]
+                            - button "轉發" [ref=e6879]
+                            - button "分享" [ref=e6881]
+                          - button "儲存" [ref=e6884]
+                        - generic [ref=e6887]:
+                          - text: alumi_taiwan
+                          - generic [ref=e6889]:
+                            - generic [ref=e6890]: 連鎖品牌與高端餐飲都在用的行動
+                            - generic [ref=e6891]:
+                              - text: 廚房。alumi S50 5 米全裝備空間，冰箱...
+                              - button "more" [ref=e6892]
+                      - generic [ref=e6902]:
+                        - generic [ref=e6906]: 調整長寬比
+                        - status [ref=e6907]: 調整長寬比
+                      - generic [ref=e6931]:
+                        - generic [ref=e6935]: 調整長寬比
+                        - status [ref=e6936]: 調整長寬比
+                      - generic [ref=e6949]:
+                        - generic [ref=e6953]: 隨時間經過顯示詳情
+                        - status [ref=e6954]: 隨時間經過顯示詳情
+                    - button "查看更多版本" [ref=e6993] [cursor=pointer]:
+                      - generic [ref=e6998]: 查看更多版本
+                  - generic [ref=e7000]: 廣告的顯示和互動方式可能會因裝置、格式和其他因素而不同。
+          - generic [ref=e7010]:
+            - generic [ref=e7013]:
+              - text: 點擊「發佈」即表示你確知你使用 Meta 廣告工具的行為須遵守我們的
+              - link "使用條款與條件" [ref=e7014] [cursor=pointer]:
+                - /url: "#"
+              - text: 。
+            - generic [ref=e7015]:
+              - generic [ref=e7016]:
+                - button "關閉" [ref=e7017] [cursor=pointer]:
+                  - generic [ref=e7021]: 關閉
+                - generic [ref=e7026]:
+                  - progressbar [ref=e7028]:
+                    - img [ref=e7029]
+                  - text: 正在驗證你編輯的內容……
+              - generic [ref=e7033]:
+                - button "捨棄草稿" [ref=e7035] [cursor=pointer]:
+                  - generic [ref=e7039]: 捨棄草稿
+                - button "預覽以發佈" [ref=e7041] [cursor=pointer]:
+                  - generic [ref=e7045]: 預覽以發佈
