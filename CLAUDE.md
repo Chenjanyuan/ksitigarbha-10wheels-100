@@ -393,6 +393,15 @@ D. 其他指示
   - 重點: 角色鎖定85%/換臉後製90%/一張ref夠/Custom Character訓練10-20張>90%(地藏可做)/失敗率10-20%批次5-10張/85%法則
 - 記憶檔: `reference_ayan_loveart_teaching_2026_05_31` / `reference_lovart_official_consistency_guide_2026` / `reference_comic_consistency_skill_2026_05_31`
 
+### 🛠 LoveArt 三大技能包 (分開各司其職，不合併)
+| 技能包 | 召喚關鍵詞 | 用途 |
+|--------|-----------|------|
+| `anthropic-skills:loveart-amei-card-command` | @角色卡、生圖命令、一張一張送、防漂移 | **手動在 LoveArt 操作生圖**（@卡片選取法、Enter 送出、親眼驗圖 SOP） |
+| `anthropic-skills:loveart-auto-generate` | API daemon、批量生圖、半夜自動、AK/SK | **本機半夜批量自動生圖**（需阿元電腦跑，沙箱連不到） |
+| `anthropic-skills:loveart-download-skill` | 下載圖片、PS1、BOM、閃退、每篇貼文資料夾 | **把阿美生好的圖下載到正確資料夾**（修復 UTF-8 BOM 閃退問題） |
+
+⚠️ 三包職責不同，需要哪個功能就召喚對應的，不要合併。
+
 ### Token 安全
 - `.env` 檔含敏感 Page Access Token
 - 已加入 `.gitignore`
