@@ -1,0 +1,311 @@
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - banner:
+            - generic [ref=e2]:
+              - generic:
+                - generic:
+                  - button [disabled]:
+                    - img
+              - link "Facebook" [ref=e3] [cursor=pointer]:
+                - /url: /
+                - img [ref=e4]
+            - generic [ref=e12]:
+              - generic [ref=e13]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button:
+                        - img
+              - generic [ref=e15]:
+                - generic:
+                  - img
+                - combobox "搜尋 Facebook" [ref=e16]
+            - navigation "Facebook" [ref=e20]:
+              - list [ref=e21]:
+                - listitem [ref=e22]:
+                  - link "首頁" [ref=e25] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e27]
+                - listitem [ref=e29]:
+                  - link "朋友" [ref=e32] [cursor=pointer]:
+                    - /url: /friends/
+                    - img [ref=e34]
+                - listitem [ref=e36]:
+                  - link "Reels" [ref=e39] [cursor=pointer]:
+                    - /url: /watch/?ref=tab
+                    - img [ref=e41]
+                - listitem [ref=e44]:
+                  - link "Marketplace" [ref=e47] [cursor=pointer]:
+                    - /url: /marketplace/?ref=app_tab
+                    - img [ref=e49]
+                - listitem [ref=e51]:
+                  - link "社團" [ref=e54] [cursor=pointer]:
+                    - /url: /groups/
+                    - img [ref=e56]
+            - navigation "帳號控制項和設定" [ref=e59]:
+              - button "Facebook 功能表" [ref=e63] [cursor=pointer]:
+                - img [ref=e64]
+              - button "Messenger" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+              - generic [ref=e76]:
+                - button "通知，2則未讀" [ref=e77] [cursor=pointer]:
+                  - img [ref=e78]
+                - button [ref=e80] [cursor=pointer]:
+                  - generic [ref=e81]:
+                    - generic [ref=e82]: 未讀通知數量
+                    - generic [ref=e83]: "2"
+              - button "你的個人檔案" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - img "你的個人檔案" [ref=e88]
+                  - img [ref=e95]
+          - generic [ref=e102]:
+            - navigation [ref=e103]:
+              - generic [ref=e104]:
+                - heading [level=1] [ref=e112]: 設定和隱私
+                - generic [ref=e119]:
+                  - generic:
+                    - img
+                  - combobox [ref=e120]
+                - generic [ref=e127]:
+                  - heading [level=2] [ref=e139]:
+                    - generic [ref=e141]: 設定和隱私
+                  - link [ref=e152] [cursor=pointer]:
+                    - /url: https://accountscenter.facebook.com/?entry_point=app_settings
+                    - generic [ref=e154]:
+                      - img [ref=e156]
+                      - generic [ref=e165]:
+                        - generic [ref=e167]: 帳號管理中心
+                        - generic [ref=e168]: 管理你在 Meta 技術的互聯體驗和帳號設定。
+                        - generic [ref=e169]:
+                          - generic [ref=e170]:
+                            - img [ref=e172]
+                            - generic [ref=e174]: 個人資料
+                          - generic [ref=e175]:
+                            - img [ref=e177]
+                            - generic [ref=e179]: 密碼和帳號安全
+                          - generic [ref=e180]:
+                            - img [ref=e182]
+                            - generic [ref=e184]: 廣告偏好
+                          - generic [ref=e185]:
+                            - img [ref=e187]
+                            - generic [ref=e189]: 驗證
+                          - generic [ref=e192]: 在帳號管理中心查看更多設定
+                  - generic [ref=e194]:
+                    - generic [ref=e201]:
+                      - heading [level=2] [ref=e206]:
+                        - generic [ref=e208]: 工具和資源
+                      - generic [ref=e213]: 我們的工具可助你掌控和管理自己的隱私設定。
+                    - link [ref=e221] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privacy/unified_checkup/
+                      - generic [ref=e223]:
+                        - img [ref=e225]
+                        - generic [ref=e230]: 隱私設定檢查
+                    - link [ref=e238] [cursor=pointer]:
+                      - /url: https://familycenter.facebook.com/dashboard/?entrypoint=supervision_settings
+                      - generic [ref=e240]:
+                        - img [ref=e242]
+                        - generic [ref=e247]: 家庭中心
+                    - link [ref=e255] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/bundled/
+                      - generic [ref=e257]:
+                        - img [ref=e259]
+                        - generic [ref=e264]: 預設分享對象設定
+                  - generic [ref=e266]:
+                    - generic [ref=e273]:
+                      - heading [level=2] [ref=e278]:
+                        - generic [ref=e280]: 偏好設定
+                      - generic [ref=e285]: 自訂你的 Facebook 使用體驗。
+                    - link [ref=e292] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=reaction_preferences
+                      - generic [ref=e294]:
+                        - img [ref=e296]
+                        - generic [ref=e301]: 心情偏好設定
+                    - link [ref=e308] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=notifications
+                      - generic [ref=e310]:
+                        - img [ref=e312]
+                        - generic [ref=e317]: 通知
+                    - link [ref=e324] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=accessibility
+                      - generic [ref=e326]:
+                        - img [ref=e328]
+                        - generic [ref=e333]: 無障礙環境
+                    - link [ref=e340] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=language_and_region
+                      - generic [ref=e342]:
+                        - img [ref=e344]
+                        - generic [ref=e349]: 語言和區域
+                    - link [ref=e356] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=media
+                      - generic [ref=e358]:
+                        - img [ref=e360]
+                        - generic [ref=e365]: 影音內容
+                    - link [ref=e372] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=dark_mode_category
+                      - generic [ref=e374]:
+                        - img [ref=e376]
+                        - generic [ref=e381]: 深色模式
+                  - generic [ref=e383]:
+                    - generic [ref=e390]:
+                      - heading [level=2] [ref=e395]:
+                        - generic [ref=e397]: 分享對象和能見度
+                      - generic [ref=e402]: 掌控誰可以看到你在 Facebook 分享的內容。
+                    - link [ref=e410] [cursor=pointer]:
+                      - /url: https://www.facebook.com/private_sharing/home_view_dialog/?entry_point=settings
+                      - generic [ref=e412]:
+                        - img [ref=e414]
+                        - generic [ref=e419]: 個人檔案上鎖
+                    - link [ref=e427] [cursor=pointer]:
+                      - /url: https://www.facebook.com/me/about/
+                      - generic [ref=e429]:
+                        - img [ref=e431]
+                        - generic [ref=e436]: 個人檔案詳細資料
+                    - link [ref=e443] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=how_people_find_and_contact_you
+                      - generic [ref=e445]:
+                        - img [ref=e447]
+                        - generic [ref=e452]: 其他人如何尋找和聯絡你
+                    - link [ref=e459] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=posts
+                      - generic [ref=e461]:
+                        - img [ref=e463]
+                        - generic [ref=e468]: 貼文
+                    - link [ref=e475] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=stories
+                      - generic [ref=e477]:
+                        - img [ref=e479]
+                        - generic [ref=e484]: 限時動態
+                    - link [ref=e491] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=reels
+                      - generic [ref=e493]:
+                        - img [ref=e495]
+                        - generic [ref=e500]: Reels
+                    - link [ref=e507] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=followers_and_public_content
+                      - generic [ref=e509]:
+                        - img [ref=e511]
+                        - generic [ref=e516]: 追蹤者和公開內容
+                    - link [ref=e523] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=profile_and_tagging
+                      - generic [ref=e525]:
+                        - img [ref=e527]
+                        - generic [ref=e532]: 個人檔案和標籤
+                    - link [ref=e539] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=blocking
+                      - generic [ref=e541]:
+                        - img [ref=e543]
+                        - generic [ref=e548]: 封鎖
+                  - generic [ref=e550]:
+                    - generic [ref=e557]:
+                      - heading [level=2] [ref=e562]:
+                        - generic [ref=e564]: 交易付款
+                      - generic [ref=e569]: 管理你的付款資料和動態。
+                    - link [ref=e577] [cursor=pointer]:
+                      - /url: https://www.facebook.com/billing_hub/payment_settings/?asset_id=1264972492273337&placement=fb_payment_settings
+                      - generic [ref=e579]:
+                        - img [ref=e581]
+                        - generic [ref=e586]: 廣告付款
+                  - generic [ref=e588]:
+                    - generic [ref=e595]:
+                      - heading [level=2] [ref=e600]:
+                        - generic [ref=e602]: 你的動態
+                      - generic [ref=e607]: 查看你的動態以及你被標註在內的內容。
+                    - link [ref=e615] [cursor=pointer]:
+                      - /url: https://www.facebook.com/100005425777287/allactivity/?category_key=ALL&entry_point=settings_yfi&should_load_landing_page=1
+                      - generic [ref=e617]:
+                        - img [ref=e619]
+                        - generic [ref=e624]: 活動紀錄
+                    - link [ref=e632] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=applications
+                      - generic [ref=e634]:
+                        - img [ref=e636]
+                        - generic [ref=e641]: 應用程式和網站
+                    - link [ref=e649] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/?tab=business_tools
+                      - generic [ref=e651]:
+                        - img [ref=e653]
+                        - generic [ref=e658]: 企業整合工具
+                    - link [ref=e666] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/contact/367438723733209
+                      - generic [ref=e668]:
+                        - img [ref=e670]
+                        - generic [ref=e675]: 瞭解如何管理你的資訊
+                  - generic [ref=e677]:
+                    - generic [ref=e684]:
+                      - heading [level=2] [ref=e689]:
+                        - generic [ref=e691]: 你的動態
+                      - generic [ref=e696]: 存取動態紀錄和控制你語音搜尋的儲存空間。
+                    - link [ref=e704] [cursor=pointer]:
+                      - /url: https://www.facebook.com/settings/reactivation/
+                      - generic [ref=e706]:
+                        - img [ref=e708]
+                        - generic [ref=e713]: 重新啟用粉絲專頁
+                  - generic [ref=e715]:
+                    - heading [level=2] [ref=e727]:
+                      - generic [ref=e729]: 《社群守則》和法律政策
+                    - link [ref=e739] [cursor=pointer]:
+                      - /url: https://www.facebook.com/policies_center/?ref=pf
+                      - generic [ref=e741]:
+                        - img [ref=e743]
+                        - generic [ref=e748]: 服務條款
+                    - link [ref=e756] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privacy/policy/?entry_point=facebook_settings
+                      - generic [ref=e758]:
+                        - img [ref=e760]
+                        - generic [ref=e765]: 隱私政策
+                    - link [ref=e773] [cursor=pointer]:
+                      - /url: https://www.facebook.com/privacy/policies/cookies/?entry_point=facebook_settings
+                      - generic [ref=e775]:
+                        - img [ref=e777]
+                        - generic [ref=e782]: 《Cookie 政策》
+                    - link [ref=e790] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExa2NVOWlkWlZzOEQ3YXM5dHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5glyLqd4gZQA76ivUeKlFTg13TuhO0wikQYJ52ML5DienAa5bZdGCIthvIng_aem_YWdncwOTQSMO1PXzDJi9wn7mwxwK%26brid%3DYWdncwGYpGFy1q8ApW3Kb3DOAPpo&h=AUCyaqyW-YbgT7oyngZXTezRSBiQeSxI8_9bzD-wf4YmTBvuHWiQqk5DJ0DE5rsJWUdOMEtzepR6w48IqlyxtuP5P8FlhYgZcxN6EbBilQ-llmW4fp7Zv3tF48Z6YHA_8rOsJc8wUcuxb-7MPvkgXg
+                      - generic [ref=e792]:
+                        - img [ref=e794]
+                        - generic [ref=e799]: 社群守則
+            - main [ref=e801]:
+              - generic [ref=e803]:
+                - generic [ref=e809]:
+                  - heading [level=2] [ref=e819]:
+                    - generic [ref=e821]: 找到你需要的設定
+                  - textbox [ref=e824]:
+                    - /placeholder: 搜尋設定
+                - generic [ref=e826]:
+                  - generic [ref=e829]:
+                    - generic [ref=e830]: 最多人瀏覽的設定
+                    - generic [ref=e832]:
+                      - link [ref=e835] [cursor=pointer]:
+                        - /url: https://www.facebook.com/settings/?tab=blocking
+                        - generic [ref=e845]:
+                          - generic [ref=e848]: 封鎖
+                          - generic [ref=e851]: 查看你先前封鎖的用戶，或新增用戶到你的封鎖名單。
+                      - link [ref=e854] [cursor=pointer]:
+                        - /url: https://www.facebook.com/100005425777287/allactivity/?category_key=ALL&entry_point=settings_yfi&should_load_landing_page=1
+                        - generic [ref=e864]:
+                          - generic [ref=e867]: 活動紀錄
+                          - generic [ref=e870]: 查看和管理你的 Facebook 動態。
+                      - link [ref=e873] [cursor=pointer]:
+                        - /url: https://www.facebook.com/settings/?tab=dark_mode_category
+                        - generic [ref=e886]: 深色模式
+                  - generic [ref=e890]:
+                    - heading [level=2] [ref=e900]:
+                      - generic [ref=e902]: 在找其他內容嗎？
+                    - generic [ref=e904]:
+                      - link [ref=e906] [cursor=pointer]:
+                        - /url: /privacy/center/?entry_point=facebook_settings
+                        - generic [ref=e915]:
+                          - generic [ref=e917]: 隱私中心
+                          - generic [ref=e919]: 瞭解如何管理和控制你在各項 Meta 產品的隱私設定。
+                      - link [ref=e923] [cursor=pointer]:
+                        - /url: https://www.facebook.com/help/2127174237420552
+                        - generic [ref=e932]:
+                          - generic [ref=e934]: Facebook 使用說明
+                          - generic [ref=e936]: 深入瞭解更新版 Facebook 設定體驗。
+          - button "新訊息" [ref=e941] [cursor=pointer]:
+            - img [ref=e942]
+  - alertdialog "推播通知要求" [ref=e950]:
+    - generic [ref=e951]: 若要允許或封鎖 Facebook 的瀏覽器通知，請前往你的瀏覽器設定。
+    - button "關閉" [active] [ref=e952]

@@ -1,75 +1,107 @@
-# 自動改 Claude Desktop config 加 Playwright --allow-unrestricted-file-access flag
-# 雙擊 .bat 跑這支
+# Add Playwright --allow-unrestricted-file-access to Claude Desktop config.
+# Run this script through the paired .bat file.
 
 $ErrorActionPreference = 'Stop'
 
-$configPath = "$env:APPDATA\Claude\claude_desktop_config.json"
+function Find-ClaudeConfig {
+    $candidates = @()
 
-Write-Host ""
-Write-Host "=== 自動改 config 永久解 Playwright 路徑限制 ==="
-Write-Host ""
-Write-Host "目標: $configPath"
-Write-Host ""
+    if ($env:APPDATA) {
+        $candidates += Join-Path $env:APPDATA "Claude\claude_desktop_config.json"
+        $candidates += Join-Path $env:APPDATA "Claude-3p\claude_desktop_config.json"
+    }
 
-if (-not (Test-Path $configPath)) {
-    Write-Host "X 找不到 $configPath"
-    Write-Host "  請確認 Cowork(Claude Desktop) 有安裝"
-    Read-Host "按 Enter 結束"
-    exit
+    $packageRoot = Join-Path $env:LOCALAPPDATA "Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming"
+    $candidates += Join-Path $packageRoot "Claude\claude_desktop_config.json"
+    $candidates += Join-Path $packageRoot "Claude-3p\claude_desktop_config.json"
+
+    $existing = $candidates | Where-Object { Test-Path -LiteralPath $_ }
+    foreach ($path in $existing) {
+        $raw = Get-Content -LiteralPath $path -Raw -Encoding UTF8
+        try {
+            $config = $raw | ConvertFrom-Json
+        } catch {
+            continue
+        }
+
+        if ($config.mcpServers -and $config.mcpServers.playwright) {
+            return $path
+        }
+    }
+
+    if ($existing.Count -gt 0) {
+        return $existing[0]
+    }
+
+    return $null
 }
 
-# 備份
-$backup = "$configPath.bak_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
-Copy-Item $configPath $backup
-Write-Host "v 備份: $backup"
+$configPath = Find-ClaudeConfig
 
-# 讀取 + 解析
-$raw = Get-Content $configPath -Raw -Encoding UTF8
+Write-Host ""
+Write-Host "=== Patch Claude Desktop Playwright config ==="
+Write-Host ""
+Write-Host "Searching Claude Desktop config..."
+Write-Host ""
+
+if (-not $configPath) {
+    Write-Host "X Claude Desktop config not found"
+    Write-Host "  Please confirm Claude Desktop is installed"
+    exit 1
+}
+
+Write-Host "Target: $configPath"
+Write-Host ""
+
+# Backup
+$backup = "$configPath.bak_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+Copy-Item -LiteralPath $configPath -Destination $backup
+Write-Host "v Backup: $backup"
+
+# Read and parse
+$raw = Get-Content -LiteralPath $configPath -Raw -Encoding UTF8
 $config = $raw | ConvertFrom-Json
 
-# 找 playwright server
+# Find playwright server
 if (-not $config.mcpServers) {
-    Write-Host "X config 內沒 mcpServers,結構不對"
-    Read-Host "按 Enter 結束"
-    exit
+    Write-Host "X config has no mcpServers"
+    exit 1
 }
 
 if (-not $config.mcpServers.playwright) {
-    Write-Host "X config 內沒 playwright,結構不對"
-    Read-Host "按 Enter 結束"
-    exit
+    Write-Host "X config has no playwright server"
+    exit 1
 }
 
 $pw = $config.mcpServers.playwright
 Write-Host ""
-Write-Host "現在的 args:"
+Write-Host "Current args:"
 $pw.args | ForEach-Object { Write-Host "  - $_" }
 
-# 檢查是否已加 flag
+# Check flag
 $flag = "--allow-unrestricted-file-access"
 if ($pw.args -contains $flag) {
     Write-Host ""
-    Write-Host "v 已經有 $flag flag 了!不用改"
-    Read-Host "按 Enter 結束"
-    exit
+    Write-Host "v Flag already exists: $flag"
+    exit 0
 }
 
-# 加 flag(放在 args 最後)
+# Add flag to args
 $pw.args = $pw.args + $flag
 
-# 寫回
+# Write back
 $newRaw = $config | ConvertTo-Json -Depth 20
 [System.IO.File]::WriteAllText($configPath, $newRaw, (New-Object System.Text.UTF8Encoding $false))
 
 Write-Host ""
-Write-Host "v 改好! 新 args:"
+Write-Host "v Patched. New args:"
 $pw.args | ForEach-Object { Write-Host "  - $_" }
 Write-Host ""
-Write-Host "=== 接下來請阿元做 ==="
-Write-Host "1. 完全關閉 Cowork(Claude Desktop) - 系統匣右下角右鍵 Quit"
-Write-Host "2. 重新開啟 Cowork"
-Write-Host "3. 跟阿地說「config 改好重啟好了」"
+Write-Host "=== Next steps ==="
+Write-Host "1. Fully quit Claude Desktop / Cowork from the system tray"
+Write-Host "2. Open Claude Desktop / Cowork again"
+Write-Host "3. Tell Codex: config patched and restarted"
 Write-Host ""
-Write-Host "改完後阿地上稿 100 篇,直接用專案路徑,0 cp 步驟!"
+Write-Host "After restart, Playwright can upload files directly from the project path."
 Write-Host ""
-Read-Host "按 Enter 關閉視窗"
+exit 0
