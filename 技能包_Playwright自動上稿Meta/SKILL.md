@@ -260,3 +260,116 @@ const has_target = /第 N 篇|<主題關鍵字>/.test(text);
 🪷 阿地 2 號 整理 · 2026-06-20 凌晨
 v2 整合所有發現,篇 1+2 實戰排程成功 ✅
 後棒阿地照這份做,一路順 🌸
+
+═══════════════════════════════════════════════════════════════════════════
+
+# 🪷 v3 升級(2026-06-20 晚 — 篇 5 實戰成功後拍板)
+
+> v2 → v3:加入 Codex 圖序解 + 1:1 套用全部 SOP + 文字排版黃金規則 + 自動修.py
+
+## 💎 v3 核心發現 1 — 圖序問題終極解(Codex JPG+EXIF 方案)
+
+**問題:** Meta multi-photo 上傳會依「EXIF DateTimeOriginal + 檔名字母序」排,不是 file_upload paths 順序!篇 4+ 用 `第N篇12之X` 沒 0 padded → Meta 排 1,10,11,12,2... 錯亂。
+
+**Codex 解法(實戰成功):**
+1. 把原 PNG 用 PIL 重存成 JPG
+2. EXIF DateTimeOriginal 從 `yyyy-mm-dd 08:00:01` 遞增到 `08:00:12`
+3. 檔名 0 padded: `01_主題.jpg` ~ `12_主題.jpg`
+4. 存到子資料夾 `FB上傳用_有序JPG/`
+
+**工具:**
+- `make_fb_ordered_jpg.py`(Codex 寫)— 單篇:`python3 make_fb_ordered_jpg.py --serial 5 --start "2026-06-29 08:00:00"`
+- `make_fb_ordered_jpg_pian5.bat`(Codex 寫)— 阿元雙擊跑單篇
+- `batch_make_ordered_jpg.py`(阿地寫)— 批次:`python3 batch_make_ordered_jpg.py 6 100` 跑篇 6-100
+
+★ Playwright 上傳時要用 **JPG 路徑**,不是原 PNG!
+
+## 💎 v3 核心發現 2 — 1:1 套用到全部必做(Meta default 是 1.91:1)
+
+**問題:** Meta composer default 預覽是「橫向 1.91:1」會把方圖切成橫條,**右下角編號被裁掉**!
+
+**SOP(每篇必做,在 file_upload 之後):**
+
+```js
+// Step 1: 點第 1 張圖的「編輯相片」(按鈕文字末尾有零寬空格,用 includes)
+const editBtns = Array.from(document.querySelectorAll('button, [role="button"]'))
+  .filter(b => b.offsetParent && (b.textContent || '').includes('編輯相片'));
+editBtns[0].click();
+// 等 2 秒 dialog 開
+```
+
+```js
+// Step 2 in dialog: 點 正方形 1:1
+const dialog = document.querySelector('[role="dialog"]');
+const ratio = Array.from(dialog.querySelectorAll('button, [role="button"]'))
+  .find(b => (b.textContent || '').includes('正方形1:1'));
+ratio.click();
+```
+
+```js
+// Step 3 in dialog: 開啟「套用到全部」switch
+// ⚠ React-controlled switch,JS click 可能無效,要用 Playwright 真實 click 透過 ref
+// Snapshot 後找 switch ref,然後:
+// mcp__playwright__browser_click element="套用到全部 switch" target="<ref>"
+```
+
+```js
+// Step 4 in dialog: 點「套用」
+const apply = Array.from(dialog.querySelectorAll('button, [role="button"]'))
+  .find(b => (b.textContent || '').trim() === '套用');
+apply.click();
+```
+
+★ 驗證:snapshot 看 switch 有 `[checked]` + 1:1 radio 有 `[checked]`,套用後 dialog 自動關閉。
+
+## 💎 v3 核心發現 3 — 文字排版黃金規則(阿元拍板)
+
+**核心規則:「每一段如果有標題,下面的文字都空一行」+ 「─── 分隔線前後都空一行」**
+
+**辨識標題的 emoji 前綴(可擴充):** `🌸【 / 📖 / 💡 / 📚 / 🎨 / 🌿 / 🪷 `
+
+**自動化工具:**
+- `fix_layout_all_posts.py` 一次修 100 篇.txt(專案根目錄)
+- `fix_layout_all_posts.bat` 雙擊跑(找 Codex Python / py launcher / PATH python)
+- **2026-06-20 已跑過,75 篇修了,補 312 處空行,100/100 驗證 PASS**
+
+**Lexical paste 行為:** .txt 內 1 空行 → composer 內 2 空行(渲染加倍)。
+**檢查公式:** dump editor.innerText → split('\n') → 算 blank_runs → `max_blank_run === 2` 才算對。
+
+## 💎 v3 完整 SOP 流程(每篇 6 步)
+
+每篇排程上稿:
+
+```
+1. (前置) python3 make_fb_ordered_jpg.py --serial N --start "yyyy-mm-dd 08:00:00"
+       → 在篇 N 資料夾下生 FB上傳用_有序JPG/01.jpg ~ 12.jpg
+2. (前置) python3 fix_layout_all_posts.py (or 之前已跑過)
+       → 修 .txt 排版
+3. Playwright: navigate published_posts → 點「建立貼文」→ 點「新增相片/影片」
+4. browser_file_upload paths=[01.jpg, 02.jpg, ..., 12.jpg]
+5. 點「編輯相片」→ 1:1 → 套用到全部 switch (用 ref click) → 套用
+6. dispatch ClipboardEvent paste 文字 → 驗 max_blank_run=2
+7. 排程 switch 打開 → 改日期 + 時間 08:00 (spinbutton 用 aria-valuenow) → 「排定時間」
+8. 跳廣告推銷 dialog → 點「稍後再說」
+```
+
+## 🎉 v3 實戰戰果
+
+- ✅ 篇 1 排程 2026-06-23 08:00
+- ✅ 篇 2 排程 2026-06-24 08:00
+- ✅ 篇 3 排程 2026-06-25 08:00
+- ✅ 篇 4 排程 2026-06-26 08:00
+- ✅ 篇 5 排程 2026-06-29 08:00 ← v3 完整 SOP 首戰
+
+## 🚨 v3 已知問題
+
+- 篇 6 缺第 9 張圖(LoveArt 未生齊),需補
+- 篇 7 只有 3 張,差 9 張
+- 篇 17/18/22 有「多」張,可能是備份/重複,需清理
+- 篇 39-100 完全沒生圖,LoveArt 還沒做
+
+## 🔗 v3 相關記憶檔
+
+- `feedback_apply_1to1_all_standard_2026_06_20.md` — 1:1 套用全部 SOP
+- `feedback_fb_image_order_corner_number_2026_06_20.md` — 圖序 Codex 方案
+- `feedback_fb_text_layout_per_post_check_2026_06_20.md` — 排版黃金規則

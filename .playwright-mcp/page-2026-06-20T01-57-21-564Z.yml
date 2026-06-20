@@ -1,0 +1,247 @@
+- generic [ref=e12]:
+  - generic [ref=e3165]:
+    - generic [ref=e3167]:
+      - generic [ref=e3168]:
+        - heading "規劃工具" [active] [level=1] [ref=e3169]
+        - generic [ref=e3170]: 建立、管理內容並為其排定發佈時間，以規劃行銷行事曆。
+      - toolbar [ref=e3172]:
+        - generic [ref=e3174]:
+          - button "建立廣告" [ref=e3176] [cursor=pointer]:
+            - generic [ref=e3179]:
+              - img [ref=e3180]
+              - generic [ref=e3184]: 建立廣告
+          - group [ref=e3185]:
+            - button "建立貼文" [ref=e3186] [cursor=pointer]:
+              - generic [ref=e3189]:
+                - img [ref=e3190]
+                - generic [ref=e3192]: 建立貼文
+            - button "建立" [ref=e3194] [cursor=pointer]:
+              - generic [ref=e3196]:
+                - generic [ref=e3197]: 建立
+                - img [ref=e3199]
+        - button "Facebook" [ref=e3202] [cursor=pointer]:
+          - generic [ref=e3208]:
+            - generic:
+              - img
+            - img "Facebook" [ref=e3210]
+    - generic [ref=e3220]:
+      - generic [ref=e3221]:
+        - toolbar [ref=e3223]:
+          - generic [ref=e3224]:
+            - button "週" [ref=e3225] [cursor=pointer]
+            - button "月" [ref=e3226] [cursor=pointer]
+          - group [ref=e3227]:
+            - button "Left" [ref=e3228] [cursor=pointer]:
+              - generic [ref=e3230]:
+                - generic [ref=e3231]: Left
+                - img [ref=e3233]
+            - button "今天" [ref=e3236] [cursor=pointer]:
+              - generic [ref=e3240]: 今天
+            - button "Right" [ref=e3241] [cursor=pointer]:
+              - generic [ref=e3243]:
+                - generic [ref=e3244]: Right
+                - img [ref=e3246]
+        - generic [ref=e3250]:
+          - heading "6 月 - 7 月" [level=1] [ref=e3251]
+          - heading "2026年" [level=1] [ref=e3253]
+        - generic [ref=e3254]:
+          - button "內容類型：全部" [ref=e3256] [cursor=pointer]:
+            - generic [ref=e3259]:
+              - generic [ref=e3260]: 內容類型：全部
+              - img [ref=e3261]
+          - 'button "Shared to: all" [ref=e3264] [cursor=pointer]':
+            - generic [ref=e3267]:
+              - generic [ref=e3268]: "Shared to: all"
+              - img [ref=e3269]
+      - generic [ref=e3272]:
+        - generic [ref=e3274]:
+          - generic [ref=e3276]:
+            - generic [ref=e3278]: 週日 28日
+            - generic [ref=e3280]: 週一 29日
+            - generic [ref=e3282]: 週二 30日
+            - generic [ref=e3284]: 週三 1日
+            - generic [ref=e3286]: 週四 2日
+            - generic [ref=e3288]: 週五 3日
+            - generic [ref=e3290]: 週六 4日
+          - generic [ref=e3293]:
+            - link [ref=e3295]
+            - link [ref=e3299]:
+              - generic [ref=e3302]:
+                - link "上午8:00 Facebook" [ref=e3305]:
+                  - generic [ref=e3309]: 上午8:00
+                  - generic [ref=e3311]:
+                    - img [ref=e3315]
+                    - img "Facebook" [ref=e3319]
+            - link "排定貼文或限時動態的發佈時間 預先排定時間，省時方便。 排定時間" [ref=e3323]:
+              - generic [ref=e3331]:
+                - generic [ref=e3334]:
+                  - heading "排定貼文或限時動態的發佈時間" [level=3] [ref=e3335]
+                  - generic [ref=e3336]: 預先排定時間，省時方便。
+                - button "排定時間" [ref=e3338] [cursor=pointer]:
+                  - generic [ref=e3341]:
+                    - generic [ref=e3342]: 排定時間
+                    - img [ref=e3343]
+            - link [ref=e3347]
+            - link [ref=e3351]
+            - link [ref=e3355]
+            - link "排定時間" [ref=e3359]:
+              - button "排定時間" [ref=e3364] [cursor=pointer]:
+                - generic [ref=e3367]:
+                  - generic [ref=e3368]: 排定時間
+                  - img [ref=e3369]
+        - generic [ref=e3372]:
+          - generic [ref=e3373]:
+            - tablist [ref=e3375]:
+              - tab "目標" [selected] [ref=e3376] [cursor=pointer]:
+                - generic [ref=e3379]: 目標
+              - tab "精彩時刻" [ref=e3380] [cursor=pointer]:
+                - generic [ref=e3383]: 精彩時刻
+              - tab "草稿" [ref=e3384] [cursor=pointer]:
+                - generic [ref=e3387]: 草稿
+            - separator [ref=e3388]
+          - generic [ref=e3390]:
+            - generic [ref=e3391]:
+              - img [ref=e3392]
+              - heading "目標" [level=3] [ref=e3395]
+            - generic [ref=e3397]:
+              - generic [ref=e3401]: 設定目標、追蹤進度並瞭解讓事業成功的實用祕訣。
+              - button "開始新目標" [ref=e3403] [cursor=pointer]:
+                - generic [ref=e3407]: 開始新目標
+              - generic [ref=e3409]:
+                - generic [ref=e3412]: 不妨考慮加強推廣最新貼文，讓未追蹤你的受眾也有機會看見。
+                - button "加強推廣" [ref=e3413] [cursor=pointer]:
+                  - generic [ref=e3417]: 加強推廣
+  - generic [ref=e29]:
+    - generic [ref=e31]:
+      - button "Meta Business Suite" [ref=e32] [cursor=pointer]:
+        - generic [ref=e34]: Meta Business Suite
+      - button "Pressable" [ref=e43] [cursor=pointer]:
+        - img "Facebook" [ref=e48]
+    - navigation "連結" [ref=e53]:
+      - generic [ref=e54]: 連結
+      - list [ref=e55]:
+        - generic [ref=e56]:
+          - listitem [ref=e60]:
+            - generic [ref=e62]:
+              - link "首頁" [ref=e63] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e64]: 首頁
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 首頁
+          - listitem [ref=e68]:
+            - generic [ref=e70]:
+              - link "通知" [ref=e71] [cursor=pointer]:
+                - generic [ref=e72]: 通知
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 通知
+          - listitem [ref=e77]:
+            - generic [ref=e79]:
+              - link "廣告管理員" [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: 廣告管理員
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告管理員
+          - listitem [ref=e85]:
+            - generic [ref=e87]:
+              - link "收件匣" [ref=e88] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e89]: 收件匣
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 收件匣
+          - listitem [ref=e94]:
+            - generic [ref=e96]:
+              - link "內容" [ref=e97] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e98]: 內容
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 內容
+          - listitem [ref=e102]:
+            - generic [ref=e104]:
+              - link "創作者人才庫" [ref=e105] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                - generic [ref=e106]: 創作者人才庫
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 創作者人才庫
+          - listitem [ref=e110]:
+            - generic [ref=e112]:
+              - link "規劃工具" [ref=e113] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e114]: 規劃工具
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 規劃工具
+          - listitem [ref=e119]:
+            - generic [ref=e121]:
+              - link "廣告" [ref=e122] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e123]: 廣告
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告
+          - listitem [ref=e128]:
+            - generic [ref=e130]:
+              - link "洞察報告" [ref=e131] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e132]: 洞察報告
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 洞察報告
+          - listitem [ref=e136]:
+            - generic [ref=e138]:
+              - link "所有工具" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]: 所有工具
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 所有工具
+          - button "編輯邊欄導覽" [ref=e143] [cursor=pointer]:
+            - generic [ref=e147]: 編輯
+    - generic [ref=e150]:
+      - listitem [ref=e153]:
+        - generic [ref=e155]:
+          - link "搜尋" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: 搜尋
+          - generic:
+            - generic:
+              - generic:
+                - generic: 搜尋
+          - generic:
+            - generic:
+              - img
+      - navigation "連結" [ref=e158]:
+        - generic [ref=e159]: 連結
+        - list [ref=e160]:
+          - listitem [ref=e164]:
+            - generic [ref=e166]:
+              - link "設定" [ref=e167] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e168]: 設定
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 設定
+      - listitem [ref=e175]:
+        - generic [ref=e177]:
+          - link "使用說明" [ref=e178] [cursor=pointer]:
+            - generic [ref=e179]: 使用說明
+          - generic:
+            - generic:
+              - generic:
+                - generic: 使用說明
+          - generic:
+            - generic:
+              - img
