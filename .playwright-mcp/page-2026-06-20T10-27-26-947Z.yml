@@ -1,0 +1,1312 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e12]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "內容" [level=1] [ref=e29]
+          - generic [ref=e30]: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+        - toolbar [ref=e32]:
+          - generic [ref=e34]:
+            - generic [ref=e36]:
+              - group [ref=e37]:
+                - button "匯出資料" [ref=e38] [cursor=pointer]:
+                  - generic [ref=e41]:
+                    - img [ref=e42]
+                    - generic [ref=e46]: 匯出資料
+                - button "開啟匯出選項" [ref=e48] [cursor=pointer]:
+                  - generic [ref=e50]:
+                    - generic [ref=e51]: 開啟匯出選項
+                    - img [ref=e53]
+              - generic [ref=e58]:
+                - button "移除" [ref=e59] [cursor=pointer]
+                - generic [ref=e60]:
+                  - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+                  - generic [ref=e61]: 瞭解這項新功能
+            - button "建立 Reel" [ref=e64] [cursor=pointer]:
+              - generic [ref=e67]:
+                - img [ref=e68]
+                - generic [ref=e71]: 建立 Reel
+            - group [ref=e72]:
+              - button "建立貼文" [ref=e73] [cursor=pointer]:
+                - generic [ref=e76]:
+                  - img [ref=e77]
+                  - generic [ref=e79]: 建立貼文
+              - button "建立貼文" [ref=e81] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 建立貼文
+                  - img [ref=e86]
+          - button "Facebook" [ref=e89] [cursor=pointer]:
+            - generic [ref=e95]:
+              - generic:
+                - img
+              - img "Facebook" [ref=e97]
+      - generic [ref=e98]:
+        - generic [ref=e105]:
+          - generic [ref=e108]:
+            - navigation "內容" [ref=e109]:
+              - generic [ref=e112]:
+                - img [ref=e114]
+                - generic [ref=e117]: 內容
+              - list [ref=e118]:
+                - listitem [ref=e121]:
+                  - link "貼文和 Reel" [ref=e123] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/published_posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 貼文和 Reel
+                - listitem [ref=e131]:
+                  - link "限時動態" [ref=e133] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/active_stories?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 限時動態
+                - listitem [ref=e141]:
+                  - link "A／B 測試" [ref=e143] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/ab_testing?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: A／B 測試
+                - listitem [ref=e151]:
+                  - link "動態消息和網格" [ref=e153] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/feed_and_grid?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 動態消息和網格
+                - listitem [ref=e161]:
+                  - link "提及和標籤" [ref=e163] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/tagged_content?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 提及和標籤
+                - listitem [ref=e171]:
+                  - link "片段" [ref=e173] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/all_clips?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 片段
+            - navigation "精選集" [ref=e179]:
+              - generic [ref=e182]:
+                - img [ref=e184]
+                - generic [ref=e187]: 精選集
+              - list [ref=e188]:
+                - listitem [ref=e191]:
+                  - link "播放清單" [ref=e193] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/all_playlists?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 播放清單
+                - listitem [ref=e201]:
+                  - link "影集" [ref=e203] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/series?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 影集
+            - navigation "廣告創意素材" [ref=e209]:
+              - generic [ref=e212]:
+                - img [ref=e214]
+                - generic [ref=e217]: 廣告創意素材
+              - list [ref=e218]:
+                - listitem [ref=e221]:
+                  - link "你可以多文發佈的影片" [ref=e223] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 你可以多文發佈的影片
+          - button "收合" [ref=e233] [cursor=pointer]:
+            - generic [ref=e235]:
+              - generic [ref=e236]: 收合
+              - img [ref=e238]
+        - generic [ref=e250]:
+          - tablist [ref=e253]:
+            - tab "已發佈" [selected] [ref=e256] [cursor=pointer]:
+              - generic [ref=e259]: 已發佈
+            - tab "已排定發佈" [ref=e262] [cursor=pointer]:
+              - generic [ref=e265]: 已排定發佈
+            - tab "草稿" [ref=e268] [cursor=pointer]:
+              - generic [ref=e271]: 草稿
+            - tab "即將過期" [ref=e274] [cursor=pointer]:
+              - generic [ref=e277]: 即將過期
+            - tab "已過期" [ref=e280] [cursor=pointer]:
+              - generic [ref=e283]: 已過期
+            - tab "廣告貼文" [ref=e286] [cursor=pointer]:
+              - generic [ref=e289]: 廣告貼文
+          - generic [ref=e294]:
+            - generic [ref=e297]:
+              - generic [ref=e300]:
+                - generic [ref=e303]:
+                  - generic [ref=e309]: 貼文類型
+                  - combobox "貼文類型 貼文類型" [ref=e314] [cursor=pointer]:
+                    - generic [ref=e317]:
+                      - generic [ref=e321]: 貼文類型
+                      - img [ref=e323]
+                - generic [ref=e327]:
+                  - generic [ref=e333]: 篩選
+                  - combobox "篩選 篩選" [ref=e338] [cursor=pointer]:
+                    - generic [ref=e341]:
+                      - generic [ref=e345]: 篩選
+                      - img [ref=e347]
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - generic [ref=e358]:
+                    - text: 依編號或文字搜尋
+                    - img [ref=e360]
+                  - textbox "依編號或文字搜尋" [ref=e374]
+                - img [ref=e379]
+              - button "過去 90 天：2026年3月22日 – 2026年6月19日" [ref=e382] [cursor=pointer]:
+                - generic [ref=e385]:
+                  - img [ref=e386]
+                  - generic [ref=e389]: 過去 90 天：2026年3月22日 – 2026年6月19日
+                  - img [ref=e390]
+              - button "直欄" [ref=e392] [cursor=pointer]:
+                - generic [ref=e395]:
+                  - img [ref=e396]
+                  - generic [ref=e398]: 直欄
+            - grid "已發佈的貼文" [ref=e402]:
+              - rowgroup [ref=e403]:
+                - row "全選 標題 發佈日期 狀態 觸及人數 瀏覽次數 瀏覽者 追蹤人數 互動次數 按讚數和心情數 留言數 分享次數 儲存次數 連結點擊次數 觀看時間 影片平均播放時間 散播範圍 觀看 3 秒以上的次數 觀看 1 分鐘以上的次數 回流觀眾人數 插播廣告收益約略值" [ref=e404]:
+                  - columnheader "全選" [ref=e405]:
+                    - generic [ref=e410]:
+                      - checkbox "全選" [ref=e411] [cursor=pointer]
+                      - generic:
+                        - img
+                  - columnheader "標題" [ref=e412]:
+                    - heading "標題" [level=4] [ref=e416]:
+                      - generic [ref=e419]: 標題
+                  - columnheader "發佈日期" [ref=e420] [cursor=pointer]:
+                    - generic [ref=e421]:
+                      - generic [ref=e422]:
+                        - button "發佈日期" [ref=e423]:
+                          - heading "發佈日期" [level=4] [ref=e426]:
+                            - generic [ref=e429]: 發佈日期
+                        - img [ref=e432]
+                      - separator:
+                        - separator [ref=e434]
+                  - columnheader "狀態" [ref=e436] [cursor=pointer]:
+                    - generic [ref=e437]:
+                      - generic [ref=e438]:
+                        - button "狀態" [ref=e439]:
+                          - heading "狀態" [level=4] [ref=e442]:
+                            - generic [ref=e445]: 狀態
+                        - img [ref=e448]
+                      - separator:
+                        - separator [ref=e451]
+                  - columnheader "觸及人數" [ref=e453] [cursor=pointer]:
+                    - generic [ref=e454]:
+                      - generic [ref=e455]:
+                        - button "觸及人數" [ref=e456]:
+                          - heading "觸及人數" [level=4] [ref=e459]:
+                            - generic [ref=e462]: 觸及人數
+                        - img [ref=e470]
+                      - separator:
+                        - separator [ref=e473]
+                  - columnheader "瀏覽次數" [ref=e475] [cursor=pointer]:
+                    - generic [ref=e476]:
+                      - generic [ref=e477]:
+                        - button "瀏覽次數" [ref=e478]:
+                          - heading "瀏覽次數" [level=4] [ref=e481]:
+                            - generic [ref=e484]: 瀏覽次數
+                        - img [ref=e492]
+                      - separator:
+                        - separator [ref=e495]
+                  - columnheader "瀏覽者" [ref=e497] [cursor=pointer]:
+                    - generic [ref=e498]:
+                      - generic [ref=e499]:
+                        - button "瀏覽者" [ref=e500]:
+                          - heading "瀏覽者" [level=4] [ref=e503]:
+                            - generic [ref=e506]: 瀏覽者
+                        - img [ref=e514]
+                      - separator:
+                        - separator [ref=e517]
+                  - columnheader "追蹤人數" [ref=e519] [cursor=pointer]:
+                    - generic [ref=e520]:
+                      - generic [ref=e521]:
+                        - button "追蹤人數" [ref=e522]:
+                          - heading "追蹤人數" [level=4] [ref=e525]:
+                            - generic [ref=e528]: 追蹤人數
+                        - img [ref=e536]
+                      - separator:
+                        - separator [ref=e539]
+                  - columnheader "互動次數" [ref=e541] [cursor=pointer]:
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - button "互動次數" [ref=e544]:
+                          - heading "互動次數" [level=4] [ref=e547]:
+                            - generic [ref=e550]: 互動次數
+                        - img [ref=e558]
+                      - separator:
+                        - separator [ref=e561]
+                  - columnheader "按讚數和心情數" [ref=e563] [cursor=pointer]:
+                    - generic [ref=e564]:
+                      - generic [ref=e565]:
+                        - button "按讚數和心情數" [ref=e566]:
+                          - heading "按讚數和心情數" [level=4] [ref=e569]:
+                            - generic [ref=e572]: 按讚數和心情數
+                        - img [ref=e580]
+                      - separator:
+                        - separator [ref=e583]
+                  - columnheader "留言數" [ref=e585] [cursor=pointer]:
+                    - generic [ref=e586]:
+                      - generic [ref=e587]:
+                        - button "留言數" [ref=e588]:
+                          - heading "留言數" [level=4] [ref=e591]:
+                            - generic [ref=e594]: 留言數
+                        - img [ref=e602]
+                      - separator:
+                        - separator [ref=e605]
+                  - columnheader "分享次數" [ref=e607] [cursor=pointer]:
+                    - generic [ref=e608]:
+                      - generic [ref=e609]:
+                        - button "分享次數" [ref=e610]:
+                          - heading "分享次數" [level=4] [ref=e613]:
+                            - generic [ref=e616]: 分享次數
+                        - img [ref=e624]
+                      - separator:
+                        - separator [ref=e627]
+                  - columnheader "儲存次數" [ref=e629] [cursor=pointer]:
+                    - generic [ref=e630]:
+                      - generic [ref=e631]:
+                        - button "儲存次數" [ref=e632]:
+                          - heading "儲存次數" [level=4] [ref=e635]:
+                            - generic [ref=e638]: 儲存次數
+                        - img [ref=e646]
+                      - separator:
+                        - separator [ref=e649]
+                  - columnheader "連結點擊次數" [ref=e651] [cursor=pointer]:
+                    - generic [ref=e652]:
+                      - generic [ref=e653]:
+                        - button "連結點擊次數" [ref=e654]:
+                          - heading "連結點擊次數" [level=4] [ref=e657]:
+                            - generic [ref=e660]: 連結點擊次數
+                        - img [ref=e668]
+                      - separator:
+                        - separator [ref=e671]
+                  - columnheader "觀看時間" [ref=e673] [cursor=pointer]:
+                    - generic [ref=e674]:
+                      - generic [ref=e675]:
+                        - button "觀看時間" [ref=e676]:
+                          - heading "觀看時間" [level=4] [ref=e679]:
+                            - generic [ref=e682]: 觀看時間
+                        - img [ref=e690]
+                      - separator:
+                        - separator [ref=e693]
+                  - columnheader "影片平均播放時間" [ref=e695] [cursor=pointer]:
+                    - generic [ref=e696]:
+                      - generic [ref=e697]:
+                        - button "影片平均播放時間" [ref=e698]:
+                          - heading "影片平均播放時間" [level=4] [ref=e701]:
+                            - generic [ref=e704]: 影片平均播放時間
+                        - img [ref=e712]
+                      - separator:
+                        - separator [ref=e715]
+                  - columnheader "散播範圍" [ref=e717] [cursor=pointer]:
+                    - generic [ref=e718]:
+                      - generic [ref=e719]:
+                        - button "散播範圍" [ref=e720]:
+                          - heading "散播範圍" [level=4] [ref=e723]:
+                            - generic [ref=e726]: 散播範圍
+                        - img [ref=e734]
+                      - separator:
+                        - separator [ref=e737]
+                  - columnheader "觀看 3 秒以上的次數" [ref=e739] [cursor=pointer]:
+                    - generic [ref=e740]:
+                      - generic [ref=e741]:
+                        - button "觀看 3 秒以上的次數" [ref=e742]:
+                          - heading "觀看 3 秒以上的次數" [level=4] [ref=e745]:
+                            - generic [ref=e748]: 觀看 3 秒以上的次數
+                        - img [ref=e756]
+                      - separator:
+                        - separator [ref=e759]
+                  - columnheader "觀看 1 分鐘以上的次數" [ref=e761] [cursor=pointer]:
+                    - generic [ref=e762]:
+                      - generic [ref=e763]:
+                        - button "觀看 1 分鐘以上的次數" [ref=e764]:
+                          - heading "觀看 1 分鐘以上的次數" [level=4] [ref=e767]:
+                            - generic [ref=e770]: 觀看 1 分鐘以上的次數
+                        - img [ref=e778]
+                      - separator:
+                        - separator [ref=e781]
+                  - columnheader "回流觀眾人數" [ref=e783] [cursor=pointer]:
+                    - generic [ref=e784]:
+                      - generic [ref=e785]:
+                        - button "回流觀眾人數" [ref=e786]:
+                          - heading "回流觀眾人數" [level=4] [ref=e789]:
+                            - generic [ref=e792]: 回流觀眾人數
+                        - img [ref=e800]
+                      - separator:
+                        - separator [ref=e803]
+                  - columnheader "插播廣告收益約略值" [ref=e805] [cursor=pointer]:
+                    - generic [ref=e806]:
+                      - generic [ref=e807]:
+                        - button "插播廣告收益約略值" [ref=e808]:
+                          - heading "插播廣告收益約略值" [level=4] [ref=e811]:
+                            - generic [ref=e814]: 插播廣告收益約略值
+                        - img [ref=e822]
+                      - separator:
+                        - separator [ref=e825]
+              - rowgroup [ref=e827]:
+                - 'row "選擇含有 ID（1409133254582019）的項目 Facebook 今天是十齋日 — 農曆三月三十日 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 🙏 願大家身心平安,福慧增長 🙏 #十齋日 #地藏菩薩 #農曆三十日 #持齋念佛 #消災祈福 #地藏十輪經 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 5月16日 11:10 目前未加強推廣 89 139 90 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e828] [cursor=pointer]':
+                  - gridcell "選擇含有 ID（1409133254582019）的項目" [ref=e829]:
+                    - generic [ref=e834]:
+                      - checkbox "選擇含有 ID（1409133254582019）的項目" [ref=e835]
+                      - generic:
+                        - img
+                  - 'gridcell "Facebook 今天是十齋日 — 農曆三月三十日 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 🙏 願大家身心平安,福慧增長 🙏 #十齋日 #地藏菩薩 #農曆三十日 #持齋念佛 #消災祈福 #地藏十輪經 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e836]':
+                    - generic [ref=e840]:
+                      - generic [ref=e842]:
+                        - img "Facebook" [ref=e847]
+                        - generic [ref=e848]:
+                          - generic [ref=e849]: "今天是十齋日 — 農曆三月三十日 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 🙏 願大家身心平安,福慧增長 🙏 #十齋日 #地藏菩薩 #農曆三十日 #持齋念佛 #消災祈福 #地藏十輪經"
+                          - generic [ref=e851]:
+                            - generic [ref=e854]: 相片
+                            - img [ref=e855]
+                            - generic [ref=e860]: 地藏菩薩 經典導讀
+                      - generic [ref=e863]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e865]:
+                          - generic [ref=e867]:
+                            - generic [ref=e868]: 開啟下拉式功能表
+                            - img [ref=e870]
+                  - gridcell "5月16日 11:10" [ref=e872]:
+                    - button "5月16日 11:10" [ref=e874]:
+                      - generic [ref=e875]: 5月16日 11:10
+                  - gridcell "目前未加強推廣" [ref=e876]:
+                    - button "目前未加強推廣" [ref=e878]:
+                      - generic "目前未加強推廣" [ref=e880]:
+                        - img [ref=e882]
+                  - gridcell "89" [ref=e886]:
+                    - button "89" [ref=e888]:
+                      - generic [ref=e889]: "89"
+                  - gridcell "139" [ref=e890]:
+                    - button "139" [ref=e892]:
+                      - generic [ref=e893]: "139"
+                  - gridcell "90" [ref=e894]:
+                    - button "90" [ref=e896]:
+                      - generic [ref=e897]: "90"
+                  - gridcell "0" [ref=e898]:
+                    - button "0" [ref=e900]:
+                      - generic [ref=e901]: "0"
+                  - gridcell "載入中……" [ref=e902]:
+                    - button "載入中……" [ref=e904]:
+                      - progressbar [ref=e906]
+                  - gridcell "載入中……" [ref=e908]:
+                    - button "載入中……" [ref=e910]:
+                      - progressbar [ref=e912]
+                  - gridcell "載入中……" [ref=e914]:
+                    - button "載入中……" [ref=e916]:
+                      - progressbar [ref=e918]
+                  - gridcell "載入中……" [ref=e920]:
+                    - button "載入中……" [ref=e922]:
+                      - progressbar [ref=e924]
+                  - gridcell "載入中……" [ref=e926]:
+                    - button "載入中……" [ref=e928]:
+                      - progressbar [ref=e930]
+                  - gridcell "載入中……" [ref=e932]:
+                    - button "載入中……" [ref=e934]:
+                      - progressbar [ref=e936]
+                  - gridcell "載入中……" [ref=e938]:
+                    - button "載入中……" [ref=e940]:
+                      - progressbar [ref=e942]
+                  - gridcell "載入中……" [ref=e944]:
+                    - button "載入中……" [ref=e946]:
+                      - progressbar [ref=e948]
+                  - gridcell "載入中……" [ref=e950]:
+                    - button "載入中……" [ref=e952]:
+                      - progressbar [ref=e954]
+                  - gridcell "載入中……" [ref=e956]:
+                    - button "載入中……" [ref=e958]:
+                      - progressbar [ref=e960]
+                  - gridcell "載入中……" [ref=e962]:
+                    - button "載入中……" [ref=e964]:
+                      - progressbar [ref=e966]
+                  - gridcell "載入中……" [ref=e968]:
+                    - button "載入中……" [ref=e970]:
+                      - progressbar [ref=e972]
+                  - gridcell "載入中……" [ref=e974]:
+                    - button "載入中……" [ref=e976]:
+                      - progressbar [ref=e978]
+                - row "選擇含有 ID（1403480661813945）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 5月10日 8:17 目前未加強推廣 48 89 48 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e980] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1403480661813945）的項目" [ref=e981]:
+                    - generic [ref=e986]:
+                      - checkbox "選擇含有 ID（1403480661813945）的項目" [ref=e987]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e988]:
+                    - generic [ref=e992]:
+                      - generic [ref=e994]:
+                        - img "Facebook" [ref=e999]
+                        - generic [ref=e1000]:
+                          - generic [ref=e1001]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e1003]:
+                            - generic [ref=e1006]: 相片
+                            - img [ref=e1007]
+                            - generic [ref=e1012]: 地藏菩薩 經典導讀
+                      - generic [ref=e1015]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1017]:
+                          - generic [ref=e1019]:
+                            - generic [ref=e1020]: 開啟下拉式功能表
+                            - img [ref=e1022]
+                  - gridcell "5月10日 8:17" [ref=e1024]:
+                    - button "5月10日 8:17" [ref=e1026]:
+                      - generic [ref=e1027]: 5月10日 8:17
+                  - gridcell "目前未加強推廣" [ref=e1028]:
+                    - button "目前未加強推廣" [ref=e1030]:
+                      - generic "目前未加強推廣" [ref=e1032]:
+                        - img [ref=e1034]
+                  - gridcell "48" [ref=e1038]:
+                    - button "48" [ref=e1040]:
+                      - generic [ref=e1041]: "48"
+                  - gridcell "89" [ref=e1042]:
+                    - button "89" [ref=e1044]:
+                      - generic [ref=e1045]: "89"
+                  - gridcell "48" [ref=e1046]:
+                    - button "48" [ref=e1048]:
+                      - generic [ref=e1049]: "48"
+                  - gridcell "0" [ref=e1050]:
+                    - button "0" [ref=e1052]:
+                      - generic [ref=e1053]: "0"
+                  - gridcell "載入中……" [ref=e1054]:
+                    - button "載入中……" [ref=e1056]:
+                      - progressbar [ref=e1058]
+                  - gridcell "載入中……" [ref=e1060]:
+                    - button "載入中……" [ref=e1062]:
+                      - progressbar [ref=e1064]
+                  - gridcell "載入中……" [ref=e1066]:
+                    - button "載入中……" [ref=e1068]:
+                      - progressbar [ref=e1070]
+                  - gridcell "載入中……" [ref=e1072]:
+                    - button "載入中……" [ref=e1074]:
+                      - progressbar [ref=e1076]
+                  - gridcell "載入中……" [ref=e1078]:
+                    - button "載入中……" [ref=e1080]:
+                      - progressbar [ref=e1082]
+                  - gridcell "載入中……" [ref=e1084]:
+                    - button "載入中……" [ref=e1086]:
+                      - progressbar [ref=e1088]
+                  - gridcell "載入中……" [ref=e1090]:
+                    - button "載入中……" [ref=e1092]:
+                      - progressbar [ref=e1094]
+                  - gridcell "載入中……" [ref=e1096]:
+                    - button "載入中……" [ref=e1098]:
+                      - progressbar [ref=e1100]
+                  - gridcell "載入中……" [ref=e1102]:
+                    - button "載入中……" [ref=e1104]:
+                      - progressbar [ref=e1106]
+                  - gridcell "載入中……" [ref=e1108]:
+                    - button "載入中……" [ref=e1110]:
+                      - progressbar [ref=e1112]
+                  - gridcell "載入中……" [ref=e1114]:
+                    - button "載入中……" [ref=e1116]:
+                      - progressbar [ref=e1118]
+                  - gridcell "載入中……" [ref=e1120]:
+                    - button "載入中……" [ref=e1122]:
+                      - progressbar [ref=e1124]
+                  - gridcell "載入中……" [ref=e1126]:
+                    - button "載入中……" [ref=e1128]:
+                      - progressbar [ref=e1130]
+                - row "選擇含有 ID（1394751196020225）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 4月30日 8:15 目前未加強推廣 71 110 71 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e1132] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1394751196020225）的項目" [ref=e1133]:
+                    - generic [ref=e1138]:
+                      - checkbox "選擇含有 ID（1394751196020225）的項目" [ref=e1139]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e1140]:
+                    - generic [ref=e1144]:
+                      - generic [ref=e1146]:
+                        - img "Facebook" [ref=e1151]
+                        - generic [ref=e1152]:
+                          - generic [ref=e1153]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e1155]:
+                            - generic [ref=e1158]: 相片
+                            - img [ref=e1159]
+                            - generic [ref=e1164]: 地藏菩薩 經典導讀
+                      - generic [ref=e1167]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1169]:
+                          - generic [ref=e1171]:
+                            - generic [ref=e1172]: 開啟下拉式功能表
+                            - img [ref=e1174]
+                  - gridcell "4月30日 8:15" [ref=e1176]:
+                    - button "4月30日 8:15" [ref=e1178]:
+                      - generic [ref=e1179]: 4月30日 8:15
+                  - gridcell "目前未加強推廣" [ref=e1180]:
+                    - button "目前未加強推廣" [ref=e1182]:
+                      - generic "目前未加強推廣" [ref=e1184]:
+                        - img [ref=e1186]
+                  - gridcell "71" [ref=e1190]:
+                    - button "71" [ref=e1192]:
+                      - generic [ref=e1193]: "71"
+                  - gridcell "110" [ref=e1194]:
+                    - button "110" [ref=e1196]:
+                      - generic [ref=e1197]: "110"
+                  - gridcell "71" [ref=e1198]:
+                    - button "71" [ref=e1200]:
+                      - generic [ref=e1201]: "71"
+                  - gridcell "0" [ref=e1202]:
+                    - button "0" [ref=e1204]:
+                      - generic [ref=e1205]: "0"
+                  - gridcell "載入中……" [ref=e1206]:
+                    - button "載入中……" [ref=e1208]:
+                      - progressbar [ref=e1210]
+                  - gridcell "載入中……" [ref=e1212]:
+                    - button "載入中……" [ref=e1214]:
+                      - progressbar [ref=e1216]
+                  - gridcell "載入中……" [ref=e1218]:
+                    - button "載入中……" [ref=e1220]:
+                      - progressbar [ref=e1222]
+                  - gridcell "載入中……" [ref=e1224]:
+                    - button "載入中……" [ref=e1226]:
+                      - progressbar [ref=e1228]
+                  - gridcell "載入中……" [ref=e1230]:
+                    - button "載入中……" [ref=e1232]:
+                      - progressbar [ref=e1234]
+                  - gridcell "載入中……" [ref=e1236]:
+                    - button "載入中……" [ref=e1238]:
+                      - progressbar [ref=e1240]
+                  - gridcell "載入中……" [ref=e1242]:
+                    - button "載入中……" [ref=e1244]:
+                      - progressbar [ref=e1246]
+                  - gridcell "載入中……" [ref=e1248]:
+                    - button "載入中……" [ref=e1250]:
+                      - progressbar [ref=e1252]
+                  - gridcell "載入中……" [ref=e1254]:
+                    - button "載入中……" [ref=e1256]:
+                      - progressbar [ref=e1258]
+                  - gridcell "載入中……" [ref=e1260]:
+                    - button "載入中……" [ref=e1262]:
+                      - progressbar [ref=e1264]
+                  - gridcell "載入中……" [ref=e1266]:
+                    - button "載入中……" [ref=e1268]:
+                      - progressbar [ref=e1270]
+                  - gridcell "載入中……" [ref=e1272]:
+                    - button "載入中……" [ref=e1274]:
+                      - progressbar [ref=e1276]
+                  - gridcell "載入中……" [ref=e1278]:
+                    - button "載入中……" [ref=e1280]:
+                      - progressbar [ref=e1282]
+                - row "選擇含有 ID（1383386027156742）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 4月17日 6:00 載入中…… 68 121 68 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e1284] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1383386027156742）的項目" [ref=e1285]:
+                    - generic [ref=e1290]:
+                      - checkbox "選擇含有 ID（1383386027156742）的項目" [ref=e1291]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e1292]:
+                    - generic [ref=e1296]:
+                      - generic [ref=e1298]:
+                        - img "Facebook" [ref=e1303]
+                        - generic [ref=e1304]:
+                          - generic [ref=e1305]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e1307]:
+                            - generic [ref=e1310]: 相片
+                            - img [ref=e1311]
+                            - generic [ref=e1316]: 地藏菩薩 經典導讀
+                      - generic [ref=e1319]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1321]:
+                          - generic [ref=e1323]:
+                            - generic [ref=e1324]: 開啟下拉式功能表
+                            - img [ref=e1326]
+                  - gridcell "4月17日 6:00" [ref=e1328]:
+                    - button "4月17日 6:00" [ref=e1330]:
+                      - generic [ref=e1331]: 4月17日 6:00
+                  - gridcell "載入中……" [ref=e1332]:
+                    - button "載入中……" [ref=e1334]:
+                      - progressbar [ref=e1335]
+                  - gridcell "68" [ref=e1337]:
+                    - button "68" [ref=e1339]:
+                      - generic [ref=e1340]: "68"
+                  - gridcell "121" [ref=e1341]:
+                    - button "121" [ref=e1343]:
+                      - generic [ref=e1344]: "121"
+                  - gridcell "68" [ref=e1345]:
+                    - button "68" [ref=e1347]:
+                      - generic [ref=e1348]: "68"
+                  - gridcell "0" [ref=e1349]:
+                    - button "0" [ref=e1351]:
+                      - generic [ref=e1352]: "0"
+                  - gridcell "載入中……" [ref=e1353]:
+                    - button "載入中……" [ref=e1355]:
+                      - progressbar [ref=e1357]
+                  - gridcell "載入中……" [ref=e1359]:
+                    - button "載入中……" [ref=e1361]:
+                      - progressbar [ref=e1363]
+                  - gridcell "載入中……" [ref=e1365]:
+                    - button "載入中……" [ref=e1367]:
+                      - progressbar [ref=e1369]
+                  - gridcell "載入中……" [ref=e1371]:
+                    - button "載入中……" [ref=e1373]:
+                      - progressbar [ref=e1375]
+                  - gridcell "載入中……" [ref=e1377]:
+                    - button "載入中……" [ref=e1379]:
+                      - progressbar [ref=e1381]
+                  - gridcell "載入中……" [ref=e1383]:
+                    - button "載入中……" [ref=e1385]:
+                      - progressbar [ref=e1387]
+                  - gridcell "載入中……" [ref=e1389]:
+                    - button "載入中……" [ref=e1391]:
+                      - progressbar [ref=e1393]
+                  - gridcell "載入中……" [ref=e1395]:
+                    - button "載入中……" [ref=e1397]:
+                      - progressbar [ref=e1399]
+                  - gridcell "載入中……" [ref=e1401]:
+                    - button "載入中……" [ref=e1403]:
+                      - progressbar [ref=e1405]
+                  - gridcell "載入中……" [ref=e1407]:
+                    - button "載入中……" [ref=e1409]:
+                      - progressbar [ref=e1411]
+                  - gridcell "載入中……" [ref=e1413]:
+                    - button "載入中……" [ref=e1415]:
+                      - progressbar [ref=e1417]
+                  - gridcell "載入中……" [ref=e1419]:
+                    - button "載入中……" [ref=e1421]:
+                      - progressbar [ref=e1423]
+                  - gridcell "載入中……" [ref=e1425]:
+                    - button "載入中……" [ref=e1427]:
+                      - progressbar [ref=e1429]
+                - row "選擇含有 ID（1382469177248427）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 4月16日 6:00 載入中…… 42 61 42 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e1431] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1382469177248427）的項目" [ref=e1432]:
+                    - generic [ref=e1437]:
+                      - checkbox "選擇含有 ID（1382469177248427）的項目" [ref=e1438]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e1439]:
+                    - generic [ref=e1443]:
+                      - generic [ref=e1445]:
+                        - img "Facebook" [ref=e1450]
+                        - generic [ref=e1451]:
+                          - generic [ref=e1452]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e1454]:
+                            - generic [ref=e1457]: 相片
+                            - img [ref=e1458]
+                            - generic [ref=e1463]: 地藏菩薩 經典導讀
+                      - generic [ref=e1466]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1468]:
+                          - generic [ref=e1470]:
+                            - generic [ref=e1471]: 開啟下拉式功能表
+                            - img [ref=e1473]
+                  - gridcell "4月16日 6:00" [ref=e1475]:
+                    - button "4月16日 6:00" [ref=e1477]:
+                      - generic [ref=e1478]: 4月16日 6:00
+                  - gridcell "載入中……" [ref=e1479]:
+                    - button "載入中……" [ref=e1481]:
+                      - progressbar [ref=e1482]
+                  - gridcell "42" [ref=e1484]:
+                    - button "42" [ref=e1486]:
+                      - generic [ref=e1487]: "42"
+                  - gridcell "61" [ref=e1488]:
+                    - button "61" [ref=e1490]:
+                      - generic [ref=e1491]: "61"
+                  - gridcell "42" [ref=e1492]:
+                    - button "42" [ref=e1494]:
+                      - generic [ref=e1495]: "42"
+                  - gridcell "0" [ref=e1496]:
+                    - button "0" [ref=e1498]:
+                      - generic [ref=e1499]: "0"
+                  - gridcell "載入中……" [ref=e1500]:
+                    - button "載入中……" [ref=e1502]:
+                      - progressbar [ref=e1504]
+                  - gridcell "載入中……" [ref=e1506]:
+                    - button "載入中……" [ref=e1508]:
+                      - progressbar [ref=e1510]
+                  - gridcell "載入中……" [ref=e1512]:
+                    - button "載入中……" [ref=e1514]:
+                      - progressbar [ref=e1516]
+                  - gridcell "載入中……" [ref=e1518]:
+                    - button "載入中……" [ref=e1520]:
+                      - progressbar [ref=e1522]
+                  - gridcell "載入中……" [ref=e1524]:
+                    - button "載入中……" [ref=e1526]:
+                      - progressbar [ref=e1528]
+                  - gridcell "載入中……" [ref=e1530]:
+                    - button "載入中……" [ref=e1532]:
+                      - progressbar [ref=e1534]
+                  - gridcell "載入中……" [ref=e1536]:
+                    - button "載入中……" [ref=e1538]:
+                      - progressbar [ref=e1540]
+                  - gridcell "載入中……" [ref=e1542]:
+                    - button "載入中……" [ref=e1544]:
+                      - progressbar [ref=e1546]
+                  - gridcell "載入中……" [ref=e1548]:
+                    - button "載入中……" [ref=e1550]:
+                      - progressbar [ref=e1552]
+                  - gridcell "載入中……" [ref=e1554]:
+                    - button "載入中……" [ref=e1556]:
+                      - progressbar [ref=e1558]
+                  - gridcell "載入中……" [ref=e1560]:
+                    - button "載入中……" [ref=e1562]:
+                      - progressbar [ref=e1564]
+                  - gridcell "載入中……" [ref=e1566]:
+                    - button "載入中……" [ref=e1568]:
+                      - progressbar [ref=e1570]
+                  - gridcell "載入中……" [ref=e1572]:
+                    - button "載入中……" [ref=e1574]:
+                      - progressbar [ref=e1576]
+                - row "選擇含有 ID（1381734113988600）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 4月15日 8:59 載入中…… 62 99 62 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e1578] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1381734113988600）的項目" [ref=e1579]:
+                    - generic [ref=e1584]:
+                      - checkbox "選擇含有 ID（1381734113988600）的項目" [ref=e1585]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e1586]:
+                    - generic [ref=e1590]:
+                      - generic [ref=e1592]:
+                        - img "Facebook" [ref=e1597]
+                        - generic [ref=e1598]:
+                          - generic [ref=e1599]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e1601]:
+                            - generic [ref=e1604]: 相片
+                            - img [ref=e1605]
+                            - generic [ref=e1610]: 地藏菩薩 經典導讀
+                      - generic [ref=e1613]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1615]:
+                          - generic [ref=e1617]:
+                            - generic [ref=e1618]: 開啟下拉式功能表
+                            - img [ref=e1620]
+                  - gridcell "4月15日 8:59" [ref=e1622]:
+                    - button "4月15日 8:59" [ref=e1624]:
+                      - generic [ref=e1625]: 4月15日 8:59
+                  - gridcell "載入中……" [ref=e1626]:
+                    - button "載入中……" [ref=e1628]:
+                      - progressbar [ref=e1629]
+                  - gridcell "62" [ref=e1631]:
+                    - button "62" [ref=e1633]:
+                      - generic [ref=e1634]: "62"
+                  - gridcell "99" [ref=e1635]:
+                    - button "99" [ref=e1637]:
+                      - generic [ref=e1638]: "99"
+                  - gridcell "62" [ref=e1639]:
+                    - button "62" [ref=e1641]:
+                      - generic [ref=e1642]: "62"
+                  - gridcell "0" [ref=e1643]:
+                    - button "0" [ref=e1645]:
+                      - generic [ref=e1646]: "0"
+                  - gridcell "載入中……" [ref=e1647]:
+                    - button "載入中……" [ref=e1649]:
+                      - progressbar [ref=e1651]
+                  - gridcell "載入中……" [ref=e1653]:
+                    - button "載入中……" [ref=e1655]:
+                      - progressbar [ref=e1657]
+                  - gridcell "載入中……" [ref=e1659]:
+                    - button "載入中……" [ref=e1661]:
+                      - progressbar [ref=e1663]
+                  - gridcell "載入中……" [ref=e1665]:
+                    - button "載入中……" [ref=e1667]:
+                      - progressbar [ref=e1669]
+                  - gridcell "載入中……" [ref=e1671]:
+                    - button "載入中……" [ref=e1673]:
+                      - progressbar [ref=e1675]
+                  - gridcell "載入中……" [ref=e1677]:
+                    - button "載入中……" [ref=e1679]:
+                      - progressbar [ref=e1681]
+                  - gridcell "載入中……" [ref=e1683]:
+                    - button "載入中……" [ref=e1685]:
+                      - progressbar [ref=e1687]
+                  - gridcell "載入中……" [ref=e1689]:
+                    - button "載入中……" [ref=e1691]:
+                      - progressbar [ref=e1693]
+                  - gridcell "載入中……" [ref=e1695]:
+                    - button "載入中……" [ref=e1697]:
+                      - progressbar [ref=e1699]
+                  - gridcell "載入中……" [ref=e1701]:
+                    - button "載入中……" [ref=e1703]:
+                      - progressbar [ref=e1705]
+                  - gridcell "載入中……" [ref=e1707]:
+                    - button "載入中……" [ref=e1709]:
+                      - progressbar [ref=e1711]
+                  - gridcell "載入中……" [ref=e1713]:
+                    - button "載入中……" [ref=e1715]:
+                      - progressbar [ref=e1717]
+                  - gridcell "載入中……" [ref=e1719]:
+                    - button "載入中……" [ref=e1721]:
+                      - progressbar [ref=e1723]
+                - row [ref=e1725] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1375993667895978）的項目" [ref=e1726]:
+                    - generic [ref=e1731]:
+                      - checkbox "選擇含有 ID（1375993667895978）的項目" [ref=e1732]
+                      - generic:
+                        - img
+                  - gridcell [ref=e1733]:
+                    - generic [ref=e1737]:
+                      - generic [ref=e1739]:
+                        - img "Facebook" [ref=e1744]
+                        - generic [ref=e1745]:
+                          - generic [ref=e1746]: 第13品之9：經典圓滿 地藏菩薩本願經》圓滿了！ 佛陀說完法，大家都非常歡喜。這部偉大的經典，就這樣圓滿結束了。但是，對我們來說，這不是結束，而是開始！ 🌟 法會的圓滿 一、佛陀說法完畢 佛陀把所有該說的都說完了 從地藏菩薩的過去世 到地藏菩薩的大願 到依止地藏菩薩的利益 全部都講清楚了 二、大眾生起歡喜心 所有參加的人都很高興： 聽到了這麼好的教法 知道了地藏菩薩的偉大 明白了因果的道理 找到了修行的方向 三、恭敬頂禮而去 大家恭敬地向佛陀和地藏菩薩行禮，然後歡喜地離開了。 🌟 我們的開始 經典結束了，但我們的修行才要開始！ 一、地藏菩薩的使命開始 佛陀入涅槃後 地藏菩薩開始他的使命 照顧所有的眾生 直到彌勒佛出世 二、我們的修行開始 我們聽完了經典 現在要開始實踐 不是只有知道而已 要真的做到 🌟 經中的重要教導 一、孝順父母 這是最基本的 地藏菩薩就是從孝順開始的 我們也要好好孝順父母 二、相信因果 做好事會有好報 做壞事會有壞報 不要心存僥倖 三、慈悲待人 對所有人都要好 不要有分別心 能幫就幫 四、發願修行 要發願成為更好的人 要發願幫助別人 要發願最終成佛 五、堅持不懈 修行不是一天兩天 要一直做下去 永不放棄 🌟 如何在日常生活中實踐 一、每天念地藏菩薩名號 早上起床念 晚上睡覺前念 遇到困難時念 隨時隨地都可以念 二、讀誦《地藏經》 可以每天讀一品 也可以每週讀一次全經 重要的是持續 三、做好事，行孝道 孝順父母 幫助別人 不做壞事 多做善事 四、分享給別人 告訴家人朋友 分享自己的體會 讓更多人受益 🌈 啟發反思 一、結束即是開始 經典的結束，是我們修行的開始。 二、知道要做到 光知道沒有用，要真的做到才有用。 三、一步一腳印 不要急，慢慢來，一步一步走。 四、永不放棄 修行的路很長，但只要堅持，一定會到達。 💬 佛語小語 「經典圓滿修行始，一步一印向前行；地藏菩薩常相伴，終有一日證菩提。」🙏 📚 免費索取《地藏菩薩本願經》 想深入了解地藏菩薩的功德嗎？📩 私訊「我要索取地藏經」，我們將免費寄送精美經書給您（含郵資）。讓我們一起學習菩薩的慈悲與願力！🌸
+                          - generic [ref=e1748]:
+                            - generic [ref=e1751]: 多媒體
+                            - img [ref=e1752]
+                            - generic [ref=e1757]: 地藏菩薩 經典導讀
+                      - generic [ref=e1760]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1762]:
+                          - generic [ref=e1764]:
+                            - generic [ref=e1765]: 開啟下拉式功能表
+                            - img [ref=e1767]
+                  - gridcell "4月8日 7:00" [ref=e1769]:
+                    - button "4月8日 7:00" [ref=e1771]:
+                      - generic [ref=e1772]: 4月8日 7:00
+                  - gridcell "載入中……" [ref=e1773]:
+                    - button "載入中……" [ref=e1775]:
+                      - progressbar [ref=e1776]
+                  - gridcell "50" [ref=e1778]:
+                    - button "50" [ref=e1780]:
+                      - generic [ref=e1781]: "50"
+                  - gridcell "97" [ref=e1782]:
+                    - button "97" [ref=e1784]:
+                      - generic [ref=e1785]: "97"
+                  - gridcell "50" [ref=e1786]:
+                    - button "50" [ref=e1788]:
+                      - generic [ref=e1789]: "50"
+                  - gridcell "0" [ref=e1790]:
+                    - button "0" [ref=e1792]:
+                      - generic [ref=e1793]: "0"
+                  - gridcell "載入中……" [ref=e1794]:
+                    - button "載入中……" [ref=e1796]:
+                      - progressbar [ref=e1798]
+                  - gridcell "載入中……" [ref=e1800]:
+                    - button "載入中……" [ref=e1802]:
+                      - progressbar [ref=e1804]
+                  - gridcell "載入中……" [ref=e1806]:
+                    - button "載入中……" [ref=e1808]:
+                      - progressbar [ref=e1810]
+                  - gridcell "載入中……" [ref=e1812]:
+                    - button "載入中……" [ref=e1814]:
+                      - progressbar [ref=e1816]
+                  - gridcell "載入中……" [ref=e1818]:
+                    - button "載入中……" [ref=e1820]:
+                      - progressbar [ref=e1822]
+                  - gridcell "載入中……" [ref=e1824]:
+                    - button "載入中……" [ref=e1826]:
+                      - progressbar [ref=e1828]
+                  - gridcell "載入中……" [ref=e1830]:
+                    - button "載入中……" [ref=e1832]:
+                      - progressbar [ref=e1834]
+                  - gridcell "載入中……" [ref=e1836]:
+                    - button "載入中……" [ref=e1838]:
+                      - progressbar [ref=e1840]
+                  - gridcell "載入中……" [ref=e1842]:
+                    - button "載入中……" [ref=e1844]:
+                      - progressbar [ref=e1846]
+                  - gridcell "載入中……" [ref=e1848]:
+                    - button "載入中……" [ref=e1850]:
+                      - progressbar [ref=e1852]
+                  - gridcell "載入中……" [ref=e1854]:
+                    - button "載入中……" [ref=e1856]:
+                      - progressbar [ref=e1858]
+                  - gridcell "載入中……" [ref=e1860]:
+                    - button "載入中……" [ref=e1862]:
+                      - progressbar [ref=e1864]
+                  - gridcell "載入中……" [ref=e1866]:
+                    - button "載入中……" [ref=e1868]:
+                      - progressbar [ref=e1870]
+                - row [ref=e1872] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1375215467973798）的項目" [ref=e1873]:
+                    - generic [ref=e1878]:
+                      - checkbox "選擇含有 ID（1375215467973798）的項目" [ref=e1879]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 📅 第13品之8：佛陀的最後叮嚀 佛陀最後說了什麼？ 在法會快要結束的時候，佛陀對所有參加的人說了最後的話，這些話非常非常重要。 🌟 佛陀的囑託 一、託付未來眾生 佛陀對地藏菩薩說： 「我要把未來的眾生都託付給你」 「請你一定要好好照顧他們」 「不要讓他們掉到惡道去受苦」 為什麼要託付？ 因為佛陀要入涅槃了（離開這個世界） 未來的人沒有機會見到佛陀 需要有人來照顧和教導他們 地藏菩薩最適合做這件事 二、對大眾的叮嚀 佛陀對所有參加法會的人說： 要相信地藏菩薩 地藏菩薩的願力是真實的 他一定會幫助你們 不要懷疑，要有信心 要依教奉行 不只是聽聽而已 要真的照著做 念地藏菩薩的名號 讀誦《地藏經》 做好事，不做壞事 要廣為宣說 不要只有自己知道 要告訴家人、朋友 讓更多人知道地藏菩薩的功德 讓更多人得到幫助 要堅持到底 不是做一天兩天就好 要一直做下去 遇到困難也不要放棄 一直到成佛為止 🌟 大眾的回應 一、恭敬頂禮 所有參加法會的人，都恭敬地向佛陀行禮，表示感謝。 二、承諾依教修行 大家都說： 「我們一定會照著佛陀的話去做」 「我們會好好依止地藏菩薩」 「我們會把這個法門傳播出去」 三、生起歡喜心 大家都很高興，因為： 聽到了這麼好的教法 知道了地藏菩薩的功德 有了依靠和方向 對未來充滿希望 🌈 啟發反思 一、佛陀的信任 佛陀把未來的眾生託付給地藏菩薩，這是多麼大的信任！ 二、我們的責任 我們也有責任： 照顧好自己 幫助別人 傳播好的教法 三、信心很重要 要相信地藏菩薩，相信自己也能做到。 四、要代代相傳 好的教法要一代傳一代，不能讓它失傳。 💬 佛語小語 「佛陀託付地藏尊，未來眾生得依怙；我等當發菩提心，依教奉行報佛恩。」🙏 📚 免費索取《地藏菩薩本願經》 想深入了解地藏菩薩的功德嗎？📩 私訊「我要索取地藏經」，我們將免費寄送精美經書給您（含郵資）。讓我們一起學習菩薩的慈悲與願力！🌸 多媒體 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e1880]:
+                    - generic [ref=e1884]:
+                      - generic [ref=e1886]:
+                        - img "Facebook" [ref=e1891]
+                        - generic [ref=e1892]:
+                          - generic [ref=e1893]: 📅 第13品之8：佛陀的最後叮嚀 佛陀最後說了什麼？ 在法會快要結束的時候，佛陀對所有參加的人說了最後的話，這些話非常非常重要。 🌟 佛陀的囑託 一、託付未來眾生 佛陀對地藏菩薩說： 「我要把未來的眾生都託付給你」 「請你一定要好好照顧他們」 「不要讓他們掉到惡道去受苦」 為什麼要託付？ 因為佛陀要入涅槃了（離開這個世界） 未來的人沒有機會見到佛陀 需要有人來照顧和教導他們 地藏菩薩最適合做這件事 二、對大眾的叮嚀 佛陀對所有參加法會的人說： 要相信地藏菩薩 地藏菩薩的願力是真實的 他一定會幫助你們 不要懷疑，要有信心 要依教奉行 不只是聽聽而已 要真的照著做 念地藏菩薩的名號 讀誦《地藏經》 做好事，不做壞事 要廣為宣說 不要只有自己知道 要告訴家人、朋友 讓更多人知道地藏菩薩的功德 讓更多人得到幫助 要堅持到底 不是做一天兩天就好 要一直做下去 遇到困難也不要放棄 一直到成佛為止 🌟 大眾的回應 一、恭敬頂禮 所有參加法會的人，都恭敬地向佛陀行禮，表示感謝。 二、承諾依教修行 大家都說： 「我們一定會照著佛陀的話去做」 「我們會好好依止地藏菩薩」 「我們會把這個法門傳播出去」 三、生起歡喜心 大家都很高興，因為： 聽到了這麼好的教法 知道了地藏菩薩的功德 有了依靠和方向 對未來充滿希望 🌈 啟發反思 一、佛陀的信任 佛陀把未來的眾生託付給地藏菩薩，這是多麼大的信任！ 二、我們的責任 我們也有責任： 照顧好自己 幫助別人 傳播好的教法 三、信心很重要 要相信地藏菩薩，相信自己也能做到。 四、要代代相傳 好的教法要一代傳一代，不能讓它失傳。 💬 佛語小語 「佛陀託付地藏尊，未來眾生得依怙；我等當發菩提心，依教奉行報佛恩。」🙏 📚 免費索取《地藏菩薩本願經》 想深入了解地藏菩薩的功德嗎？📩 私訊「我要索取地藏經」，我們將免費寄送精美經書給您（含郵資）。讓我們一起學習菩薩的慈悲與願力！🌸
+                          - generic [ref=e1895]:
+                            - generic [ref=e1898]: 多媒體
+                            - img [ref=e1899]
+                            - generic [ref=e1904]: 地藏菩薩 經典導讀
+                      - generic [ref=e1907]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e1909]:
+                          - generic [ref=e1911]:
+                            - generic [ref=e1912]: 開啟下拉式功能表
+                            - img [ref=e1914]
+                  - gridcell "4月7日 7:00" [ref=e1916]:
+                    - button "4月7日 7:00" [ref=e1918]:
+                      - generic [ref=e1919]: 4月7日 7:00
+                  - gridcell "載入中……" [ref=e1920]:
+                    - button "載入中……" [ref=e1922]:
+                      - progressbar [ref=e1923]
+                  - gridcell "47" [ref=e1925]:
+                    - button "47" [ref=e1927]:
+                      - generic [ref=e1928]: "47"
+                  - gridcell "89" [ref=e1929]:
+                    - button "89" [ref=e1931]:
+                      - generic [ref=e1932]: "89"
+                  - gridcell "47" [ref=e1933]:
+                    - button "47" [ref=e1935]:
+                      - generic [ref=e1936]: "47"
+                  - gridcell "0" [ref=e1937]:
+                    - button "0" [ref=e1939]:
+                      - generic [ref=e1940]: "0"
+                  - gridcell "載入中……" [ref=e1941]:
+                    - button "載入中……" [ref=e1943]:
+                      - progressbar [ref=e1945]
+                  - gridcell "載入中……" [ref=e1947]:
+                    - button "載入中……" [ref=e1949]:
+                      - progressbar [ref=e1951]
+                  - gridcell "載入中……" [ref=e1953]:
+                    - button "載入中……" [ref=e1955]:
+                      - progressbar [ref=e1957]
+                  - gridcell "載入中……" [ref=e1959]:
+                    - button "載入中……" [ref=e1961]:
+                      - progressbar [ref=e1963]
+                  - gridcell "載入中……" [ref=e1965]:
+                    - button "載入中……" [ref=e1967]:
+                      - progressbar [ref=e1969]
+                  - gridcell "載入中……" [ref=e1971]:
+                    - button "載入中……" [ref=e1973]:
+                      - progressbar [ref=e1975]
+                  - gridcell "載入中……" [ref=e1977]:
+                    - button "載入中……" [ref=e1979]:
+                      - progressbar [ref=e1981]
+                  - gridcell "載入中……" [ref=e1983]:
+                    - button "載入中……" [ref=e1985]:
+                      - progressbar [ref=e1987]
+                  - gridcell "載入中……" [ref=e1989]:
+                    - button "載入中……" [ref=e1991]:
+                      - progressbar [ref=e1993]
+                  - gridcell "載入中……" [ref=e1995]:
+                    - button "載入中……" [ref=e1997]:
+                      - progressbar [ref=e1999]
+                  - gridcell "載入中……" [ref=e2001]:
+                    - button "載入中……" [ref=e2003]:
+                      - progressbar [ref=e2005]
+                  - gridcell "載入中……" [ref=e2007]:
+                    - button "載入中……" [ref=e2009]:
+                      - progressbar [ref=e2011]
+                  - gridcell "載入中……" [ref=e2013]:
+                    - button "載入中……" [ref=e2015]:
+                      - progressbar [ref=e2017]
+                - row "選擇含有 ID（1373622258133119）的項目 Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表 4月5日 10:10 載入中…… 111 179 111 0 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中…… 載入中……" [ref=e2019] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1373622258133119）的項目" [ref=e2020]:
+                    - generic [ref=e2025]:
+                      - checkbox "選擇含有 ID（1373622258133119）的項目" [ref=e2026]
+                      - generic:
+                        - img
+                  - gridcell "Facebook 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。 相片 地藏菩薩 經典導讀 載入中…… 開啟下拉式功能表" [ref=e2027]:
+                    - generic [ref=e2031]:
+                      - generic [ref=e2033]:
+                        - img "Facebook" [ref=e2038]
+                        - generic [ref=e2039]:
+                          - generic [ref=e2040]: 復次普廣。若未來世眾生。於月一日。八日。十四日。十五日。十八日。二十三。二十四。二十八。二十九日。乃至三十日。是諸日等。諸罪結集。定其輕重。南閻浮提眾生。舉止動念。無不是業。無不是罪。何況恣情殺害竊盜邪淫妄語。百千罪狀。能於是十齋日。對佛菩薩。諸賢聖像前。讀是經一徧（ㄅㄧㄢˋ）。東西南北。百由旬內。無諸災難。當此居家。若長若幼。現在未來。百千歲中。永離惡趣。能於十齋日。每轉一徧（ㄅㄧㄢˋ）。現世令此居家。無諸橫病。衣食豐溢。
+                          - generic [ref=e2042]:
+                            - generic [ref=e2045]: 相片
+                            - img [ref=e2046]
+                            - generic [ref=e2051]: 地藏菩薩 經典導讀
+                      - generic [ref=e2054]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e2056]:
+                          - generic [ref=e2058]:
+                            - generic [ref=e2059]: 開啟下拉式功能表
+                            - img [ref=e2061]
+                  - gridcell "4月5日 10:10" [ref=e2063]:
+                    - button "4月5日 10:10" [ref=e2065]:
+                      - generic [ref=e2066]: 4月5日 10:10
+                  - gridcell "載入中……" [ref=e2067]:
+                    - button "載入中……" [ref=e2069]:
+                      - progressbar [ref=e2070]
+                  - gridcell "111" [ref=e2072]:
+                    - button "111" [ref=e2074]:
+                      - generic [ref=e2075]: "111"
+                  - gridcell "179" [ref=e2076]:
+                    - button "179" [ref=e2078]:
+                      - generic [ref=e2079]: "179"
+                  - gridcell "111" [ref=e2080]:
+                    - button "111" [ref=e2082]:
+                      - generic [ref=e2083]: "111"
+                  - gridcell "0" [ref=e2084]:
+                    - button "0" [ref=e2086]:
+                      - generic [ref=e2087]: "0"
+                  - gridcell "載入中……" [ref=e2088]:
+                    - button "載入中……" [ref=e2090]:
+                      - progressbar [ref=e2092]
+                  - gridcell "載入中……" [ref=e2094]:
+                    - button "載入中……" [ref=e2096]:
+                      - progressbar [ref=e2098]
+                  - gridcell "載入中……" [ref=e2100]:
+                    - button "載入中……" [ref=e2102]:
+                      - progressbar [ref=e2104]
+                  - gridcell "載入中……" [ref=e2106]:
+                    - button "載入中……" [ref=e2108]:
+                      - progressbar [ref=e2110]
+                  - gridcell "載入中……" [ref=e2112]:
+                    - button "載入中……" [ref=e2114]:
+                      - progressbar [ref=e2116]
+                  - gridcell "載入中……" [ref=e2118]:
+                    - button "載入中……" [ref=e2120]:
+                      - progressbar [ref=e2122]
+                  - gridcell "載入中……" [ref=e2124]:
+                    - button "載入中……" [ref=e2126]:
+                      - progressbar [ref=e2128]
+                  - gridcell "載入中……" [ref=e2130]:
+                    - button "載入中……" [ref=e2132]:
+                      - progressbar [ref=e2134]
+                  - gridcell "載入中……" [ref=e2136]:
+                    - button "載入中……" [ref=e2138]:
+                      - progressbar [ref=e2140]
+                  - gridcell "載入中……" [ref=e2142]:
+                    - button "載入中……" [ref=e2144]:
+                      - progressbar [ref=e2146]
+                  - gridcell "載入中……" [ref=e2148]:
+                    - button "載入中……" [ref=e2150]:
+                      - progressbar [ref=e2152]
+                  - gridcell "載入中……" [ref=e2154]:
+                    - button "載入中……" [ref=e2156]:
+                      - progressbar [ref=e2158]
+                  - gridcell "載入中……" [ref=e2160]:
+                    - button "載入中……" [ref=e2162]:
+                      - progressbar [ref=e2164]
+                - row [ref=e2166] [cursor=pointer]:
+                  - gridcell "選擇含有 ID（1370954735066538）的項目" [ref=e2167]:
+                    - generic [ref=e2172]:
+                      - checkbox "選擇含有 ID（1370954735066538）的項目" [ref=e2173]
+                      - generic:
+                        - img
+                  - gridcell [ref=e2174]:
+                    - generic [ref=e2178]:
+                      - generic [ref=e2180]:
+                        - img "Facebook" [ref=e2185]
+                        - generic [ref=e2186]:
+                          - generic [ref=e2187]: 📅 第13品之7：依止地藏的利益 依靠地藏菩薩有什麼好處？ 佛陀說：「如果有人稱念地藏菩薩的名號，禮拜供養地藏菩薩，會得到很多很多的好處。」 🌟 什麼是依止？ 依止的意義 就像小孩依靠父母一樣 相信地藏菩薩，跟隨他的教導 把地藏菩薩當作自己的老師和保護者 如何依止？ 稱念：常常念「南無地藏王菩薩」 禮拜：恭敬地向地藏菩薩行禮 供養：用花、香、燈來供養 學習：讀誦《地藏經》，照著做 🌟 現世的利益 一、消除災難 不會遇到火災、水災 出門平安，不會遇到危險 生病會好得快 壞事會變少 二、增長福報 家庭和睦，大家相親相愛 工作順利，做事情容易成功 有足夠的錢財，不會缺乏 遇到的都是好人好事 三、心靈安定 晚上睡得好，不會做惡夢 心裡平靜，不會胡思亂想 遇到困難不會太害怕 感覺有人在保護自己 四、得遇善緣 會遇到好老師教導你 會交到真心的朋友 在需要幫助時，會有人來幫忙 做好事會有人支持 🌟 未來的利益 一、不墮惡道 不會掉到地獄去受苦 不會變成餓鬼，一直餓肚子 不會變成動物 永遠不會去那些痛苦的地方 二、投生善處 下輩子會生在好的地方 會生在富貴的家庭 會有好看的外表 會有聰明的頭腦 三、智慧增長 讀書會變得容易 能夠理解深奧的道理 知道什麼是對的，什麼是錯的 能夠幫助別人解決問題 四、最終成佛 一步一步走向成佛的路 最後會像佛陀一樣有智慧 可以幫助更多更多的人 達到最高的境界 🌈 啟發反思 一、要有好老師 人生需要好的老師和榜樣，地藏菩薩就是最好的老師。 二、現在和未來都重要 不只要想到現在，也要想到未來。 三、好處是自然來的 不是為了得到好處才做，而是真心做了，好處自然就來了。 四、最終目標是成佛 所有的修行，最終都是為了成佛，幫助所有的人。 💬 佛語小語 「依止地藏得安樂，現世未來皆吉祥；消災增福心安定，最終必定證菩提。」🙏 📚 免費索取《地藏菩薩本願經》 想深入了解地藏菩薩的功德嗎？📩 私訊「我要索取地藏經」，我們將免費寄送精美經書給您（含郵資）。讓我們一起學習菩薩的慈悲與願力！🌸
+                          - generic [ref=e2189]:
+                            - generic [ref=e2192]: 多媒體
+                            - img [ref=e2193]
+                            - generic [ref=e2198]: 地藏菩薩 經典導讀
+                      - generic [ref=e2201]:
+                        - generic:
+                          - progressbar
+                        - button "開啟下拉式功能表" [ref=e2203]:
+                          - generic [ref=e2205]:
+                            - generic [ref=e2206]: 開啟下拉式功能表
+                            - img [ref=e2208]
+                  - gridcell "4月2日 7:00" [ref=e2210]:
+                    - button "4月2日 7:00" [ref=e2212]:
+                      - generic [ref=e2213]: 4月2日 7:00
+                  - gridcell "載入中……" [ref=e2214]:
+                    - button "載入中……" [ref=e2216]:
+                      - progressbar [ref=e2217]
+                  - gridcell "59" [ref=e2219]:
+                    - button "59" [ref=e2221]:
+                      - generic [ref=e2222]: "59"
+                  - gridcell "78" [ref=e2223]:
+                    - button "78" [ref=e2225]:
+                      - generic [ref=e2226]: "78"
+                  - gridcell "59" [ref=e2227]:
+                    - button "59" [ref=e2229]:
+                      - generic [ref=e2230]: "59"
+                  - gridcell "0" [ref=e2231]:
+                    - button "0" [ref=e2233]:
+                      - generic [ref=e2234]: "0"
+                  - gridcell "載入中……" [ref=e2235]:
+                    - button "載入中……" [ref=e2237]:
+                      - progressbar [ref=e2239]
+                  - gridcell "載入中……" [ref=e2241]:
+                    - button "載入中……" [ref=e2243]:
+                      - progressbar [ref=e2245]
+                  - gridcell "載入中……" [ref=e2247]:
+                    - button "載入中……" [ref=e2249]:
+                      - progressbar [ref=e2251]
+                  - gridcell "載入中……" [ref=e2253]:
+                    - button "載入中……" [ref=e2255]:
+                      - progressbar [ref=e2257]
+                  - gridcell "載入中……" [ref=e2259]:
+                    - button "載入中……" [ref=e2261]:
+                      - progressbar [ref=e2263]
+                  - gridcell "載入中……" [ref=e2265]:
+                    - button "載入中……" [ref=e2267]:
+                      - progressbar [ref=e2269]
+                  - gridcell "載入中……" [ref=e2271]:
+                    - button "載入中……" [ref=e2273]:
+                      - progressbar [ref=e2275]
+                  - gridcell "載入中……" [ref=e2277]:
+                    - button "載入中……" [ref=e2279]:
+                      - progressbar [ref=e2281]
+                  - gridcell "載入中……" [ref=e2283]:
+                    - button "載入中……" [ref=e2285]:
+                      - progressbar [ref=e2287]
+                  - gridcell "載入中……" [ref=e2289]:
+                    - button "載入中……" [ref=e2291]:
+                      - progressbar [ref=e2293]
+                  - gridcell "載入中……" [ref=e2295]:
+                    - button "載入中……" [ref=e2297]:
+                      - progressbar [ref=e2299]
+                  - gridcell "載入中……" [ref=e2301]:
+                    - button "載入中……" [ref=e2303]:
+                      - progressbar [ref=e2305]
+                  - gridcell "載入中……" [ref=e2307]:
+                    - button "載入中……" [ref=e2309]:
+                      - progressbar [ref=e2311]
+              - rowgroup
+    - generic [ref=e2318]:
+      - generic [ref=e2320]:
+        - button "Meta Business Suite" [ref=e2321] [cursor=pointer]:
+          - generic [ref=e2323]: Meta Business Suite
+        - button "Pressable" [ref=e2332] [cursor=pointer]:
+          - img "Facebook" [ref=e2337]
+      - navigation "連結" [ref=e2342]:
+        - generic [ref=e2343]: 連結
+        - list [ref=e2344]:
+          - generic [ref=e2345]:
+            - listitem [ref=e2349]:
+              - generic [ref=e2351]:
+                - link "首頁" [ref=e2352] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2353]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e2357]:
+              - generic [ref=e2359]:
+                - link "通知" [ref=e2360] [cursor=pointer]:
+                  - generic [ref=e2361]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e2366]:
+              - generic [ref=e2368]:
+                - link "廣告管理員" [ref=e2369] [cursor=pointer]:
+                  - generic [ref=e2370]: 廣告管理員
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告管理員
+            - listitem [ref=e2374]:
+              - generic [ref=e2376]:
+                - link "收件匣" [ref=e2377] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2378]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e2383]:
+              - generic [ref=e2385]:
+                - link "內容" [ref=e2386] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2387]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e2391]:
+              - generic [ref=e2393]:
+                - link "創作者人才庫" [ref=e2394] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e2395]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e2399]:
+              - generic [ref=e2401]:
+                - link "規劃工具" [ref=e2402] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2403]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e2408]:
+              - generic [ref=e2410]:
+                - link "廣告" [ref=e2411] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2412]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e2417]:
+              - generic [ref=e2419]:
+                - link "洞察報告" [ref=e2420] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2421]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e2425]:
+              - generic [ref=e2427]:
+                - link "所有工具" [ref=e2428] [cursor=pointer]:
+                  - generic [ref=e2429]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e2432] [cursor=pointer]:
+              - generic [ref=e2436]: 編輯
+      - generic [ref=e2439]:
+        - listitem [ref=e2442]:
+          - generic [ref=e2444]:
+            - link "搜尋" [ref=e2445] [cursor=pointer]:
+              - generic [ref=e2446]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e2447]:
+          - generic [ref=e2448]: 連結
+          - list [ref=e2449]:
+            - listitem [ref=e2453]:
+              - generic [ref=e2455]:
+                - link "設定" [ref=e2456] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e2457]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e2464]:
+          - generic [ref=e2466]:
+            - link "使用說明" [ref=e2467] [cursor=pointer]:
+              - generic [ref=e2468]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img
+  - region "瞭解這項新功能" [ref=e2469]

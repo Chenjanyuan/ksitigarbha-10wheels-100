@@ -359,6 +359,124 @@ D. 其他指示
 
 ---
 
+## 🪷 死命令 5 — Meta 多圖上傳檔名鐵則 (2026-06-20 阿元 拍板,血淚整理)
+
+> 阿元原話:「我們要怎麼樣避免每次都要去點這種東西啊因為標準流程好了就不要這樣一直錯」
+
+從此以後,所有 AI 要上傳 12 張多圖到 Meta Business Suite **一律用純淨檔名**,絕不可帶混淆字串:
+
+### ⛔ 絕對禁止的檔名格式
+
+```
+❌ 01_第6篇12之1_佛陀讚嘆地藏功德.jpg     ← 「12之1」會跟「12之10/11/12」字串撞,Meta 排序亂掉
+❌ 第6篇12之N_xxx.jpg                    ← 同上
+❌ 第N篇12之X_主題.png                    ← 原始 PNG 命名格式直接用會踩雷
+```
+
+### ✅ 唯一正確的純淨檔名格式
+
+```
+pian{N}_01.jpg
+pian{N}_02.jpg
+...
+pian{N}_12.jpg
+```
+
+★ 規則:
+- 開頭 `pian{N}_`(N = 篇號)
+- 接 0-padded 編號 `01` ~ `12`
+- **絕不在 0-padded 編號後面接「主題名」或「12之X」**
+- EXIF DateTimeOriginal 仍按 08:00:01 ~ 08:00:12 遞增
+
+### 🛠 工具(已更新)
+
+- `make_fb_ordered_jpg.py` (v2) — **已改成預設輸出 `pianN_NN.jpg`**(當有 `--serial` 參數時)
+- `rename_pian6_純名.bat` — 篇 6 重命名(救火用)
+- 未來新篇:直接跑 `py make_fb_ordered_jpg.py --serial N --start "yyyy-mm-dd 08:00:00"` 即可
+
+### 🪧 為什麼這樣命名
+
+**篇 5 成功的祕密** = 檔名 `01_佛陀準備開法.jpg`(沒「12之X」)
+**篇 6 失敗的雷** = 檔名 `01_第6篇12之1_佛陀讚嘆.jpg`(有「12之1/10/11/12」字串撞)
+
+★ Meta UI 排序某種程度上**會把整個檔名納入比較**,不只看開頭 0-padded 編號。所以「12之10」可能在某種 hash 邏輯下排到「12之1」附近,雖然開頭 `10_` 應該 > `01_`。
+
+### 📦 進入技能包
+
+`anthropic-skills:playwright-meta-post` v4(待打包)— 含本鐵則。
+
+---
+
+## 🪷 死命令 4 — Windows .bat 下載圖片不死法 (2026-06-20 阿元 拍板)
+
+> 阿元原話:「大家每次寫圖片下載都是這樣改了好幾次然後都是閃一下就跳掉了來來回回每次都這樣」
+
+從此以後,任何 AI(阿地/阿狗/阿研/阿米等)要寫「下載一批網路圖到本機資料夾」的 .bat 一律照本 SOP,**不可自己想新方法**。
+
+### ⛔ 10 大絕對禁忌
+
+1. ❌ 沙箱直接 curl LoveArt CDN → **HTTP 403**,必須在阿元電腦跑
+2. ❌ .bat 結尾用 `pause` → 阿元可能誤按關掉。**用 `cmd /k` 永久不關**
+3. ❌ .bat 寫死 Python 路徑 → 機器不一定有。**3 路自動偵測**:Codex Python(最穩)→ `py` → `python`
+4. ❌ 怕中文路徑 → 其實 OK,只要 **第一行 `chcp 65001 > nul`**
+5. ❌ PowerShell `Invoke-WebRequest` → 對 LoveArt **完全沒效**(403)。**改用 Python urllib**
+6. ❌ 沒加 `Referer` header → CDN 擋。**必加 `Referer: https://www.lovart.ai/` + Chrome User-Agent**
+7. ❌ 沒 try/except → 第一張失敗就退。**每張獨立 try,記錄 fail 清單**
+8. ❌ `os.path.join` 含中文 → 用 **`pathlib.Path`**
+9. ❌ 阿元雙擊 .bat 後 cmd 不在專案目錄 → **`set "BASE=%~dp0"` 必寫**
+10. ❌ 沒驗證下載結果 → **沙箱 bash ls 檔案數確認**,別只看阿元說「跑完了」
+
+### ✅ 標準範本(直接抄)
+
+★ **Python (urllib)**:
+```python
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "image/*,*/*;q=0.8",
+    "Referer": "https://www.lovart.ai/",  # ★ 沒這行會 403
+}
+# 每張獨立 try/except + 用 pathlib.Path + 印「成功 N / 總數」
+```
+
+★ **.bat**:
+```bat
+@echo off
+chcp 65001 > nul
+set "BASE=%~dp0"
+REM 自動找 Python: Codex > py > python
+if exist "C:\Users\chenj\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" ...
+"%PY%" "%BASE%下載_xxx.py"
+pause  REM(或 cmd /k 更穩)
+```
+
+### 🛡 LoveArt CDN URL pattern
+
+```
+https://a.lovart.ai/artifacts/agent/<id>.png
+```
+
+### 🪧 備案:.bat 還是閃過 → 阿元手動跑
+
+工作列搜 cmd,2 行:
+```
+cd "C:\Users\chenj\Documents\Claude\Projects\<專案>"
+py 下載_xxx.py
+```
+
+### 📦 技能包:`anthropic-skills:windows-image-batch-download`
+
+完整 SOP + 範本 .bat + .py + 診斷工具,新對話讀技能包即可。
+技能包檔:`outputs/win-image-dl.skill`(阿元安裝後所有 AI 可用)
+
+### 🔎 驗證 SOP
+
+阿地下達 .bat 給阿元 → 阿元雙擊 → 報「成功 N / N」 → **阿地必須用沙箱 ls 確認檔案真的在**(不能只信阿元口頭):
+```bash
+ls "/sessions/.../mnt/<專案>/每篇貼文/<目標>/圖片/" | wc -l
+```
+
+---
+
 ## 📝 其他重要規則
 
 ### 用戶資料

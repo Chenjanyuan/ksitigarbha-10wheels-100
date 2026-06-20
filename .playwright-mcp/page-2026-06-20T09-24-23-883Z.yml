@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e12]:
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "內容" [level=1] [ref=e29]
+          - generic [ref=e30]: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+        - toolbar [ref=e32]:
+          - generic [ref=e34]:
+            - generic [ref=e36]:
+              - group [ref=e37]:
+                - button "匯出資料" [ref=e38] [cursor=pointer]:
+                  - generic [ref=e41]:
+                    - img [ref=e42]
+                    - generic [ref=e46]: 匯出資料
+                - button "開啟匯出選項" [ref=e48] [cursor=pointer]:
+                  - generic [ref=e50]:
+                    - generic [ref=e51]: 開啟匯出選項
+                    - img [ref=e53]
+              - generic [ref=e58]:
+                - button "移除" [ref=e59] [cursor=pointer]
+                - generic [ref=e60]:
+                  - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+                  - generic [ref=e61]: 瞭解這項新功能
+            - button "建立 Reel" [ref=e64] [cursor=pointer]:
+              - generic [ref=e67]:
+                - img [ref=e68]
+                - generic [ref=e71]: 建立 Reel
+            - group [ref=e72]:
+              - button "建立貼文" [ref=e73] [cursor=pointer]:
+                - generic [ref=e76]:
+                  - img [ref=e77]
+                  - generic [ref=e79]: 建立貼文
+              - button "建立貼文" [ref=e81] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 建立貼文
+                  - img [ref=e86]
+      - generic [ref=e88]:
+        - generic [ref=e95]:
+          - generic [ref=e98]:
+            - navigation "內容" [ref=e99]:
+              - generic [ref=e102]:
+                - img [ref=e104]
+                - generic [ref=e107]: 內容
+              - list [ref=e108]:
+                - listitem [ref=e111]:
+                  - link "貼文和 Reel" [ref=e113] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/published_posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 貼文和 Reel
+                - listitem [ref=e121]:
+                  - link "限時動態" [ref=e123] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/active_stories?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 限時動態
+                - listitem [ref=e131]:
+                  - link "A／B 測試" [ref=e133] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/ab_testing?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: A／B 測試
+                - listitem [ref=e141]:
+                  - link "動態消息和網格" [ref=e143] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/feed_and_grid?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 動態消息和網格
+                - listitem [ref=e151]:
+                  - link "提及和標籤" [ref=e153] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/tagged_content?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 提及和標籤
+                - listitem [ref=e161]:
+                  - link "片段" [ref=e163] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/all_clips?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 片段
+            - navigation "精選集" [ref=e169]:
+              - generic [ref=e172]:
+                - img [ref=e174]
+                - generic [ref=e177]: 精選集
+              - list [ref=e178]:
+                - listitem [ref=e181]:
+                  - link "播放清單" [ref=e183] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/all_playlists?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 播放清單
+                - listitem [ref=e191]:
+                  - link "影集" [ref=e193] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/series?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 影集
+            - navigation "廣告創意素材" [ref=e199]:
+              - generic [ref=e202]:
+                - img [ref=e204]
+                - generic [ref=e207]: 廣告創意素材
+              - list [ref=e208]:
+                - listitem [ref=e211]:
+                  - link "你可以多文發佈的影片" [ref=e213] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost?business_id=710326389072373&asset_id=1093357677358320
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 你可以多文發佈的影片
+          - button "收合" [ref=e223] [cursor=pointer]:
+            - generic [ref=e225]:
+              - generic [ref=e226]: 收合
+              - img [ref=e228]
+        - tablist [ref=e243]:
+          - tab "已發佈" [selected] [ref=e246] [cursor=pointer]:
+            - generic [ref=e249]: 已發佈
+          - tab "已排定發佈" [ref=e252] [cursor=pointer]:
+            - generic [ref=e255]: 已排定發佈
+          - tab "草稿" [ref=e258] [cursor=pointer]:
+            - generic [ref=e261]: 草稿
+          - tab "即將過期" [ref=e264] [cursor=pointer]:
+            - generic [ref=e267]: 即將過期
+          - tab "已過期" [ref=e270] [cursor=pointer]:
+            - generic [ref=e273]: 已過期
+          - tab "廣告貼文" [ref=e276] [cursor=pointer]:
+            - generic [ref=e279]: 廣告貼文
+    - generic [ref=e289]:
+      - generic [ref=e291]:
+        - button "Meta Business Suite" [ref=e292] [cursor=pointer]:
+          - generic [ref=e294]: Meta Business Suite
+        - button "Pressable" [ref=e303] [cursor=pointer]:
+          - img "Facebook" [ref=e308]
+      - navigation "連結" [ref=e313]:
+        - generic [ref=e314]: 連結
+        - list [ref=e315]:
+          - generic [ref=e316]:
+            - listitem [ref=e320]:
+              - generic [ref=e322]:
+                - link "首頁" [ref=e323] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e324]: 首頁
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 首頁
+            - listitem [ref=e328]:
+              - generic [ref=e330]:
+                - link "通知" [ref=e331] [cursor=pointer]:
+                  - generic [ref=e332]: 通知
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 通知
+            - listitem [ref=e336]:
+              - generic [ref=e338]:
+                - link "收件匣" [ref=e339] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e340]: 收件匣
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 收件匣
+            - listitem [ref=e345]:
+              - generic [ref=e347]:
+                - link "內容" [ref=e348] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e349]: 內容
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 內容
+            - listitem [ref=e353]:
+              - generic [ref=e355]:
+                - link "創作者人才庫" [ref=e356] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e357]: 創作者人才庫
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 創作者人才庫
+            - listitem [ref=e361]:
+              - generic [ref=e363]:
+                - link "規劃工具" [ref=e364] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e365]: 規劃工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 規劃工具
+            - listitem [ref=e370]:
+              - generic [ref=e372]:
+                - link "廣告" [ref=e373] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e374]: 廣告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 廣告
+            - listitem [ref=e379]:
+              - generic [ref=e381]:
+                - link "洞察報告" [ref=e382] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e383]: 洞察報告
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 洞察報告
+            - listitem [ref=e387]:
+              - generic [ref=e389]:
+                - link "所有工具" [ref=e390] [cursor=pointer]:
+                  - generic [ref=e391]: 所有工具
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 所有工具
+            - button "編輯邊欄導覽" [ref=e394] [cursor=pointer]:
+              - generic [ref=e398]: 編輯
+      - generic [ref=e401]:
+        - listitem [ref=e404]:
+          - generic [ref=e406]:
+            - link "搜尋" [ref=e407] [cursor=pointer]:
+              - generic [ref=e408]: 搜尋
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 搜尋
+            - generic:
+              - generic:
+                - img
+        - navigation "連結" [ref=e409]:
+          - generic [ref=e410]: 連結
+          - list [ref=e411]:
+            - listitem [ref=e415]:
+              - generic [ref=e417]:
+                - link "設定" [ref=e418] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                  - generic [ref=e419]: 設定
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 設定
+        - listitem [ref=e426]:
+          - generic [ref=e428]:
+            - link "使用說明" [ref=e429] [cursor=pointer]:
+              - generic [ref=e430]: 使用說明
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 使用說明
+            - generic:
+              - generic:
+                - img
+  - region "瞭解這項新功能" [ref=e431]

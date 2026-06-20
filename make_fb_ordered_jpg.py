@@ -122,8 +122,14 @@ def main() -> int:
     print(f"Output: {out_dir}")
     print("")
 
+    # ★ v2 改純淨檔名 pianN_NN.jpg(2026-06-20 阿元拍板,避免「12之X」字串混淆 Meta 排序)
+    serial_for_name = args.serial if args.serial else 0
     for idx, src in enumerate(images, start=1):
-        dst = out_dir / f"{idx:02d}_{src.stem}.jpg"
+        if serial_for_name:
+            dst = out_dir / f"pian{serial_for_name}_{idx:02d}.jpg"
+        else:
+            # 沒給 serial 就 fallback 原邏輯
+            dst = out_dir / f"{idx:02d}_{src.stem}.jpg"
         timestamp = base + timedelta(seconds=idx)
         convert_one(src, dst, timestamp, args.quality)
         size = dst.stat().st_size

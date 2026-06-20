@@ -1,0 +1,609 @@
+- generic [ref=e12]:
+  - generic [ref=e3672]:
+    - generic [ref=e3675]:
+      - heading "建立貼文" [level=1] [ref=e3676]
+      - generic:
+        - toolbar
+    - generic [ref=e3679]:
+      - generic [ref=e3681]:
+        - generic [ref=e3682]:
+          - generic [ref=e3684]:
+            - generic [ref=e3686]:
+              - generic [ref=e3687]:
+                - img [ref=e3692]
+                - heading "想要建立廣告貼文嗎？" [level=4] [ref=e3697]
+                - button "關閉" [ref=e3698] [cursor=pointer]:
+                  - generic [ref=e3700]:
+                    - generic [ref=e3701]: 關閉
+                    - img [ref=e3703]
+              - generic [ref=e3710]: 廣告貼文只能在 Facebook 上建立。一旦你在「發佈到」區段中選擇你的 Facebook 粉絲專頁，「貼文詳細資料」中就會出現一個切換開關，可讓你將此設定為廣告貼文。
+            - button "查看更多" [ref=e3712] [cursor=pointer]:
+              - generic [ref=e3713]: 查看更多
+          - generic "發佈到" [ref=e3714]:
+            - generic [ref=e3715]:
+              - heading "發佈到" [level=3] [ref=e3719]
+              - generic [ref=e3723]:
+                - generic [ref=e3729]: 發佈到
+                - combobox "發佈到 地藏菩薩 經典導讀" [ref=e3734] [cursor=pointer]:
+                  - generic [ref=e3737]:
+                    - generic [ref=e3739]:
+                      - img "Facebook" [ref=e3747]
+                      - generic [ref=e3749]: 地藏菩薩 經典導讀
+                    - img [ref=e3751]
+          - generic "影音素材" [ref=e3754]:
+            - generic [ref=e3755]:
+              - generic [ref=e3758]:
+                - heading "影音素材" [level=3] [ref=e3759]
+                - generic [ref=e3760]: 分享相片和影片。
+              - generic [ref=e3763]:
+                - list [ref=e4168]:
+                  - list [ref=e4170]:
+                    - listitem [ref=e4173] [cursor=pointer]:
+                      - generic [ref=e4175]:
+                        - img [ref=e4177]
+                        - listitem [ref=e4180]:
+                          - listitem [ref=e4182]:
+                            - generic [ref=e4183]:
+                              - generic [ref=e4189]: 2048 x 2048
+                              - generic [ref=e4191]:
+                                - generic [ref=e4193]:
+                                  - button "編輯相片" [ref=e4783]:
+                                    - generic [ref=e4785]:
+                                      - generic [ref=e4786]: 編輯相片
+                                      - img [ref=e4788]
+                                  - button "編輯" [ref=e4204]:
+                                    - generic [ref=e4206]:
+                                      - generic [ref=e4207]: 編輯
+                                      - img [ref=e4209]
+                                - button "移除相片" [ref=e4213]:
+                                  - generic [ref=e4215]:
+                                    - generic [ref=e4216]: 移除相片
+                                    - img [ref=e4218]
+                    - listitem [ref=e4223] [cursor=pointer]:
+                      - generic [ref=e4225]:
+                        - img [ref=e4227]
+                        - listitem [ref=e4230]:
+                          - listitem [ref=e4232]:
+                            - generic [ref=e4233]:
+                              - generic [ref=e4239]: 2048 x 2048
+                              - generic [ref=e4241]:
+                                - generic [ref=e4243]:
+                                  - button "編輯相片" [ref=e4791]:
+                                    - generic [ref=e4793]:
+                                      - generic [ref=e4794]: 編輯相片
+                                      - img [ref=e4796]
+                                  - button "編輯" [ref=e4254]:
+                                    - generic [ref=e4256]:
+                                      - generic [ref=e4257]: 編輯
+                                      - img [ref=e4259]
+                                - button "移除相片" [ref=e4263]:
+                                  - generic [ref=e4265]:
+                                    - generic [ref=e4266]: 移除相片
+                                    - img [ref=e4268]
+                    - listitem [ref=e4273] [cursor=pointer]:
+                      - generic [ref=e4275]:
+                        - img [ref=e4277]
+                        - listitem [ref=e4280]:
+                          - listitem [ref=e4282]:
+                            - generic [ref=e4283]:
+                              - generic [ref=e4289]: 2048 x 2048
+                              - generic [ref=e4291]:
+                                - generic [ref=e4293]:
+                                  - button "編輯相片" [ref=e4799]:
+                                    - generic [ref=e4801]:
+                                      - generic [ref=e4802]: 編輯相片
+                                      - img [ref=e4804]
+                                  - button "編輯" [ref=e4304]:
+                                    - generic [ref=e4306]:
+                                      - generic [ref=e4307]: 編輯
+                                      - img [ref=e4309]
+                                - button "移除相片" [ref=e4313]:
+                                  - generic [ref=e4315]:
+                                    - generic [ref=e4316]: 移除相片
+                                    - img [ref=e4318]
+                    - listitem [ref=e4323] [cursor=pointer]:
+                      - generic [ref=e4325]:
+                        - img [ref=e4327]
+                        - listitem [ref=e4330]:
+                          - listitem [ref=e4332]:
+                            - generic [ref=e4333]:
+                              - generic [ref=e4339]: 2048 x 2048
+                              - generic [ref=e4341]:
+                                - generic [ref=e4343]:
+                                  - button "編輯相片" [ref=e4807]:
+                                    - generic [ref=e4809]:
+                                      - generic [ref=e4810]: 編輯相片
+                                      - img [ref=e4812]
+                                  - button "編輯" [ref=e4354]:
+                                    - generic [ref=e4356]:
+                                      - generic [ref=e4357]: 編輯
+                                      - img [ref=e4359]
+                                - button "移除相片" [ref=e4363]:
+                                  - generic [ref=e4365]:
+                                    - generic [ref=e4366]: 移除相片
+                                    - img [ref=e4368]
+                    - listitem [ref=e4373] [cursor=pointer]:
+                      - generic [ref=e4375]:
+                        - img [ref=e4377]
+                        - listitem [ref=e4380]:
+                          - listitem [ref=e4382]:
+                            - generic [ref=e4383]:
+                              - generic [ref=e4389]: 2048 x 2048
+                              - generic [ref=e4391]:
+                                - generic [ref=e4393]:
+                                  - button "編輯相片" [ref=e4815]:
+                                    - generic [ref=e4817]:
+                                      - generic [ref=e4818]: 編輯相片
+                                      - img [ref=e4820]
+                                  - button "編輯" [ref=e4404]:
+                                    - generic [ref=e4406]:
+                                      - generic [ref=e4407]: 編輯
+                                      - img [ref=e4409]
+                                - button "移除相片" [ref=e4413]:
+                                  - generic [ref=e4415]:
+                                    - generic [ref=e4416]: 移除相片
+                                    - img [ref=e4418]
+                    - listitem [ref=e4423] [cursor=pointer]:
+                      - generic [ref=e4425]:
+                        - img [ref=e4427]
+                        - listitem [ref=e4430]:
+                          - listitem [ref=e4432]:
+                            - generic [ref=e4433]:
+                              - generic [ref=e4439]: 2048 x 2048
+                              - generic [ref=e4441]:
+                                - generic [ref=e4443]:
+                                  - button "編輯相片" [ref=e4823]:
+                                    - generic [ref=e4825]:
+                                      - generic [ref=e4826]: 編輯相片
+                                      - img [ref=e4828]
+                                  - button "編輯" [ref=e4454]:
+                                    - generic [ref=e4456]:
+                                      - generic [ref=e4457]: 編輯
+                                      - img [ref=e4459]
+                                - button "移除相片" [ref=e4463]:
+                                  - generic [ref=e4465]:
+                                    - generic [ref=e4466]: 移除相片
+                                    - img [ref=e4468]
+                    - listitem [ref=e4473] [cursor=pointer]:
+                      - generic [ref=e4475]:
+                        - img [ref=e4477]
+                        - listitem [ref=e4480]:
+                          - listitem [ref=e4482]:
+                            - generic [ref=e4483]:
+                              - generic [ref=e4489]: 2048 x 2048
+                              - generic [ref=e4491]:
+                                - generic [ref=e4493]:
+                                  - button "編輯相片" [ref=e4831]:
+                                    - generic [ref=e4833]:
+                                      - generic [ref=e4834]: 編輯相片
+                                      - img [ref=e4836]
+                                  - button "編輯" [ref=e4504]:
+                                    - generic [ref=e4506]:
+                                      - generic [ref=e4507]: 編輯
+                                      - img [ref=e4509]
+                                - button "移除相片" [ref=e4513]:
+                                  - generic [ref=e4515]:
+                                    - generic [ref=e4516]: 移除相片
+                                    - img [ref=e4518]
+                    - listitem [ref=e4523] [cursor=pointer]:
+                      - generic [ref=e4525]:
+                        - img [ref=e4527]
+                        - listitem [ref=e4530]:
+                          - listitem [ref=e4532]:
+                            - generic [ref=e4533]:
+                              - generic [ref=e4539]: 2048 x 2048
+                              - generic [ref=e4541]:
+                                - generic [ref=e4543]:
+                                  - button "編輯相片" [ref=e4839]:
+                                    - generic [ref=e4841]:
+                                      - generic [ref=e4842]: 編輯相片
+                                      - img [ref=e4844]
+                                  - button "編輯" [ref=e4554]:
+                                    - generic [ref=e4556]:
+                                      - generic [ref=e4557]: 編輯
+                                      - img [ref=e4559]
+                                - button "移除相片" [ref=e4563]:
+                                  - generic [ref=e4565]:
+                                    - generic [ref=e4566]: 移除相片
+                                    - img [ref=e4568]
+                    - listitem [ref=e4573] [cursor=pointer]:
+                      - generic [ref=e4575]:
+                        - img [ref=e4577]
+                        - listitem [ref=e4580]:
+                          - listitem [ref=e4582]:
+                            - generic [ref=e4583]:
+                              - generic [ref=e4589]: 2048 x 2048
+                              - generic [ref=e4591]:
+                                - generic [ref=e4593]:
+                                  - button "編輯相片" [ref=e4847]:
+                                    - generic [ref=e4849]:
+                                      - generic [ref=e4850]: 編輯相片
+                                      - img [ref=e4852]
+                                  - button "編輯" [ref=e4604]:
+                                    - generic [ref=e4606]:
+                                      - generic [ref=e4607]: 編輯
+                                      - img [ref=e4609]
+                                - button "移除相片" [ref=e4613]:
+                                  - generic [ref=e4615]:
+                                    - generic [ref=e4616]: 移除相片
+                                    - img [ref=e4618]
+                    - listitem [ref=e4623] [cursor=pointer]:
+                      - generic [ref=e4625]:
+                        - img [ref=e4627]
+                        - listitem [ref=e4630]:
+                          - listitem [ref=e4632]:
+                            - generic [ref=e4633]:
+                              - generic [ref=e4639]: 2048 x 2048
+                              - generic [ref=e4641]:
+                                - generic [ref=e4643]:
+                                  - button "編輯相片" [ref=e4855]:
+                                    - generic [ref=e4857]:
+                                      - generic [ref=e4858]: 編輯相片
+                                      - img [ref=e4860]
+                                  - button "編輯" [ref=e4654]:
+                                    - generic [ref=e4656]:
+                                      - generic [ref=e4657]: 編輯
+                                      - img [ref=e4659]
+                                - button "移除相片" [ref=e4663]:
+                                  - generic [ref=e4665]:
+                                    - generic [ref=e4666]: 移除相片
+                                    - img [ref=e4668]
+                    - listitem [ref=e4673] [cursor=pointer]:
+                      - generic [ref=e4675]:
+                        - img [ref=e4677]
+                        - listitem [ref=e4680]:
+                          - listitem [ref=e4682]:
+                            - generic [ref=e4683]:
+                              - generic [ref=e4689]: 2048 x 2048
+                              - generic [ref=e4691]:
+                                - generic [ref=e4693]:
+                                  - button "編輯相片" [ref=e4863]:
+                                    - generic [ref=e4865]:
+                                      - generic [ref=e4866]: 編輯相片
+                                      - img [ref=e4868]
+                                  - button "編輯" [ref=e4704]:
+                                    - generic [ref=e4706]:
+                                      - generic [ref=e4707]: 編輯
+                                      - img [ref=e4709]
+                                - button "移除相片" [ref=e4713]:
+                                  - generic [ref=e4715]:
+                                    - generic [ref=e4716]: 移除相片
+                                    - img [ref=e4718]
+                    - listitem [ref=e4723] [cursor=pointer]:
+                      - generic [ref=e4725]:
+                        - img [ref=e4727]
+                        - listitem [ref=e4730]:
+                          - listitem [ref=e4732]:
+                            - generic [ref=e4733]:
+                              - generic [ref=e4739]: 1024 x 1024
+                              - generic [ref=e4741]:
+                                - generic [ref=e4743]:
+                                  - button "編輯相片" [ref=e4871]:
+                                    - generic [ref=e4873]:
+                                      - generic [ref=e4874]: 編輯相片
+                                      - img [ref=e4876]
+                                  - button "編輯" [ref=e4754]:
+                                    - generic [ref=e4756]:
+                                      - generic [ref=e4757]: 編輯
+                                      - img [ref=e4759]
+                                - button "移除相片" [ref=e4763]:
+                                  - generic [ref=e4765]:
+                                    - generic [ref=e4766]: 移除相片
+                                    - img [ref=e4768]
+                    - listitem [ref=e4881] [cursor=pointer]:
+                      - generic [ref=e4883]:
+                        - img [ref=e4885]
+                        - listitem [ref=e4888]:
+                          - listitem [ref=e4890]:
+                            - generic [ref=e4891]:
+                              - generic [ref=e4897]: 1024 x 1024
+                              - generic [ref=e4899]:
+                                - generic [ref=e4901]:
+                                  - button "編輯相片" [ref=e4903]:
+                                    - generic [ref=e4905]:
+                                      - generic [ref=e4906]: 編輯相片
+                                      - img [ref=e4908]
+                                  - button "編輯" [ref=e4912]:
+                                    - generic [ref=e4914]:
+                                      - generic [ref=e4915]: 編輯
+                                      - img [ref=e4917]
+                                - button "移除相片" [ref=e4921]:
+                                  - generic [ref=e4923]:
+                                    - generic [ref=e4924]: 移除相片
+                                    - img [ref=e4926]
+                - button "新增相片 / 影片" [ref=e3767] [cursor=pointer]:
+                  - generic [ref=e3770]:
+                    - img [ref=e3771]
+                    - generic [ref=e3775]: 新增相片 / 影片
+          - generic "貼文詳細資料" [ref=e3777]:
+            - generic [ref=e3778]:
+              - heading "貼文詳細資料" [level=3] [ref=e3782]
+              - generic [ref=e3785]:
+                - generic [ref=e3786]:
+                  - switch "將此建立為廣告貼文" [ref=e3788] [cursor=pointer]
+                  - generic [ref=e3794] [cursor=pointer]: 將此建立為廣告貼文
+                - generic [ref=e3797]:
+                  - heading "文字" [level=4] [ref=e3800]
+                  - generic [ref=e3809]:
+                    - combobox "在對話方塊中寫點內容，即可為貼文加上文字。" [ref=e3813]
+                    - generic [ref=e3830]:
+                      - button "點擊即可開啟主題標籤功能表。" [ref=e3831] [cursor=pointer]:
+                        - generic [ref=e3833]:
+                          - generic [ref=e3834]: 點擊即可開啟主題標籤功能表。
+                          - img [ref=e3836]
+                      - button "選擇表情符號" [ref=e3839] [cursor=pointer]:
+                        - generic [ref=e3841]:
+                          - generic [ref=e3842]: 選擇表情符號
+                          - img [ref=e3844]
+                - generic [ref=e3850]:
+                  - button "感受／活動" [ref=e3853]:
+                    - img [ref=e3855]
+                  - button "地點" [ref=e3862]:
+                    - img [ref=e3864]
+                  - button "接收訊息" [disabled] [ref=e3869]:
+                    - img [ref=e3871]
+                  - button "接收 WhatsApp 訊息" [disabled] [ref=e3878]:
+                    - img [ref=e3880]
+                  - button "吸引用戶來電" [disabled] [ref=e3887]:
+                    - img [ref=e3889]
+                  - button "更多功能" [ref=e3895]:
+                    - img [ref=e3897]
+                - generic [ref=e3904]:
+                  - img [ref=e3908]
+                  - generic [ref=e3913]:
+                    - generic [ref=e3915]:
+                      - generic [ref=e3917]: 連結 WhatsApp Business 電話號碼，以開始在 Facebook 貼文中新增 WhatsApp 按鈕，並接收受眾傳送的訊息。
+                      - link "連結 WhatsApp" [ref=e3918] [cursor=pointer]:
+                        - /url: "#"
+                    - button "關閉" [ref=e3920] [cursor=pointer]:
+                      - generic [ref=e3922]:
+                        - generic [ref=e3923]: 關閉
+                        - img [ref=e3925]
+          - generic [ref=e3934]:
+            - heading "排程" [level=3] [ref=e3935]
+            - generic [ref=e3937]:
+              - generic [ref=e3940] [cursor=pointer]: 設定日期和時間
+              - switch "設定日期和時間" [ref=e3942] [cursor=pointer]
+          - generic [ref=e3948]:
+            - generic [ref=e3952]:
+              - generic [ref=e3953]:
+                - heading "協作者" [level=3] [ref=e3954]
+                - img [ref=e3956]
+              - generic [ref=e3959]: 你最多可邀請 5 位協作者共享這則貼文的創作署名。對方會收到通知，並可接受或拒絕邀請。
+            - generic [ref=e3964]:
+              - generic [ref=e3970]: NOT_IN_USE
+              - combobox "NOT_IN_USE" [ref=e3980]
+          - generic [ref=e3986]:
+            - heading "分享到" [level=3] [ref=e3989]
+            - generic [ref=e3994]:
+              - switch "分享到 Facebook 限時動態" [ref=e3998] [cursor=pointer]
+              - img "Facebook" [ref=e4005]
+              - generic [ref=e4006]:
+                - generic [ref=e4007]: 地藏菩薩 經典導讀
+                - generic [ref=e4008]: Facebook 限時動態 ・ 公開
+          - generic "隱私設定" [ref=e4010]:
+            - generic [ref=e4011]:
+              - generic [ref=e4014]:
+                - heading "隱私設定" [level=3] [ref=e4015]
+                - generic [ref=e4016]: 調整隱私設定，以控制能在動態消息、Watch、搜尋結果和你的個人檔案上看到你貼文的對象。
+              - grid [ref=e4022]:
+                - row "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e4023]:
+                  - gridcell "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [ref=e4024] [cursor=pointer]:
+                    - generic [ref=e4028]:
+                      - radio "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [checked] [ref=e4032]
+                      - generic [ref=e4037]:
+                        - generic [ref=e4038]: 所有人
+                        - generic [ref=e4039]: Facebook 的用戶或非用戶都可以看到你的貼文。
+                - row "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e4040]:
+                  - gridcell "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e4041] [cursor=pointer]:
+                    - generic [ref=e4045]:
+                      - radio "特定對象 選擇可看到你貼文的特定 Facebook 用戶。" [ref=e4049]
+                      - generic [ref=e4052]:
+                        - generic [ref=e4053]: 特定對象
+                        - generic [ref=e4054]: 選擇可看到你貼文的特定 Facebook 用戶。
+        - generic [ref=e4063]:
+          - generic [ref=e4067]:
+            - switch "加強推廣" [ref=e4069] [cursor=pointer]
+            - generic [ref=e4075] [cursor=pointer]: 加強推廣
+          - generic [ref=e4077]:
+            - generic [ref=e4078]:
+              - button "取消" [ref=e4079] [cursor=pointer]:
+                - generic [ref=e4083]: 取消
+              - button "稍後再完成" [ref=e4084] [cursor=pointer]:
+                - generic [ref=e4088]: 稍後再完成
+            - button "發佈" [ref=e4089] [cursor=pointer]:
+              - generic [ref=e4093]: 發佈
+      - generic [ref=e4098]:
+        - generic [ref=e4099]:
+          - heading "Facebook 動態消息預覽" [level=3] [ref=e4102]
+          - group [ref=e4104]:
+            - button [pressed] [ref=e4105] [cursor=pointer]:
+              - img [ref=e4110]
+            - button [ref=e4113] [cursor=pointer]:
+              - img [ref=e4118]
+        - generic [ref=e4933]:
+          - article [ref=e4934]:
+            - generic [ref=e4935]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading "地藏菩薩 經典導讀" [level=2]
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 剛剛
+                                    - generic: ·
+                                    - generic:
+                                      - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic:
+                                - img
+                              - generic:
+                                - img
+                              - generic:
+                                - img
+                                - generic:
+                                  - generic: "+10"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 讚
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 留言
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 分享
+          - article [ref=e4936]
+  - generic [ref=e3513]:
+    - generic [ref=e3515]:
+      - button "Meta Business Suite" [ref=e3516] [cursor=pointer]:
+        - generic [ref=e3518]: Meta Business Suite
+      - button "Pressable" [ref=e3527] [cursor=pointer]:
+        - img "Facebook" [ref=e3532]
+    - navigation "連結" [ref=e3537]:
+      - generic [ref=e3538]: 連結
+      - list [ref=e3539]:
+        - generic [ref=e3540]:
+          - listitem [ref=e3544]:
+            - generic [ref=e3546]:
+              - link "首頁" [ref=e3547] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/home?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3548]: 首頁
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 首頁
+          - listitem [ref=e3552]:
+            - generic [ref=e3554]:
+              - link "通知" [ref=e3555] [cursor=pointer]:
+                - generic [ref=e3556]: 通知
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 通知
+          - listitem [ref=e3561]:
+            - generic [ref=e3563]:
+              - link "廣告管理員" [ref=e3564] [cursor=pointer]:
+                - generic [ref=e3565]: 廣告管理員
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告管理員
+          - listitem [ref=e3569]:
+            - generic [ref=e3571]:
+              - link "收件匣" [ref=e3572] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/inbox?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3573]: 收件匣
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 收件匣
+          - listitem [ref=e3578]:
+            - generic [ref=e3580]:
+              - link "內容" [ref=e3581] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/posts?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3582]: 內容
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 內容
+          - listitem [ref=e3586]:
+            - generic [ref=e3588]:
+              - link "創作者人才庫" [ref=e3589] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/creator_marketplace?business_id=710326389072373&asset_id=1093357677358320&cm_entrypoint=biz_kit_nav_route_item
+                - generic [ref=e3590]: 創作者人才庫
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 創作者人才庫
+          - listitem [ref=e3594]:
+            - generic [ref=e3596]:
+              - link "規劃工具" [ref=e3597] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/content_calendar?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3598]: 規劃工具
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 規劃工具
+          - listitem [ref=e3603]:
+            - generic [ref=e3605]:
+              - link "廣告" [ref=e3606] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3607]: 廣告
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 廣告
+          - listitem [ref=e3612]:
+            - generic [ref=e3614]:
+              - link "洞察報告" [ref=e3615] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/insights?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3616]: 洞察報告
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 洞察報告
+          - listitem [ref=e3620]:
+            - generic [ref=e3622]:
+              - link "所有工具" [ref=e3623] [cursor=pointer]:
+                - generic [ref=e3624]: 所有工具
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 所有工具
+          - button "編輯邊欄導覽" [ref=e3627] [cursor=pointer]:
+            - generic [ref=e3631]: 編輯
+    - generic [ref=e3634]:
+      - listitem [ref=e3637]:
+        - generic [ref=e3639]:
+          - link "搜尋" [ref=e3640] [cursor=pointer]:
+            - generic [ref=e3641]: 搜尋
+          - generic:
+            - generic:
+              - generic:
+                - generic: 搜尋
+          - generic:
+            - generic:
+              - img
+      - navigation "連結" [ref=e3642]:
+        - generic [ref=e3643]: 連結
+        - list [ref=e3644]:
+          - listitem [ref=e3648]:
+            - generic [ref=e3650]:
+              - link "設定" [ref=e3651] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/settings/business_users?business_id=710326389072373&asset_id=1093357677358320
+                - generic [ref=e3652]: 設定
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 設定
+      - listitem [ref=e3659]:
+        - generic [ref=e3661]:
+          - link "使用說明" [ref=e3662] [cursor=pointer]:
+            - generic [ref=e3663]: 使用說明
+          - generic:
+            - generic:
+              - generic:
+                - generic: 使用說明
+          - generic:
+            - generic:
+              - img

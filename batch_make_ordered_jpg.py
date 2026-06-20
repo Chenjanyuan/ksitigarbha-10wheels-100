@@ -62,8 +62,9 @@ def main():
         start_time = f"{year}-{month}-{day} 08:00:00"
         print(f"[RUN ] 篇 {serial} start={start_time}")
         try:
+            # ★ 用 sys.executable 不寫死「python3」(Windows 沒這指令)
             result = subprocess.run(
-                ['python3', str(MAKER), '--serial', str(serial), '--start', start_time],
+                [sys.executable, str(MAKER), '--serial', str(serial), '--start', start_time],
                 cwd=str(ROOT),
                 capture_output=True,
                 text=True,
