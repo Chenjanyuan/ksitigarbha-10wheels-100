@@ -1,0 +1,997 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e6]:
+      - generic:
+        - generic:
+          - button [disabled]:
+            - img
+      - link "Facebook" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+      - generic [ref=e19]:
+        - generic:
+          - img
+        - combobox "搜尋 Facebook" [ref=e20]
+    - navigation "Facebook" [ref=e24]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "首頁" [ref=e29] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "朋友" [ref=e36] [cursor=pointer]:
+            - /url: /friends/
+            - img [ref=e38]
+        - listitem [ref=e40]:
+          - link "Reels" [ref=e43] [cursor=pointer]:
+            - /url: /watch/?ref=tab
+            - img [ref=e45]
+        - listitem [ref=e48]:
+          - link "Marketplace" [ref=e51] [cursor=pointer]:
+            - /url: /marketplace/?ref=app_tab
+            - img [ref=e53]
+        - listitem [ref=e55]:
+          - link "遊戲" [ref=e58] [cursor=pointer]:
+            - /url: /gaming/play/?store_visit_source=gaming_tab
+            - img [ref=e60]
+    - navigation "帳號控制項和設定" [ref=e64]:
+      - button "Facebook 功能表" [ref=e68] [cursor=pointer]:
+        - img [ref=e69]
+      - generic [ref=e74]:
+        - button "通知，6則未讀" [ref=e75] [cursor=pointer]:
+          - img [ref=e76]
+        - button [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: 未讀通知數量
+            - generic [ref=e81]: "6"
+      - button "你的個人檔案" [ref=e84] [cursor=pointer]:
+        - generic [ref=e85]:
+          - img "你的個人檔案" [ref=e86]
+          - img [ref=e93]
+  - main [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e231]:
+        - generic [ref=e235]: 加強推廣貼文
+        - button "廣告帳號" [ref=e2018]:
+          - generic [ref=e245]:
+            - generic: 廣告帳號
+            - generic [ref=e248]: Veragrul Saiken （1264972492273337， TWD）
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e261]:
+            - generic [ref=e267]:
+              - heading "向 Meta AI 商家助理提問" [level=2] [ref=e2019]:
+                - generic [ref=e271]: 向 Meta AI 商家助理提問
+              - generic [ref=e273]: 取得個人化協助來找到適合的受眾、預算和其他項目，以達成你的目標。
+            - button "開始聊天" [ref=e2020] [cursor=pointer]:
+              - generic [ref=e279]: 開始聊天
+          - generic [ref=e287]:
+            - heading "目標" [level=2] [ref=e2021]:
+              - generic [ref=e299]: 目標
+            - generic [ref=e308]:
+              - generic [ref=e311]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]: 自動 - 吸引更多用戶傳送訊息
+                  - img "更多資訊" [ref=e2022]
+                - generic [ref=e319]:
+                  - text: 我們已根據你的過往動態選擇
+                  - strong [ref=e320]: 吸引更多用戶傳送訊息
+                  - text: 目標。
+              - button "變更" [ref=e2023] [cursor=pointer]:
+                - generic [ref=e327]: 變更
+          - generic [ref=e335]:
+            - generic [ref=e340]:
+              - heading "廣告文案" [level=2] [ref=e2024]:
+                - generic [ref=e347]: 廣告文案
+              - generic [ref=e350]:
+                - text: 你想透過廣告文案傳達什麼訊息？你可透過現有文案刊登廣告，也可加入 AI 根據現有文案生成的其他版本。使用 AI 版本即表示你同意
+                - link "《使用條款》" [ref=e2025] [cursor=pointer]:
+                  - /url: https://www.facebook.com/legal/terms/ad_creative_generative_ai_terms
+                - text: 。
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e356]: 現有文字
+                - generic "現有文字" [ref=e2026]:
+                  - textbox "現有文字" [disabled] [ref=e2027]: "🌸【地藏十輪經白話圖文連載 · 前言】 明天開始,《地藏十輪經》白話圖文連載,正式開始 🙏 末學想先寫一點心裡話,跟大家分享。 ─────────── 末學此生很有幸,能夠遇到地藏法門。 在人生最低潮、最困難的時候, 是地藏王菩薩的法門,也是佛法, 慢慢扭轉了末學的人生。 末學常常想 —— 如果二十歲就能遇到佛法, 也許人生會走得很不一樣。 也許會少走很多冤枉路,也許會少受很多苦。 但末學也不覺得可惜。 人生的因緣,或許本來就有它的安排。 該遇到的時候,就會遇到。 ─────────── 也因為自己曾經走過低潮, 所以末學更希望,能夠把這一份因緣分享出去。 末學的初衷很簡單 —— 不是要大家死背佛經,也不是要把佛法講得很深奧。 只是希望更多人可以因為接觸佛法, 讓自己的人生過得更好一點、更安定一點、更圓滿一點 ✨ ─────────── 📖 之前末學曾經分享過《地藏菩薩本願經》的圖文內容。 《地藏菩薩本願經》是地藏法門很重要、也很適合入門的一部經典, 內容相對白話,許多人比較容易理解。 末學也一直認為,地藏法門是很適合所有人學習的法門。 所以到目前為止,我們也仍然持續提供《地藏菩薩本願經》這本經書, 讓有需要、有因緣的朋友可以免費索取 🌸 如果您想開始接觸地藏法門, 末學會很建議先從《地藏菩薩本願經》開始。 ─────────── 🌸 另外也跟大家補充一下 —— 我們原本 FB 的方向,是以《地藏菩薩本願經》為主, 希望讓更多人可以接觸地藏法門, 也持續提供《地藏菩薩本願經》讓有緣的朋友免費索取。 後來末學慢慢覺得 —— 地藏法門不只是《地藏菩薩本願經》而已, 還包含《占察善惡業報經》與《地藏十輪經》等重要經典。 所以我們也把 FB 的方向, 從原本比較單一的《地藏菩薩本願經》分享, 慢慢調整成 —— 🌸【地藏菩薩 經典導讀】🌸 希望未來可以用更白話、更容易親近的方式, 慢慢陪大家一起認識地藏菩薩的經典與法門 ✨ ─────────── 📚 地藏三經: 1️⃣《地藏菩薩本願經》 — 入門經典,白話易懂 2️⃣《占察善惡業報經》 — 末學也還不敢說真正懂了 3️⃣《地藏十輪經》 — 這次要分享的 所以這一次,末學想先從《地藏十輪經》開始。 ─────────── 其實《地藏十輪經》這本經書, 大概七、八年前就已經來到末學家裡了。 但它真的很厚。 相信很多人看到這麼厚的經書, 可能還沒開始讀,就已經先覺得有壓力了。 包含末學自己也是。 以前看到這麼厚一本, 真的也很容易放著放著,就一直沒有翻開。 ─────────── 可是這幾年慢慢接觸佛法之後, 末學越來越覺得 —— 佛經真正重要的地方,不只是文字本身, 而是它能不能落實在生活裡 ✨ 佛法不是拿來放在書櫃裡的。 佛法是可以幫助我們面對人生、改善心念、調整行為, 讓生活變得更好的。 所以這一次,末學想盡自己的一點能力, 用最白話、最容易理解的方式, 把《地藏十輪經》的意思介紹給大家。 不敢說是完整講經,也不敢說自己真正懂經。 只是把經文裡面好的觀念,整理成比較容易閱讀的貼文, 再搭配插圖,希望大家比較容易親近 🌸 希望大人看得懂,小朋友也能看懂。 也希望父母可以陪孩子一起看, 讓孩子從小就能接觸善的觀念。 ─────────── 如果您覺得自己暫時還沒有辦法閱讀《地藏菩薩本願經》, 也沒有關係。 末學自己以前剛開始念《地藏菩薩本願經》的時候, 也常常念沒多久就睡著了。 以末學自己的體會, 也許是自己累生累世的業障、習氣比較重, 所以一開始要親近佛法,並不是那麼容易。 如果您也有類似的情況,可以先從最簡單的方法開始: 🪷 每天花一點點時間,念誦: 南無地藏王菩薩 可以每天念 1000 遍。 不管是在搭車的時候、走路的時候, 或是生活中有空檔的時候,都可以念。 也可以準備一個簡單的計數器,一邊念佛號,一邊計數。 ─────────── 因為大家日常生活中,都有忙碌的工作與事情要處理, 所以不一定要一次念完。 如果沒辦法一次念完,也沒有關係。 可以分段念、慢慢念 —— 🌸 搭車的時候念一點 🌸 走路的時候念一點 🌸 休息的時候念一點 🌸 有空就念幾句 重點不是一次念完多少, 而是每天願意持續親近地藏王菩薩, 讓這份善念一點一點累積起來。 其實 1000 遍不會很久。 只要每天持續一點點, 慢慢地,心會比較安定, 也會比較容易親近佛法、接受佛法的經典。 ─────────── 🙏 每天念完佛號之後,也可以做一個簡單的迴向。 如果家裡有供奉地藏王菩薩聖像, 可以在菩薩面前上一炷香,合掌迴向。 如果家裡沒有地藏王菩薩聖像,也沒有關係。 家裡如果有供奉其他佛菩薩聖像, 或是有佛堂、佛像、佛經,也都可以。 甚至經書裡面如果有佛菩薩的圖像, 也可以恭敬地面對經書裡的佛菩薩圖像,合掌迴向。 重點不是家裡一定要有什麼樣的形式, 而是我們的心要恭敬、要真誠 ✨ ─────────── 可以簡單地跟佛菩薩說: 「弟子 ○○○,今天念誦南無地藏王菩薩佛號 1000 遍, 願將這份功德,迴向給弟子累生累世的冤親債主, 也迴向給十方一切有緣眾生。 祈請諸佛菩薩慈悲加持, 願大家都能離苦得樂,早聞佛法。」 這樣誠心迴向即可。 如果當下不方便上香,也沒有關係。 只要念完之後,合掌在心中默默迴向,也是一樣可以的。 佛法很多時候,不是看形式多複雜, 而是看我們的心是不是真誠 🌸 ─────────── 每天願意念一點、迴向一點、善念累積一點, 時間久了,心也會慢慢安定下來。 這是末學自己的切身經驗。 如果您也覺得自己想接觸佛法, 卻一直讀不下去、念不下去、容易想睡,或是心靜不下來, 也可以試試看這個方法。 不用急,也不用給自己太大壓力。 每天一點點,持續下去,就會慢慢不一樣 ✨ ─────────── 💛 末學不知道這樣做最後能幫助多少人。 但末學想, 哪怕只有一個人, 因為這些圖文而對佛法產生一點點興趣, 或者在人生低潮時得到一點點力量, 那就很值得了。 末學不是什麼高僧大德, 也不敢說自己真正懂經。 只是把自己曾經受到的幫助, 用現在能做到的方式,再分享出去 🪷 ─────────── 明天開始,《地藏十輪經》白話圖文分享正式開始。 願這一份小小的心意,能帶給大家一點光。 願大家都能平安、安定,人生越來越圓滿。 南無地藏王菩薩 🙏 明天,我們就開始囉 🌸 ─────────── 📚 免費索取《地藏菩薩本願經》紙本經書 《地藏菩薩本願經》是地藏法門的基礎,淺而易懂,適合初次接觸的朋友。 跟著我們一邊聽《十輪經》故事,一邊在家讀本願經 🌸 私訊我們「我要索取地藏經」,將免費寄送精美紙本經書給您(含郵資) #地藏十輪經 #地藏菩薩 #前言 #地藏法門 #南無地藏王菩薩 #地藏菩薩本願經 #每日佛經 #佛教"
+              - generic [ref=e369]:
+                - generic [ref=e370]:
+                  - generic [ref=e371]: 文案生成
+                  - generic [ref=e373]: AI
+                - generic [ref=e377]: 增加多個文案版本可讓 Meta 在預測廣告可提升成效時，顯示不同版本的廣告。透過 AI 工具可讓你輕鬆簡便地產生及使用多種文案版本。
+                - generic [ref=e381]:
+                  - heading "無法產生文案版本" [level=4] [ref=e2028]
+                  - generic [ref=e392]: 此廣告沒有任何文案版本。
+          - generic [ref=e402]:
+            - generic [ref=e410]:
+              - heading "高效速成+ 廣告創意" [level=2] [ref=e2029]:
+                - generic [ref=e414]: 高效速成+ 廣告創意
+              - button "更多資訊" [ref=e2030] [cursor=pointer]
+            - switch "運用 Facebook 的資料，在有機會提升成效時自動向用戶投遞不同創意版本的廣告。 已啟用" [checked] [ref=e2031] [cursor=pointer]:
+              - generic [ref=e425]:
+                - generic [ref=e430]:
+                  - text: 運用 Facebook 的資料，在有機會提升成效時自動向
+                  - link "用戶" [ref=e2032]:
+                    - /url: https://www.facebook.com/business/help/283579896000936
+                  - text: 投遞不同創意版本的廣告。
+                - generic [ref=e432]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - switch "已啟用" [checked]
+          - generic [ref=e440]:
+            - heading "按鈕 顯示有關按鈕的支援資訊" [level=2] [ref=e2033]:
+              - generic [ref=e453]:
+                - generic [ref=e454]: 按鈕
+                - button "顯示有關按鈕的支援資訊" [ref=e2034] [cursor=pointer]
+            - generic [ref=e458]:
+              - generic [ref=e462]:
+                - generic [ref=e463]:
+                  - generic [ref=e468]:
+                    - generic [ref=e471]: 透過 Messenger 取得高品質的潛在顧客
+                    - generic [ref=e473]: 即時透過 Messenger 接收潛在顧客資料，並透過粉絲專頁收件匣進行後續聯絡。
+                  - button "關閉「透過 Messenger 取得高品質的潛在顧客」卡片" [ref=e2035] [cursor=pointer]
+                - button "立即開始" [ref=e2036] [cursor=pointer]:
+                  - generic [ref=e483]: 立即開始
+              - combobox "按鈕標籤" [ref=e2037]:
+                - generic [ref=e490]:
+                  - generic: 按鈕標籤
+                  - generic [ref=e493]: 發送訊息
+          - generic [ref=e505]:
+            - generic [ref=e513]:
+              - heading "訊息" [level=2] [ref=e2038]:
+                - generic [ref=e517]: 訊息
+              - button "更多資訊" [ref=e2039] [cursor=pointer]
+            - generic [ref=e524]:
+              - generic [ref=e527]:
+                - generic [ref=e531]:
+                  - generic [ref=e533]: 訊息範本
+                  - generic [ref=e535]: How do you want to welcome people who tap on your ad?
+                - generic [ref=e538]:
+                  - combobox "建立新範本" [ref=e2040] [cursor=pointer]:
+                    - generic [ref=e544]: 預設歡迎訊息範本
+                  - button "建立新範本" [ref=e2041] [cursor=pointer]:
+                    - generic [ref=e553]: 建立新範本
+                - generic [ref=e559]:
+                  - generic [ref=e564]:
+                    - generic [ref=e567]: 我們已根據你的廣告自訂問題
+                    - generic [ref=e569]: 問題是在 AI 的協助下根據你的廣告自訂。你可以視需要進行編輯。
+                  - button "關閉「我們已根據你的廣告自訂問題」卡片" [ref=e2042] [cursor=pointer]
+                - generic [ref=e581]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: 問候語
+                    - generic [ref=e585]:
+                      - button "編輯歡迎訊息範本" [ref=e2043] [cursor=pointer]
+                      - button "複製" [ref=e2044] [cursor=pointer]
+                      - button "刪除預設歡迎訊息範本範本" [disabled] [ref=e2045]
+                  - generic [ref=e602]: Veragrul 你好！請告訴我們該如何為你提供協助。
+                  - generic [ref=e603]:
+                    - generic [ref=e604]:
+                      - generic [ref=e606]: 問題
+                      - generic [ref=e610]: AI
+                    - generic [ref=e613]:
+                      - generic [ref=e615]: 1. 《地藏十輪經》白話圖文分享什麼時間開始?
+                      - generic [ref=e617]: 2. 如何免費索取《地藏菩薩本願經》紙本經書？
+                      - generic [ref=e619]: 3. 念誦南無地藏王菩薩佛號有何功德？
+                  - generic [ref=e620]:
+                    - generic [ref=e622]: AI 生成的問題： 開啟
+                    - button "更多有關 AI 生成問題的資訊" [ref=e2046] [cursor=pointer]
+                  - generic [ref=e626]:
+                    - generic [ref=e628]: 自動回覆： 關閉
+                    - button "更多有關自動回覆的資訊" [ref=e2047] [cursor=pointer]
+                  - generic [ref=e632]:
+                    - generic [ref=e634]: Messenger 通話邀請： 關閉
+                    - button "顯示 Messenger 通話邀請設定的相關資訊" [ref=e2048] [cursor=pointer]
+                  - generic [ref=e638]:
+                    - generic [ref=e640]: 持續追蹤訊息： 開啟
+                    - button "更多關於持續追蹤訊息的資訊" [ref=e2049] [cursor=pointer]
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - generic [ref=e655]:
+                      - generic [ref=e658]: 吸引更多用戶來電
+                      - generic [ref=e660]: 在問候訊息中加入通話邀請，讓用戶較有可能打電話給你的商家。
+                    - button "關閉「吸引更多用戶來電」卡片" [ref=e2050] [cursor=pointer]
+                  - link "瞭解詳情" [ref=e2051] [cursor=pointer]:
+                    - /url: https://www.facebook.com/business/help/641023110946718
+                    - generic [ref=e670]: 瞭解詳情
+              - generic [ref=e674]:
+                - generic [ref=e677]:
+                  - generic [ref=e682]:
+                    - heading "訊息目的地" [level=2] [ref=e2052]:
+                      - generic [ref=e689]: 訊息目的地
+                    - generic [ref=e695]: 你希望用戶透過何種管道傳送訊息給你？
+                  - generic [ref=e698]:
+                    - switch "建議使用 自動設定目的地 將用戶帶往他們最常參與互動的訊息應用程式。 已停用" [disabled]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 建議使用
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic: 自動設定目的地
+                                - generic:
+                                  - generic: 將用戶帶往他們最常參與互動的訊息應用程式。
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - switch "已停用" [disabled]
+                - generic [ref=e705]:
+                  - generic [ref=e707]: 手動設定目的地
+                  - generic [ref=e709]: 選擇你希望將受眾傳送到哪個應用程式。
+                - checkbox "Messenger" [ref=e2053] [cursor=pointer]:
+                  - generic [ref=e716]:
+                    - generic [ref=e725]: Messenger
+                    - checkbox [checked] [disabled] [ref=e729]
+                - button "Instagram 連結" [ref=e2054] [cursor=pointer]:
+                  - generic [ref=e736]:
+                    - img [ref=e740]
+                    - generic [ref=e745]: Instagram
+                    - button "連結" [ref=e2055]:
+                      - generic [ref=e751]: 連結
+                - button "WhatsApp 連結" [ref=e2056] [cursor=pointer]:
+                  - generic [ref=e758]:
+                    - img [ref=e762]
+                    - generic [ref=e767]: WhatsApp
+                    - button "連結" [ref=e2057]:
+                      - generic [ref=e773]: 連結
+          - generic [ref=e781]:
+            - generic [ref=e789]:
+              - heading "特殊廣告類別" [level=2] [ref=e2058]:
+                - generic [ref=e793]: 特殊廣告類別
+              - button "更多資訊" [ref=e2059] [cursor=pointer]
+            - switch "有關金融商品和服務、就業、住房或是社會議題、選舉或政治的廣告 已啟用" [ref=e2060] [cursor=pointer]:
+              - generic [ref=e805]:
+                - generic [ref=e810]: 有關金融商品和服務、就業、住房或是社會議題、選舉或政治的廣告
+                - generic [ref=e811]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - switch "已啟用"
+          - generic [ref=e814]:
+            - generic [ref=e820]:
+              - generic [ref=e825]:
+                - heading "廣告受眾 顯示有關廣告受眾的支援資訊" [level=2] [ref=e2061]:
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 廣告受眾
+                    - button "顯示有關廣告受眾的支援資訊" [ref=e2062] [cursor=pointer]
+                - generic [ref=e840]: 誰會看到你的廣告？
+              - radiogroup [ref=e843]:
+                - radio "高效速成+ 廣告受眾 讓我們的廣告技術自動為你找出廣告受眾並隨著時間調整，以便觸及更多有可能回應廣告的用戶。深入瞭解高效速成+ 廣告受眾" [checked] [ref=e2063] [cursor=pointer]:
+                  - generic [ref=e850]:
+                    - generic [ref=e853]: 高效速成+ 廣告受眾
+                    - generic [ref=e855]:
+                      - text: 讓我們的廣告技術自動為你找出廣告受眾並隨著時間調整，以便觸及更多有可能回應廣告的用戶。
+                      - link "深入瞭解高效速成+ 廣告受眾" [ref=e2064]:
+                        - /url: https://www.facebook.com/business/help/273363992030035?id=1629569087788063
+                        - text: 瞭解詳情
+                - generic [ref=e867]:
+                  - generic [ref=e868]:
+                    - generic [ref=e870]: 廣告受眾詳情
+                    - button "更多廣告受眾詳細資料相關資訊" [ref=e2065] [cursor=pointer]:
+                      - button "更多廣告受眾詳細資料相關資訊" [ref=e2066]
+                  - button "編輯廣告受眾詳細資料" [ref=e2067] [cursor=pointer]
+                  - generic [ref=e880]:
+                    - generic [ref=e882]:
+                      - generic [ref=e883]: "地點:"
+                      - text: 台灣
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: "最低年齡限制:"
+                      - text: "18"
+                    - generic [ref=e888]:
+                      - generic [ref=e889]: "高效速成+ 廣告受眾:"
+                      - text: 開啟
+                - generic [ref=e1366]:
+                  - generic [ref=e1370]:
+                    - generic [ref=e1371]:
+                      - generic [ref=e1375]: 台灣的廣告主和出資者
+                      - button "有關受益者和出資者的更多資訊" [ref=e2068] [cursor=pointer]:
+                        - button "有關受益者和出資者的更多資訊" [ref=e2069]
+                    - combobox "這則廣告的受益者是誰？" [ref=e2070]:
+                      - generic [ref=e1386]:
+                        - generic: 這則廣告的受益者是誰？
+                        - generic [ref=e1389]: Prapti Exhibition Co., Ltd.
+                    - switch "其他人士或組織會支付這則廣告的費用 已啟用" [ref=e2071] [cursor=pointer]:
+                      - generic [ref=e1398]:
+                        - generic [ref=e1403]: 其他人士或組織會支付這則廣告的費用
+                        - generic [ref=e1404]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - switch "已啟用"
+                  - generic [ref=e1408]:
+                    - generic [ref=e1411]:
+                      - generic [ref=e1413]: 此廣告是否為鎖定台灣受眾投遞的金融商品和服務廣告？
+                      - generic [ref=e1415]:
+                        - text: 若要鎖定台灣受眾刊登廣告，必須聲明廣告是否關於金融商品和服務。
+                        - link "關於驗證規定" [ref=e2072] [cursor=pointer]:
+                          - /url: /business/help/719892839342050
+                    - generic [ref=e1419]: 金融服務聲明
+                    - generic [ref=e1422]:
+                      - checkbox "這則廣告是與金融商品和服務相關的廣告。" [ref=e2073] [cursor=pointer]
+                      - generic [ref=e1426]: 這則廣告是與金融商品和服務相關的廣告。
+                - radio "你透過目標設定選擇的用戶" [ref=e2074] [cursor=pointer]:
+                  - generic [ref=e906]: 你透過目標設定選擇的用戶
+                - radio "說你粉絲專頁讚的用戶" [ref=e2075] [cursor=pointer]:
+                  - generic [ref=e920]: 說你粉絲專頁讚的用戶
+                - radio "對你粉絲專頁按讚的用戶和類似用戶" [ref=e2076] [cursor=pointer]:
+                  - generic [ref=e934]: 對你粉絲專頁按讚的用戶和類似用戶
+                - radio "alumi 廣告受眾-1" [ref=e2077] [cursor=pointer]:
+                  - generic [ref=e948]: alumi 廣告受眾-1
+                - button "建立新廣告受眾" [ref=e2078] [cursor=pointer]:
+                  - generic [ref=e959]: 建立新廣告受眾
+            - checkbox "AI 資訊 廣告包含透過 AI 建立或編輯的影音素材 勾選此方塊可能會在你的廣告新增 AI 資訊標籤。 關於 AI 資訊透明度" [ref=e2079] [cursor=pointer]:
+              - generic [ref=e976]:
+                - generic [ref=e978]: AI 資訊
+                - generic [ref=e980]: 廣告包含透過 AI 建立或編輯的影音素材
+                - generic [ref=e982]:
+                  - text: 勾選此方塊可能會在你的廣告新增 AI 資訊標籤。
+                  - link "關於 AI 資訊透明度" [ref=e2080]:
+                    - /url: https://www.facebook.com/business/help/1009525374368348
+          - generic [ref=e992]:
+            - generic [ref=e995]:
+              - generic [ref=e1003]:
+                - heading "時間長度" [level=2] [ref=e2081]:
+                  - generic [ref=e1007]: 時間長度
+                - button "更多資訊" [ref=e2082] [cursor=pointer]
+              - generic [ref=e1015]:
+                - radio "持續刊登廣告 廣告會一直刊登到你暫停為止。" [ref=e2083] [cursor=pointer]:
+                  - generic [ref=e1022]:
+                    - generic [ref=e1026]: 持續刊登廣告
+                    - generic [ref=e1028]: 廣告會一直刊登到你暫停為止。
+                - radio "選擇結束日期" [checked] [ref=e2084] [cursor=pointer]:
+                  - generic [ref=e1041]: 選擇結束日期
+                - generic [ref=e2116]:
+                  - generic [ref=e2121]:
+                    - generic [ref=e2122]:
+                      - generic: 天數
+                      - spinbutton "天數 遞減 增加" [active] [ref=e2123]: "7"
+                    - generic [ref=e2124]:
+                      - button "遞減" [ref=e2125] [cursor=pointer]
+                      - button "增加" [ref=e2129] [cursor=pointer]
+                  - generic [ref=e2136]:
+                    - generic:
+                      - button "選擇日期，已選擇：2026年6月29日"
+                    - generic [ref=e2137]:
+                      - generic "選擇日期": 結束日期
+                      - combobox "選擇日期，已選擇：2026年6月29日 選擇日期" [ref=e2139]: 2026年6月29日
+                - switch "在營業時間內刊登這則廣告 更多資訊 用戶只會在我們建議的營業時間看到你的廣告。 已啟用" [ref=e2085] [cursor=pointer]:
+                  - generic [ref=e1052]:
+                    - generic [ref=e1055]:
+                      - generic [ref=e1058]:
+                        - generic [ref=e1059]: 在營業時間內刊登這則廣告
+                        - button "更多資訊" [ref=e2086]
+                      - generic [ref=e1064]: 用戶只會在我們建議的營業時間看到你的廣告。
+                    - generic [ref=e1065]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - switch "已啟用"
+            - generic [ref=e1068]:
+              - generic [ref=e1076]:
+                - heading "單日預算" [level=2] [ref=e2087]:
+                  - generic [ref=e1080]: 單日預算
+                - button "更多資訊" [ref=e2088] [cursor=pointer]
+              - generic [ref=e1087]:
+                - generic [ref=e1429]:
+                  - generic [ref=e1433]: 曝光次數估計值：0 - 331次／天
+                  - generic [ref=e1435]:
+                    - generic [ref=e1437]: NT$
+                    - textbox [ref=e1438]: "509"
+                    - button "編輯預算金額。目前金額為509 NT$" [ref=e2089] [cursor=pointer]
+                  - generic [ref=e1442]:
+                    - generic [ref=e1443]:
+                      - generic [ref=e1446]: NT$32
+                      - slider "預算" [ref=e2090] [cursor=pointer]
+                      - generic [ref=e1456]: NT$4,000
+                    - list [ref=e1457]:
+                      - listitem [ref=e1458]:
+                        - generic [ref=e1468]:
+                          - text: 類似商家通常花費
+                          - strong [ref=e1469]: NT$509
+                          - text: ，並可獲得
+                          - strong [ref=e1470]: 3回覆次數
+                          - text: （ per day）。
+                          - button "更多資訊" [ref=e2091] [cursor=pointer]:
+                            - button "更多資訊" [ref=e2092]
+                - switch "預算共用 資訊 將此廣告的部分預算與其他使用相同目標的廣告共用。我們會將更多預算分配給成效較佳的廣告，這有助於在不增加花費的情況下提升整體成果。 成果估計值：每次成果成本降低達 3.3% 資訊 已啟用" [checked] [ref=e2093] [cursor=pointer]:
+                  - generic [ref=e1478]:
+                    - generic [ref=e1481]:
+                      - generic [ref=e1484]:
+                        - generic [ref=e1485]: 預算共用
+                        - button "資訊" [ref=e2094]
+                      - generic [ref=e1490]:
+                        - generic [ref=e1492]: 將此廣告的部分預算與其他使用相同目標的廣告共用。我們會將更多預算分配給成效較佳的廣告，這有助於在不增加花費的情況下提升整體成果。
+                        - generic [ref=e1493]:
+                          - generic [ref=e1494]: 成果估計值：每次成果成本降低達 3.3%
+                          - button "資訊" [ref=e2095]
+                    - generic [ref=e1498]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - switch "已啟用" [checked]
+          - generic [ref=e1101]:
+            - generic [ref=e1109]:
+              - heading "版位" [level=2] [ref=e2096]:
+                - generic [ref=e1113]: 版位
+              - button "更多資訊" [ref=e2097] [cursor=pointer]
+            - switch "推薦 高效速成+ 版位 高效速成+ 版位的詳細資訊 讓我們協助將你在 Facebook、Messenger、Instagram、Meta Audience Network 和 WhatsApp 的預算發揮最大效用，向更多用戶顯示你的廣告。 已啟用" [checked] [ref=e2098] [cursor=pointer]:
+              - generic [ref=e1125]:
+                - generic [ref=e1128]:
+                  - generic [ref=e1130]:
+                    - text: 推薦
+                    - generic [ref=e1131]:
+                      - generic [ref=e1132]: 高效速成+ 版位
+                      - button "高效速成+ 版位的詳細資訊" [ref=e2099]
+                  - generic [ref=e1137]: 讓我們協助將你在 Facebook、Messenger、Instagram、Meta Audience Network 和 WhatsApp 的預算發揮最大效用，向更多用戶顯示你的廣告。
+                - generic [ref=e1138]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - switch "已啟用" [checked]
+          - generic [ref=e1147]:
+            - button "付款方式 Visa •••• 5769" [expanded] [ref=e2100] [cursor=pointer]:
+              - generic [ref=e1157]:
+                - generic [ref=e1159]: 付款方式
+                - generic [ref=e1161]: Visa •••• 5769
+            - generic [ref=e1166]:
+              - generic [ref=e1167]:
+                - generic [ref=e1169]: 你可能會因為這則廣告收到超過 1 筆帳單。
+                - button "瞭解詳情" [ref=e2101] [cursor=pointer]:
+                  - generic [ref=e1172]: 瞭解詳情
+              - generic [ref=e1179]:
+                - generic "Visa •••• 5 7 6 9" [ref=e2102]:
+                  - generic [ref=e1186]: Visa •••• 5769
+                - button "變更" [ref=e2103] [cursor=pointer]:
+                  - generic [ref=e1193]: 變更
+        - generic [ref=e1194]:
+          - generic [ref=e1199]:
+            - heading "廣告預覽" [level=2] [ref=e2104]:
+              - generic [ref=e1211]: 廣告預覽
+            - generic [ref=e1213]:
+              - iframe [ref=e1500]:
+                - generic [ref=f15e3]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 地藏菩薩 經典導讀
+                          - generic: 廣告 ·
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: ……查看更多
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 【地藏十輪經白話圖文連載 · 前言】
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 明天開始,《地藏十輪經》白話圖文連載,正式開始
+                                      - generic:
+                                        - generic: 🙏
+                                - generic:
+                                  - generic: 末學想先寫一點心裡話,跟大家分享。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 末學此生很有幸,能夠遇到地藏法門。
+                                - generic:
+                                  - generic: 在人生最低潮、最困難的時候,
+                                - generic:
+                                  - generic: 是地藏王菩薩的法門,也是佛法,
+                                - generic:
+                                  - generic: 慢慢扭轉了末學的人生。
+                                - generic:
+                                  - generic: 末學常常想 ——
+                                - generic:
+                                  - generic: 如果二十歲就能遇到佛法,
+                                - generic:
+                                  - generic: 也許人生會走得很不一樣。
+                                - generic:
+                                  - generic: 也許會少走很多冤枉路,也許會少受很多苦。
+                                - generic:
+                                  - generic: 但末學也不覺得可惜。
+                                - generic:
+                                  - generic: 人生的因緣,或許本來就有它的安排。
+                                - generic:
+                                  - generic: 該遇到的時候,就會遇到。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 也因為自己曾經走過低潮,
+                                - generic:
+                                  - generic: 所以末學更希望,能夠把這一份因緣分享出去。
+                                - generic:
+                                  - generic: 末學的初衷很簡單 ——
+                                - generic:
+                                  - generic: 不是要大家死背佛經,也不是要把佛法講得很深奧。
+                                - generic:
+                                  - generic: 只是希望更多人可以因為接觸佛法,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 讓自己的人生過得更好一點、更安定一點、更圓滿一點
+                                      - generic:
+                                        - generic: ✨
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 📖
+                                      - text: 之前末學曾經分享過《地藏菩薩本願經》的圖文內容。
+                                - generic:
+                                  - generic: 《地藏菩薩本願經》是地藏法門很重要、也很適合入門的一部經典,
+                                - generic:
+                                  - generic: 內容相對白話,許多人比較容易理解。
+                                - generic:
+                                  - generic: 末學也一直認為,地藏法門是很適合所有人學習的法門。
+                                - generic:
+                                  - generic: 所以到目前為止,我們也仍然持續提供《地藏菩薩本願經》這本經書,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 讓有需要、有因緣的朋友可以免費索取
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: 如果您想開始接觸地藏法門,
+                                - generic:
+                                  - generic: 末學會很建議先從《地藏菩薩本願經》開始。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 另外也跟大家補充一下 ——
+                                - generic:
+                                  - generic: 我們原本 FB 的方向,是以《地藏菩薩本願經》為主,
+                                - generic:
+                                  - generic: 希望讓更多人可以接觸地藏法門,
+                                - generic:
+                                  - generic: 也持續提供《地藏菩薩本願經》讓有緣的朋友免費索取。
+                                - generic:
+                                  - generic: 後來末學慢慢覺得 ——
+                                - generic:
+                                  - generic: 地藏法門不只是《地藏菩薩本願經》而已,
+                                - generic:
+                                  - generic: 還包含《占察善惡業報經》與《地藏十輪經》等重要經典。
+                                - generic:
+                                  - generic: 所以我們也把 FB 的方向,
+                                - generic:
+                                  - generic: 從原本比較單一的《地藏菩薩本願經》分享,
+                                - generic:
+                                  - generic: 慢慢調整成 ——
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 【地藏菩薩 經典導讀】
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: 希望未來可以用更白話、更容易親近的方式,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 慢慢陪大家一起認識地藏菩薩的經典與法門
+                                      - generic:
+                                        - generic: ✨
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 📚
+                                      - text: "地藏三經:"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 1️⃣
+                                      - text: 《地藏菩薩本願經》 — 入門經典,白話易懂
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 2️⃣
+                                      - text: 《占察善惡業報經》 — 末學也還不敢說真正懂了
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 3️⃣
+                                      - text: 《地藏十輪經》 — 這次要分享的
+                                - generic:
+                                  - generic: 所以這一次,末學想先從《地藏十輪經》開始。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 其實《地藏十輪經》這本經書,
+                                - generic:
+                                  - generic: 大概七、八年前就已經來到末學家裡了。
+                                - generic:
+                                  - generic: 但它真的很厚。
+                                - generic:
+                                  - generic: 相信很多人看到這麼厚的經書,
+                                - generic:
+                                  - generic: 可能還沒開始讀,就已經先覺得有壓力了。
+                                - generic:
+                                  - generic: 包含末學自己也是。
+                                - generic:
+                                  - generic: 以前看到這麼厚一本,
+                                - generic:
+                                  - generic: 真的也很容易放著放著,就一直沒有翻開。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 可是這幾年慢慢接觸佛法之後,
+                                - generic:
+                                  - generic: 末學越來越覺得 ——
+                                - generic:
+                                  - generic: 佛經真正重要的地方,不只是文字本身,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 而是它能不能落實在生活裡
+                                      - generic:
+                                        - generic: ✨
+                                - generic:
+                                  - generic: 佛法不是拿來放在書櫃裡的。
+                                - generic:
+                                  - generic: 佛法是可以幫助我們面對人生、改善心念、調整行為,
+                                - generic:
+                                  - generic: 讓生活變得更好的。
+                                - generic:
+                                  - generic: 所以這一次,末學想盡自己的一點能力,
+                                - generic:
+                                  - generic: 用最白話、最容易理解的方式,
+                                - generic:
+                                  - generic: 把《地藏十輪經》的意思介紹給大家。
+                                - generic:
+                                  - generic: 不敢說是完整講經,也不敢說自己真正懂經。
+                                - generic:
+                                  - generic: 只是把經文裡面好的觀念,整理成比較容易閱讀的貼文,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 再搭配插圖,希望大家比較容易親近
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: 希望大人看得懂,小朋友也能看懂。
+                                - generic:
+                                  - generic: 也希望父母可以陪孩子一起看,
+                                - generic:
+                                  - generic: 讓孩子從小就能接觸善的觀念。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 如果您覺得自己暫時還沒有辦法閱讀《地藏菩薩本願經》,
+                                - generic:
+                                  - generic: 也沒有關係。
+                                - generic:
+                                  - generic: 末學自己以前剛開始念《地藏菩薩本願經》的時候,
+                                - generic:
+                                  - generic: 也常常念沒多久就睡著了。
+                                - generic:
+                                  - generic: 以末學自己的體會,
+                                - generic:
+                                  - generic: 也許是自己累生累世的業障、習氣比較重,
+                                - generic:
+                                  - generic: 所以一開始要親近佛法,並不是那麼容易。
+                                - generic:
+                                  - generic: "如果您也有類似的情況,可以先從最簡單的方法開始:"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🪷
+                                      - text: "每天花一點點時間,念誦:"
+                                - generic:
+                                  - generic: 南無地藏王菩薩
+                                - generic:
+                                  - generic: 可以每天念 1000 遍。
+                                - generic:
+                                  - generic: 不管是在搭車的時候、走路的時候,
+                                - generic:
+                                  - generic: 或是生活中有空檔的時候,都可以念。
+                                - generic:
+                                  - generic: 也可以準備一個簡單的計數器,一邊念佛號,一邊計數。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 因為大家日常生活中,都有忙碌的工作與事情要處理,
+                                - generic:
+                                  - generic: 所以不一定要一次念完。
+                                - generic:
+                                  - generic: 如果沒辦法一次念完,也沒有關係。
+                                - generic:
+                                  - generic: 可以分段念、慢慢念 ——
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 搭車的時候念一點
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 走路的時候念一點
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 休息的時候念一點
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🌸
+                                      - text: 有空就念幾句
+                                - generic:
+                                  - generic: 重點不是一次念完多少,
+                                - generic:
+                                  - generic: 而是每天願意持續親近地藏王菩薩,
+                                - generic:
+                                  - generic: 讓這份善念一點一點累積起來。
+                                - generic:
+                                  - generic: 其實 1000 遍不會很久。
+                                - generic:
+                                  - generic: 只要每天持續一點點,
+                                - generic:
+                                  - generic: 慢慢地,心會比較安定,
+                                - generic:
+                                  - generic: 也會比較容易親近佛法、接受佛法的經典。
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 🙏
+                                      - text: 每天念完佛號之後,也可以做一個簡單的迴向。
+                                - generic:
+                                  - generic: 如果家裡有供奉地藏王菩薩聖像,
+                                - generic:
+                                  - generic: 可以在菩薩面前上一炷香,合掌迴向。
+                                - generic:
+                                  - generic: 如果家裡沒有地藏王菩薩聖像,也沒有關係。
+                                - generic:
+                                  - generic: 家裡如果有供奉其他佛菩薩聖像,
+                                - generic:
+                                  - generic: 或是有佛堂、佛像、佛經,也都可以。
+                                - generic:
+                                  - generic: 甚至經書裡面如果有佛菩薩的圖像,
+                                - generic:
+                                  - generic: 也可以恭敬地面對經書裡的佛菩薩圖像,合掌迴向。
+                                - generic:
+                                  - generic: 重點不是家裡一定要有什麼樣的形式,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 而是我們的心要恭敬、要真誠
+                                      - generic:
+                                        - generic: ✨
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: "可以簡單地跟佛菩薩說:"
+                                - generic:
+                                  - generic: 「弟子 ○○○,今天念誦南無地藏王菩薩佛號 1000 遍,
+                                - generic:
+                                  - generic: 願將這份功德,迴向給弟子累生累世的冤親債主,
+                                - generic:
+                                  - generic: 也迴向給十方一切有緣眾生。
+                                - generic:
+                                  - generic: 祈請諸佛菩薩慈悲加持,
+                                - generic:
+                                  - generic: 願大家都能離苦得樂,早聞佛法。」
+                                - generic:
+                                  - generic: 這樣誠心迴向即可。
+                                - generic:
+                                  - generic: 如果當下不方便上香,也沒有關係。
+                                - generic:
+                                  - generic: 只要念完之後,合掌在心中默默迴向,也是一樣可以的。
+                                - generic:
+                                  - generic: 佛法很多時候,不是看形式多複雜,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 而是看我們的心是不是真誠
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 每天願意念一點、迴向一點、善念累積一點,
+                                - generic:
+                                  - generic: 時間久了,心也會慢慢安定下來。
+                                - generic:
+                                  - generic: 這是末學自己的切身經驗。
+                                - generic:
+                                  - generic: 如果您也覺得自己想接觸佛法,
+                                - generic:
+                                  - generic: 卻一直讀不下去、念不下去、容易想睡,或是心靜不下來,
+                                - generic:
+                                  - generic: 也可以試試看這個方法。
+                                - generic:
+                                  - generic: 不用急,也不用給自己太大壓力。
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 每天一點點,持續下去,就會慢慢不一樣
+                                      - generic:
+                                        - generic: ✨
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 💛
+                                      - text: 末學不知道這樣做最後能幫助多少人。
+                                - generic:
+                                  - generic: 但末學想,
+                                - generic:
+                                  - generic: 哪怕只有一個人,
+                                - generic:
+                                  - generic: 因為這些圖文而對佛法產生一點點興趣,
+                                - generic:
+                                  - generic: 或者在人生低潮時得到一點點力量,
+                                - generic:
+                                  - generic: 那就很值得了。
+                                - generic:
+                                  - generic: 末學不是什麼高僧大德,
+                                - generic:
+                                  - generic: 也不敢說自己真正懂經。
+                                - generic:
+                                  - generic: 只是把自己曾經受到的幫助,
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 用現在能做到的方式,再分享出去
+                                      - generic:
+                                        - generic: 🪷
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic: 明天開始,《地藏十輪經》白話圖文分享正式開始。
+                                - generic:
+                                  - generic: 願這一份小小的心意,能帶給大家一點光。
+                                - generic:
+                                  - generic: 願大家都能平安、安定,人生越來越圓滿。
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 南無地藏王菩薩
+                                      - generic:
+                                        - generic: 🙏
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 明天,我們就開始囉
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: ───────────
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 📚
+                                      - text: 免費索取《地藏菩薩本願經》紙本經書
+                                - generic:
+                                  - generic: 《地藏菩薩本願經》是地藏法門的基礎,淺而易懂,適合初次接觸的朋友。
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: 跟著我們一邊聽《十輪經》故事,一邊在家讀本願經
+                                      - generic:
+                                        - generic: 🌸
+                                - generic:
+                                  - generic: 私訊我們「我要索取地藏經」,將免費寄送精美紙本經書給您(含郵資)
+                                - generic:
+                                  - generic: "#地藏十輪經 #地藏菩薩 #前言 #地藏法門 #南無地藏王菩薩 #地藏菩薩本願經 #每日佛經 #佛教"
+                              - text: ","
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: "+9"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 非營利組織
+                          - generic:
+                            - generic: 發送訊息
+                        - generic:
+                          - generic:
+                            - button "發送訊息":
+                              - generic:
+                                - generic:
+                                  - generic: 發送訊息
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 讚
+                          - generic:
+                            - generic:
+                              - generic: 留言
+                          - generic:
+                            - generic:
+                              - generic: 分享
+              - button "查看所有預覽" [ref=e2105] [cursor=pointer]:
+                - generic [ref=e1237]: 查看所有預覽
+          - generic [ref=e1239]:
+            - generic [ref=e1244]:
+              - heading "單日成果估計值" [level=2] [ref=e2106]:
+                - generic [ref=e1256]: 單日成果估計值
+              - generic [ref=e1263]:
+                - generic [ref=e1265]:
+                  - generic [ref=e1267]: 瀏覽次數
+                  - button "顯示更多關於瀏覽次數的資訊" [ref=e2107] [cursor=pointer]
+                - generic [ref=e1272]: 0 - 331
+            - generic [ref=e1276]:
+              - generic [ref=e1279]:
+                - generic [ref=e1284]:
+                  - heading "付款摘要" [level=2] [ref=e2108]:
+                    - generic [ref=e1291]: 付款摘要
+                  - generic [ref=e1294]: 你的廣告將刊登7天。
+                - generic [ref=e1298]:
+                  - generic [ref=e1299]:
+                    - generic [ref=e1301]:
+                      - generic [ref=e1305]: 總預算
+                      - generic [ref=e1309]: NT$3,563 TWD
+                    - generic [ref=e2142]: 每日NT$509 x 7天。
+                  - generic [ref=e1315]:
+                    - generic [ref=e1319]: 總金額
+                    - generic [ref=e1323]: NT$3,563 TWD
+              - generic [ref=e1325]:
+                - generic [ref=e1326]: 我們使用你和你廣告帳號的相關資料，向你提供廣告收費和廣告花費選項。
+                - link "深入瞭解付款資料使用方式" [ref=e2109] [cursor=pointer]:
+                  - /url: "https://www.facebook.com/business/help/998181913623584?id=1792465934137726 "
+                  - text: 瞭解詳情
+      - generic [ref=e1338]:
+        - generic [ref=e1341]:
+          - text: 點擊「發佈」即表示你確知你使用 Meta 廣告工具的行為須遵守我們的
+          - button "條款與條件" [ref=e2110] [cursor=pointer]
+        - generic [ref=e1346]:
+          - generic [ref=e1347]:
+            - generic:
+              - generic:
+                - button "脈衝通知指示。點擊即可開啟企業商家使用說明搜尋"
+            - button "需要協助嗎？" [ref=e2111] [cursor=pointer]:
+              - generic [ref=e1349]: 需要協助嗎？
+          - button "發佈" [ref=e2112] [cursor=pointer]:
+            - generic [ref=e1357]: 發佈

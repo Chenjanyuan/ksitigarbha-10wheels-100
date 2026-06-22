@@ -1,0 +1,595 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e6]:
+      - generic:
+        - generic:
+          - button [disabled]:
+            - img
+      - link "Facebook" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+      - generic [ref=e19]:
+        - generic:
+          - img
+        - combobox "搜尋 Facebook" [ref=e20]
+    - navigation "Facebook" [ref=e24]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "首頁" [ref=e29] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "朋友" [ref=e36] [cursor=pointer]:
+            - /url: /friends/
+            - img [ref=e38]
+        - listitem [ref=e40]:
+          - link "Reels" [ref=e43] [cursor=pointer]:
+            - /url: /watch/?ref=tab
+            - img [ref=e45]
+        - listitem [ref=e48]:
+          - link "Marketplace" [ref=e51] [cursor=pointer]:
+            - /url: /marketplace/?ref=app_tab
+            - img [ref=e53]
+        - listitem [ref=e55]:
+          - link "遊戲" [ref=e58] [cursor=pointer]:
+            - /url: /gaming/play/?store_visit_source=gaming_tab
+            - img [ref=e60]
+    - navigation "帳號控制項和設定" [ref=e64]:
+      - button "Facebook 功能表" [ref=e68] [cursor=pointer]:
+        - img [ref=e69]
+      - generic [ref=e74]:
+        - button "Messenger，1則未讀" [ref=e75] [cursor=pointer]:
+          - img [ref=e76]
+        - button [ref=e78] [cursor=pointer]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: 1則未讀聊天訊息
+            - generic [ref=e83]: "1"
+      - generic [ref=e87]:
+        - button "通知，6則未讀" [ref=e88] [cursor=pointer]:
+          - img [ref=e89]
+        - button [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: 未讀通知數量
+            - generic [ref=e94]: "6"
+      - button "你的個人檔案" [ref=e97] [cursor=pointer]:
+        - generic [ref=e98]:
+          - img "你的個人檔案" [ref=e99]
+          - img [ref=e106]
+  - generic [ref=e113]:
+    - navigation "粉絲專頁導覽" [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e118]:
+          - heading "管理粉絲專頁" [level=1] [ref=e123]
+          - button "隱藏功能表" [ref=e127] [cursor=pointer]:
+            - img [ref=e128]
+        - generic [ref=e132]:
+          - button "地藏菩薩 經典導讀" [ref=e137] [cursor=pointer]:
+            - img [ref=e140]
+            - heading "地藏菩薩 經典導讀" [level=2] [ref=e144]:
+              - generic [ref=e146]: 地藏菩薩 經典導讀
+            - img [ref=e149]
+          - separator [ref=e151]
+          - generic [ref=e153]:
+            - button "專業主控板" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]:
+                - img [ref=e160]
+                - generic [ref=e161]:
+                  - generic [ref=e169]: 專業主控板
+                  - img [ref=e173]
+            - button "洞察報告" [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]:
+                - img [ref=e181]
+                - generic [ref=e182]:
+                  - generic [ref=e187]: 洞察報告
+                  - img [ref=e191]
+            - button "規劃工具" [ref=e196] [cursor=pointer]:
+              - generic [ref=e199]:
+                - generic [ref=e204]: 規劃工具
+                - img [ref=e208]
+            - button "營利" [ref=e213] [cursor=pointer]:
+              - generic [ref=e216]:
+                - generic [ref=e221]: 營利
+                - img [ref=e225]
+            - link "廣告中心" [ref=e230] [cursor=pointer]:
+              - /url: /100064560734834/ad_center/?ref_source=www_profile_plus_left_nav_ad_center_button
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - generic [ref=e239]: 廣告中心
+            - link "刊登廣告" [ref=e243] [cursor=pointer]:
+              - /url: /ad_center/create/consolidatedad/?entry_point=www_pages_product_picker&page_id=1093357677358320
+              - generic [ref=e244]:
+                - img [ref=e246]
+                - generic [ref=e252]: 刊登廣告
+            - button "加強推廣 Instagram 貼文" [ref=e256] [cursor=pointer]:
+              - generic [ref=e259]:
+                - generic [ref=e264]: 加強推廣 Instagram 貼文
+                - img [ref=e268]
+            - button "設定" [ref=e273] [cursor=pointer]:
+              - generic [ref=e276]:
+                - generic [ref=e281]: 設定
+                - img [ref=e285]
+            - generic [ref=e289]:
+              - generic [ref=e294]:
+                - generic [ref=e297]:
+                  - heading "更多工具" [level=2] [ref=e299]:
+                    - generic [ref=e301]: 更多工具
+                  - generic [ref=e306]:
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: 1個執行項目
+                      - generic [ref=e309]: "1"
+                    - button "收合" [ref=e310] [cursor=pointer]:
+                      - img [ref=e311]
+                - generic [ref=e315]: 管理你在 Meta 應用程式上的業務。
+              - generic [ref=e318]:
+                - link "Meta 驗證" [ref=e322] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/mv4b/?nav_ref=mv4b_fb_profile_plus_nav_action_section&entry_point=mv4b_fb_profile_plus_nav_action_section&lp_entry_point=mv4b_fb_profile_plus_nav_action_section
+                  - generic [ref=e330]: Meta 驗證
+                - link "潛在顧客中心" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.facebook.com/latest/leads_center?asset_id=1093357677358320&nav_ref=manage_page_ap_plus_left_nav_leads_center_button
+                  - generic [ref=e337]:
+                    - generic [ref=e342]: 潛在顧客中心
+                    - img [ref=e346]
+                - link "Meta Business Suite 通知" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.facebook.com/latest/?asset_id=1093357677358320&nav_ref=manage_page_ap_plus_left_nav_mbs_button
+                  - generic [ref=e354]:
+                    - generic [ref=e360]:
+                      - generic [ref=e362]: Meta Business Suite
+                      - generic [ref=e367]:
+                        - generic [ref=e368]: 通知
+                        - generic [ref=e369]: "1"
+                    - img [ref=e373]
+                - button "Manus AI" [ref=e378] [cursor=pointer]:
+                  - generic [ref=e381]:
+                    - generic [ref=e386]: Manus AI
+                    - img [ref=e390]
+            - generic [ref=e397]:
+              - generic [ref=e402]: 切換為地藏菩薩 經典導讀的粉絲專頁以採取更多動作
+              - button "切換" [ref=e404] [cursor=pointer]:
+                - generic [ref=e407]: 切換
+        - separator [ref=e408]
+        - button "刊登廣告" [ref=e410] [cursor=pointer]:
+          - generic [ref=e411]:
+            - img [ref=e412]
+            - generic [ref=e416]: 刊登廣告
+    - main "粉絲專頁個人檔案內容" [ref=e417]:
+      - main [ref=e421]:
+        - generic [ref=e422]:
+          - link "查看個人檔案封面相片" [ref=e433] [cursor=pointer]:
+            - /url: https://www.facebook.com/photo/?fbid=1293307069497972&set=a.542586767903343
+          - generic [ref=e441]:
+            - link "地藏菩薩 經典導讀" [ref=e445] [cursor=pointer]:
+              - /url: https://www.facebook.com/photo/?fbid=1245535327608480&set=a.542586757903344&__tn__=%3C
+              - img "地藏菩薩 經典導讀" [ref=e447]
+            - generic [ref=e453]:
+              - generic [ref=e455]:
+                - generic [ref=e458]:
+                  - heading "地藏菩薩 經典導讀" [level=1] [ref=e463]:
+                    - button "地藏菩薩 經典導讀" [ref=e464] [cursor=pointer]: 地藏菩薩 經典導讀
+                  - generic [ref=e466]:
+                    - link "3,677 位追蹤者" [ref=e467] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Ksitigarbhabodishava/followers/
+                      - strong [ref=e468]: 3,677
+                      - text: 位追蹤者
+                    - text: •
+                    - link "正在追蹤 3 人" [ref=e469] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Ksitigarbhabodishava/following/
+                      - text: 正在追蹤
+                      - strong [ref=e470]: "3"
+                      - text: 人
+                - generic [ref=e473]:
+                  - button "發送訊息" [ref=e476] [cursor=pointer]:
+                    - generic [ref=e479]: 發送訊息
+                  - button "追蹤中" [ref=e483] [cursor=pointer]:
+                    - generic [ref=e486]: 追蹤中
+                  - button "搜尋地藏菩薩 經典導讀的個人檔案" [ref=e489] [cursor=pointer]:
+                    - generic [ref=e492]: 搜尋
+              - generic [ref=e494]: 免費索取地藏菩薩本願經
+              - list "精選內容詳細資料" [ref=e498]:
+                - listitem [ref=e499]:
+                  - generic [ref=e500]:
+                    - img [ref=e502]
+                    - button "非營利組織" [ref=e503] [cursor=pointer]
+        - generic [ref=e512]:
+          - tablist [ref=e520]:
+            - generic:
+              - generic:
+                - generic [ref=e522]:
+                  - generic [ref=e523]: 更多
+                  - img [ref=e525]
+                - tab "全部" [selected] [ref=e528] [cursor=pointer]:
+                  - generic [ref=e530]: 全部
+                - tab "關於" [ref=e532] [cursor=pointer]:
+                  - generic [ref=e534]: 關於
+                - tab "追蹤者" [ref=e536] [cursor=pointer]:
+                  - generic [ref=e538]: 追蹤者
+                - tab "相片" [ref=e540] [cursor=pointer]:
+                  - generic [ref=e542]: 相片
+                - tab "Mentions" [ref=e544] [cursor=pointer]:
+                  - generic [ref=e546]: Mentions
+                - tab "更多個人檔案區塊" [ref=e548] [cursor=pointer]:
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: 更多
+                    - img [ref=e552]
+          - button "「個人檔案設定」的「查看更多」選項" [ref=e557] [cursor=pointer]:
+            - img [ref=e559]
+        - generic [ref=e563]:
+          - generic [ref=e571]:
+            - generic [ref=e577]: 切換為地藏菩薩 經典導讀的粉絲專頁並開始管理。
+            - button "立即切換" [ref=e580] [cursor=pointer]:
+              - generic [ref=e583]: 立即切換
+          - generic [ref=e585]:
+            - generic [ref=e589]:
+              - generic [ref=e591]:
+                - generic [ref=e595]:
+                  - heading "詳細資料" [level=2] [ref=e600]:
+                    - generic [ref=e601]: 詳細資料
+                  - list "詳細資料" [ref=e602]:
+                    - button "100% 推薦（5 則評論）" [ref=e603] [cursor=pointer]:
+                      - generic [ref=e605]:
+                        - img [ref=e607]
+                        - listitem [ref=e608]:
+                          - generic [ref=e610]: 100% 推薦（5 則評論）
+                - generic [ref=e614]:
+                  - heading "聯絡資料" [level=2] [ref=e619]:
+                    - generic [ref=e620]: 聯絡資料
+                  - list "聯絡資料" [ref=e621]:
+                    - generic [ref=e623]:
+                      - img [ref=e625]
+                      - listitem [ref=e626]:
+                        - link "services@prapti.com.tw" [ref=e629] [cursor=pointer]:
+                          - /url: mailto:services@prapti.com.tw
+                    - generic [ref=e631]:
+                      - img [ref=e633]
+                      - listitem [ref=e634]:
+                        - button "地藏菩薩 經典導讀" [ref=e636] [cursor=pointer]
+              - status "載入中……" [ref=e638]:
+                - list [ref=e645]:
+                  - listitem [ref=e646]
+                  - listitem [ref=e650]
+                  - listitem [ref=e654]
+                  - listitem [ref=e658]
+                  - listitem [ref=e662]
+                  - listitem [ref=e666]
+                  - listitem [ref=e670]
+                  - listitem [ref=e674]
+                  - listitem [ref=e678]
+            - generic [ref=e682]:
+              - generic [ref=e687]:
+                - heading "精選" [level=2] [ref=e693]:
+                  - generic [ref=e694]: 精選
+                - generic [ref=e698]:
+                  - generic:
+                    - button [disabled]:
+                      - img
+                  - link "地藏菩薩 經典導讀 地藏菩薩 經典導讀 n d e o o r s S p t 9 t 1 年 5 4 9 8 l 7 0 6 i 2 7 2 1 2 7 8 2 0 2 8 i i c g c f i 2 h 日 6 7 3 1 8 0 m 月 f 6 m 3 5 g i 0 分享對象：所有人 📚 免費索取《地藏菩薩本願經》 想自己看這本充滿愛心和智慧的經書嗎？我們準備了很多漂亮的《地藏菩薩本願經》送給大家。 📩 只要在我們的粉專私訊說「我要索取地藏經」，我們就會免費寄給你（不用付郵資）。希望這本經書能給你帶來平安和快樂。🌸 未提供相片說明。" [ref=e708] [cursor=pointer]:
+                    - /url: https://www.facebook.com/Ksitigarbhabodishava/posts/pfbid0iA93JYqWk7voyzGxhRKkgA8kjxpLD2eKcdA3M8C4FqM1cNVVr7qhkisQKnRKHemul
+                    - generic [ref=e709]:
+                      - generic [ref=e710]:
+                        - link "地藏菩薩 經典導讀" [ref=e716]:
+                          - /url: https://www.facebook.com/Ksitigarbhabodishava?__tn__=%3C%3C
+                          - img "地藏菩薩 經典導讀" [ref=e718]
+                        - generic [ref=e729]:
+                          - heading "地藏菩薩 經典導讀" [level=3] [ref=e734]:
+                            - link "地藏菩薩 經典導讀" [ref=e740]:
+                              - /url: https://www.facebook.com/Ksitigarbhabodishava?__tn__=-UC
+                              - generic [ref=e741]: 地藏菩薩 經典導讀
+                          - generic [ref=e744]:
+                            - link "n d e o o r s S p t 9 t 1 年 5 4 9 8 l 7 0 6 i 2 7 2 1 2 7 8 2 0 2 8 i i c g c f i 2 h 日 6 7 3 1 8 0 m 月 f 6 m 3 5 g i 0" [ref=e749]:
+                              - /url: "?__tn__=%2CO#?kgg"
+                              - generic [ref=e751]:
+                                - generic [ref=e752]: "n"
+                                - generic [ref=e753]: d
+                                - generic [ref=e754]: e
+                                - generic [ref=e755]: o
+                                - generic [ref=e756]: o
+                                - generic [ref=e757]: r
+                                - generic [ref=e758]: s
+                                - generic [ref=e759]: S
+                                - generic [ref=e760]: p
+                                - generic [ref=e761]: t
+                                - generic [ref=e762]: "9"
+                                - generic [ref=e763]: t
+                                - generic [ref=e764]: "1"
+                                - generic [ref=e765]: 年
+                                - generic [ref=e766]: "5"
+                                - generic [ref=e767]: "4"
+                                - generic [ref=e768]: "9"
+                                - generic [ref=e769]: "8"
+                                - generic [ref=e770]: l
+                                - generic [ref=e771]: "7"
+                                - generic [ref=e772]: "0"
+                                - generic [ref=e773]: "6"
+                                - generic [ref=e774]: i
+                                - generic [ref=e775]: "2"
+                                - generic [ref=e776]: "7"
+                                - generic [ref=e777]: "2"
+                                - generic [ref=e778]: "1"
+                                - generic [ref=e779]: "2"
+                                - generic [ref=e780]: "7"
+                                - generic [ref=e781]: "8"
+                                - generic [ref=e782]: "2"
+                                - generic [ref=e783]: "0"
+                                - generic [ref=e784]: "2"
+                                - generic [ref=e785]: "8"
+                                - generic [ref=e786]: i
+                                - generic [ref=e787]: i
+                                - generic [ref=e788]: c
+                                - generic [ref=e789]: g
+                                - generic [ref=e790]: c
+                                - generic [ref=e791]: f
+                                - generic [ref=e792]: i
+                                - generic [ref=e793]: "2"
+                                - generic [ref=e794]: h
+                                - generic [ref=e795]: 日
+                                - generic [ref=e796]: "6"
+                                - generic [ref=e797]: "7"
+                                - generic [ref=e798]: "3"
+                                - generic [ref=e799]: "1"
+                                - generic [ref=e800]: "8"
+                                - generic [ref=e801]: "0"
+                                - generic [ref=e802]: m
+                                - generic [ref=e803]: 月
+                                - generic [ref=e804]: f
+                                - generic [ref=e805]: "6"
+                                - generic [ref=e806]: m
+                                - generic [ref=e807]: "3"
+                                - generic [ref=e808]: "5"
+                                - generic [ref=e809]: g
+                                - generic [ref=e810]: i
+                                - generic [ref=e811]: "0"
+                            - img "分享對象：所有人" [ref=e815]
+                      - generic [ref=e822]:
+                        - generic [ref=e827]:
+                          - text: 📚 免費索取《地藏菩薩本願經》
+                          - text: 想自己看這本充滿愛心和智慧的經書嗎？我們準備了很多漂亮的《地藏菩薩本願經》送給大家。
+                          - text: 📩 只要在我們的粉專私訊說「我要索取地藏經」，我們就會免費寄給你（不用付郵資）。希望這本經書能給你帶來平安和快樂。🌸
+                        - img "未提供相片說明。" [ref=e828]
+                  - generic:
+                    - button [disabled]:
+                      - img
+              - generic [ref=e833]:
+                - heading "貼文" [level=2] [ref=e837]:
+                  - generic [ref=e838]: 貼文
+                - button "篩選條件" [ref=e842] [cursor=pointer]:
+                  - generic [ref=e843]:
+                    - img [ref=e844]
+                    - generic [ref=e847]: 篩選條件
+              - generic [ref=e848]:
+                - generic [ref=e860]:
+                  - blockquote [ref=e862]:
+                    - generic [ref=e863]: Facebook
+                  - blockquote [ref=e865]:
+                    - generic [ref=e866]: Facebook
+                  - blockquote [ref=e868]:
+                    - generic [ref=e869]: Facebook
+                  - blockquote [ref=e871]:
+                    - generic [ref=e872]: Facebook
+                  - blockquote [ref=e874]:
+                    - generic [ref=e875]: Facebook
+                  - blockquote [ref=e877]:
+                    - generic [ref=e878]: Facebook
+                  - blockquote [ref=e880]:
+                    - generic [ref=e881]: Facebook
+                  - blockquote [ref=e883]:
+                    - generic [ref=e884]: Facebook
+                  - blockquote [ref=e886]:
+                    - generic [ref=e887]: Facebook
+                  - blockquote [ref=e889]:
+                    - generic [ref=e890]: Facebook
+                  - blockquote [ref=e892]:
+                    - generic [ref=e893]: Facebook
+                  - generic [ref=e896]:
+                    - generic:
+                      - blockquote [ref=e898]:
+                        - generic [ref=e899]: Facebook
+                      - blockquote [ref=e901]:
+                        - generic [ref=e902]: Facebook
+                      - blockquote [ref=e904]:
+                        - generic [ref=e905]: Facebook
+                      - blockquote [ref=e907]:
+                        - generic [ref=e908]: Facebook
+                      - blockquote [ref=e910]:
+                        - generic [ref=e911]: Facebook
+                      - blockquote [ref=e913]:
+                        - generic [ref=e914]: Facebook
+                      - blockquote [ref=e916]:
+                        - generic [ref=e917]: Facebook
+                      - blockquote [ref=e919]:
+                        - generic [ref=e920]: Facebook
+                      - blockquote [ref=e922]:
+                        - generic [ref=e923]: Facebook
+                      - blockquote [ref=e925]:
+                        - generic [ref=e926]: Facebook
+                      - blockquote [ref=e928]:
+                        - generic [ref=e929]: Facebook
+                      - blockquote [ref=e931]:
+                        - generic [ref=e932]: Facebook
+                      - blockquote [ref=e934]:
+                        - generic [ref=e935]: Facebook
+                      - blockquote [ref=e937]:
+                        - generic [ref=e938]: Facebook
+                      - blockquote [ref=e940]:
+                        - generic [ref=e941]: Facebook
+                      - blockquote [ref=e943]:
+                        - generic [ref=e944]: Facebook
+                      - blockquote [ref=e946]:
+                        - generic [ref=e947]: Facebook
+                      - blockquote [ref=e949]:
+                        - generic [ref=e950]: Facebook
+                      - blockquote [ref=e952]:
+                        - generic [ref=e953]: Facebook
+                      - blockquote [ref=e955]:
+                        - generic [ref=e956]: Facebook
+                      - blockquote [ref=e958]:
+                        - generic [ref=e959]: Facebook
+                      - blockquote [ref=e961]:
+                        - generic [ref=e962]: Facebook
+                    - generic [ref=e964]:
+                      - link "地藏菩薩 經典導讀" [ref=e968] [cursor=pointer]:
+                        - /url: https://www.facebook.com/Ksitigarbhabodishava?__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=%3C%3C%2CP-R
+                        - img "地藏菩薩 經典導讀" [ref=e970]
+                      - generic [ref=e975]:
+                        - heading "地藏菩薩 經典導讀" [level=3] [ref=e979]:
+                          - link "地藏菩薩 經典導讀" [ref=e984] [cursor=pointer]:
+                            - /url: https://www.facebook.com/Ksitigarbhabodishava?__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=-UC%2CP-R
+                            - generic [ref=e985]: 地藏菩薩 經典導讀
+                        - generic [ref=e988]:
+                          - link "n d e o o r s S p t 9 t a 5 4 9 8 l 7 0 6 i 2 7 1 t h 7 8 2 0 2 8 i i c g c f i 鐘 h g 6 7 3 1 8 0 m 分 f 8 m 3 4 g i 1" [ref=e992] [cursor=pointer]:
+                            - /url: "?__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=%2CO%2CP-R#?gjk"
+                            - generic [ref=e994]:
+                              - generic [ref=e995]: "n"
+                              - generic [ref=e996]: d
+                              - generic [ref=e997]: e
+                              - generic [ref=e998]: o
+                              - generic [ref=e999]: o
+                              - generic [ref=e1000]: r
+                              - generic [ref=e1001]: s
+                              - generic [ref=e1002]: S
+                              - generic [ref=e1003]: p
+                              - generic [ref=e1004]: t
+                              - generic [ref=e1005]: "9"
+                              - generic [ref=e1006]: t
+                              - generic [ref=e1007]: a
+                              - generic [ref=e1009]: "5"
+                              - generic [ref=e1010]: "4"
+                              - generic [ref=e1011]: "9"
+                              - generic [ref=e1012]: "8"
+                              - generic [ref=e1013]: l
+                              - generic [ref=e1014]: "7"
+                              - generic [ref=e1015]: "0"
+                              - generic [ref=e1016]: "6"
+                              - generic [ref=e1017]: i
+                              - generic [ref=e1018]: "2"
+                              - generic [ref=e1019]: "7"
+                              - generic [ref=e1020]: "1"
+                              - generic [ref=e1021]: t
+                              - generic [ref=e1022]: h
+                              - generic [ref=e1023]: "7"
+                              - generic [ref=e1024]: "8"
+                              - generic [ref=e1025]: "2"
+                              - generic [ref=e1026]: "0"
+                              - generic [ref=e1027]: "2"
+                              - generic [ref=e1028]: "8"
+                              - generic [ref=e1029]: i
+                              - generic [ref=e1030]: i
+                              - generic [ref=e1031]: c
+                              - generic [ref=e1032]: g
+                              - generic [ref=e1033]: c
+                              - generic [ref=e1034]: f
+                              - generic [ref=e1035]: i
+                              - generic [ref=e1036]: 鐘
+                              - generic [ref=e1037]: h
+                              - generic [ref=e1038]: g
+                              - generic [ref=e1039]: "6"
+                              - generic [ref=e1040]: "7"
+                              - generic [ref=e1041]: "3"
+                              - generic [ref=e1042]: "1"
+                              - generic [ref=e1043]: "8"
+                              - generic [ref=e1044]: "0"
+                              - generic [ref=e1045]: m
+                              - generic [ref=e1046]: 分
+                              - generic [ref=e1047]: f
+                              - generic [ref=e1048]: "8"
+                              - generic [ref=e1049]: m
+                              - generic [ref=e1050]: "3"
+                              - generic [ref=e1051]: "4"
+                              - generic [ref=e1052]: g
+                              - generic [ref=e1053]: i
+                              - generic [ref=e1054]: "1"
+                          - generic [ref=e1056]: ·
+                          - img "分享對象：所有人" [ref=e1061]
+                      - button "對地藏菩薩 經典導讀的這則貼文採取的動作" [ref=e1068] [cursor=pointer]:
+                        - img [ref=e1069]
+                    - generic [ref=e1072]:
+                      - generic [ref=e1081]:
+                        - img "🌸" [ref=e1083]
+                        - text: 【地藏十輪經白話圖文連載 · 前言】……
+                        - button "查看更多" [ref=e1084] [cursor=pointer]
+                      - generic [ref=e1089]:
+                        - link "可能是文字的圖像" [ref=e1091] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo/?fbid=1443941804434497&set=pcb.1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*b0H-R
+                        - link "可能是顯示的文字是「人生最低潮時， 人生最低潮時，是地藏王菩薩的法門， 是地藏王菩薩的法門 慢慢扭轉了未學的人生於 サ 原來， 原來，我不是 我不是 孤單一人。 地藏菩囍 本願經 2/12 」的圖像" [ref=e1096] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo/?fbid=1443941867767824&set=pcb.1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*b1H-R
+                        - link "可能是一或多人和文字的圖像" [ref=e1101] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo/?fbid=1443941911101153&set=pcb.1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*b2H-R
+                        - link "可能是顯示的文字是「 FB方向從（本願經》分享，慢慢調整成 分享， 慢慢調整成 FB方向從 《本願經》 一地藏菩薩經典導讀 地藏菩薩 經典導讀 Cr 十一 福 绒 喜 願更多人能因此 接觸地藏法門。 地藏菩薩 地藏著薩地藏著薩 “本→我好 本願經→經典導議 經典導讀$ ※地藏著薩 本願經 分享 4/12 」的圖像" [ref=e1106] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo/?fbid=1443941654434512&set=pcb.1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*b3H-R
+                        - link "可能是顯示的文字是「地藏三經：本願經・占赛經.地藏十輪經 察經·地藏十輪經 地藏一輪經 地藏三經：本願經·占 地藏三經 本願經 占察經・ 軽 占 察 善 音 惡 業 菜 報 郷 ် 地 藏 + 輪 西王 久な ፋሽ 小幡無 5/12 」的塗鴉, 剩下8個項目" [ref=e1111] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo/?fbid=1443941567767854&set=pcb.1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*b4H-R
+                          - generic:
+                            - generic: "+8"
+                    - generic [ref=e1116]:
+                      - generic [ref=e1117]:
+                        - img [ref=e1119]
+                        - generic [ref=e1122]: 加強推廣這則貼文，為地藏菩薩 經典導讀觸及更多用戶。
+                      - link "加強推廣貼文" [ref=e1124] [cursor=pointer]:
+                        - /url: /ad_center/create/boostpost/?ad_account_id=1264972492273337&entry_point=www_profile_plus_timeline_caa_cae_voice&page_id=1093357677358320&target_id=1443943251101019&__cft__[0]=AZaSp9uveJ-ZmSaokBrzLNygC61Bn-AHDUNZW4mEMaJBwAJYRXj6GHwE92eauESJODD8rfgVal4aa4qmz8Ni9UMxFT9eASrDziZULKaDsxeZJTjpGyYdw8Bj97yHuYB2VhWd00OUgSVX8r20vNSZue7zsZCXJiqz0kPg2F0P3vg63L7fiwYhvCOntoACY7z6FeY&__tn__=*W-R
+                        - generic [ref=e1127]: 加強推廣貼文
+                    - generic [ref=e1130]:
+                      - generic [ref=e1134]:
+                        - generic [ref=e1135]:
+                          - button "讚" [ref=e1136] [cursor=pointer]
+                          - button "傳達心情" [ref=e1141] [cursor=pointer]:
+                            - img [ref=e1142]
+                        - button "留言" [ref=e1145] [cursor=pointer]
+                        - button "傳送給朋友或在個人檔案上發佈。" [ref=e1150] [cursor=pointer]
+                      - generic [ref=e1161]:
+                        - button "可用的聲音，切換個人檔案" [ref=e1163] [cursor=pointer]:
+                          - generic [ref=e1164]:
+                            - img [ref=e1165]
+                            - img [ref=e1172]
+                        - generic [ref=e1175]:
+                          - generic [ref=e1177]:
+                            - generic [ref=e1181]:
+                              - textbox "以 Veragrul Saiken 的身分留言" [ref=e1182]:
+                                - paragraph [ref=e1183]
+                              - generic: 以 Veragrul Saiken 的身分留言
+                            - list [ref=e1185]:
+                              - listitem [ref=e1186]:
+                                - button "以虛擬替身貼圖回應" [ref=e1188] [cursor=pointer]
+                              - listitem [ref=e1190]:
+                                - button "插入表情符號" [ref=e1192] [cursor=pointer]:
+                                  - img [ref=e1193]
+                              - listitem [ref=e1196]:
+                                - button "附加相片或影片" [ref=e1198] [cursor=pointer]
+                              - listitem [ref=e1200]:
+                                - button "以 GIF 回應" [ref=e1202] [cursor=pointer]
+                              - listitem [ref=e1204]:
+                                - button "以貼圖回應" [ref=e1206] [cursor=pointer]
+                          - generic [ref=e1208]:
+                            - img [ref=e1210]
+                            - generic [ref=e1213]: 你正在使用Veragrul Saiken身分留言。
+                  - blockquote [ref=e1215]:
+                    - generic [ref=e1216]: Facebook
+                  - blockquote [ref=e1218]:
+                    - generic [ref=e1219]: Facebook
+                  - blockquote [ref=e1221]:
+                    - generic [ref=e1222]: Facebook
+                  - blockquote [ref=e1224]:
+                    - generic [ref=e1225]: Facebook
+                  - blockquote [ref=e1227]:
+                    - generic [ref=e1228]: Facebook
+                  - blockquote [ref=e1230]:
+                    - generic [ref=e1231]: Facebook
+                  - blockquote [ref=e1233]:
+                    - generic [ref=e1234]: Facebook
+                  - blockquote [ref=e1236]:
+                    - generic [ref=e1237]: Facebook
+                  - blockquote [ref=e1239]:
+                    - generic [ref=e1240]: Facebook
+                  - blockquote [ref=e1242]:
+                    - generic [ref=e1243]: Facebook
+                  - blockquote [ref=e1245]:
+                    - generic [ref=e1246]: Facebook
+                - generic [ref=e1248]:
+                  - article [ref=e1249]:
+                    - status "載入中……" [ref=e1250]
+                  - article [ref=e1263]:
+                    - status "載入中……" [ref=e1264]
