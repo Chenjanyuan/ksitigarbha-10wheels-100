@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - main [ref=e5]:
+      - application "tldraw" [ref=e7]:
+        - generic [ref=e8]:
+          - img
+        - generic:
+          - generic [ref=e13]:
+            - generic [ref=e14] [cursor=pointer]:
+              - img [ref=e16]
+              - img [ref=e19]
+            - generic [ref=e21]:
+              - textbox [ref=e24]: 阿美媽媽
+              - img [ref=e28] [cursor=pointer]
+          - generic [ref=e30]:
+            - generic [ref=e33]:
+              - button [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+              - button [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47] [cursor=pointer]:
+                  - img [ref=e48]
+                  - generic [ref=e50]: "1640"
+                - img "jack chen" [ref=e52] [cursor=pointer]
+              - generic:
+                - generic:
+                  - button "对话":
+                    - generic:
+                      - img
+                    - generic: 对话
+          - generic [ref=e56]:
+            - button [ref=e59] [cursor=pointer]:
+              - img [ref=e61]
+            - button [ref=e65] [cursor=pointer]:
+              - img [ref=e67]
+            - button [ref=e71] [cursor=pointer]:
+              - img [ref=e73]
+            - button [ref=e77] [cursor=pointer]:
+              - img [ref=e79]
+            - generic [ref=e81]:
+              - button [ref=e84] [cursor=pointer]:
+                - img [ref=e86]
+              - button [ref=e90] [cursor=pointer]:
+                - img [ref=e92]
+              - button [ref=e96] [cursor=pointer]:
+                - img [ref=e98]
+            - button [ref=e103] [cursor=pointer]:
+              - img [ref=e105]
+            - button [ref=e109] [cursor=pointer]:
+              - img [ref=e111]
+            - button [ref=e115] [cursor=pointer]:
+              - img [ref=e117]
+          - generic:
+            - complementary
+          - generic [ref=e120]:
+            - button [ref=e122] [cursor=pointer]:
+              - img [ref=e125]
+            - button [ref=e128] [cursor=pointer]:
+              - img [ref=e130]
+            - button [ref=e135] [cursor=pointer]:
+              - img [ref=e137]
+            - button [ref=e141] [cursor=pointer]:
+              - img [ref=e143]
+            - button "2%" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: 2%
+          - generic:
+            - img
+        - generic:
+          - button "將焦點移至畫布" [ref=e151] [cursor=pointer]
+          - region "Notifications (F8)":
+            - list
+    - complementary [ref=e155]:
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e162]:
+              - generic:
+                - paragraph
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - button [ref=e165] [cursor=pointer]:
+                  - img [ref=e167]
+                - button "历史对话" [disabled] [ref=e169]:
+                  - img [ref=e171]
+              - button [ref=e176] [cursor=pointer]:
+                - img [ref=e178]
+              - button [ref=e180] [cursor=pointer]:
+                - img [ref=e182]
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - textbox [ref=e189]:
+                - paragraph [ref=e190]
+              - generic:
+                - generic: Start with an idea, or type "@" to mention
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - button [ref=e194] [cursor=pointer]:
+                  - img [ref=e196]
+                - button [ref=e199] [cursor=pointer]:
+                  - img [ref=e202]
+                - button "Agent" [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - img [ref=e207]
+                    - generic [ref=e209]: Agent
+                  - img [ref=e211]
+              - generic [ref=e213]:
+                - generic [ref=e214]:
+                  - button [ref=e217] [cursor=pointer]:
+                    - img [ref=e219]
+                  - button [ref=e222] [cursor=pointer]:
+                    - img [ref=e224]
+                - button [ref=e226] [cursor=pointer]:
+                  - img [ref=e227]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+              - generic: 将文件拖拽至此处添加到对话
+  - listbox "Typeahead menu"
+  - region "Notifications alt+T"
+  - iframe [ref=e229]:
+    
