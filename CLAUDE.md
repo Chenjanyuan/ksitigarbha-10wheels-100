@@ -175,15 +175,21 @@ window.location.reload()
 
 ### 觸發後的標準動作 (按順序執行, 1 個 batch 跑完)
 
-**Step 1: 立刻讀 3 個核心檔案**
+**Step 1: 立刻讀 4 個核心檔案** (2026-06-25 阿地 14 號總集篇 ★ 最新)
 ```
-Read 1: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-01_阿地7號必讀.md  ← 最新主檔(最重要)
-Read 2: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\技術報告\阿研報告_來源驗證_2026-05-31.md  ← 阿研材料驗證
-Read 3: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\技能包_AI連環漫畫角色一致性\SKILL.md  ← 製作技能 SOP
-(深度歷史選讀: 阿地交接\歷史封存\舊進度與接班\★抗壓縮快照_2026-05-24_5AI智囊團大會.md)
+Read 1: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-25_阿地總集篇.md       ← ★ 最新主檔
+Read 2: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-25_第4章_LoveArt生圖.md  ← LoveArt 完整 SOP
+Read 3: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-25_第5章_Meta上稿.md     ← Meta 上稿 SOP
+Read 4: C:\Users\chenj\Documents\Claude\Projects\自動化每天更新FB 地藏 10輪經\CLAUDE.md                                                       ← 死命令 1-15
+
+選讀(深度):
+- 阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-25_第6-9章_下載十齋日GitHub排程.md  ← 下載/十齋日/GitHub/115行事曆
+- 阿地交接\交接SOP\★★★★★完整交接SOP_2026-06-25_第10-12章_技能包排錯接班.md   ← 8技能包/20雷排錯/接班3步
+- 阿地交接\歷史封存\★抗壓縮快照_2026-05-24_5AI智囊團大會.md
+
 並讀記憶 MEMORY.md (尤其標★的記憶檔)
 
-💡 一鍵貼: 開新對話阿元可先貼 `阿地交接\交接SOP\一鍵貼_給下一棒阿地_2026-06-01.md` 的 ═══ 區段, 會自動觸發本恢復流程 + 給死命令濃縮 + 現況。
+💡 一鍵貼: 開新對話阿元先貼 `阿地交接\交接SOP\一鍵貼_給下一棒阿地_2026-06-25.md` 的 ═══ 區段, 自動觸發本恢復流程 + 死命令濃縮 + 現況。
 ```
 
 **Step 2: 報告阿元 (固定格式)**
